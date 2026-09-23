@@ -1,0 +1,3408 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Synra Games · Catálogo</title>
+<meta name="description" content="Juegos digitales para PS4 y PS5. Instalación acompañada y pagas cuando ya lo tienes funcionando.">
+<link rel="icon" href="img/logo.png">
+
+<meta property="og:title" content="Synra Games · Catálogo">
+<meta property="og:description" content="Juegos digitales para PS4 y PS5">
+<meta property="og:type" content="website">
+<meta property="og:image" content="img/logo.png">
+
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+
+  :root{
+    --fondo:#0a0e1a;
+    --sup:#141b2d;
+    --sup2:#1c2438;
+    --borde:#26304a;
+    --azul:#0070d1;
+    --azul-claro:#4a9eff;
+    --txt:#eef2f9;
+    --txt2:#94a3b8;
+    --txt3:#64748b;
+    --verde:#22c55e;
+    --wa:#25d366;
+  }
+
+  html{scroll-behavior:smooth}
+
+  body{
+    background:var(--fondo);
+    color:var(--txt);
+    font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+    /* sitio para la barra del carrito, que va fija abajo */
+    padding-bottom:92px;
+  }
+
+  body::before{
+    content:'';position:fixed;inset:0 0 auto 0;height:50vh;
+    background:radial-gradient(ellipse 80% 50% at 50% 0,rgba(0,112,209,.16),transparent 70%);
+    pointer-events:none;z-index:0;
+  }
+
+  .env{position:relative;z-index:1;max-width:760px;margin:0 auto;padding:0 14px}
+
+  /* ---------- cabecera ---------- */
+  header{text-align:center;padding:36px 0 26px}
+  header img{width:58px;height:58px;border-radius:14px;margin-bottom:12px}
+  header h1{
+    font-size:1.65rem;font-weight:800;letter-spacing:-.02em;
+    background:linear-gradient(135deg,#fff 30%,var(--azul-claro));
+    -webkit-background-clip:text;background-clip:text;
+    -webkit-text-fill-color:transparent;
+  }
+  header p{color:var(--txt2);font-size:.9rem;margin-top:5px}
+
+  /* ---------- pestañas ---------- */
+  .tabs{
+    display:flex;gap:6px;
+    padding:5px;margin-bottom:20px;
+    background:var(--sup);border:1px solid var(--borde);
+    border-radius:13px;
+  }
+  .tab{
+    flex:1;
+    padding:10px 14px;
+    border:none;border-radius:9px;
+    background:none;color:var(--txt2);
+    font-family:inherit;font-size:.86rem;font-weight:700;
+    cursor:pointer;
+    transition:background .18s,color .18s;
+  }
+  .tab:hover{color:var(--txt)}
+  .tab.activo{background:var(--azul);color:#fff}
+  .tab .n{
+    display:inline-block;margin-left:5px;
+    font-size:.74rem;font-weight:600;opacity:.75;
+  }
+
+  .grupo{display:none}
+  .grupo.activo{display:block}
+
+  /* ---------- buscador y filtros ---------- */
+  .barra{
+    display:flex;align-items:stretch;gap:7px;
+    margin-bottom:18px;
+  }
+
+  .buscar{
+    position:relative;flex:1;min-width:0;
+    display:flex;align-items:center;gap:9px;
+    padding:0 13px;
+    background:var(--sup);border:1px solid var(--borde);
+    border-radius:11px;
+    transition:border-color .16s;
+  }
+
+  /*
+   * Selector de consola: siempre hay una elegida, así que la diferencia
+   * entre elegida y no elegida tiene que verse de lejos — el precio que
+   * enseña todo el catálogo depende de cuál esté puesta.
+   */
+  .consola{
+    flex-shrink:0;
+    display:flex;align-items:center;gap:6px;
+    padding:0 15px;
+    background:var(--sup);border:1px solid var(--borde);
+    border-radius:11px;
+    color:var(--txt3);font-size:.82rem;font-weight:700;letter-spacing:.02em;
+    cursor:pointer;user-select:none;
+    transition:background .16s,border-color .16s,color .16s;
+  }
+  .consola input{position:absolute;opacity:0;pointer-events:none}
+  .consola:hover{border-color:var(--azul);color:var(--txt2)}
+
+  /* punto delante: se ve cuál está puesta aunque no se distinga el color */
+  .consola span::before{
+    content:'';
+    display:inline-block;vertical-align:middle;
+    width:7px;height:7px;margin-right:7px;border-radius:50%;
+    background:var(--borde);
+    transition:background .16s;
+  }
+  .consola:has(input:checked) span::before{background:#fff}
+
+  .consola:has(input:checked){
+    background:var(--azul);border-color:var(--azul);color:#fff;
+    box-shadow:0 0 0 3px rgba(0,112,209,.22);
+  }
+  /* PS5 en morado, igual que su precio en la tarjeta */
+  .consola:has(#f-ps5:checked){
+    background:rgba(124,92,236,1);border-color:rgba(124,92,236,1);
+    box-shadow:0 0 0 3px rgba(124,92,236,.22);
+  }
+  .consola:has(input:focus-visible){outline:2px solid var(--azul-claro);outline-offset:2px}
+  .buscar:focus-within{border-color:var(--azul)}
+  .buscar > svg{flex-shrink:0;color:var(--txt3)}
+  .buscar:focus-within > svg{color:var(--azul-claro)}
+
+  .buscar input{
+    flex:1;min-width:0;
+    padding:11px 0;
+    border:none;background:none;
+    color:var(--txt);font-family:inherit;font-size:.88rem;
+  }
+  .buscar input:focus{outline:none}
+  .buscar input::placeholder{color:var(--txt3)}
+  /* la X del navegador duplicaría la nuestra */
+  .buscar input::-webkit-search-cancel-button{display:none}
+
+  .buscar-x{
+    flex-shrink:0;display:none;
+    width:22px;height:22px;padding:0;
+    border:none;border-radius:50%;
+    background:var(--sup2);color:var(--txt2);
+    font-size:1rem;line-height:1;cursor:pointer;
+  }
+  .buscar-x:hover{color:var(--txt)}
+  .buscar.con-texto .buscar-x{display:block}
+
+  .buscar-nada{
+    display:none;
+    padding:28px 20px;text-align:center;
+    color:var(--txt2);font-size:.86rem;
+  }
+  .buscar-nada.visible{display:block}
+
+  /* al buscar, las tarjetas que no coinciden se ocultan */
+  .oculto{display:none!important}
+
+  /* ---------- tarjeta de combo ---------- */
+  .combos{display:flex;flex-direction:column;gap:16px}
+
+  .combo{
+    background:var(--sup);
+    border:1px solid var(--borde);
+    border-radius:16px;
+    overflow:hidden;
+  }
+  .combo.agotado{opacity:.6}
+
+  .cab{
+    display:flex;align-items:flex-start;justify-content:space-between;gap:12px;
+    padding:16px 16px 12px;
+  }
+  .cab h3{font-size:1.1rem;font-weight:700;letter-spacing:-.01em;line-height:1.3}
+  .gancho{color:var(--txt2);font-size:.81rem;margin-top:3px}
+
+  .n-juegos{
+    display:inline-block;margin-top:5px;
+    padding:2px 8px;border-radius:5px;
+    background:rgba(0,112,209,.14);color:var(--azul-claro);
+    font-size:.68rem;font-weight:700;
+  }
+
+  .desde{text-align:right;flex-shrink:0}
+  .desde-lbl{display:block;color:var(--txt3);font-size:.67rem;text-transform:uppercase;letter-spacing:.05em}
+  .desde-val{display:block;font-size:1.3rem;font-weight:800;letter-spacing:-.02em;color:var(--verde)}
+
+  /* ---------- juegos sueltos: rejilla de dos columnas ----------
+     La portada manda y el botón vive sobre ella, para que añadir sea
+     un solo toque sin salir de la imagen. */
+  .rejilla{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:14px;
+    /* mismo alto por fila: con marco visible, un título de dos líneas
+       dejaría el borde de al lado cortado más arriba */
+    align-items:stretch;
+  }
+
+  /*
+   * El marco envuelve portada, título y plazas: con el borde solo en la
+   * imagen, el título de una tarjeta parecía el pie de la de al lado y en
+   * dos columnas se confundía de qué juego era cada dato.
+   */
+  .suelto{
+    min-width:0;
+    display:flex;flex-direction:column;
+    border-radius:13px;overflow:hidden;
+    background:var(--sup2);
+    border:1px solid var(--borde);
+  }
+  .suelto.agotado{opacity:.5}
+
+  .suelto-port{
+    position:relative;
+    /* el redondeo lo pone el marco: aquí solo arriba, para no doblar la curva */
+    border-radius:12px 12px 0 0;overflow:hidden;
+    background:var(--sup2);
+  }
+  .suelto-port img{
+    width:100%;aspect-ratio:3/4;object-fit:cover;display:block;
+  }
+  .suelto-port .sin-port{aspect-ratio:3/4;font-size:2rem}
+
+  /*
+   * Una fila por plaza, bajo el título. Al fondo del marco («auto» arriba)
+   * para que en una fila de dos columnas los precios queden alineados
+   * aunque el título de al lado ocupe dos líneas.
+   */
+  .suelto-ops{
+    display:flex;flex-direction:column;gap:5px;
+    margin:auto 8px 8px;padding-top:7px;
+  }
+
+  .suelto-add{
+    display:flex;align-items:center;gap:7px;
+    width:100%;padding:7px 9px;
+    border:none;border-radius:9px;
+    background:rgba(0,112,209,.93);
+    color:#fff;font-family:inherit;
+    cursor:pointer;text-align:left;
+    transition:background .16s,transform .1s;
+  }
+  .suelto-add:hover{background:rgba(0,112,209,1)}
+  .suelto-add:active{transform:scale(.97)}
+  /* PS5 en morado: con dos filas iguales el cliente se equivoca de consola */
+  .suelto-add[data-tipo^="PS5"]{background:rgba(124,92,236,.93)}
+  .suelto-add[data-tipo^="PS5"]:hover{background:rgba(124,92,236,1)}
+  .suelto-add.puesto,
+  .suelto-add[data-tipo^="PS5"].puesto{background:rgba(34,197,94,.95);color:#04210f}
+
+  /*
+   * No lleva la consola: solo se ven las filas de la elegida arriba, y
+   * repetirla en cada botón robaba el ancho que necesita el rol.
+   */
+  .suelto-rol{
+    flex:1;min-width:0;
+    font-size:.7rem;font-weight:600;opacity:.9;
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+  }
+  .suelto-precio{flex-shrink:0;font-size:.82rem;font-weight:800;letter-spacing:-.01em}
+  .suelto-mas{
+    flex-shrink:0;
+    display:grid;place-items:center;
+    width:18px;height:18px;border-radius:5px;
+    background:rgba(255,255,255,.22);
+    font-size:.9rem;font-weight:700;line-height:1;
+  }
+  .suelto-add.puesto .suelto-mas{background:rgba(4,33,15,.18)}
+
+  .suelto-agotado{
+    position:absolute;inset:auto 8px 8px 8px;
+    padding:9px;border-radius:10px;
+    background:rgba(10,14,26,.85);
+    color:var(--txt2);
+    font-size:.78rem;font-weight:700;text-align:center;
+    backdrop-filter:blur(8px);
+  }
+
+  .suelto-tit{
+    margin:9px 11px 0;
+    font-size:.86rem;font-weight:700;line-height:1.3;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  }
+  /* solo queda para el juego sin ninguna plaza a la venta */
+  .suelto-info{
+    margin:auto 11px 0;padding:3px 0 11px;
+    color:var(--txt3);font-size:.71rem;font-weight:600;
+  }
+
+  /* portadas: tamaño carátula, no banner */
+  .portadas{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(82px,1fr));
+    gap:9px;padding:0 16px 14px;
+  }
+  .port{position:relative;border-radius:8px;overflow:hidden;background:var(--sup2)}
+  .port img{
+    width:100%;aspect-ratio:3/4;object-fit:cover;display:block;
+  }
+  .sin-port{
+    display:grid;place-items:center;aspect-ratio:3/4;
+    font-size:1.5rem;opacity:.25;
+  }
+  .port figcaption{
+    position:absolute;inset:auto 0 0 0;
+    padding:14px 6px 5px;
+    background:linear-gradient(transparent,rgba(5,8,16,.94));
+    font-size:.6rem;line-height:1.25;color:#dbe3ee;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  }
+
+  /* ---------- opciones de compra ---------- */
+  .opciones{border-top:1px solid var(--borde);padding:13px 16px 16px}
+
+  .opciones-tit{
+    display:flex;align-items:center;justify-content:space-between;gap:8px;
+    font-size:.76rem;font-weight:700;color:var(--txt2);
+    text-transform:uppercase;letter-spacing:.05em;
+    margin-bottom:10px;
+  }
+  .ayuda{
+    background:none;border:none;padding:0;
+    color:var(--azul-claro);font-size:.72rem;font-weight:600;
+    text-transform:none;letter-spacing:0;cursor:pointer;
+    text-decoration:underline;text-underline-offset:2px;
+  }
+
+  .op{
+    display:flex;align-items:center;justify-content:space-between;gap:10px;
+    padding:9px 11px;margin-bottom:6px;
+    background:var(--sup2);border:1px solid transparent;border-radius:10px;
+    transition:border-color .15s;
+  }
+  .op:last-child{margin-bottom:0}
+  .op:not(.op-no):hover{border-color:rgba(74,158,255,.35)}
+  .op-no{opacity:.45}
+
+  .op-txt{display:flex;align-items:center;gap:8px;min-width:0}
+  .op-con{
+    flex-shrink:0;padding:2px 7px;border-radius:5px;
+    font-size:.67rem;font-weight:800;letter-spacing:.03em;
+  }
+  .op-ps4{background:rgba(0,112,209,.2);color:#6cb2ff;border:1px solid rgba(74,158,255,.3)}
+  .op-ps5{background:rgba(147,112,248,.18);color:#b79cff;border:1px solid rgba(167,139,250,.3)}
+  .op-rol{font-size:.86rem;font-weight:600}
+  .op-agotado{font-size:.68rem;color:var(--txt3)}
+
+  .op-fin{display:flex;align-items:center;gap:10px;flex-shrink:0}
+  .op-precio{font-size:.97rem;font-weight:700;font-variant-numeric:tabular-nums}
+  .op-no-btn{color:var(--txt3);width:62px;text-align:center}
+
+  .op-add{
+    padding:6px 14px;border:none;border-radius:8px;
+    background:var(--azul);color:#fff;
+    font-size:.79rem;font-weight:700;cursor:pointer;
+    transition:filter .15s,transform .1s;
+  }
+  .op-add:hover{filter:brightness(1.15)}
+  .op-add:active{transform:scale(.96)}
+  .op-add.puesto{background:var(--verde);color:#04210f}
+
+  /* ---------- barra del carrito ---------- */
+  .carro{
+    position:fixed;inset:auto 0 0 0;z-index:50;
+    background:rgba(16,22,38,.97);
+    border-top:1px solid var(--borde);
+    backdrop-filter:blur(12px);
+    transform:translateY(105%);
+    transition:transform .26s cubic-bezier(.2,.8,.3,1);
+  }
+  .carro.abierto{transform:none}
+
+  .carro-env{max-width:760px;margin:0 auto;padding:11px 14px}
+
+  .carro-cab{
+    display:flex;align-items:center;justify-content:space-between;gap:10px;
+    cursor:pointer;
+  }
+  .carro-n{
+    display:flex;align-items:center;gap:8px;
+    font-size:.84rem;font-weight:600;
+  }
+  .carro-bolsa{
+    display:grid;place-items:center;
+    width:26px;height:26px;border-radius:8px;
+    background:var(--azul);color:#fff;
+    font-size:.74rem;font-weight:800;
+  }
+  .carro-total{font-size:1.12rem;font-weight:800;font-variant-numeric:tabular-nums}
+  .carro-flecha{color:var(--txt2);font-size:.7rem;transition:transform .2s}
+  .carro.desplegado .carro-flecha{transform:rotate(180deg)}
+
+  .carro-lista{display:none;margin:11px 0 0;max-height:34vh;overflow-y:auto}
+  .carro.desplegado .carro-lista{display:block}
+
+  .ci{
+    display:flex;align-items:center;justify-content:space-between;gap:10px;
+    padding:8px 0;border-bottom:1px solid var(--borde);
+    font-size:.81rem;
+  }
+  .ci-txt{min-width:0}
+  .ci-nom{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .ci-sub{color:var(--txt2);font-size:.73rem}
+  .ci-fin{display:flex;align-items:center;gap:9px;flex-shrink:0}
+  .ci-precio{font-weight:700;font-variant-numeric:tabular-nums}
+  .ci-quitar{
+    background:none;border:none;padding:3px 6px;
+    color:var(--txt3);font-size:1rem;cursor:pointer;line-height:1;
+  }
+  .ci-quitar:hover{color:#f87171}
+
+  .carro-pedir{
+    display:flex;align-items:center;justify-content:center;gap:8px;
+    width:100%;margin-top:11px;padding:13px;
+    background:var(--wa);color:#04210f;border:none;border-radius:11px;
+    font-size:.93rem;font-weight:800;cursor:pointer;
+    font-family:inherit;
+    transition:filter .15s;
+  }
+  .carro-pedir:hover{filter:brightness(1.08)}
+
+  /* ---------- cómo funciona ---------- */
+  .como{
+    margin:26px 0 0;padding:22px 18px;
+    background:var(--sup);border:1px solid var(--borde);border-radius:16px;
+  }
+  .como h2{font-size:1.05rem;font-weight:700;text-align:center;margin-bottom:4px}
+  .como .sub{text-align:center;color:var(--txt2);font-size:.8rem;margin-bottom:18px}
+
+  .pasos{display:flex;flex-direction:column;gap:13px}
+  .paso{display:flex;gap:12px;align-items:flex-start}
+  .num{
+    flex-shrink:0;width:27px;height:27px;border-radius:8px;
+    display:grid;place-items:center;
+    background:rgba(0,112,209,.18);color:var(--azul-claro);
+    border:1px solid rgba(74,158,255,.3);
+    font-weight:800;font-size:.8rem;
+  }
+  .paso h4{font-size:.88rem;font-weight:700;margin-bottom:2px}
+  .paso p{color:var(--txt2);font-size:.8rem}
+
+  .garantia{
+    margin-top:18px;padding:12px;
+    background:rgba(34,197,94,.09);
+    border:1px solid rgba(34,197,94,.24);
+    border-radius:10px;
+    text-align:center;font-size:.84rem;font-weight:700;color:#86efac;
+  }
+
+  footer{
+    text-align:center;padding:26px 0 30px;
+    color:var(--txt3);font-size:.73rem;
+    border-top:1px solid var(--borde);margin-top:24px;
+  }
+  footer .marca{color:var(--txt2);font-weight:600;margin-bottom:3px}
+
+  /* ---------- explicación principal/secundaria ---------- */
+  dialog{
+    max-width:460px;width:calc(100% - 28px);
+    padding:0;border:1px solid var(--borde);border-radius:16px;
+    background:var(--sup);color:var(--txt);
+  }
+  dialog::backdrop{background:rgba(5,8,16,.72)}
+  .dlg{padding:22px}
+  .dlg h3{font-size:1.02rem;font-weight:700;margin-bottom:14px}
+  .dlg-op{
+    padding:12px;margin-bottom:9px;
+    background:var(--sup2);border-radius:10px;
+  }
+  .dlg-op b{display:block;font-size:.87rem;margin-bottom:3px}
+  .dlg-op span{color:var(--txt2);font-size:.79rem;line-height:1.5}
+  .dlg-cerrar{
+    width:100%;margin-top:6px;padding:11px;
+    background:var(--azul);color:#fff;border:none;border-radius:10px;
+    font-size:.88rem;font-weight:700;cursor:pointer;font-family:inherit;
+  }
+
+  .vacio{
+    text-align:center;padding:40px 20px;
+    color:var(--txt2);font-size:.9rem;
+  }
+
+  /* en pantalla ancha caben tres sin que la portada se estire */
+  @media (min-width:620px){
+    .rejilla{grid-template-columns:repeat(3,1fr);gap:16px}
+  }
+
+  @media (max-width:400px){
+    header{padding:28px 0 20px}
+    header h1{font-size:1.45rem}
+    .portadas{grid-template-columns:repeat(auto-fill,minmax(72px,1fr));gap:7px}
+    .desde-val{font-size:1.15rem}
+    .op{padding:8px 9px}
+    .op-rol{font-size:.82rem}
+    .rejilla{gap:10px}
+    .suelto-ops{margin:auto 6px 6px;gap:4px}
+    .suelto-add{padding:6px 7px;gap:5px}
+    /* menos aire dentro del marco: en 2 columnas estrechas el título
+       necesita el ancho más que el margen */
+    .suelto-tit{margin:7px 8px 0}
+    .suelto-info{margin:auto 8px 0;padding:3px 0 8px}
+    .suelto-precio{margin-left:auto;font-size:.78rem}
+    .suelto-tit{font-size:.8rem}
+    /* los tres no caben en una línea: el buscador se lleva su renglón */
+    .barra{flex-wrap:wrap}
+    .buscar{flex:1 0 100%}
+    .consola{flex:1;justify-content:center;padding:9px 0}
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    *{transition:none!important}
+    html{scroll-behavior:auto}
+  }
+</style>
+</head>
+<body>
+<div class="env">
+
+  <header>
+    <img src="img/logo.png" alt="Synra Games">
+    <h1>Synra Games</h1>
+    <p>Juegos digitales para PS4 y PS5</p>
+  </header>
+
+  
+    <div class="tabs" role="tablist">
+      <button class="tab activo" data-grupo="combos" role="tab" aria-selected="true">
+        Combos<span class="n">3</span>
+      </button>
+      <button class="tab" data-grupo="individuales" role="tab" aria-selected="false">
+        Juegos sueltos<span class="n">78</span>
+      </button>
+    </div>
+
+  
+    <div class="barra">
+      <div class="buscar">
+        <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>
+        </svg>
+        <input type="search" id="q" placeholder="Buscar juego…"
+               autocomplete="off" aria-label="Buscar juego">
+        <button type="button" id="q-x" class="buscar-x" aria-label="Limpiar">&times;</button>
+      </div>
+
+      <!--
+        Siempre hay una consola elegida, nunca las dos ni ninguna: el
+        precio de PS4 y el de PS5 no son el mismo producto, y con las dos
+        a la vez el cliente añadía la plaza equivocada. Arranca en PS4,
+        que es de lo que más se vende.
+      -->
+      <label class="consola" for="f-ps4">
+        <input type="radio" name="consola" id="f-ps4" data-consola="PS4" checked>
+        <span>PS4</span>
+      </label>
+      <label class="consola" for="f-ps5">
+        <input type="radio" name="consola" id="f-ps5" data-consola="PS5">
+        <span>PS5</span>
+      </label>
+    </div>
+    <p class="buscar-nada" id="q-nada">Nada coincide con lo que buscas. Escríbenos y te lo conseguimos.</p>
+
+  <main>
+
+
+
+    <section id="g-combos" class="grupo activo" role="tabpanel">
+      <div class="combos">
+
+      <article class="combo" id="c1"
+               data-buscar="combo codfirstbuy call of duty: modern warfare remastered call of duty: modern warfare 2 campaign remastered call of duty: wwii - gold edition - ingles call of duty: vanguard - standard edition"
+               data-consolas="PS4 PS5">
+          <div class="cab">
+            <div class="cab-txt">
+              <h3>COMBO CODFIRSTBUY</h3>
+              
+              <span class="n-juegos">4 juegos incluidos</span>
+            </div>
+            <div class="desde">
+              <span class="desde-lbl">desde</span>
+              <span class="desde-val">$38.000</span>
+            </div>
+          </div>
+
+          <div class="portadas">
+            
+              <figure class="port" title="Call of Duty®: Modern Warfare® Remastered">
+                <img src="img/call-of-duty-modern-warfare-remastered.jpg" alt="Call of Duty®: Modern Warfare® Remastered" loading="lazy">
+                <figcaption>Call of Duty®: Modern Warfare® Remastered</figcaption>
+              </figure>
+              <figure class="port" title="Call of Duty®: Modern Warfare® 2 Campaign Remastered">
+                <img src="img/call-of-duty-modern-warfare-2-campaign-remastered.png" alt="Call of Duty®: Modern Warfare® 2 Campaign Remastered" loading="lazy">
+                <figcaption>Call of Duty®: Modern Warfare® 2 Campaign Remastered</figcaption>
+              </figure>
+              <figure class="port" title="Call of Duty®: WWII - Gold Edition - INGLES">
+                <img src="img/call-of-duty-wwii-gold-edition-ingles.jpg" alt="Call of Duty®: WWII - Gold Edition - INGLES" loading="lazy">
+                <figcaption>Call of Duty®: WWII - Gold Edition - INGLES</figcaption>
+              </figure>
+              <figure class="port" title="Call of Duty®: Vanguard - Standard Edition">
+                <img src="img/call-of-duty-vanguard-standard-edition.png" alt="Call of Duty®: Vanguard - Standard Edition" loading="lazy">
+                <figcaption>Call of Duty®: Vanguard - Standard Edition</figcaption>
+              </figure>
+          </div>
+
+        <div class="opciones">
+          <div class="opciones-tit">
+            Elige tu tipo de cuenta
+            <button class="ayuda" type="button" data-ayuda aria-label="Qué diferencia hay">
+              ¿cuál elijo?
+            </button>
+          </div>
+
+          
+            <div class="op" data-consola-op="PS4">
+              <div class="op-txt">
+                <span class="op-con op-ps4">PS4</span>
+                <span class="op-rol">Principal</span>
+                
+              </div>
+              <div class="op-fin">
+                <span class="op-precio">$38.000</span>
+                
+                  <button class="op-add" type="button"
+                          data-add
+                          data-combo="COMBO CODFIRSTBUY"
+                          data-tipo="PS4 Principal"
+                          data-precio="38000">
+                    Añadir
+                  </button>
+              </div>
+            </div>
+            <div class="op" data-consola-op="PS4">
+              <div class="op-txt">
+                <span class="op-con op-ps4">PS4</span>
+                <span class="op-rol">Secundaria</span>
+                
+              </div>
+              <div class="op-fin">
+                <span class="op-precio">$38.000</span>
+                
+                  <button class="op-add" type="button"
+                          data-add
+                          data-combo="COMBO CODFIRSTBUY"
+                          data-tipo="PS4 Secundaria"
+                          data-precio="38000">
+                    Añadir
+                  </button>
+              </div>
+            </div>
+            <div class="op" data-consola-op="PS5">
+              <div class="op-txt">
+                <span class="op-con op-ps5">PS5</span>
+                <span class="op-rol">Principal</span>
+                
+              </div>
+              <div class="op-fin">
+                <span class="op-precio">$38.000</span>
+                
+                  <button class="op-add" type="button"
+                          data-add
+                          data-combo="COMBO CODFIRSTBUY"
+                          data-tipo="PS5 Principal"
+                          data-precio="38000">
+                    Añadir
+                  </button>
+              </div>
+            </div>
+            <div class="op" data-consola-op="PS5">
+              <div class="op-txt">
+                <span class="op-con op-ps5">PS5</span>
+                <span class="op-rol">Secundaria</span>
+                
+              </div>
+              <div class="op-fin">
+                <span class="op-precio">$38.000</span>
+                
+                  <button class="op-add" type="button"
+                          data-add
+                          data-combo="COMBO CODFIRSTBUY"
+                          data-tipo="PS5 Secundaria"
+                          data-precio="38000">
+                    Añadir
+                  </button>
+              </div>
+            </div>
+        </div>
+      </article>
+
+      <article class="combo" id="c53"
+               data-buscar="combo crashraider star wars battlefront ultimate edition mortal kombat 11 ultimate unravel unravel two crash bandicoot nsane trilogy crash 4 crash ctr tomb raider shadows of the tomb raider rise of the tomb raider 2"
+               data-consolas="PS4 PS5">
+          <div class="cab">
+            <div class="cab-txt">
+              <h3>COMBO CRASHRAIDER</h3>
+              
+              <span class="n-juegos">10 juegos incluidos</span>
+            </div>
+            <div class="desde">
+              <span class="desde-lbl">desde</span>
+              <span class="desde-val">$35.000</span>
+            </div>
+          </div>
+
+          <div class="portadas">
+            
+              <figure class="port" title="STAR WARS™ Battlefront™ Ultimate Edition">
+                <img src="img/star-wars-battlefront-ultimate-edition.jpg" alt="STAR WARS™ Battlefront™ Ultimate Edition" loading="lazy">
+                <figcaption>STAR WARS™ Battlefront™ Ultimate Edition</figcaption>
+              </figure>
+              <figure class="port" title="Mortal Kombat 11 Ultimate">
+                <img src="img/mortal-kombat-11-ultimate.png" alt="Mortal Kombat 11 Ultimate" loading="lazy">
+                <figcaption>Mortal Kombat 11 Ultimate</figcaption>
+              </figure>
+              <figure class="port" title="Unravel">
+                <img src="img/unravel.jpg" alt="Unravel" loading="lazy">
+                <figcaption>Unravel</figcaption>
+              </figure>
+              <figure class="port" title="Unravel Two">
+                <img src="img/unravel-two.jpg" alt="Unravel Two" loading="lazy">
+                <figcaption>Unravel Two</figcaption>
+              </figure>
+              <figure class="port" title="Crash Bandicoot Nsane Trilogy">
+                <img src="img/crash-bandicoot-nsane-trilogy.jpg" alt="Crash Bandicoot Nsane Trilogy" loading="lazy">
+                <figcaption>Crash Bandicoot Nsane Trilogy</figcaption>
+              </figure>
+              <figure class="port" title="Crash 4">
+                <img src="img/crash-4.jpg" alt="Crash 4" loading="lazy">
+                <figcaption>Crash 4</figcaption>
+              </figure>
+              <figure class="port" title="Crash CTR">
+                <img src="img/crash-ctr.jpg" alt="Crash CTR" loading="lazy">
+                <figcaption>Crash CTR</figcaption>
+              </figure>
+              <figure class="port" title="Tomb Raider">
+                <img src="img/tomb-raider.png" alt="Tomb Raider" loading="lazy">
+                <figcaption>Tomb Raider</figcaption>
+              </figure>
+              <figure class="port" title="Shadows of the Tomb Raider">
+                <img src="img/shadows-of-the-tomb-raider.jpg" alt="Shadows of the Tomb Raider" loading="lazy">
+                <figcaption>Shadows of the Tomb Raider</figcaption>
+              </figure>
+              <figure class="port" title="Rise of the Tomb Raider 2">
+                <img src="img/rise-of-the-tomb-raider-2.png" alt="Rise of the Tomb Raider 2" loading="lazy">
+                <figcaption>Rise of the Tomb Raider 2</figcaption>
+              </figure>
+          </div>
+
+        <div class="opciones">
+          <div class="opciones-tit">
+            Elige tu tipo de cuenta
+            <button class="ayuda" type="button" data-ayuda aria-label="Qué diferencia hay">
+              ¿cuál elijo?
+            </button>
+          </div>
+
+          
+            <div class="op" data-consola-op="PS4">
+              <div class="op-txt">
+                <span class="op-con op-ps4">PS4</span>
+                <span class="op-rol">Principal</span>
+                
+              </div>
+              <div class="op-fin">
+                <span class="op-precio">$35.000</span>
+                
+                  <button class="op-add" type="button"
+                          data-add
+                          data-combo="COMBO CRASHRAIDER"
+                          data-tipo="PS4 Principal"
+                          data-precio="35000">
+                    Añadir
+                  </button>
+              </div>
+            </div>
+            <div class="op" data-consola-op="PS4">
+              <div class="op-txt">
+                <span class="op-con op-ps4">PS4</span>
+                <span class="op-rol">Secundaria</span>
+                
+              </div>
+              <div class="op-fin">
+                <span class="op-precio">$35.000</span>
+                
+                  <button class="op-add" type="button"
+                          data-add
+                          data-combo="COMBO CRASHRAIDER"
+                          data-tipo="PS4 Secundaria"
+                          data-precio="35000">
+                    Añadir
+                  </button>
+              </div>
+            </div>
+            <div class="op" data-consola-op="PS5">
+              <div class="op-txt">
+                <span class="op-con op-ps5">PS5</span>
+                <span class="op-rol">Principal</span>
+                
+              </div>
+              <div class="op-fin">
+                <span class="op-precio">$35.000</span>
+                
+                  <button class="op-add" type="button"
+                          data-add
+                          data-combo="COMBO CRASHRAIDER"
+                          data-tipo="PS5 Principal"
+                          data-precio="35000">
+                    Añadir
+                  </button>
+              </div>
+            </div>
+            <div class="op" data-consola-op="PS5">
+              <div class="op-txt">
+                <span class="op-con op-ps5">PS5</span>
+                <span class="op-rol">Secundaria</span>
+                
+              </div>
+              <div class="op-fin">
+                <span class="op-precio">$35.000</span>
+                
+                  <button class="op-add" type="button"
+                          data-add
+                          data-combo="COMBO CRASHRAIDER"
+                          data-tipo="PS5 Secundaria"
+                          data-precio="35000">
+                    Añadir
+                  </button>
+              </div>
+            </div>
+        </div>
+      </article>
+
+      <article class="combo" id="c9"
+               data-buscar="combo mkmoto mortal kombat 11 ultimate ps4 &amp; ps5 motogp22 ps4 &amp; ps5"
+               data-consolas="PS5">
+          <div class="cab">
+            <div class="cab-txt">
+              <h3>COMBO MKMOTO</h3>
+              
+              <span class="n-juegos">2 juegos incluidos</span>
+            </div>
+            <div class="desde">
+              <span class="desde-lbl">desde</span>
+              <span class="desde-val">$25.000</span>
+            </div>
+          </div>
+
+          <div class="portadas">
+            
+              <figure class="port" title="Mortal Kombat 11 Ultimate PS4 &amp; PS5">
+                <img src="img/mortal-kombat-11-ultimate-ps4-ps5.png" alt="Mortal Kombat 11 Ultimate PS4 &amp; PS5" loading="lazy">
+                <figcaption>Mortal Kombat 11 Ultimate PS4 &amp; PS5</figcaption>
+              </figure>
+              <figure class="port" title="MotoGP™22 PS4 &amp; PS5">
+                <img src="img/motogp22-ps4-ps5.jpg" alt="MotoGP™22 PS4 &amp; PS5" loading="lazy">
+                <figcaption>MotoGP™22 PS4 &amp; PS5</figcaption>
+              </figure>
+          </div>
+
+        <div class="opciones">
+          <div class="opciones-tit">
+            Elige tu tipo de cuenta
+            <button class="ayuda" type="button" data-ayuda aria-label="Qué diferencia hay">
+              ¿cuál elijo?
+            </button>
+          </div>
+
+          
+            <div class="op op-no" data-consola-op="PS4">
+              <div class="op-txt">
+                <span class="op-con op-ps4">PS4</span>
+                <span class="op-rol">Principal</span>
+                <span class="op-agotado">Agotado</span>
+              </div>
+              <div class="op-fin">
+                <span class="op-precio">$20.000</span>
+                <span class="op-no-btn">—</span>
+              </div>
+            </div>
+            <div class="op op-no" data-consola-op="PS4">
+              <div class="op-txt">
+                <span class="op-con op-ps4">PS4</span>
+                <span class="op-rol">Secundaria</span>
+                <span class="op-agotado">Agotado</span>
+              </div>
+              <div class="op-fin">
+                <span class="op-precio">$25.000</span>
+                <span class="op-no-btn">—</span>
+              </div>
+            </div>
+            <div class="op" data-consola-op="PS5">
+              <div class="op-txt">
+                <span class="op-con op-ps5">PS5</span>
+                <span class="op-rol">Principal</span>
+                
+              </div>
+              <div class="op-fin">
+                <span class="op-precio">$25.000</span>
+                
+                  <button class="op-add" type="button"
+                          data-add
+                          data-combo="COMBO MKMOTO"
+                          data-tipo="PS5 Principal"
+                          data-precio="25000">
+                    Añadir
+                  </button>
+              </div>
+            </div>
+            <div class="op" data-consola-op="PS5">
+              <div class="op-txt">
+                <span class="op-con op-ps5">PS5</span>
+                <span class="op-rol">Secundaria</span>
+                
+              </div>
+              <div class="op-fin">
+                <span class="op-precio">$25.000</span>
+                
+                  <button class="op-add" type="button"
+                          data-add
+                          data-combo="COMBO MKMOTO"
+                          data-tipo="PS5 Secundaria"
+                          data-precio="25000">
+                    Añadir
+                  </button>
+              </div>
+            </div>
+        </div>
+      </article>
+      </div>
+    </section>
+
+
+    <section id="g-individuales" class="grupo" role="tabpanel">
+      <div class="rejilla">
+
+      <article class="suelto" id="c59"
+               data-buscar="assassin&#39;s creed rogue remastered assassin&#39;s creed rogue remastered"
+               data-consolas="PS4 PS5">
+        <div class="suelto-port">
+          <img src="img/assassin-s-creed-rogue-remastered.jpg" alt="Assassin&#39;s Creed Rogue Remastered" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Assassin&#39;s Creed Rogue Remastered</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Assassin&#39;s Creed Rogue Remastered"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="22000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$22.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS5"
+                    data-combo="Assassin&#39;s Creed Rogue Remastered"
+                    data-tipo="PS5 Principal"
+                    data-precio="38000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$38.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c60"
+               data-buscar="beyond two souls beyond two souls"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/beyond-two-souls.jpg" alt="Beyond Two Souls" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Beyond Two Souls</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Beyond Two Souls"
+                    data-tipo="PS4 Principal"
+                    data-precio="28000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$28.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c61"
+               data-buscar="bloodborne bloodborne"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/bloodborne.jpg" alt="Bloodborne" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Bloodborne</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Bloodborne"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="22000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$22.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c62"
+               data-buscar="bluey the video game bluey the videogame"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/bluey-the-videogame.jpg" alt="Bluey the videogame" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Bluey The Video Game</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Bluey The Video Game"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="32000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c63"
+               data-buscar="bully bully"
+               data-consolas="PS4 PS5">
+        <div class="suelto-port">
+          <img src="img/bully.png" alt="Bully" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Bully</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Bully"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="16000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$16.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS5"
+                    data-combo="Bully"
+                    data-tipo="PS5 Principal"
+                    data-precio="25000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$25.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c64"
+               data-buscar="call of duty modern warfare ii call of duty modern warfare ii"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/call-of-duty-modern-warfare-ii.png" alt="Call of Duty Modern Warfare II" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Call of Duty Modern Warfare II</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Call of Duty Modern Warfare II"
+                    data-tipo="PS4 Principal"
+                    data-precio="64000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$64.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c65"
+               data-buscar="call of duty: black ops iii - zombies chronicles edition ps4 call of duty: black ops iii - zombies chronicles edition ps4"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/call-of-duty-black-ops-iii-zombies-chronicles-edition-ps4.jpg" alt="Call of Duty®: Black Ops III - Zombies Chronicles Edition PS4" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Call of Duty®: Black Ops III - Zombies Chronicles Edition PS4</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Call of Duty®: Black Ops III - Zombies Chronicles Edition PS4"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="38000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$38.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c66"
+               data-buscar="captain tsubasa rise of new champions deluxe edition captain tsubasa rise of new champions deluxe edition"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/captain-tsubasa-rise-of-new-champions-deluxe-edition.png" alt="Captain Tsubasa Rise Of New Champions Deluxe Edition" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Captain Tsubasa Rise Of New Champions Deluxe Edition</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Captain Tsubasa Rise Of New Champions Deluxe Edition"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="25000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$25.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c67"
+               data-buscar="control ultimate edition ps4 control ultimate edition ps4"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/control-ultimate-edition-ps4.jpg" alt="Control Ultimate Edition PS4" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Control Ultimate Edition PS4</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Control Ultimate Edition PS4"
+                    data-tipo="PS4 Principal"
+                    data-precio="19000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$19.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c68"
+               data-buscar="darksiders 3 darksiders iii digital deluxe edition"
+               data-consolas="PS4 PS5">
+        <div class="suelto-port">
+          <img src="img/darksiders-iii-digital-deluxe-edition.jpg" alt="Darksiders III Digital Deluxe Edition" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Darksiders 3</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Darksiders 3"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="25000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$25.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS5"
+                    data-combo="Darksiders 3"
+                    data-tipo="PS5 Principal"
+                    data-precio="32000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c69"
+               data-buscar="dead island 2 dead island 2"
+               data-consolas="PS4 PS5">
+        <div class="suelto-port">
+          <img src="img/dead-island-2.jpg" alt="Dead Island 2" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Dead Island 2</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Dead Island 2"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="32000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS5"
+                    data-combo="Dead Island 2"
+                    data-tipo="PS5 Principal"
+                    data-precio="38000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$38.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c70"
+               data-buscar="devil may cry 5 devil may cry 5"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/devil-may-cry-5.jpg" alt="Devil May Cry 5" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Devil May Cry 5</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Devil May Cry 5"
+                    data-tipo="PS4 Principal"
+                    data-precio="38000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$38.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c71"
+               data-buscar="dragon ball fighterz dragon ball fighterz"
+               data-consolas="PS4 PS5">
+        <div class="suelto-port">
+          <img src="img/dragon-ball-fighterz.jpg" alt="DRAGON BALL FighterZ" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">DRAGON BALL FighterZ</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS5"
+                    data-combo="DRAGON BALL FighterZ"
+                    data-tipo="PS5 Principal"
+                    data-precio="32000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="DRAGON BALL FighterZ"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="38000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$38.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c72"
+               data-buscar="dragon ball xenoverse 2 dragon ball xenoverse 2"
+               data-consolas="PS4 PS5">
+        <div class="suelto-port">
+          <img src="img/dragon-ball-xenoverse-2.jpg" alt="Dragon Ball Xenoverse 2" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Dragon Ball Xenoverse 2</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Dragon Ball Xenoverse 2"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="22000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$22.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS5"
+                    data-combo="Dragon Ball Xenoverse 2"
+                    data-tipo="PS5 Principal"
+                    data-precio="25000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$25.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c73"
+               data-buscar="dragon ball z kakarot dragon ball z kakarot"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/dragon-ball-z-kakarot.jpg" alt="Dragon Ball Z Kakarot" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Dragon Ball Z Kakarot</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Dragon Ball Z Kakarot"
+                    data-tipo="PS4 Principal"
+                    data-precio="38000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$38.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c74"
+               data-buscar="dragon quest builders 2 dragon quest builders 2"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/dragon-quest-builders-2.jpg" alt="DRAGON QUEST BUILDERS 2" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">DRAGON QUEST BUILDERS 2</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="DRAGON QUEST BUILDERS 2"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="25000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$25.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c75"
+               data-buscar="far cry 3 far cry 3"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/far-cry-3.jpg" alt="Far Cry 3" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Far Cry 3</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Far Cry 3"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="19000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$19.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c76"
+               data-buscar="final fantasy type-0 hd final fantasy type 0"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/final-fantasy-type-0.jpg" alt="Final Fantasy Type 0" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">FINAL FANTASY TYPE-0™ HD</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="FINAL FANTASY TYPE-0™ HD"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="16000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$16.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c77"
+               data-buscar="ghost of tsushima ghost of tsushima"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/ghost-of-tsushima.jpg" alt="Ghost of Tsushima" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Ghost of Tsushima</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Ghost of Tsushima"
+                    data-tipo="PS4 Principal"
+                    data-precio="64000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$64.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c78"
+               data-buscar="grand theft auto v grand theft auto v"
+               data-consolas="PS4 PS5">
+        <div class="suelto-port">
+          <img src="img/grand-theft-auto-v.jpg" alt="Grand Theft Auto V" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Grand Theft Auto V</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Grand Theft Auto V"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="44000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$44.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS5"
+                    data-combo="Grand Theft Auto V"
+                    data-tipo="PS5 Secundaria"
+                    data-precio="48000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$48.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c80"
+               data-buscar="hogwarts legacy ps4 hogwarts legacy ps4"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/hogwarts-legacy-ps4.jpg" alt="Hogwarts Legacy PS4" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Hogwarts Legacy PS4</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Hogwarts Legacy PS4"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="32000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c81"
+               data-buscar="horizon zero dawn horizon zero dawn"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/horizon-zero-dawn.png" alt="Horizon Zero Dawn" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Horizon Zero Dawn</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Horizon Zero Dawn"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="25000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$25.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c82"
+               data-buscar="jump force jump force"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/jump-force.jpg" alt="Jump Force" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Jump Force</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Jump Force"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="44000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$44.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c83"
+               data-buscar="lego batman 3: beyond gotham lego batman 3 beyond gotham"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/lego-batman-3-beyond-gotham.jpg" alt="LEGO® Batman™ 3 Beyond Gotham" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">LEGO® Batman™ 3: Beyond Gotham</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="LEGO® Batman™ 3: Beyond Gotham"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="16000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$16.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c84"
+               data-buscar="lego star wars: the force awakens lego star wars the force awakens"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/lego-star-wars-the-force-awakens.jpg" alt="LEGO® Star Wars™ The Force Awakens" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">LEGO® Star Wars™: The Force Awakens</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="LEGO® Star Wars™: The Force Awakens"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="16000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$16.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c85"
+               data-buscar="lego the incredibles lego incredibles"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/lego-incredibles.png" alt="Lego Incredibles" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">LEGO® The Incredibles</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="LEGO® The Incredibles"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="16000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$16.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c86"
+               data-buscar="lords of the fallen (2014) lord of fallen"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/lord-of-fallen.jpg" alt="Lord of Fallen" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Lords of the Fallen (2014)</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Lords of the Fallen (2014)"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="16000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$16.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c87"
+               data-buscar="mad max ps4 mad max ps4"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/mad-max-ps4.png" alt="Mad Max PS4" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Mad Max PS4</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Mad Max PS4"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="16000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$16.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c88"
+               data-buscar="metal slug 3 metal slug 3"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/metal-slug-3.jpg" alt="METAL SLUG 3" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">METAL SLUG 3</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="METAL SLUG 3"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="16000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$16.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c89"
+               data-buscar="metal slug xx metal slug xx"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/metal-slug-xx.png" alt="METAL SLUG XX" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">METAL SLUG XX</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="METAL SLUG XX"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="22000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$22.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c90"
+               data-buscar="mirror&#39;s edge catalyst mirrors edge png"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/mirrors-edge-png.png" alt="Mirrors Edge Png" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Mirror&#39;s Edge™ Catalyst</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Mirror&#39;s Edge™ Catalyst"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="16000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$16.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c91"
+               data-buscar="monster energy supercross - the official videogame 2 monster energy supercross - the official videogame 2"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/monster-energy-supercross-the-official-videogame-2.jpeg" alt="Monster Energy Supercross - The Official Videogame 2" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Monster Energy Supercross - The Official Videogame 2</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Monster Energy Supercross - The Official Videogame 2"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="16000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$16.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c92"
+               data-buscar="monster energy supercross - the official videogame ps4 monster energy supercross - the official videogame ps4"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/monster-energy-supercross-the-official-videogame-ps4.jpg" alt="Monster Energy Supercross - The Official Videogame PS4" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Monster Energy Supercross - The Official Videogame PS4</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Monster Energy Supercross - The Official Videogame PS4"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="32000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c93"
+               data-buscar="mortal kombat 11 ultimate mortal kombat 11 ultimate"
+               data-consolas="PS5">
+        <div class="suelto-port">
+          <img src="img/mortal-kombat-11-ultimate.png" alt="Mortal Kombat 11 Ultimate" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Mortal Kombat 11 Ultimate</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS5"
+                    data-combo="Mortal Kombat 11 Ultimate"
+                    data-tipo="PS5 Principal"
+                    data-precio="19000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$19.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c94"
+               data-buscar="mortal kombat xl mortal kombat xl"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/mortal-kombat-xl.png" alt="Mortal Kombat XL" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Mortal Kombat XL</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Mortal Kombat XL"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="19000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$19.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c95"
+               data-buscar="mtb bike simulator mtb bike simulator"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/mtb-bike-simulator.png" alt="MTB Bike Simulator" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">MTB Bike Simulator</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="MTB Bike Simulator"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="19000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$19.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c96"
+               data-buscar="naruto shippuden: ultimate ninja storm 4 road to boruto naruto shippuden: ultimate ninja storm 4 road to boruto"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/naruto-shippuden-ultimate-ninja-storm-4-road-to-boruto.jpg" alt="NARUTO SHIPPUDEN™: Ultimate Ninja® STORM 4 ROAD TO BORUTO" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">NARUTO SHIPPUDEN™: Ultimate Ninja® STORM 4 ROAD TO BORUTO</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="NARUTO SHIPPUDEN™: Ultimate Ninja® STORM 4 ROAD TO BORUTO"
+                    data-tipo="PS4 Principal"
+                    data-precio="32000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c97"
+               data-buscar="need for speed heat ps4 need for speed heat ps4"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/need-for-speed-heat-ps4.jpg" alt="Need for Speed™ Heat PS4" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Need for Speed™ Heat PS4</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Need for Speed™ Heat PS4"
+                    data-tipo="PS4 Principal"
+                    data-precio="32000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c98"
+               data-buscar="need for speed rivals: complete edition need for speed rivals: complete edition"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/need-for-speed-rivals-complete-edition.png" alt="Need for Speed™ Rivals: Complete Edition" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Need for Speed™ Rivals: Complete Edition</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Need for Speed™ Rivals: Complete Edition"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="19000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$19.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c99"
+               data-buscar="one piece world seeker one piece world seeker"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/one-piece-world-seeker.jpg" alt="ONE PIECE World Seeker" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">ONE PIECE World Seeker</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="ONE PIECE World Seeker"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="19000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$19.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c100"
+               data-buscar="outlast: trinity outlast: trinity"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/outlast-trinity.jpg" alt="Outlast: Trinity" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Outlast: Trinity</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Outlast: Trinity"
+                    data-tipo="PS4 Principal"
+                    data-precio="32000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c101"
+               data-buscar="pes 2021 pes2021"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/pes2021.jpg" alt="PES2021" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">PES 2021</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="PES 2021"
+                    data-tipo="PS4 Principal"
+                    data-precio="48000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$48.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c102"
+               data-buscar="plants vs. zombies: replanted plants vs. zombies: replanted"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/plants-vs-zombies-replanted.png" alt="Plants vs. Zombies™: Replanted" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Plants vs. Zombies™: Replanted</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Plants vs. Zombies™: Replanted"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="32000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c103"
+               data-buscar="poppy playtime: chapter 1 poppy time chapter one"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/poppy-time-chapter-one.png" alt="Poppy Time Chapter One" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Poppy Playtime: Chapter 1</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Poppy Playtime: Chapter 1"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="16000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$16.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c104"
+               data-buscar="predator hunting grounds predator hunting grounds"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/predator-hunting-grounds.png" alt="Predator Hunting Grounds" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Predator Hunting Grounds</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Predator Hunting Grounds"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="28000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$28.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c105"
+               data-buscar="pure farming 2018 pure farming"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/pure-farming.png" alt="Pure Farming" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Pure Farming 2018</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Pure Farming 2018"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="25000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$25.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c106"
+               data-buscar="red dead redemption 2 red dead redeptiom 2"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/red-dead-redeptiom-2.jpg" alt="Red Dead Redeptiom 2" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Red Dead Redemption 2</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Red Dead Redemption 2"
+                    data-tipo="PS4 Principal"
+                    data-precio="48000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$48.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c107"
+               data-buscar="resident evil 0 zero resident evil 0 ps4"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/resident-evil-0-ps4.jpg" alt="Resident Evil 0 ps4" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Resident Evil 0 Zero</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Resident Evil 0 Zero"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="16000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$16.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c108"
+               data-buscar="resident evil 3 resident evil 3"
+               data-consolas="PS4 PS5">
+        <div class="suelto-port">
+          <img src="img/resident-evil-3.jpg" alt="RESIDENT EVIL 3" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">RESIDENT EVIL 3</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="RESIDENT EVIL 3"
+                    data-tipo="PS4 Principal"
+                    data-precio="32000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS5"
+                    data-combo="RESIDENT EVIL 3"
+                    data-tipo="PS5 Principal"
+                    data-precio="32000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c109"
+               data-buscar="resident evil 4 gold edition ps4 resident evil 4 gold edition ps4"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/resident-evil-4-gold-edition-ps4.png" alt="Resident Evil 4 Gold Edition PS4" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Resident Evil 4 Gold Edition PS4</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Resident Evil 4 Gold Edition PS4"
+                    data-tipo="PS4 Principal"
+                    data-precio="44000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$44.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c110"
+               data-buscar="resident evil 4 hd resident evil 4"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/resident-evil-4.jpg" alt="Resident Evil 4" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">resident evil 4 HD</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="resident evil 4 HD"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="16000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$16.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c111"
+               data-buscar="resident evil 5 resident evil 5"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/resident-evil-5.jpg" alt="Resident evil 5" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Resident evil 5</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Resident evil 5"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="16000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$16.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c112"
+               data-buscar="resident evil 6 ps4 resident evil 6 ps4"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/resident-evil-6-ps4.png" alt="Resident Evil 6 PS4" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Resident Evil 6 PS4</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Resident Evil 6 PS4"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="16000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$16.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c113"
+               data-buscar="resident evil village resident evil village"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/resident-evil-village.jpg" alt="Resident Evil Village" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Resident Evil Village</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Resident Evil Village"
+                    data-tipo="PS4 Principal"
+                    data-precio="48000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$48.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c114"
+               data-buscar="ride 4 ride 4"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/ride-4.jpg" alt="RIDE 4" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">RIDE 4</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="RIDE 4"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="19000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$19.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c115"
+               data-buscar="saints row the third remastered saints row the third remastered"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/saints-row-the-third-remastered.jpg" alt="Saints Row The third Remastered" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Saints Row The third Remastered</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Saints Row The third Remastered"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="16000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$16.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c116"
+               data-buscar="sekiro: shadows die twice - game of the year edition sekiro: shadows die twice - game of the year edition"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/sekiro-shadows-die-twice-game-of-the-year-edition.jpg" alt="Sekiro™: Shadows Die Twice - Game of the Year Edition" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Sekiro™: Shadows Die Twice - Game of the Year Edition</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Sekiro™: Shadows Die Twice - Game of the Year Edition"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="25000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$25.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c117"
+               data-buscar="sleeping dogs sleeping dogs"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/sleeping-dogs.jpg" alt="Sleeping Dogs" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Sleeping Dogs</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Sleeping Dogs"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="16000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$16.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c58"
+               data-buscar="sniper ghost warrior 3 season pass sniper ghost warrior 3 season pass edition ps4"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/sniper-ghost-warrior-3-season-pass-edition-ps4.jpg" alt="Sniper Ghost Warrior 3 Season Pass Edition PS4" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Sniper Ghost Warrior 3 Season Pass</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Sniper Ghost Warrior 3 Season Pass"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="19000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$19.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c118"
+               data-buscar="sniper ghost warrior 3 season pass edition ps4 sniper ghost warrior 3 season pass edition ps4"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/sniper-ghost-warrior-3-season-pass-edition-ps4.jpg" alt="Sniper Ghost Warrior 3 Season Pass Edition PS4" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Sniper Ghost Warrior 3 Season Pass Edition PS4</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Sniper Ghost Warrior 3 Season Pass Edition PS4"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="19000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$19.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c119"
+               data-buscar="sniper ghost warrior contracts 2 ultimate edition sniper ghost warrior contracts 2 elite edition"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/sniper-ghost-warrior-contracts-2-elite-edition.png" alt="Sniper Ghost Warrior Contracts 2 Elite Edition" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Sniper Ghost Warrior Contracts 2 Ultimate Edition</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Sniper Ghost Warrior Contracts 2 Ultimate Edition"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="19000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$19.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c120"
+               data-buscar="snowrunner snowrunner"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/snowrunner.jpg" alt="SnowRunner" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">SnowRunner</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="SnowRunner"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="41000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$41.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c121"
+               data-buscar="sonic forces digital standard edition ps4 sonic forces digital standard edition ps4"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/sonic-forces-digital-standard-edition-ps4.png" alt="Sonic Forces Digital Standard Edition PS4" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Sonic Forces Digital Standard Edition PS4</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Sonic Forces Digital Standard Edition PS4"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="28000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$28.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c122"
+               data-buscar="spiderman game of the year spiderman deluxe"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/spiderman-deluxe.jpg" alt="Spiderman Deluxe" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Spiderman Game of The Year</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Spiderman Game of The Year"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="44000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$44.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c123"
+               data-buscar="street fighter 30th anniversary collection street fighter 30th anniversary collection"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/street-fighter-30th-anniversary-collection.png" alt="Street Fighter 30th Anniversary Collection" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Street Fighter 30th Anniversary Collection</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Street Fighter 30th Anniversary Collection"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="22000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$22.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c52"
+               data-buscar="street fighter v: champion edition street champion"
+               data-consolas="PS5">
+        <div class="suelto-port">
+          <img src="img/street-champion.jpg" alt="Street Champion" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Street Fighter V: Champion Edition</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS5"
+                    data-combo="Street Fighter V: Champion Edition"
+                    data-tipo="PS5 Principal"
+                    data-precio="32000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c124"
+               data-buscar="super bomberman r ps4 super bomberman r ps4"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/super-bomberman-r-ps4.jpg" alt="SUPER BOMBERMAN R PS4" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">SUPER BOMBERMAN R PS4</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="SUPER BOMBERMAN R PS4"
+                    data-tipo="PS4 Principal"
+                    data-precio="36000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$36.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c125"
+               data-buscar="team sonic racing team sonic racing"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/team-sonic-racing.png" alt="Team Sonic Racing" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Team Sonic Racing</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Team Sonic Racing"
+                    data-tipo="PS4 Principal"
+                    data-precio="32000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Team Sonic Racing"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="32000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c126"
+               data-buscar="the crew motorfest ps4 the crew motorfest ps4"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/the-crew-motorfest-ps4.jpg" alt="The Crew Motorfest PS4" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">The Crew Motorfest PS4</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="The Crew Motorfest PS4"
+                    data-tipo="PS4 Principal"
+                    data-precio="32000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="The Crew Motorfest PS4"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="32000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c127"
+               data-buscar="the king of fighters 2002 unlimited match king of fighters"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/king-of-fighters.jpg" alt="King of Fighters" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">THE KING OF FIGHTERS 2002 UNLIMITED MATCH</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="THE KING OF FIGHTERS 2002 UNLIMITED MATCH"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="16000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$16.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c128"
+               data-buscar="the last of us part 2 the last of us part 2"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/the-last-of-us-part-2.png" alt="The Last of Us Part 2" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">The Last of Us Part 2</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="The Last of Us Part 2"
+                    data-tipo="PS4 Principal"
+                    data-precio="48000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$48.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c129"
+               data-buscar="the last of us the last of us"
+               data-consolas="PS4 PS5">
+        <div class="suelto-port">
+          <img src="img/the-last-of-us.jpg" alt="The Last Of Us™" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">The Last Of Us™</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="The Last Of Us™"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="32000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS5"
+                    data-combo="The Last Of Us™"
+                    data-tipo="PS5 Principal"
+                    data-precio="32000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c130"
+               data-buscar="the warriors the warriors"
+               data-consolas="PS4 PS5">
+        <div class="suelto-port">
+          <img src="img/the-warriors.jpg" alt="The Warriors®" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">The Warriors®</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="The Warriors®"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="22000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$22.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS5"
+                    data-combo="The Warriors®"
+                    data-tipo="PS5 Principal"
+                    data-precio="32000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$32.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c131"
+               data-buscar="the witcher 3: wild hunt – complete edition the witcher 3: wild hunt – complete edition"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/the-witcher-3-wild-hunt-complete-edition.png" alt="The Witcher 3: Wild Hunt – Complete Edition" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">The Witcher 3: Wild Hunt – Complete Edition</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="The Witcher 3: Wild Hunt – Complete Edition"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="25000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$25.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c132"
+               data-buscar="titanfall 2 standard edition titanfall 2 standard edition"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/titanfall-2-standard-edition.jpg" alt="Titanfall® 2 Standard Edition" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Titanfall® 2 Standard Edition</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Titanfall® 2 Standard Edition"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="22000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$22.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c133"
+               data-buscar="tom clancy&#39;s ghost recon breakpoint deluxe edition ps4 tom clancy&#39;s ghost recon breakpoint deluxe edition ps4"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/tom-clancy-s-ghost-recon-breakpoint-deluxe-edition-ps4.jpg" alt="Tom Clancy&#39;s Ghost Recon Breakpoint Deluxe Edition PS4" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">Tom Clancy&#39;s Ghost Recon Breakpoint Deluxe Edition PS4</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="Tom Clancy&#39;s Ghost Recon Breakpoint Deluxe Edition PS4"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="19000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$19.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c134"
+               data-buscar="tt isle of man: ride on the edge 2 tt isle of man: ride on the edge 2"
+               data-consolas="PS5">
+        <div class="suelto-port">
+          <img src="img/tt-isle-of-man-ride-on-the-edge-2.png" alt="TT Isle of Man: Ride on the Edge 2" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">TT Isle of Man: Ride on the Edge 2</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS5"
+                    data-combo="TT Isle of Man: Ride on the Edge 2"
+                    data-tipo="PS5 Principal"
+                    data-precio="28000">
+              <span class="suelto-rol">Principal</span>
+              <span class="suelto-precio">$28.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+
+      <article class="suelto" id="c135"
+               data-buscar="tt isle of man: ride on the edge 3 ps4 tt isle of man: ride on the edge 3 ps4"
+               data-consolas="PS4">
+        <div class="suelto-port">
+          <img src="img/tt-isle-of-man-ride-on-the-edge-3-ps4.png" alt="TT Isle Of Man: Ride on the Edge 3 PS4" loading="lazy">
+          
+        </div>
+
+        <h3 class="suelto-tit">TT Isle Of Man: Ride on the Edge 3 PS4</h3>
+
+        
+        <div class="suelto-ops">
+          
+            <button class="suelto-add" type="button"
+                    data-add
+                    data-consola-op="PS4"
+                    data-combo="TT Isle Of Man: Ride on the Edge 3 PS4"
+                    data-tipo="PS4 Secundaria"
+                    data-precio="16000">
+              <span class="suelto-rol">Secundaria</span>
+              <span class="suelto-precio">$16.000</span>
+              <span class="suelto-mas">+</span>
+            </button>
+        </div>
+      </article>
+      </div>
+    </section>
+  </main>
+
+  <section class="como">
+    <h2>Cómo funciona</h2>
+    <p class="sub">Contraentrega digital</p>
+
+    <div class="pasos">
+      <div class="paso">
+        <span class="num">1</span>
+        <div>
+          <h4>Armas tu pedido aquí</h4>
+          <p>Eliges los juegos y el tipo de cuenta, y nos lo envías por WhatsApp con un toque.</p>
+        </div>
+      </div>
+      <div class="paso">
+        <span class="num">2</span>
+        <div>
+          <h4>Te acompañamos en la instalación</h4>
+          <p>Hacemos una videollamada y te guiamos paso a paso hasta activar el juego en tu consola.</p>
+        </div>
+      </div>
+      <div class="paso">
+        <span class="num">3</span>
+        <div>
+          <h4>Pagas cuando ya lo tienes</h4>
+          <p>Cuando veas tu juego descargando, ahí sí haces el pago.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="garantia">✓ Pagas viendo tu juego ya instalado</div>
+  </section>
+
+  <footer>
+    <div class="marca">Synra Games</div>
+    Catálogo actualizado el 23 de septiembre de 2026
+  </footer>
+
+</div>
+
+<!-- barra del carrito -->
+<div class="carro" id="carro">
+  <div class="carro-env">
+    <div class="carro-cab" id="carro-cab">
+      <div class="carro-n">
+        <span class="carro-bolsa" id="carro-n">0</span>
+        <span>Tu pedido</span>
+        <span class="carro-flecha">▼</span>
+      </div>
+      <span class="carro-total" id="carro-total">$0</span>
+    </div>
+
+    <div class="carro-lista" id="carro-lista"></div>
+
+    <button class="carro-pedir" id="carro-pedir">
+      <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg>
+      Enviar pedido por WhatsApp
+    </button>
+  </div>
+</div>
+
+<!-- qué es principal y qué es secundaria -->
+<dialog id="dlg-ayuda">
+  <div class="dlg">
+    <h3>¿Cuál me conviene?</h3>
+    <div class="dlg-op">
+      <b>Principal</b>
+      <span>Juegas desde tu propio perfil y no necesitas estar conectado a internet
+      para abrir el juego. Es la más cómoda.</span>
+    </div>
+    <div class="dlg-op">
+      <b>Secundaria</b>
+      <span>Juegas desde el perfil que te entregamos y necesitas conexión a internet.
+      Es la opción más económica.</span>
+    </div>
+    <div class="dlg-op">
+      <b>PS4 y PS5</b>
+      <span>Elige la que corresponda a tu consola. Si tienes PS5 y el juego es de PS4,
+      escríbenos y te decimos si te sirve.</span>
+    </div>
+    <button class="dlg-cerrar" id="dlg-cerrar">Entendido</button>
+  </div>
+</dialog>
+
+<script>
+(function(){
+  'use strict';
+
+  var WA = "573205540422";
+  var carro = [];
+
+  var elCarro  = document.getElementById('carro');
+  var elN      = document.getElementById('carro-n');
+  var elTotal  = document.getElementById('carro-total');
+  var elLista  = document.getElementById('carro-lista');
+
+  function pesos(n){
+    return '$' + Math.round(n).toLocaleString('es-CO');
+  }
+
+  function total(){
+    return carro.reduce(function(s,i){ return s + i.precio; }, 0);
+  }
+
+  function pintar(){
+    elN.textContent = carro.length;
+    elTotal.textContent = pesos(total());
+    elCarro.classList.toggle('abierto', carro.length > 0);
+
+    if (!carro.length) {
+      elCarro.classList.remove('desplegado');
+      elLista.innerHTML = '';
+      return;
+    }
+
+    elLista.innerHTML = carro.map(function(i,idx){
+      return '<div class="ci">'
+        + '<div class="ci-txt">'
+        +   '<div class="ci-nom">' + i.combo + '</div>'
+        +   '<div class="ci-sub">' + i.tipo + '</div>'
+        + '</div>'
+        + '<div class="ci-fin">'
+        +   '<span class="ci-precio">' + pesos(i.precio) + '</span>'
+        +   '<button class="ci-quitar" data-quitar="' + idx + '" aria-label="Quitar">&times;</button>'
+        + '</div>'
+        + '</div>';
+    }).join('');
+  }
+
+  // añadir
+  document.querySelectorAll('[data-add]').forEach(function(b){
+    b.addEventListener('click', function(){
+      carro.push({
+        combo:  b.dataset.combo,
+        tipo:   b.dataset.tipo,
+        precio: Number(b.dataset.precio) || 0
+      });
+      pintar();
+
+      /*
+       * Confirmación breve en el propio botón. El de la rejilla lleva
+       * precio y «+» dentro, así que se marca con la clase y se cambia
+       * solo el «+» por un tilde: reescribirlo entero lo descuadraría.
+       */
+      var mas = b.querySelector('.suelto-mas');
+      b.classList.add('puesto');
+
+      if (mas) {
+        mas.textContent = '✓';
+        setTimeout(function(){
+          mas.textContent = '+';
+          b.classList.remove('puesto');
+        }, 1100);
+      } else {
+        var antes = b.textContent;
+        b.textContent = '✓ Añadido';
+        setTimeout(function(){
+          b.textContent = antes;
+          b.classList.remove('puesto');
+        }, 1100);
+      }
+    });
+  });
+
+  // quitar
+  elLista.addEventListener('click', function(e){
+    var b = e.target.closest('[data-quitar]');
+    if (!b) return;
+    carro.splice(Number(b.dataset.quitar), 1);
+    pintar();
+  });
+
+  // desplegar el detalle
+  document.getElementById('carro-cab').addEventListener('click', function(){
+    elCarro.classList.toggle('desplegado');
+  });
+
+  // enviar el pedido
+  document.getElementById('carro-pedir').addEventListener('click', function(){
+    if (!carro.length) return;
+
+    var lineas = ['Hola! Quiero pedir:', ''];
+    carro.forEach(function(i){
+      lineas.push('• ' + i.combo + ' — ' + i.tipo + ' — ' + pesos(i.precio));
+    });
+    lineas.push('', 'Total: ' + pesos(total()));
+
+    window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(lineas.join('\n')),
+                '_blank', 'noopener');
+  });
+
+  /* ---------- buscador ---------- */
+  var caja  = document.querySelector('.buscar');
+  var campo = document.getElementById('q');
+  var nada  = document.getElementById('q-nada');
+
+  /** Quita tildes y símbolos, igual que el texto guardado en cada tarjeta. */
+  function normalizar(t){
+    return String(t || '')
+      .normalize('NFD').replace(/[̀-ͯ]/g, '')
+      .replace(/[™®©]/g, '')
+      .toLowerCase().trim();
+  }
+
+  function filtrar(){
+    // sin catálogo publicado no se pinta la barra y no hay nada que filtrar
+    if (!campo) return;
+
+    var q = normalizar(campo.value);
+    caja.classList.toggle('con-texto', !!q);
+
+    /*
+     * La consola elegida. Siempre hay una: manda tanto qué tarjetas se
+     * ven como qué precio enseña cada una.
+     */
+    var consola = '';
+    document.querySelectorAll('[data-consola]').forEach(function(c){
+      if (c.checked) consola = c.dataset.consola;
+    });
+
+    /*
+     * Se filtra dentro de la pestaña que se está viendo: buscar en la otra
+     * daría resultados que no se ven, y parecería que no encuentra nada.
+     */
+    var activo = document.querySelector('.grupo.activo');
+    if (!activo) return;
+
+    var quedan = 0;
+    activo.querySelectorAll('[data-buscar]').forEach(function(t){
+      var pasaTexto = !q || t.dataset.buscar.indexOf(q) !== -1;
+
+      // palabra entera: «PS4» no debe colar una tarjeta de «PS4 Pro»
+      var suyas = (t.dataset.consolas || '').split(' ');
+      var pasaConsola = !consola || suyas.indexOf(consola) !== -1;
+
+      var pasa = pasaTexto && pasaConsola;
+      t.classList.toggle('oculto', !pasa);
+      if (pasa) quedan++;
+
+      /*
+       * Dentro de la tarjeta, solo las plazas de la consola elegida: si se
+       * está mirando PS4, ver ahí el precio de PS5 confunde y se acababa
+       * añadiendo al carrito la plaza que no era. Va en la fila entera,
+       * no en el botón: una plaza agotada no tiene botón y se quedaría
+       * puesta enseñando el precio de la otra consola.
+       */
+      t.querySelectorAll('[data-consola-op]').forEach(function(o){
+        o.classList.toggle('oculto', !!consola && o.dataset.consolaOp !== consola);
+      });
+    });
+
+    nada.classList.toggle('visible', (q || consola) && !quedan);
+  }
+
+  if (campo) {
+    campo.addEventListener('input', filtrar);
+    document.getElementById('q-x').addEventListener('click', function(){
+      campo.value = '';
+      filtrar();
+      campo.focus();
+    });
+  }
+
+  document.querySelectorAll('[data-consola]').forEach(function(c){
+    c.addEventListener('change', filtrar);
+  });
+
+  // pestañas: combos / juegos sueltos
+  document.querySelectorAll('.tab').forEach(function(b){
+    b.addEventListener('click', function(){
+      document.querySelectorAll('.tab').forEach(function(x){
+        var suyo = x === b;
+        x.classList.toggle('activo', suyo);
+        x.setAttribute('aria-selected', suyo ? 'true' : 'false');
+      });
+      document.querySelectorAll('.grupo').forEach(function(g){
+        g.classList.toggle('activo', g.id === 'g-' + b.dataset.grupo);
+      });
+      // la búsqueda sigue puesta: hay que aplicarla a la pestaña nueva
+      filtrar();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
+
+  // explicación de principal/secundaria
+  var dlg = document.getElementById('dlg-ayuda');
+  document.querySelectorAll('[data-ayuda]').forEach(function(b){
+    b.addEventListener('click', function(){
+      if (dlg.showModal) dlg.showModal();
+    });
+  });
+  document.getElementById('dlg-cerrar').addEventListener('click', function(){
+    dlg.close();
+  });
+
+  pintar();
+  /*
+   * Al abrir ya hay una consola puesta (PS4), así que hay que aplicarla:
+   * si no, la página arranca enseñando también los precios de PS5.
+   */
+  filtrar();
+})();
+</script>
+</body>
+</html>
