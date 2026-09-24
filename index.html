@@ -52,13 +52,28 @@
   /* ---------- cabecera ---------- */
   header{text-align:center;padding:30px 0 24px}
   /*
-   * El logo manda: trae el nombre dentro, asi que se enseña grande y se
-   * quita el titulo de texto que lo repetia debajo. El alto va en auto
-   * para que no se deforme si el archivo no es cuadrado.
+   * La imagen de cabecera manda: trae el nombre dentro, asi que se enseña
+   * grande y se quita el titulo de texto que lo repetia debajo. El alto va
+   * en auto para que no se deforme.
    */
   header img{
     width:min(190px,58vw);height:auto;
     margin-bottom:10px;
+  }
+
+  /*
+   * Con el banner apaisado la cabecera cambia: ocupa todo el ancho, de
+   * borde a borde. Los margenes negativos anulan el padding del
+   * contenedor —la unica forma de salirse de el sin sacar la cabecera
+   * fuera— y se recorta al ancho de la pantalla, no al del texto.
+   */
+  .con-portada{padding:0 0 18px}
+  .con-portada img{
+    width:calc(100% + 28px);
+    max-width:none;
+    margin:0 -14px 14px;
+    border-radius:0 0 16px 16px;
+    display:block;
   }
   /* solo sale si falta el logo: entonces hace falta algo que diga la marca */
   header h1{
@@ -537,6 +552,9 @@
     header{padding:28px 0 20px}
     header{padding:22px 0 18px}
     header img{width:min(150px,52vw)}
+    /* en movil el banner llega hasta el borde: sin curva arriba ni a los lados */
+    .con-portada{padding:0 0 14px}
+    .con-portada img{margin-bottom:11px;border-radius:0 0 12px 12px}
     header h1{font-size:1.45rem}
     .portadas{grid-template-columns:repeat(auto-fill,minmax(72px,1fr));gap:7px}
     .desde-val{font-size:1.15rem}
@@ -566,8 +584,8 @@
 <body>
 <div class="env">
 
-  <header>
-    <img src="img/logo.png" alt="Synra Games">
+  <header class="con-portada">
+    <img src="img/portada.jpg" alt="Synra Games">
     <p>Juegos digitales para PS4 y PS5</p>
   </header>
 
