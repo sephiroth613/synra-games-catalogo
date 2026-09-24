@@ -50,15 +50,28 @@
   .env{position:relative;z-index:1;max-width:760px;margin:0 auto;padding:0 14px}
 
   /* ---------- cabecera ---------- */
-  header{text-align:center;padding:36px 0 26px}
-  header img{width:58px;height:58px;border-radius:14px;margin-bottom:12px}
+  header{text-align:center;padding:30px 0 24px}
+  /*
+   * El logo manda: trae el nombre dentro, asi que se enseña grande y se
+   * quita el titulo de texto que lo repetia debajo. El alto va en auto
+   * para que no se deforme si el archivo no es cuadrado.
+   */
+  header img{
+    width:min(190px,58vw);height:auto;
+    margin-bottom:10px;
+  }
+  /* solo sale si falta el logo: entonces hace falta algo que diga la marca */
   header h1{
     font-size:1.65rem;font-weight:800;letter-spacing:-.02em;
     background:linear-gradient(135deg,#fff 30%,var(--azul-claro));
     -webkit-background-clip:text;background-clip:text;
     -webkit-text-fill-color:transparent;
   }
-  header p{color:var(--txt2);font-size:.9rem;margin-top:5px}
+  /*
+   * El logo ya dice «juegos digitales»; esta linea esta para lo que el
+   * logo no dice: que son para PS4 y PS5. Va discreta, debajo.
+   */
+  header p{color:var(--txt2);font-size:.85rem;margin-top:2px}
 
   /* ---------- pestañas ---------- */
   .tabs{
@@ -235,10 +248,23 @@
     border-radius:12px 12px 0 0;overflow:hidden;
     background:var(--sup2);
   }
+  /*
+   * La carátula se recorta por arriba.
+   *
+   * Los archivos traen una franja en la cabecera —el logo de la consola o
+   * el sello de la edición— que no aporta nada y se repite igual en todas,
+   * así que se deja fuera del marco. El marco es algo más bajo que la
+   * imagen y object-position bottom manda el recorte a esa franja en vez
+   * de repartirlo. La franja ocupa un 11% de la altura, asi que el marco
+   * se queda en 1:1,1 contra el 1:1,25 del archivo: recorta un 12% por
+   * arriba, lo justo para que desaparezca sin comerse el arte.
+   */
   .suelto-port img{
-    width:100%;aspect-ratio:3/4;object-fit:cover;display:block;
+    width:100%;aspect-ratio:10/11;
+    object-fit:cover;object-position:center bottom;
+    display:block;
   }
-  .suelto-port .sin-port{aspect-ratio:3/4;font-size:2rem}
+  .suelto-port .sin-port{aspect-ratio:10/11;font-size:2rem}
 
   /*
    * Una fila por plaza, bajo el título. Al fondo del marco («auto» arriba)
@@ -313,11 +339,14 @@
     gap:9px;padding:0 16px 14px;
   }
   .port{position:relative;border-radius:8px;overflow:hidden;background:var(--sup2)}
+  /* mismo recorte que en los sueltos: fuera la franja de cabecera */
   .port img{
-    width:100%;aspect-ratio:3/4;object-fit:cover;display:block;
+    width:100%;aspect-ratio:10/11;
+    object-fit:cover;object-position:center bottom;
+    display:block;
   }
   .sin-port{
-    display:grid;place-items:center;aspect-ratio:3/4;
+    display:grid;place-items:center;aspect-ratio:10/11;
     font-size:1.5rem;opacity:.25;
   }
   .port figcaption{
@@ -506,6 +535,8 @@
 
   @media (max-width:400px){
     header{padding:28px 0 20px}
+    header{padding:22px 0 18px}
+    header img{width:min(150px,52vw)}
     header h1{font-size:1.45rem}
     .portadas{grid-template-columns:repeat(auto-fill,minmax(72px,1fr));gap:7px}
     .desde-val{font-size:1.15rem}
@@ -537,7 +568,6 @@
 
   <header>
     <img src="img/logo.png" alt="Synra Games">
-    <h1>Synra Games</h1>
     <p>Juegos digitales para PS4 y PS5</p>
   </header>
 
