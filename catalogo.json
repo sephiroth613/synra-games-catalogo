@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-29T17:10:37.897Z",
+ "generado": "2026-09-29T18:34:48.050Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -245,8 +245,8 @@
    "titulo": "COMBO CRASHRAIDER",
    "gancho": null,
    "clase": "combo",
-   "desde": 35000,
-   "hay": true,
+   "desde": 0,
+   "hay": false,
    "portada": "img/combo-53.jpg",
    "juegos": [
     {
@@ -295,13 +295,13 @@
      "consola": "PS4",
      "rol": "",
      "precio": 35000,
-     "hay": true
+     "hay": false
     },
     {
      "consola": "PS5",
      "rol": "",
      "precio": 35000,
-     "hay": true
+     "hay": false
     }
    ]
   },
@@ -310,7 +310,7 @@
    "titulo": "COMBO MKMOTO",
    "gancho": null,
    "clase": "combo",
-   "desde": 20000,
+   "desde": 25000,
    "hay": true,
    "portada": "img/combo-9.jpg",
    "juegos": [
@@ -327,7 +327,7 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 20000,
+     "precio": 25000,
      "hay": true
     },
     {
