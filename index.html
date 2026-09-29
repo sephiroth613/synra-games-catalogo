@@ -348,7 +348,10 @@
   }
 
   /* la portada propia del combo, arriba de las carátulas */
-  .combo-banner{display:block;width:calc(100% - 32px);margin:0 16px 12px;border-radius:12px;max-height:420px;object-fit:cover}
+  /* la portada entera, sin recortes: es la publicidad del combo */
+  .combo-banner{display:block;width:calc(100% - 32px);height:auto;margin:0 16px 10px;border-radius:12px}
+  .combo-juegos{list-style:none;margin:0 16px 14px;padding:0;display:flex;flex-direction:column;gap:4px}
+  .combo-juegos li{font-size:.8rem;font-weight:600;color:var(--txt2);padding:6px 10px;border-radius:8px;background:var(--sup2)}
 
   /* portadas: tamaño carátula, no banner */
   .portadas{
@@ -653,27 +656,13 @@
             </div>
           </div>
 
-          <img class="combo-banner" src="img/combo-1.jpg" alt="COMBO CODFIRSTBUY" loading="lazy">
-
-          <div class="portadas">
-            
-              <figure class="port" title="Call of Duty®: Modern Warfare® Remastered">
-                <img src="img/call-of-duty-modern-warfare-remastered.jpg" alt="Call of Duty®: Modern Warfare® Remastered" loading="lazy">
-                <figcaption>Call of Duty®: Modern Warfare® Remastered</figcaption>
-              </figure>
-              <figure class="port" title="Call of Duty®: Modern Warfare® 2 Campaign Remastered">
-                <img src="img/call-of-duty-modern-warfare-2-campaign-remastered.png" alt="Call of Duty®: Modern Warfare® 2 Campaign Remastered" loading="lazy">
-                <figcaption>Call of Duty®: Modern Warfare® 2 Campaign Remastered</figcaption>
-              </figure>
-              <figure class="port" title="Call of Duty®: WWII - Gold Edition - INGLES">
-                <img src="img/call-of-duty-wwii-gold-edition-ingles.jpg" alt="Call of Duty®: WWII - Gold Edition - INGLES" loading="lazy">
-                <figcaption>Call of Duty®: WWII - Gold Edition - INGLES</figcaption>
-              </figure>
-              <figure class="port" title="Call of Duty®: Vanguard - Standard Edition">
-                <img src="img/call-of-duty-vanguard-standard-edition.png" alt="Call of Duty®: Vanguard - Standard Edition" loading="lazy">
-                <figcaption>Call of Duty®: Vanguard - Standard Edition</figcaption>
-              </figure>
-          </div>
+          
+            <!-- con portada propia, esa es la imagen del combo: las carátulas
+                 sueltas sobran, solo se nombran los juegos que trae -->
+            <img class="combo-banner" src="img/combo-1.jpg" alt="COMBO CODFIRSTBUY" loading="lazy">
+            <ul class="combo-juegos">
+              <li>🎮 Call of Duty®: Modern Warfare® Remastered</li><li>🎮 Call of Duty®: Modern Warfare® 2 Campaign Remastered</li><li>🎮 Call of Duty®: WWII - Gold Edition - INGLES</li><li>🎮 Call of Duty®: Vanguard - Standard Edition</li>
+            </ul>
 
         <div class="opciones">
           <div class="opciones-tit">
@@ -778,51 +767,13 @@
             </div>
           </div>
 
-          <img class="combo-banner" src="img/combo-53.jpg" alt="COMBO CRASHRAIDER" loading="lazy">
-
-          <div class="portadas">
-            
-              <figure class="port" title="STAR WARS™ Battlefront™ Ultimate Edition">
-                <img src="img/star-wars-battlefront-ultimate-edition.jpg" alt="STAR WARS™ Battlefront™ Ultimate Edition" loading="lazy">
-                <figcaption>STAR WARS™ Battlefront™ Ultimate Edition</figcaption>
-              </figure>
-              <figure class="port" title="Mortal Kombat 11 Ultimate">
-                <img src="img/mortal-kombat-11-ultimate.png" alt="Mortal Kombat 11 Ultimate" loading="lazy">
-                <figcaption>Mortal Kombat 11 Ultimate</figcaption>
-              </figure>
-              <figure class="port" title="Unravel">
-                <img src="img/unravel.jpg" alt="Unravel" loading="lazy">
-                <figcaption>Unravel</figcaption>
-              </figure>
-              <figure class="port" title="Unravel Two">
-                <img src="img/unravel-two.jpg" alt="Unravel Two" loading="lazy">
-                <figcaption>Unravel Two</figcaption>
-              </figure>
-              <figure class="port" title="Crash Bandicoot Nsane Trilogy">
-                <img src="img/crash-bandicoot-nsane-trilogy.jpg" alt="Crash Bandicoot Nsane Trilogy" loading="lazy">
-                <figcaption>Crash Bandicoot Nsane Trilogy</figcaption>
-              </figure>
-              <figure class="port" title="Crash 4">
-                <img src="img/crash-4.jpg" alt="Crash 4" loading="lazy">
-                <figcaption>Crash 4</figcaption>
-              </figure>
-              <figure class="port" title="Crash CTR">
-                <img src="img/crash-ctr.jpg" alt="Crash CTR" loading="lazy">
-                <figcaption>Crash CTR</figcaption>
-              </figure>
-              <figure class="port" title="Tomb Raider">
-                <img src="img/tomb-raider.png" alt="Tomb Raider" loading="lazy">
-                <figcaption>Tomb Raider</figcaption>
-              </figure>
-              <figure class="port" title="Shadows of the Tomb Raider">
-                <img src="img/shadows-of-the-tomb-raider.jpg" alt="Shadows of the Tomb Raider" loading="lazy">
-                <figcaption>Shadows of the Tomb Raider</figcaption>
-              </figure>
-              <figure class="port" title="Rise of the Tomb Raider 2">
-                <img src="img/rise-of-the-tomb-raider-2.png" alt="Rise of the Tomb Raider 2" loading="lazy">
-                <figcaption>Rise of the Tomb Raider 2</figcaption>
-              </figure>
-          </div>
+          
+            <!-- con portada propia, esa es la imagen del combo: las carátulas
+                 sueltas sobran, solo se nombran los juegos que trae -->
+            <img class="combo-banner" src="img/combo-53.jpg" alt="COMBO CRASHRAIDER" loading="lazy">
+            <ul class="combo-juegos">
+              <li>🎮 STAR WARS™ Battlefront™ Ultimate Edition</li><li>🎮 Mortal Kombat 11 Ultimate</li><li>🎮 Unravel</li><li>🎮 Unravel Two</li><li>🎮 Crash Bandicoot Nsane Trilogy</li><li>🎮 Crash 4</li><li>🎮 Crash CTR</li><li>🎮 Tomb Raider</li><li>🎮 Shadows of the Tomb Raider</li><li>🎮 Rise of the Tomb Raider 2</li>
+            </ul>
 
         <div class="opciones">
           <div class="opciones-tit">
@@ -906,19 +857,13 @@
             </div>
           </div>
 
-          <img class="combo-banner" src="img/combo-9.jpg" alt="COMBO MKMOTO" loading="lazy">
-
-          <div class="portadas">
-            
-              <figure class="port" title="Mortal Kombat 11 Ultimate PS4 &amp; PS5">
-                <img src="img/mortal-kombat-11-ultimate-ps4-ps5.png" alt="Mortal Kombat 11 Ultimate PS4 &amp; PS5" loading="lazy">
-                <figcaption>Mortal Kombat 11 Ultimate PS4 &amp; PS5</figcaption>
-              </figure>
-              <figure class="port" title="MotoGP™22 PS4 &amp; PS5">
-                <img src="img/motogp22-ps4-ps5.jpg" alt="MotoGP™22 PS4 &amp; PS5" loading="lazy">
-                <figcaption>MotoGP™22 PS4 &amp; PS5</figcaption>
-              </figure>
-          </div>
+          
+            <!-- con portada propia, esa es la imagen del combo: las carátulas
+                 sueltas sobran, solo se nombran los juegos que trae -->
+            <img class="combo-banner" src="img/combo-9.jpg" alt="COMBO MKMOTO" loading="lazy">
+            <ul class="combo-juegos">
+              <li>🎮 Mortal Kombat 11 Ultimate PS4 &amp; PS5</li><li>🎮 MotoGP™22 PS4 &amp; PS5</li>
+            </ul>
 
         <div class="opciones">
           <div class="opciones-tit">
@@ -1009,19 +954,13 @@
             </div>
           </div>
 
-          <img class="combo-banner" src="img/combo-137.jpg" alt="Middle-earth™: The Shadow Bundle" loading="lazy">
-
-          <div class="portadas">
-            
-              <figure class="port" title="Middle-earth™ Shadow of War™">
-                <img src="img/middle-earth-shadow-of-war.jpg" alt="Middle-earth™ Shadow of War™" loading="lazy">
-                <figcaption>Middle-earth™ Shadow of War™</figcaption>
-              </figure>
-              <figure class="port" title="Middle-earth™ Shadow of Mordor™ - Game of the Year Edition">
-                <img src="img/middle-earth-shadow-of-mordor-game-of-the-year-edition.png" alt="Middle-earth™ Shadow of Mordor™ - Game of the Year Edition" loading="lazy">
-                <figcaption>Middle-earth™ Shadow of Mordor™ - Game of the Year Edition</figcaption>
-              </figure>
-          </div>
+          
+            <!-- con portada propia, esa es la imagen del combo: las carátulas
+                 sueltas sobran, solo se nombran los juegos que trae -->
+            <img class="combo-banner" src="img/combo-137.jpg" alt="Middle-earth™: The Shadow Bundle" loading="lazy">
+            <ul class="combo-juegos">
+              <li>🎮 Middle-earth™ Shadow of War™</li><li>🎮 Middle-earth™ Shadow of Mordor™ - Game of the Year Edition</li>
+            </ul>
 
         <div class="opciones">
           <div class="opciones-tit">
