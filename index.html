@@ -347,6 +347,9 @@
     color:var(--txt3);font-size:.71rem;font-weight:600;
   }
 
+  /* la portada propia del combo, arriba de las carátulas */
+  .combo-banner{display:block;width:calc(100% - 32px);margin:0 16px 12px;border-radius:12px;max-height:420px;object-fit:cover}
+
   /* portadas: tamaño carátula, no banner */
   .portadas{
     display:grid;
@@ -650,6 +653,8 @@
             </div>
           </div>
 
+          <img class="combo-banner" src="img/combo-1.jpg" alt="COMBO CODFIRSTBUY" loading="lazy">
+
           <div class="portadas">
             
               <figure class="port" title="Call of Duty®: Modern Warfare® Remastered">
@@ -756,7 +761,7 @@
 
       <article class="combo" id="c53"
                data-buscar="combo crashraider star wars battlefront ultimate edition mortal kombat 11 ultimate unravel unravel two crash bandicoot nsane trilogy crash 4 crash ctr tomb raider shadows of the tomb raider rise of the tomb raider 2"
-               data-consolas="PS4 PS5">
+               data-consolas="PS5">
           <div class="cab">
             <div class="cab-txt">
               <h3>COMBO CRASHRAIDER</h3>
@@ -768,6 +773,8 @@
               <span class="desde-val">$35.000</span>
             </div>
           </div>
+
+          <img class="combo-banner" src="img/combo-53.jpg" alt="COMBO CRASHRAIDER" loading="lazy">
 
           <div class="portadas">
             
@@ -822,58 +829,37 @@
           </div>
 
           
-            <div class="op" data-consola-op="PS4">
+            <div class="op op-no" data-consola-op="PS4">
               <div class="op-txt">
                 <span class="op-con op-ps4">PS4</span>
                 <span class="op-rol">Principal</span>
-                
+                <span class="op-agotado">Agotado</span>
               </div>
               <div class="op-fin">
                 <span class="op-precio">$35.000</span>
-                
-                  <button class="op-add" type="button"
-                          data-add
-                          data-combo="COMBO CRASHRAIDER"
-                          data-tipo="PS4 Principal"
-                          data-precio="35000">
-                    Añadir
-                  </button>
+                <span class="op-no-btn">—</span>
               </div>
             </div>
-            <div class="op" data-consola-op="PS4">
+            <div class="op op-no" data-consola-op="PS4">
               <div class="op-txt">
                 <span class="op-con op-ps4">PS4</span>
                 <span class="op-rol">Secundaria</span>
-                
+                <span class="op-agotado">Agotado</span>
               </div>
               <div class="op-fin">
                 <span class="op-precio">$35.000</span>
-                
-                  <button class="op-add" type="button"
-                          data-add
-                          data-combo="COMBO CRASHRAIDER"
-                          data-tipo="PS4 Secundaria"
-                          data-precio="35000">
-                    Añadir
-                  </button>
+                <span class="op-no-btn">—</span>
               </div>
             </div>
-            <div class="op" data-consola-op="PS5">
+            <div class="op op-no" data-consola-op="PS5">
               <div class="op-txt">
                 <span class="op-con op-ps5">PS5</span>
                 <span class="op-rol">Principal</span>
-                
+                <span class="op-agotado">Agotado</span>
               </div>
               <div class="op-fin">
                 <span class="op-precio">$35.000</span>
-                
-                  <button class="op-add" type="button"
-                          data-add
-                          data-combo="COMBO CRASHRAIDER"
-                          data-tipo="PS5 Principal"
-                          data-precio="35000">
-                    Añadir
-                  </button>
+                <span class="op-no-btn">—</span>
               </div>
             </div>
             <div class="op" data-consola-op="PS5">
@@ -911,6 +897,8 @@
               <span class="desde-val">$25.000</span>
             </div>
           </div>
+
+          <img class="combo-banner" src="img/combo-9.jpg" alt="COMBO MKMOTO" loading="lazy">
 
           <div class="portadas">
             
@@ -3184,7 +3172,7 @@
 
   <footer>
     <div class="marca">Synra Games</div>
-    Catálogo actualizado el 23 de septiembre de 2026
+    Catálogo actualizado el 28 de septiembre de 2026
   </footer>
 
 </div>
