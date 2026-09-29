@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-29T22:19:57.229Z",
+ "generado": "2026-09-29T22:27:33.761Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -236,6 +236,43 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 139,
+   "titulo": "COMBO DIVCALLMAN",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 40000,
+   "hay": true,
+   "portada": "img/combo-139.jpg",
+   "juegos": [
+    {
+     "titulo": "The Division",
+     "imagen": "img/the-division.png"
+    },
+    {
+     "titulo": "Call of Duty® Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Batman™ Arkham Knight",
+     "imagen": "img/batman-arkham-knight.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 40000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 40000,
      "hay": true
     }
    ]
