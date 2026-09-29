@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-29T19:00:23.370Z",
+ "generado": "2026-09-29T22:19:57.229Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -269,6 +269,59 @@
      "consola": "PS5",
      "rol": "",
      "precio": 25000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 138,
+   "titulo": "COMBO TOMCRASHI",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 60000,
+   "hay": true,
+   "portada": "img/combo-138.jpg",
+   "juegos": [
+    {
+     "titulo": "Tomb Raider Definitive Edition",
+     "imagen": "img/tomb-raider-definitive-edition.jpg"
+    },
+    {
+     "titulo": "Rise of the Tomb Raider 2",
+     "imagen": "img/rise-of-the-tomb-raider-2.png"
+    },
+    {
+     "titulo": "Shadows of the Tomb Raider",
+     "imagen": "img/shadows-of-the-tomb-raider.jpg"
+    },
+    {
+     "titulo": "Crash Team Racing Nitro Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
+    },
+    {
+     "titulo": "Spyro™ Reignited Trilogy",
+     "imagen": "img/spyro-reignited-trilogy.jpg"
+    },
+    {
+     "titulo": "Assassin's Creed® Syndicate Gold Edition",
+     "imagen": "img/assassin-s-creed-syndicate-gold-edition.jpg"
+    },
+    {
+     "titulo": "Call of Duty Modern Warfare 2 Remake",
+     "imagen": "img/call-of-duty-modern-warfare-2-remake.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 60000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 60000,
      "hay": true
     }
    ]
