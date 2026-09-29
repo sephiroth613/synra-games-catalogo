@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-29T16:32:33.116Z",
+ "generado": "2026-09-29T17:10:37.897Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -228,25 +228,13 @@
    "opciones": [
     {
      "consola": "PS4",
-     "rol": "Principal",
-     "precio": 38000,
-     "hay": true
-    },
-    {
-     "consola": "PS4",
-     "rol": "Secundaria",
+     "rol": "",
      "precio": 38000,
      "hay": true
     },
     {
      "consola": "PS5",
-     "rol": "Principal",
-     "precio": 38000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "Secundaria",
+     "rol": "",
      "precio": 38000,
      "hay": true
     }
@@ -305,25 +293,13 @@
    "opciones": [
     {
      "consola": "PS4",
-     "rol": "Principal",
+     "rol": "",
      "precio": 35000,
-     "hay": false
-    },
-    {
-     "consola": "PS4",
-     "rol": "Secundaria",
-     "precio": 35000,
-     "hay": false
+     "hay": true
     },
     {
      "consola": "PS5",
-     "rol": "Principal",
-     "precio": 35000,
-     "hay": false
-    },
-    {
-     "consola": "PS5",
-     "rol": "Secundaria",
+     "rol": "",
      "precio": 35000,
      "hay": true
     }
@@ -334,7 +310,7 @@
    "titulo": "COMBO MKMOTO",
    "gancho": null,
    "clase": "combo",
-   "desde": 25000,
+   "desde": 20000,
    "hay": true,
    "portada": "img/combo-9.jpg",
    "juegos": [
@@ -350,25 +326,13 @@
    "opciones": [
     {
      "consola": "PS4",
-     "rol": "Principal",
+     "rol": "",
      "precio": 20000,
-     "hay": false
-    },
-    {
-     "consola": "PS4",
-     "rol": "Secundaria",
-     "precio": 25000,
-     "hay": false
-    },
-    {
-     "consola": "PS5",
-     "rol": "Principal",
-     "precio": 25000,
      "hay": true
     },
     {
      "consola": "PS5",
-     "rol": "Secundaria",
+     "rol": "",
      "precio": 25000,
      "hay": true
     }
@@ -931,25 +895,13 @@
    "opciones": [
     {
      "consola": "PS4",
-     "rol": "Principal",
-     "precio": 30000,
-     "hay": false
-    },
-    {
-     "consola": "PS4",
-     "rol": "Secundaria",
+     "rol": "",
      "precio": 30000,
      "hay": true
     },
     {
      "consola": "PS5",
-     "rol": "Principal",
-     "precio": 30000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "Secundaria",
+     "rol": "",
      "precio": 30000,
      "hay": true
     }
