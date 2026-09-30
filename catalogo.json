@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-29T22:27:33.761Z",
+ "generado": "2026-09-30T00:12:57.287Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -236,6 +236,51 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 141,
+   "titulo": "COMBO CODJUST",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 40000,
+   "hay": true,
+   "portada": "img/combo-141.jpg",
+   "juegos": [
+    {
+     "titulo": "W",
+     "imagen": null
+    },
+    {
+     "titulo": "Call of Duty® Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Call of Duty Modern Warfare 2 Remake",
+     "imagen": "img/call-of-duty-modern-warfare-2-remake.png"
+    },
+    {
+     "titulo": "Call of Duty Vanguard",
+     "imagen": "img/call-of-duty-vanguard.png"
+    },
+    {
+     "titulo": "Just Cause 3",
+     "imagen": "img/just-cause-3.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 40000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 40000,
      "hay": true
     }
    ]
