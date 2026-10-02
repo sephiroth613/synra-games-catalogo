@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-02T19:54:06.102Z",
+ "generado": "2026-10-02T22:29:28.671Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -314,6 +314,55 @@
      "consola": "PS5",
      "rol": "",
      "precio": 40000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 142,
+   "titulo": "COMBO FARMORJUST",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 60000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "FAR",
+     "imagen": null
+    },
+    {
+     "titulo": "FARCRY 3 Classic Edition",
+     "imagen": "img/farcry-3-classic-edition.jpg"
+    },
+    {
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat 11 Ultimate PS4 &amp; PS5",
+     "imagen": "img/mortal-kombat-11-ultimate-ps4-amp-ps5.jpg"
+    },
+    {
+     "titulo": "Just Cause 3 Xxl Edition",
+     "imagen": "img/just-cause-3-xxl-edition.jpg"
+    },
+    {
+     "titulo": "Rabbids® Party of Legends",
+     "imagen": "img/rabbids-party-of-legends.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 60000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 60000,
      "hay": true
     }
    ]
