@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-05T14:16:24.368Z",
+ "generado": "2026-10-05T14:36:14.593Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -290,7 +290,7 @@
    "titulo": "COMBO ASSASCREEDRABBI",
    "gancho": null,
    "clase": "combo",
-   "desde": 39000,
+   "desde": 35000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -315,46 +315,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 39000,
+     "precio": 35000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 39000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 146,
-   "titulo": "COMBO ASSASJUST",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 39000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Assassin's Creed Origins",
-     "imagen": "img/assassin-s-creed-origins.png"
-    },
-    {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 39000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39000,
+     "precio": 35000,
      "hay": true
     }
    ]
@@ -364,7 +331,7 @@
    "titulo": "COMBO RABBIASSASCALL",
    "gancho": null,
    "clase": "combo",
-   "desde": 39000,
+   "desde": 25000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -385,13 +352,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 39000,
+     "precio": 25000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 39000,
+     "precio": 25000,
      "hay": true
     }
    ]
