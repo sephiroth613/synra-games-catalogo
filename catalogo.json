@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-05T22:47:26.981Z",
+ "generado": "2026-10-05T22:58:03.551Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -49,7 +49,7 @@
    "titulo": "COMBO CODJUST",
    "gancho": null,
    "clase": "combo",
-   "desde": 40000,
+   "desde": 39999,
    "hay": true,
    "portada": "img/combo-141.jpg",
    "juegos": [
@@ -74,13 +74,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 40000,
+     "precio": 39999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 40000,
+     "precio": 39999,
      "hay": true
     }
    ]
@@ -90,7 +90,7 @@
    "titulo": "COMBO DIVCALLMAN",
    "gancho": null,
    "clase": "combo",
-   "desde": 40000,
+   "desde": 39999,
    "hay": true,
    "portada": "img/combo-139.jpg",
    "juegos": [
@@ -111,13 +111,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 40000,
+     "precio": 39999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 40000,
+     "precio": 39999,
      "hay": true
     }
    ]
@@ -127,7 +127,7 @@
    "titulo": "COMBO FARMORJUST",
    "gancho": null,
    "clase": "combo",
-   "desde": 60000,
+   "desde": 59999,
    "hay": true,
    "portada": "img/combo-142.jpg",
    "juegos": [
@@ -156,13 +156,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 60000,
+     "precio": 59999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 60000,
+     "precio": 59999,
      "hay": true
     }
    ]
@@ -172,7 +172,7 @@
    "titulo": "COMBO TOMCRASHI",
    "gancho": null,
    "clase": "combo",
-   "desde": 60000,
+   "desde": 59999,
    "hay": true,
    "portada": "img/combo-138.jpg",
    "juegos": [
@@ -209,13 +209,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 60000,
+     "precio": 59999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 60000,
+     "precio": 59999,
      "hay": true
     }
    ]
@@ -225,7 +225,7 @@
    "titulo": "COMBO CODJUST2",
    "gancho": null,
    "clase": "combo",
-   "desde": 25000,
+   "desde": 24999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -242,13 +242,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 25000,
+     "precio": 24999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 25000,
+     "precio": 24999,
      "hay": true
     }
    ]
@@ -258,7 +258,7 @@
    "titulo": "COMBO CODJUSTASSAS",
    "gancho": null,
    "clase": "combo",
-   "desde": 25000,
+   "desde": 24999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -279,13 +279,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 25000,
+     "precio": 24999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 25000,
+     "precio": 24999,
      "hay": true
     }
    ]
@@ -295,7 +295,7 @@
    "titulo": "COMBO UNRAVCODJUST",
    "gancho": null,
    "clase": "combo",
-   "desde": 25000,
+   "desde": 24999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -316,13 +316,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 25000,
+     "precio": 24999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 25000,
+     "precio": 24999,
      "hay": true
     }
    ]
@@ -332,7 +332,7 @@
    "titulo": "COMBO CRASHPARTYJUST",
    "gancho": null,
    "clase": "combo",
-   "desde": 30000,
+   "desde": 29999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -357,13 +357,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 30000,
+     "precio": 29999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 30000,
+     "precio": 29999,
      "hay": true
     }
    ]
@@ -397,39 +397,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 25000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 137,
-   "titulo": "Middle-earth™: The Shadow Bundle",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 29000,
-   "hay": true,
-   "portada": "img/combo-137.jpg",
-   "juegos": [
-    {
-     "titulo": "Middle-earth™ Shadow of War™",
-     "imagen": "img/middle-earth-shadow-of-war.jpg"
-    },
-    {
-     "titulo": "Middle-earth™ Shadow of Mordor™ - Game of the Year Edition",
-     "imagen": "img/middle-earth-shadow-of-mordor-game-of-the-year-edition.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 29000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 29000,
      "hay": true
     }
    ]
@@ -1162,6 +1129,39 @@
      "consola": "PS4",
      "rol": "Secundaria",
      "precio": 22000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 137,
+   "titulo": "Middle-earth™: The Shadow Bundle",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 28999,
+   "hay": true,
+   "portada": "img/combo-137.jpg",
+   "juegos": [
+    {
+     "titulo": "Middle-earth™ Shadow of War™",
+     "imagen": "img/middle-earth-shadow-of-war.jpg"
+    },
+    {
+     "titulo": "Middle-earth™ Shadow of Mordor™ - Game of the Year Edition",
+     "imagen": "img/middle-earth-shadow-of-mordor-game-of-the-year-edition.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 28999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 28999,
      "hay": true
     }
    ]
