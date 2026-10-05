@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-05T17:27:30.602Z",
+ "generado": "2026-10-05T17:46:58.704Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -286,25 +286,17 @@
    ]
   },
   {
-   "id": 147,
-   "titulo": "COMBO ASSASCREEDRABBI",
+   "id": 151,
+   "titulo": "COMBO CODJUST2",
    "gancho": null,
    "clase": "combo",
-   "desde": 35000,
+   "desde": 25000,
    "hay": true,
    "portada": null,
    "juegos": [
     {
-     "titulo": "Assassin's Creed® Origins - GOLD EDITION",
-     "imagen": "img/assassin-s-creed-origins-gold-edition.jpg"
-    },
-    {
-     "titulo": "Assassin's Creed Odyssey",
-     "imagen": "img/assassin-s-creed-odyssey.jpg"
-    },
-    {
-     "titulo": "Rabbids®: Party of Legends",
-     "imagen": "img/rabbids-party-of-legends.png"
+     "titulo": "Call of Duty®: Vanguard - Cross-Gen Bundle",
+     "imagen": null
     },
     {
      "titulo": "Just Cause 3: XXL Edition",
@@ -315,20 +307,20 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 35000,
+     "precio": 25000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 35000,
+     "precio": 25000,
      "hay": true
     }
    ]
   },
   {
-   "id": 145,
-   "titulo": "COMBO RABBIASSASCALL",
+   "id": 152,
+   "titulo": "COMBO CODJUSTASSAS",
    "gancho": null,
    "clase": "combo",
    "desde": 25000,
@@ -336,16 +328,16 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Rabbids®: Party of Legends",
-     "imagen": "img/rabbids-party-of-legends.png"
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
     },
     {
-     "titulo": "Assassin's Creed Odyssey",
-     "imagen": "img/assassin-s-creed-odyssey.jpg"
+     "titulo": "Just Cause 3: XXL Edition",
+     "imagen": "img/just-cause-3-xxl-edition.jpg"
     },
     {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+     "titulo": "Assassin's Creed® Origins - GOLD EDITION",
+     "imagen": "img/assassin-s-creed-origins-gold-edition.jpg"
     }
    ],
    "opciones": [
@@ -364,8 +356,8 @@
    ]
   },
   {
-   "id": 148,
-   "titulo": "COMBO TOMASSASJUST",
+   "id": 149,
+   "titulo": "COMBO UNRAVCODJUST",
    "gancho": null,
    "clase": "combo",
    "desde": 25000,
@@ -373,12 +365,12 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Tom Clancy's Ghost Recon® Breakpoint",
-     "imagen": "img/tom-clancy-s-ghost-recon-breakpoint.jpg"
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.jpg"
     },
     {
-     "titulo": "Assassin's Creed Odyssey",
-     "imagen": "img/assassin-s-creed-odyssey.jpg"
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
     },
     {
      "titulo": "Just Cause 3: XXL Edition",
