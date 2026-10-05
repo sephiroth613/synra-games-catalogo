@@ -12,14 +12,14 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Synra Games">
 <meta property="og:url" content="https://sephiroth613.github.io/synra-games-catalogo/">
-<meta property="og:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muvcty6b">
-<meta property="og:image:secure_url" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muvcty6b">
+<meta property="og:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muve78ku">
+<meta property="og:image:secure_url" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muve78ku">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1280">
 <meta property="og:image:height" content="710">
 <meta property="og:image:alt" content="Synra Games">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muvcty6b">
+<meta name="twitter:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muve78ku">
 <link rel="apple-touch-icon" href="https://sephiroth613.github.io/synra-games-catalogo/img/logo.png">
 
 <style>
@@ -362,12 +362,11 @@
   .combo-banner{display:block;width:calc(100% - 32px);height:auto;margin:0 16px 14px;border-radius:12px}
 
 
-  /* portadas: tamaño carátula, no banner. En dos columnas, para que
-     cada carátula se vea grande y se reconozca el juego (2026-10-05) */
+  /* portadas: tamaño carátula, no banner */
   .portadas{
     display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:10px;padding:0 16px 14px;
+    grid-template-columns:repeat(auto-fill,minmax(82px,1fr));
+    gap:9px;padding:0 16px 14px;
   }
   .port{position:relative;border-radius:8px;overflow:hidden;background:var(--sup2)}
   /* mismo recorte que en los sueltos: fuera la franja de cabecera */
@@ -384,7 +383,7 @@
     position:absolute;inset:auto 0 0 0;
     padding:14px 6px 5px;
     background:linear-gradient(transparent,rgba(5,8,16,.94));
-    font-size:.72rem;line-height:1.25;color:#dbe3ee;
+    font-size:.6rem;line-height:1.25;color:#dbe3ee;
     display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
   }
 
@@ -572,7 +571,7 @@
     .con-portada{padding:0 0 14px}
     .con-portada img{margin-bottom:11px;border-radius:0 0 12px 12px}
     header h1{font-size:1.45rem}
-    .portadas{grid-template-columns:repeat(2,1fr);gap:8px}
+    .portadas{grid-template-columns:repeat(auto-fill,minmax(72px,1fr));gap:7px}
     .desde-val{font-size:1.15rem}
     .op{padding:8px 9px}
     .op-rol{font-size:.82rem}
@@ -608,7 +607,7 @@
   
     <div class="tabs" role="tablist">
       <button class="tab activo" data-grupo="combos" role="tab" aria-selected="true">
-        Combos<span class="n">10</span>
+        Combos<span class="n">11</span>
       </button>
       <button class="tab" data-grupo="individuales" role="tab" aria-selected="false">
         Juegos sueltos<span class="n">78</span>
@@ -1188,6 +1187,81 @@
                           data-combo="COMBO RABBIASSASCALL"
                           data-tipo="PS5"
                           data-precio="25000">
+                    Añadir
+                  </button>
+              </div>
+            </div>
+        </div>
+      </article>
+
+      <article class="combo" id="c148"
+               data-buscar="combo tomassasjust tom clancy&#39;s ghost recon breakpoint assassin&#39;s creed odyssey just cause 3: xxl edition"
+               data-consolas="PS4 PS5">
+          <div class="cab">
+            <div class="cab-txt">
+              <h3>COMBO TOMASSASJUST</h3>
+              
+              <span class="n-juegos">3 juegos incluidos</span>
+            </div>
+            <div class="desde">
+              <span class="desde-lbl">desde</span>
+              <span class="desde-val">$39.000</span>
+            </div>
+          </div>
+
+          
+          <div class="portadas">
+            
+              <figure class="port" title="Tom Clancy&#39;s Ghost Recon® Breakpoint">
+                <img src="img/tom-clancy-s-ghost-recon-breakpoint.jpg" alt="Tom Clancy&#39;s Ghost Recon® Breakpoint" loading="lazy">
+                <figcaption>Tom Clancy&#39;s Ghost Recon® Breakpoint</figcaption>
+              </figure>
+              <figure class="port" title="Assassin&#39;s Creed Odyssey">
+                <img src="img/assassin-s-creed-odyssey.jpg" alt="Assassin&#39;s Creed Odyssey" loading="lazy">
+                <figcaption>Assassin&#39;s Creed Odyssey</figcaption>
+              </figure>
+              <figure class="port" title="Just Cause 3: XXL Edition">
+                <img src="img/just-cause-3-xxl-edition.jpg" alt="Just Cause 3: XXL Edition" loading="lazy">
+                <figcaption>Just Cause 3: XXL Edition</figcaption>
+              </figure>
+          </div>
+
+        <div class="opciones">
+          <div class="opciones-tit">Elige tu consola</div>
+
+          
+            <!-- sin data-consola-op: en un combo se ven siempre las dos consolas -->
+            <div class="op">
+              <div class="op-txt">
+                <span class="op-con op-ps4">PS4</span>
+                
+              </div>
+              <div class="op-fin">
+                <span class="op-precio">$39.000</span>
+                
+                  <button class="op-add" type="button"
+                          data-add
+                          data-combo="COMBO TOMASSASJUST"
+                          data-tipo="PS4"
+                          data-precio="39000">
+                    Añadir
+                  </button>
+              </div>
+            </div>
+            <!-- sin data-consola-op: en un combo se ven siempre las dos consolas -->
+            <div class="op">
+              <div class="op-txt">
+                <span class="op-con op-ps5">PS5</span>
+                
+              </div>
+              <div class="op-fin">
+                <span class="op-precio">$39.000</span>
+                
+                  <button class="op-add" type="button"
+                          data-add
+                          data-combo="COMBO TOMASSASJUST"
+                          data-tipo="PS5"
+                          data-precio="39000">
                     Añadir
                   </button>
               </div>

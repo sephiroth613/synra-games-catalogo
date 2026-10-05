@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-05T14:38:04.359Z",
+ "generado": "2026-10-05T15:16:23.983Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -359,6 +359,43 @@
      "consola": "PS5",
      "rol": "",
      "precio": 25000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 148,
+   "titulo": "COMBO TOMASSASJUST",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Tom Clancy's Ghost Recon® Breakpoint",
+     "imagen": "img/tom-clancy-s-ghost-recon-breakpoint.jpg"
+    },
+    {
+     "titulo": "Assassin's Creed Odyssey",
+     "imagen": "img/assassin-s-creed-odyssey.jpg"
+    },
+    {
+     "titulo": "Just Cause 3: XXL Edition",
+     "imagen": "img/just-cause-3-xxl-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 39000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39000,
      "hay": true
     }
    ]
