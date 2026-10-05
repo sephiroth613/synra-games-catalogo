@@ -12,14 +12,14 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Synra Games">
 <meta property="og:url" content="https://sephiroth613.github.io/synra-games-catalogo/">
-<meta property="og:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muvemupk">
-<meta property="og:image:secure_url" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muvemupk">
+<meta property="og:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muvf5avg">
+<meta property="og:image:secure_url" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muvf5avg">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1280">
 <meta property="og:image:height" content="710">
 <meta property="og:image:alt" content="Synra Games">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muvemupk">
+<meta name="twitter:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muvf5avg">
 <link rel="apple-touch-icon" href="https://sephiroth613.github.io/synra-games-catalogo/img/logo.png">
 
 <style>
@@ -236,6 +236,25 @@
     background:rgba(0,112,209,.14);color:var(--azul-claro);
     font-size:.68rem;font-weight:700;
   }
+
+  /* ventas recientes: una pastilla bajo el encabezado */
+  .recientes{
+    display:flex;align-items:center;justify-content:center;gap:8px;
+    width:max-content;max-width:calc(100% - 24px);margin:0 auto 14px;
+    padding:7px 14px;border-radius:999px;
+    background:rgba(34,197,94,.1);border:1px solid rgba(34,197,94,.35);
+    color:var(--txt2);font-size:.8rem;
+  }
+  .recientes[hidden]{display:none}
+  .rec-ico{
+    display:grid;place-items:center;flex-shrink:0;width:18px;height:18px;border-radius:50%;
+    background:#22c55e;color:#04130a;font-size:.65rem;font-weight:900;
+  }
+  .rec-txt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+  .rec-txt b{color:var(--txt);font-weight:700}
+  .rec-entra{animation:rec-entra .45s ease}
+  @keyframes rec-entra{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+  @media (prefers-reduced-motion:reduce){.rec-entra{animation:none}}
 
   /* sello de oferta en la esquina de la imagen del combo */
   .combo-media{position:relative}
@@ -630,6 +649,9 @@
     <img src="img/portada.jpg" alt="Synra Games">
     <p>Juegos digitales para PS4 y PS5</p>
   </header>
+
+  <!-- ventas recientes: una a la vez, con «hace cuánto» calculado al abrir -->
+  <div class="recientes" id="recientes" hidden aria-live="polite"></div>
 
   
     <div class="tabs" role="tablist">
@@ -3759,6 +3781,42 @@
 
   var WA = "573205540422";
   var carro = [];
+
+  /* ---------- ventas recientes ---------- */
+  var RECIENTES = [{"quien":"Y.","que":"COMBO TOMCRASHI","cuando":"2026-10-04T23:14:30.000Z"},{"quien":"A.","que":"COMBO CODJUST","cuando":"2026-10-04T19:27:14.000Z"},{"quien":"E.","que":"COMBO CODFIRSTBUY","cuando":"2026-10-03T23:04:05.000Z"},{"quien":"J.","que":"COMBO CODJUST","cuando":"2026-10-03T22:57:09.000Z"},{"quien":"J.","que":"COMBO CODJUST","cuando":"2026-10-03T19:39:52.000Z"},{"quien":"Un cliente","que":"COMBO CODFIRSTBUY","cuando":"2026-10-02T22:43:22.000Z"},{"quien":"H.","que":"COMBO FARMORJUST","cuando":"2026-10-02T22:35:11.000Z"},{"quien":"Un cliente","que":"COMBO CODJUST","cuando":"2026-10-02T22:12:50.000Z"},{"quien":"Q.","que":"COMBO CODJUST","cuando":"2026-10-02T18:01:53.000Z"},{"quien":"E.","que":"COMBO DIVCALLMAN","cuando":"2026-10-02T17:35:16.000Z"},{"quien":"J.","que":"COMBO CODFIRSTBUY","cuando":"2026-10-01T21:23:42.000Z"},{"quien":"J.","que":"COMBO CODJUST","cuando":"2026-10-01T18:00:27.000Z"}];
+  (function(){
+    var caja = document.getElementById('recientes');
+    if (!caja || !RECIENTES.length) return;
+    function hace(iso){
+      var min = Math.max(1, Math.round((Date.now() - new Date(iso).getTime()) / 60000));
+      if (min < 60) return 'hace ' + min + ' min';
+      var h = Math.round(min / 60);
+      if (h < 24) return 'hace ' + h + ' h';
+      var d = Math.round(h / 24);
+      return d === 1 ? 'ayer' : 'hace ' + d + ' días';
+    }
+    function texto(v){
+      var t = document.createElement('span');
+      t.className = 'rec-txt';
+      var b = document.createElement('b'); b.textContent = v.quien;
+      var c = document.createElement('b'); c.textContent = v.que;
+      t.appendChild(b); t.appendChild(document.createTextNode(' compró '));
+      t.appendChild(c); t.appendChild(document.createTextNode(' · ' + hace(v.cuando)));
+      return t;
+    }
+    var i = 0;
+    function siguiente(){
+      var v = RECIENTES[i % RECIENTES.length]; i++;
+      caja.classList.remove('rec-entra');
+      void caja.offsetWidth;
+      caja.innerHTML = '<span class="rec-ico">✔</span>';
+      caja.appendChild(texto(v));
+      caja.classList.add('rec-entra');
+    }
+    caja.hidden = false;
+    siguiente();
+    if (RECIENTES.length > 1) setInterval(siguiente, 5000);
+  })();
 
   var elCarro  = document.getElementById('carro');
   var elN      = document.getElementById('carro-n');
