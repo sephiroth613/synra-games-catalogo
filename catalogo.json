@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-05T15:16:23.983Z",
+ "generado": "2026-10-05T15:28:32.510Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -368,7 +368,7 @@
    "titulo": "COMBO TOMASSASJUST",
    "gancho": null,
    "clase": "combo",
-   "desde": 39000,
+   "desde": 25000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -389,13 +389,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 39000,
+     "precio": 25000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 39000,
+     "precio": 25000,
      "hay": true
     }
    ]
