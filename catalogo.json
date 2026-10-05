@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-05T22:16:44.516Z",
+ "generado": "2026-10-05T22:44:37.964Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -458,6 +458,47 @@
      "consola": "PS5",
      "rol": "",
      "precio": 25000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 156,
+   "titulo": "COMBO CRASHPARTYJUST",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 30000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Crash Bandicoot Nsane Trilogy",
+     "imagen": "img/crash-bandicoot-nsane-trilogy.jpg"
+    },
+    {
+     "titulo": "Crash CTR",
+     "imagen": "img/crash-ctr.jpg"
+    },
+    {
+     "titulo": "Rabbids® Party of Legends",
+     "imagen": "img/rabbids-party-of-legends.png"
+    },
+    {
+     "titulo": "Just Cause 3 Xxl Edition",
+     "imagen": "img/just-cause-3-xxl-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 30000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 30000,
      "hay": true
     }
    ]
