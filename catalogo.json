@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-05T23:09:10.656Z",
+ "generado": "2026-10-05T23:47:27.097Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -397,6 +397,39 @@
      "consola": "PS5",
      "rol": "",
      "precio": 25000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 137,
+   "titulo": "Middle-earth™: The Shadow Bundle",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 28000,
+   "hay": true,
+   "portada": "img/combo-137.jpg",
+   "juegos": [
+    {
+     "titulo": "Middle-earth™ Shadow of War™",
+     "imagen": "img/middle-earth-shadow-of-war.jpg"
+    },
+    {
+     "titulo": "Middle-earth™ Shadow of Mordor™ - Game of the Year Edition",
+     "imagen": "img/middle-earth-shadow-of-mordor-game-of-the-year-edition.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 28000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 28000,
      "hay": true
     }
    ]
@@ -1129,39 +1162,6 @@
      "consola": "PS4",
      "rol": "Secundaria",
      "precio": 22000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 137,
-   "titulo": "Middle-earth™: The Shadow Bundle",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 28999,
-   "hay": true,
-   "portada": "img/combo-137.jpg",
-   "juegos": [
-    {
-     "titulo": "Middle-earth™ Shadow of War™",
-     "imagen": "img/middle-earth-shadow-of-war.jpg"
-    },
-    {
-     "titulo": "Middle-earth™ Shadow of Mordor™ - Game of the Year Edition",
-     "imagen": "img/middle-earth-shadow-of-mordor-game-of-the-year-edition.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 28999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 28999,
      "hay": true
     }
    ]
