@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-05T21:50:30.514Z",
+ "generado": "2026-10-05T22:10:40.148Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -81,71 +81,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 40000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 53,
-   "titulo": "COMBO CRASHRAIDER",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 35000,
-   "hay": true,
-   "portada": "img/combo-53.jpg",
-   "juegos": [
-    {
-     "titulo": "STAR WARS™ Battlefront™ Ultimate Edition",
-     "imagen": "img/star-wars-battlefront-ultimate-edition.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat 11 Ultimate",
-     "imagen": "img/mortal-kombat-11-ultimate.png"
-    },
-    {
-     "titulo": "Unravel",
-     "imagen": "img/unravel.jpg"
-    },
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
-    },
-    {
-     "titulo": "Crash Bandicoot Nsane Trilogy",
-     "imagen": "img/crash-bandicoot-nsane-trilogy.jpg"
-    },
-    {
-     "titulo": "Crash 4",
-     "imagen": "img/crash-4.jpg"
-    },
-    {
-     "titulo": "Crash CTR",
-     "imagen": "img/crash-ctr.jpg"
-    },
-    {
-     "titulo": "Tomb Raider",
-     "imagen": "img/tomb-raider.png"
-    },
-    {
-     "titulo": "Shadows of the Tomb Raider",
-     "imagen": "img/shadows-of-the-tomb-raider.jpg"
-    },
-    {
-     "titulo": "Rise of the Tomb Raider 2",
-     "imagen": "img/rise-of-the-tomb-raider-2.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 35000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 35000,
      "hay": true
     }
    ]
