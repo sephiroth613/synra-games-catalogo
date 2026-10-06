@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-06T22:25:08.953Z",
+ "generado": "2026-10-06T22:27:43.892Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -68,43 +68,6 @@
     {
      "titulo": "Just Cause 3",
      "imagen": "img/just-cause-3.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 139,
-   "titulo": "COMBO DIVCALLMAN",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 39999,
-   "hay": true,
-   "portada": "img/combo-139.jpg",
-   "juegos": [
-    {
-     "titulo": "The Division",
-     "imagen": "img/the-division.png"
-    },
-    {
-     "titulo": "Call of Duty® Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Batman™ Arkham Knight",
-     "imagen": "img/batman-arkham-knight.jpg"
     }
    ],
    "opciones": [
@@ -386,42 +349,38 @@
    ]
   },
   {
-   "id": 156,
-   "titulo": "COMBO CRASHPARTYJUST",
+   "id": 139,
+   "titulo": "COMBO DIVCALLMAN",
    "gancho": null,
    "clase": "combo",
-   "desde": 29999,
+   "desde": 39999,
    "hay": true,
-   "portada": null,
+   "portada": "img/combo-139.jpg",
    "juegos": [
     {
-     "titulo": "Crash Bandicoot Nsane Trilogy",
-     "imagen": "img/crash-bandicoot-nsane-trilogy.jpg"
+     "titulo": "The Division",
+     "imagen": "img/the-division.png"
     },
     {
-     "titulo": "Crash CTR",
-     "imagen": "img/crash-ctr.jpg"
+     "titulo": "Call of Duty® Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
     },
     {
-     "titulo": "Rabbids® Party of Legends",
-     "imagen": "img/rabbids-party-of-legends.png"
-    },
-    {
-     "titulo": "Just Cause 3 Xxl Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
+     "titulo": "Batman™ Arkham Knight",
+     "imagen": "img/batman-arkham-knight.jpg"
     }
    ],
    "opciones": [
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 29999,
+     "precio": 39999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 29999,
+     "precio": 39999,
      "hay": true
     }
    ]
