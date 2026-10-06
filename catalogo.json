@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-05T23:47:27.097Z",
+ "generado": "2026-10-06T01:47:27.896Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -221,11 +221,56 @@
    ]
   },
   {
-   "id": 151,
-   "titulo": "COMBO CODJUST2",
+   "id": 157,
+   "titulo": "COMBO ASSASCODMORTA",
    "gancho": null,
    "clase": "combo",
-   "desde": 24999,
+   "desde": 35000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Assassin's Creed® Origins - GOLD EDITION",
+     "imagen": "img/assassin-s-creed-origins-gold-edition.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
+    },
+    {
+     "titulo": "Just Cause 3: XXL Edition",
+     "imagen": "img/just-cause-3-xxl-edition.jpg"
+    },
+    {
+     "titulo": "Rabbids®: Party of Legends",
+     "imagen": "img/rabbids-party-of-legends.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 35000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 35000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 158,
+   "titulo": "COMBO CODMORTA",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 25000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -234,95 +279,54 @@
      "imagen": "img/call-of-duty-vanguard-cross-gen-bundle.jpg"
     },
     {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
     }
    ],
    "opciones": [
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 24999,
+     "precio": 25000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 24999,
+     "precio": 25000,
      "hay": true
     }
    ]
   },
   {
-   "id": 152,
-   "titulo": "COMBO CODJUSTASSAS",
+   "id": 159,
+   "titulo": "COMBO CRASHCOD",
    "gancho": null,
    "clase": "combo",
-   "desde": 24999,
+   "desde": 25000,
    "hay": true,
    "portada": null,
    "juegos": [
     {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
-    },
-    {
-     "titulo": "Assassin's Creed® Origins - GOLD EDITION",
-     "imagen": "img/assassin-s-creed-origins-gold-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 24999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 24999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 149,
-   "titulo": "COMBO UNRAVCODJUST",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 24999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
+     "titulo": "Crash™ Team Racing Nitro-Fueled + Spyro™ Game Bundle",
+     "imagen": "img/crash-team-racing-nitro-fueled-spyro-game-bundle.jpg"
     },
     {
      "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
      "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
     }
    ],
    "opciones": [
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 24999,
+     "precio": 25000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 24999,
+     "precio": 25000,
      "hay": true
     }
    ]
