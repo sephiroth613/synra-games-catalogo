@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-06T17:41:50.318Z",
+ "generado": "2026-10-06T18:04:24.271Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -414,8 +414,8 @@
    ]
   },
   {
-   "id": 168,
-   "titulo": "COMBO FARCRCODVANGU",
+   "id": 175,
+   "titulo": "COMBO DIVISCODMODER2",
    "gancho": null,
    "clase": "combo",
    "desde": 39999,
@@ -423,16 +423,16 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "FARCRY 6 Game of the Year Edition",
-     "imagen": "img/farcry-6-game-of-the-year-edition.jpg"
+     "titulo": "TOM CLANCY'S THE DIVISION",
+     "imagen": "img/tom-clancy-s-the-division.jpg"
     },
     {
      "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
      "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
     },
     {
-     "titulo": "Call of Duty®: Vanguard - Cross-Gen Bundle",
-     "imagen": "img/call-of-duty-vanguard-cross-gen-bundle.jpg"
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
     },
     {
      "titulo": "Battlefield™ Hardline",
