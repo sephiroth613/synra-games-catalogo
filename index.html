@@ -12,14 +12,14 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Synra Games">
 <meta property="og:url" content="https://sephiroth613.github.io/synra-games-catalogo/">
-<meta property="og:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muwxl2v6">
-<meta property="og:image:secure_url" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muwxl2v6">
+<meta property="og:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muwxsqjr">
+<meta property="og:image:secure_url" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muwxsqjr">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1280">
 <meta property="og:image:height" content="710">
 <meta property="og:image:alt" content="Synra Games">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muwxl2v6">
+<meta name="twitter:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muwxsqjr">
 <link rel="apple-touch-icon" href="https://sephiroth613.github.io/synra-games-catalogo/img/logo.png">
 
 <style>
@@ -222,6 +222,80 @@
     overflow:hidden;
   }
   .combo.agotado{opacity:.6}
+
+  /* botón «Pedir por WhatsApp» de cada combo */
+  .combo-wa{
+    display:flex;align-items:center;justify-content:center;gap:9px;
+    margin:14px 16px 16px;padding:13px;
+    border-radius:12px;background:#25d366;color:#04130a;
+    font-size:.95rem;font-weight:800;text-decoration:none;
+    box-shadow:0 6px 18px -8px rgba(37,211,102,.7);
+  }
+  .combo-wa:active{transform:translateY(1px)}
+  .combo-wa svg{flex:none}
+
+  /* =========================================================
+     MODO «TIKTOK» — solo en celular (pantalla ≤ 619px)
+     Los combos pasan a pantalla completa, uno por uno, y se
+     deslizan de arriba abajo con «snap». En computador no cambia
+     nada: sigue la cuadrícula de siempre (ver @media min-width:620).
+     ========================================================= */
+  @media (max-width:619px){
+    /* el contenedor de combos se vuelve el carril deslizable tipo TikTok.
+       No ocupa TODA la pantalla a propósito: deja ver arriba las pestañas y
+       el buscador, para poder cambiar a «Juegos sueltos» o buscar. */
+    #g-combos.activo .combos{
+      gap:0;
+      height:82dvh;
+      overflow-y:auto;
+      scroll-snap-type:y mandatory;
+      -webkit-overflow-scrolling:touch;
+      scrollbar-width:none;
+      scroll-behavior:smooth;
+      border-radius:16px;
+      background:#060a12;
+    }
+    #g-combos.activo .combos::-webkit-scrollbar{display:none}
+
+    /* cada combo ocupa el alto del carril y se «pega» al parar de deslizar.
+       flex:none para que no se encojan al apilarse dentro del carril flex. */
+    #g-combos.activo .combo{
+      scroll-snap-align:start;
+      scroll-snap-stop:always;
+      flex:0 0 82dvh;
+      height:82dvh;
+      display:flex;flex-direction:column;
+      margin:0;border:0;border-radius:16px;
+      position:relative;
+    }
+    /* la cabecera (título + precio) compacta, sin ocupar media pantalla */
+    #g-combos.activo .combo .cab{padding:14px 16px 10px;flex:none}
+    #g-combos.activo .combo .cab h3{font-size:1.25rem}
+    /* la imagen llena el espacio sobrante entre cabecera y opciones */
+    #g-combos.activo .combo-media{flex:1 1 auto;min-height:0;display:flex;align-items:center;justify-content:center;background:#060a12}
+    #g-combos.activo .combo-banner{width:100%;height:100%;object-fit:cover}
+    #g-combos.activo .combo .portadas{max-height:100%;overflow:auto;padding:0 12px}
+    /* opciones y botón, fijos abajo, siempre visibles sin deslizar más */
+    #g-combos.activo .combo .opciones{flex:none;background:var(--sup);padding:10px 16px 2px}
+    #g-combos.activo .combo-wa{flex:none;margin:10px 14px calc(14px + env(safe-area-inset-bottom))}
+
+    /* pista de «desliza»: una flechita que late dentro del carril, abajo */
+    #g-combos.activo{position:relative}
+    .tiktok-pista{
+      position:absolute;left:50%;bottom:14px;transform:translateX(-50%);
+      z-index:40;display:flex;flex-direction:column;align-items:center;gap:2px;
+      color:#fff;font-size:.72rem;font-weight:700;pointer-events:none;
+      text-shadow:0 1px 6px rgba(0,0,0,.8);
+      animation:tiktok-sube 1.4s ease-in-out infinite;
+    }
+    .tiktok-pista svg{width:26px;height:26px}
+    .tiktok-pista.oculta{display:none}
+    @keyframes tiktok-sube{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,-7px)}}
+  }
+  @media (max-width:619px) and (prefers-reduced-motion:reduce){
+    #g-combos.activo .combos{scroll-behavior:auto}
+    .tiktok-pista{animation:none}
+  }
 
   .cab{
     display:flex;align-items:flex-start;justify-content:space-between;gap:12px;
@@ -773,6 +847,15 @@
               </div>
             </div>
         </div>
+
+        <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
+             deslizable del celular; en la cuadrícula queda igual de bien) -->
+        
+        <a class="combo-wa" data-wa-combo="COMBO CODFIRSTBUY" data-wa-desde="38000"
+           href="#" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
+          Pedir por WhatsApp
+        </a>
       </article>
 
       <article class="combo" id="c141"
@@ -846,6 +929,15 @@
               </div>
             </div>
         </div>
+
+        <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
+             deslizable del celular; en la cuadrícula queda igual de bien) -->
+        
+        <a class="combo-wa" data-wa-combo="COMBO CODJUST" data-wa-desde="39999"
+           href="#" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
+          Pedir por WhatsApp
+        </a>
       </article>
 
       <article class="combo" id="c139"
@@ -919,6 +1011,15 @@
               </div>
             </div>
         </div>
+
+        <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
+             deslizable del celular; en la cuadrícula queda igual de bien) -->
+        
+        <a class="combo-wa" data-wa-combo="COMBO DIVCALLMAN" data-wa-desde="39999"
+           href="#" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
+          Pedir por WhatsApp
+        </a>
       </article>
 
       <article class="combo" id="c142"
@@ -992,6 +1093,15 @@
               </div>
             </div>
         </div>
+
+        <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
+             deslizable del celular; en la cuadrícula queda igual de bien) -->
+        
+        <a class="combo-wa" data-wa-combo="COMBO FARMORJUST" data-wa-desde="59999"
+           href="#" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
+          Pedir por WhatsApp
+        </a>
       </article>
 
       <article class="combo" id="c138"
@@ -1065,6 +1175,15 @@
               </div>
             </div>
         </div>
+
+        <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
+             deslizable del celular; en la cuadrícula queda igual de bien) -->
+        
+        <a class="combo-wa" data-wa-combo="COMBO TOMCRASHI" data-wa-desde="59999"
+           href="#" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
+          Pedir por WhatsApp
+        </a>
       </article>
 
       <article class="combo" id="c158"
@@ -1145,6 +1264,15 @@
               </div>
             </div>
         </div>
+
+        <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
+             deslizable del celular; en la cuadrícula queda igual de bien) -->
+        
+        <a class="combo-wa" data-wa-combo="COMBO CODMORTA" data-wa-desde="25000"
+           href="#" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
+          Pedir por WhatsApp
+        </a>
       </article>
 
       <article class="combo" id="c167"
@@ -1233,6 +1361,15 @@
               </div>
             </div>
         </div>
+
+        <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
+             deslizable del celular; en la cuadrícula queda igual de bien) -->
+        
+        <a class="combo-wa" data-wa-combo="COMBO CODVANGUMODER2" data-wa-desde="39999"
+           href="#" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
+          Pedir por WhatsApp
+        </a>
       </article>
 
       <article class="combo" id="c169"
@@ -1325,6 +1462,15 @@
               </div>
             </div>
         </div>
+
+        <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
+             deslizable del celular; en la cuadrícula queda igual de bien) -->
+        
+        <a class="combo-wa" data-wa-combo="COMBO CODWWIIVANGU" data-wa-desde="59999"
+           href="#" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
+          Pedir por WhatsApp
+        </a>
       </article>
 
       <article class="combo" id="c161"
@@ -1405,6 +1551,15 @@
               </div>
             </div>
         </div>
+
+        <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
+             deslizable del celular; en la cuadrícula queda igual de bien) -->
+        
+        <a class="combo-wa" data-wa-combo="COMBO CRASHCOD2" data-wa-desde="25000"
+           href="#" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
+          Pedir por WhatsApp
+        </a>
       </article>
 
       <article class="combo" id="c168"
@@ -1493,6 +1648,15 @@
               </div>
             </div>
         </div>
+
+        <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
+             deslizable del celular; en la cuadrícula queda igual de bien) -->
+        
+        <a class="combo-wa" data-wa-combo="COMBO FARCRCODVANGU" data-wa-desde="39999"
+           href="#" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
+          Pedir por WhatsApp
+        </a>
       </article>
 
       <article class="combo" id="c165"
@@ -1577,6 +1741,15 @@
               </div>
             </div>
         </div>
+
+        <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
+             deslizable del celular; en la cuadrícula queda igual de bien) -->
+        
+        <a class="combo-wa" data-wa-combo="COMBO UNRAVCODMORTA" data-wa-desde="25000"
+           href="#" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
+          Pedir por WhatsApp
+        </a>
       </article>
 
       <article class="combo" id="c156"
@@ -1665,6 +1838,15 @@
               </div>
             </div>
         </div>
+
+        <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
+             deslizable del celular; en la cuadrícula queda igual de bien) -->
+        
+        <a class="combo-wa" data-wa-combo="COMBO CRASHPARTYJUST" data-wa-desde="29999"
+           href="#" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
+          Pedir por WhatsApp
+        </a>
       </article>
 
       <article class="combo" id="c9"
@@ -1738,6 +1920,15 @@
               </div>
             </div>
         </div>
+
+        <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
+             deslizable del celular; en la cuadrícula queda igual de bien) -->
+        
+        <a class="combo-wa" data-wa-combo="COMBO MKMOTO" data-wa-desde="25000"
+           href="#" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
+          Pedir por WhatsApp
+        </a>
       </article>
 
       <article class="combo" id="c137"
@@ -1811,7 +2002,21 @@
               </div>
             </div>
         </div>
+
+        <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
+             deslizable del celular; en la cuadrícula queda igual de bien) -->
+        
+        <a class="combo-wa" data-wa-combo="Middle-earth™: The Shadow Bundle" data-wa-desde="28000"
+           href="#" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
+          Pedir por WhatsApp
+        </a>
       </article>
+      </div>
+      <!-- pista «desliza»: solo en celular, se oculta al primer scroll -->
+      <div class="tiktok-pista" id="tiktok-pista" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+        <span>Desliza</span>
       </div>
     </section>
 
@@ -4059,6 +4264,18 @@
   var WA = "573205540422";
   var carro = [];
 
+  /* ---------- modo deslizable (TikTok) en celular ---------- */
+  (function(){
+    var carril = document.querySelector('#g-combos .combos');
+    var pista = document.getElementById('tiktok-pista');
+    if (!carril || !pista) return;
+    // la pista «desliza» se va al primer movimiento, y no vuelve
+    var ocultar = function(){ pista.classList.add('oculta'); };
+    carril.addEventListener('scroll', ocultar, { once: true, passive: true });
+    // con un solo combo no hay a dónde deslizar: sin pista
+    if (carril.scrollHeight <= carril.clientHeight + 8) ocultar();
+  })();
+
   /* ---------- ventas recientes ---------- */
   var RECIENTES = [{"quien":"F.","que":"COMBO CODFIRSTBUY","cuando":"2026-10-06T03:03:01.000Z"},{"quien":"Un cliente","que":"COMBO CODJUST","cuando":"2026-10-05T23:08:10.000Z"},{"quien":"Un cliente","que":"COMBO CODFIRSTBUY","cuando":"2026-10-05T21:48:50.000Z"},{"quien":"M.","que":"COMBO CODJUST","cuando":"2026-10-05T18:40:21.000Z"},{"quien":"J.","que":"COMBO CODJUST","cuando":"2026-10-05T17:26:30.000Z"},{"quien":"M.","que":"COMBO CODJUST","cuando":"2026-10-05T16:48:13.000Z"},{"quien":"D.","que":"COMBO CODFIRSTBUY","cuando":"2026-10-05T16:32:29.000Z"},{"quien":"Y.","que":"COMBO TOMCRASHI","cuando":"2026-10-04T23:14:30.000Z"},{"quien":"A.","que":"COMBO CODJUST","cuando":"2026-10-04T19:27:14.000Z"},{"quien":"E.","que":"COMBO CODFIRSTBUY","cuando":"2026-10-03T23:04:05.000Z"},{"quien":"J.","que":"COMBO CODJUST","cuando":"2026-10-03T22:57:09.000Z"},{"quien":"J.","que":"COMBO CODJUST","cuando":"2026-10-03T19:39:52.000Z"}];
   (function(){
@@ -4179,6 +4396,18 @@
   // desplegar el detalle
   document.getElementById('carro-cab').addEventListener('click', function(){
     elCarro.classList.toggle('desplegado');
+  });
+
+  // pedir un combo directo por WhatsApp (botón de cada tarjeta)
+  document.addEventListener('click', function(ev){
+    var a = ev.target.closest('[data-wa-combo]');
+    if (!a) return;
+    ev.preventDefault();
+    var desde = Number(a.dataset.waDesde) || 0;
+    var lineas = ['Hola! Me interesa este combo:', '', '• ' + a.dataset.waCombo
+      + (desde ? ' — desde ' + pesos(desde) : '')];
+    window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(lineas.join('\n')),
+                '_blank', 'noopener');
   });
 
   // enviar el pedido
