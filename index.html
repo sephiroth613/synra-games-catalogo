@@ -12,14 +12,14 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Synra Games">
 <meta property="og:url" content="https://sephiroth613.github.io/synra-games-catalogo/">
-<meta property="og:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muwy7lr4">
-<meta property="og:image:secure_url" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muwy7lr4">
+<meta property="og:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muwy8jgj">
+<meta property="og:image:secure_url" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muwy8jgj">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1280">
 <meta property="og:image:height" content="710">
 <meta property="og:image:alt" content="Synra Games">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muwy7lr4">
+<meta name="twitter:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=muwy8jgj">
 <link rel="apple-touch-icon" href="https://sephiroth613.github.io/synra-games-catalogo/img/logo.png">
 
 <style>
@@ -241,54 +241,82 @@
      nada: sigue la cuadrícula de siempre (ver @media min-width:620).
      ========================================================= */
   @media (max-width:619px){
-    /* el contenedor de combos se vuelve el carril deslizable tipo TikTok.
-       No ocupa TODA la pantalla a propósito: deja ver arriba las pestañas y
-       el buscador, para poder cambiar a «Juegos sueltos» o buscar. */
+    /*
+     * MODO TIKTOK a pantalla completa. Mientras la pestaña «Combos» está
+     * activa, el carril tapa toda la pantalla y los combos se deslizan de
+     * arriba abajo, uno por uno. El banner, «recientes» y el buscador NO
+     * estorban: se esconden y arriba queda solo una barra fina con las dos
+     * pestañas, para poder saltar a «Juegos sueltos».
+     */
+    body.en-combos,
+    body:has(#g-combos.activo){overflow:hidden}
+
+    /* banner, lema, recientes y buscador: fuera mientras se ven los combos */
+    body.en-combos header, body.en-combos .env > p, body.en-combos #recientes,
+    body.en-combos .barra, body.en-combos .como, body.en-combos footer,
+    body:has(#g-combos.activo) header,
+    body:has(#g-combos.activo) .env > p,
+    body:has(#g-combos.activo) #recientes,
+    body:has(#g-combos.activo) .barra,
+    body:has(#g-combos.activo) .como,
+    body:has(#g-combos.activo) footer{display:none}
+
+    /* la barra de pestañas, fina y pegada arriba, por encima de los combos */
+    body.en-combos .tabs,
+    body:has(#g-combos.activo) .tabs{
+      position:fixed;top:0;left:0;right:0;z-index:50;margin:0;
+      padding:calc(8px + env(safe-area-inset-top)) 10px 8px;
+      background:rgba(6,10,18,.82);backdrop-filter:blur(10px);
+      -webkit-backdrop-filter:blur(10px);
+    }
+
+    /* el carril: pantalla completa, debajo de la barra de pestañas */
     #g-combos.activo .combos{
-      gap:0;
-      height:82dvh;
+      position:fixed;left:0;right:0;bottom:0;top:0;z-index:30;
+      gap:0;height:auto;
       overflow-y:auto;
       scroll-snap-type:y mandatory;
       -webkit-overflow-scrolling:touch;
       scrollbar-width:none;
       scroll-behavior:smooth;
-      border-radius:16px;
       background:#060a12;
     }
     #g-combos.activo .combos::-webkit-scrollbar{display:none}
 
-    /* cada combo ocupa el alto del carril y se «pega» al parar de deslizar.
-       flex:none para que no se encojan al apilarse dentro del carril flex. */
+    /* cada combo ocupa la pantalla y se «pega» al parar de deslizar.
+       flex:none para que no se encojan al apilarse en el carril flex. */
     #g-combos.activo .combo{
       scroll-snap-align:start;
       scroll-snap-stop:always;
-      flex:0 0 82dvh;
-      height:82dvh;
+      flex:0 0 100dvh;
+      height:100dvh;
       display:flex;flex-direction:column;
-      margin:0;border:0;border-radius:16px;
+      margin:0;border:0;border-radius:0;
       position:relative;
+      /* deja hueco arriba para la barra de pestañas */
+      padding-top:calc(46px + env(safe-area-inset-top));
     }
-    /* la cabecera (título + precio) compacta, sin ocupar media pantalla */
-    #g-combos.activo .combo .cab{padding:14px 16px 10px;flex:none}
-    #g-combos.activo .combo .cab h3{font-size:1.25rem}
+    /* cabecera compacta: título + precio, sin ocupar media pantalla */
+    #g-combos.activo .combo .cab{padding:10px 16px 8px;flex:none}
+    #g-combos.activo .combo .cab h3{font-size:1.2rem}
     /* la imagen llena el espacio sobrante entre cabecera y opciones */
     #g-combos.activo .combo-media{flex:1 1 auto;min-height:0;display:flex;align-items:center;justify-content:center;background:#060a12}
     #g-combos.activo .combo-banner{width:100%;height:100%;object-fit:cover}
     #g-combos.activo .combo .portadas{max-height:100%;overflow:auto;padding:0 12px}
-    /* opciones y botón, fijos abajo, siempre visibles sin deslizar más */
-    #g-combos.activo .combo .opciones{flex:none;background:var(--sup);padding:10px 16px 2px}
-    #g-combos.activo .combo-wa{flex:none;margin:10px 14px calc(14px + env(safe-area-inset-bottom))}
+    /* opciones y botón, fijos abajo, siempre a la vista */
+    #g-combos.activo .combo .opciones{flex:none;background:var(--sup);padding:9px 16px 2px}
+    #g-combos.activo .combo-wa{flex:none;margin:9px 14px calc(12px + env(safe-area-inset-bottom))}
 
-    /* pista de «desliza»: una flechita que late dentro del carril, abajo */
-    #g-combos.activo{position:relative}
+    /* pista de «desliza»: flechita que late, abajo, se va al primer scroll */
     .tiktok-pista{
-      position:absolute;left:50%;bottom:14px;transform:translateX(-50%);
-      z-index:40;display:flex;flex-direction:column;align-items:center;gap:2px;
-      color:#fff;font-size:.72rem;font-weight:700;pointer-events:none;
-      text-shadow:0 1px 6px rgba(0,0,0,.8);
+      position:fixed;left:50%;bottom:calc(10px + env(safe-area-inset-bottom));
+      transform:translateX(-50%);z-index:45;
+      display:flex;flex-direction:column;align-items:center;gap:1px;
+      color:#fff;font-size:.7rem;font-weight:700;pointer-events:none;
+      text-shadow:0 1px 6px rgba(0,0,0,.9);
       animation:tiktok-sube 1.4s ease-in-out infinite;
     }
-    .tiktok-pista svg{width:26px;height:26px}
+    .tiktok-pista svg{width:24px;height:24px}
     .tiktok-pista.oculta{display:none}
     @keyframes tiktok-sube{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,-7px)}}
   }
@@ -719,7 +747,7 @@
   }
 </style>
 </head>
-<body>
+<body class="en-combos">
 <div class="env">
 
   <header class="con-portada">
@@ -4515,6 +4543,8 @@
       document.querySelectorAll('.grupo').forEach(function(g){
         g.classList.toggle('activo', g.id === 'g-' + b.dataset.grupo);
       });
+      // marca el modo TikTok en el body (respaldo por si :has() no corre)
+      document.body.classList.toggle('en-combos', b.dataset.grupo === 'combos');
       // la búsqueda sigue puesta: hay que aplicarla a la pestaña nueva
       filtrar();
       window.scrollTo({ top: 0, behavior: 'smooth' });
