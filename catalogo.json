@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-06T22:05:35.500Z",
+ "generado": "2026-10-06T22:25:08.953Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -150,59 +150,6 @@
     {
      "titulo": "Rabbids® Party of Legends",
      "imagen": "img/rabbids-party-of-legends.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 59999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 59999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 138,
-   "titulo": "COMBO TOMCRASHI",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 59999,
-   "hay": true,
-   "portada": "img/combo-138.jpg",
-   "juegos": [
-    {
-     "titulo": "Tomb Raider Definitive Edition",
-     "imagen": "img/tomb-raider-definitive-edition.jpg"
-    },
-    {
-     "titulo": "Rise of the Tomb Raider 2",
-     "imagen": "img/rise-of-the-tomb-raider-2.png"
-    },
-    {
-     "titulo": "Shadows of the Tomb Raider",
-     "imagen": "img/shadows-of-the-tomb-raider.jpg"
-    },
-    {
-     "titulo": "Crash Team Racing Nitro Fueled",
-     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
-    },
-    {
-     "titulo": "Spyro™ Reignited Trilogy",
-     "imagen": "img/spyro-reignited-trilogy.jpg"
-    },
-    {
-     "titulo": "Assassin's Creed® Syndicate Gold Edition",
-     "imagen": "img/assassin-s-creed-syndicate-gold-edition.jpg"
-    },
-    {
-     "titulo": "Call of Duty Modern Warfare 2 Remake",
-     "imagen": "img/call-of-duty-modern-warfare-2-remake.png"
     }
    ],
    "opciones": [
@@ -508,6 +455,59 @@
      "consola": "PS5",
      "rol": "",
      "precio": 25000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 138,
+   "titulo": "COMBO TOMCRASHI",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 59999,
+   "hay": true,
+   "portada": "img/combo-138.jpg",
+   "juegos": [
+    {
+     "titulo": "Tomb Raider Definitive Edition",
+     "imagen": "img/tomb-raider-definitive-edition.jpg"
+    },
+    {
+     "titulo": "Rise of the Tomb Raider 2",
+     "imagen": "img/rise-of-the-tomb-raider-2.png"
+    },
+    {
+     "titulo": "Shadows of the Tomb Raider",
+     "imagen": "img/shadows-of-the-tomb-raider.jpg"
+    },
+    {
+     "titulo": "Crash Team Racing Nitro Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
+    },
+    {
+     "titulo": "Spyro™ Reignited Trilogy",
+     "imagen": "img/spyro-reignited-trilogy.jpg"
+    },
+    {
+     "titulo": "Assassin's Creed® Syndicate Gold Edition",
+     "imagen": "img/assassin-s-creed-syndicate-gold-edition.jpg"
+    },
+    {
+     "titulo": "Call of Duty Modern Warfare 2 Remake",
+     "imagen": "img/call-of-duty-modern-warfare-2-remake.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 59999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 59999,
      "hay": true
     }
    ]
