@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-06T21:07:50.938Z",
+ "generado": "2026-10-06T21:23:53.165Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -216,47 +216,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 59999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 172,
-   "titulo": "COMBO ASSASCODMORTA2",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 35000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Assassin's Creed® Origins - GOLD EDITION",
-     "imagen": "img/assassin-s-creed-origins-gold-edition.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat XL",
-     "imagen": "img/mortal-kombat-xl.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 35000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 35000,
      "hay": true
     }
    ]
