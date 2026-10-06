@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-06T17:39:23.728Z",
+ "generado": "2026-10-06T17:41:50.318Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -221,8 +221,49 @@
    ]
   },
   {
-   "id": 158,
-   "titulo": "COMBO CODMORTA",
+   "id": 172,
+   "titulo": "COMBO ASSASCODMORTA2",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 35000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Assassin's Creed® Origins - GOLD EDITION",
+     "imagen": "img/assassin-s-creed-origins-gold-edition.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat XL",
+     "imagen": "img/mortal-kombat-xl.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 35000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 35000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 173,
+   "titulo": "COMBO BATTLCOD",
    "gancho": null,
    "clase": "combo",
    "desde": 25000,
@@ -230,12 +271,12 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Call of Duty®: Vanguard - Cross-Gen Bundle",
-     "imagen": "img/call-of-duty-vanguard-cross-gen-bundle.jpg"
+     "titulo": "STAR WARS™ Battlefront™ II",
+     "imagen": "img/star-wars-battlefront-ii.jpg"
     },
     {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.jpg"
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
     }
    ],
    "opciones": [
@@ -254,8 +295,8 @@
    ]
   },
   {
-   "id": 170,
-   "titulo": "COMBO CODMORTARABBI",
+   "id": 158,
+   "titulo": "COMBO CODMORTA",
    "gancho": null,
    "clase": "combo",
    "desde": 25000,
@@ -263,16 +304,12 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+     "titulo": "Call of Duty®: Vanguard - Cross-Gen Bundle",
+     "imagen": "img/call-of-duty-vanguard-cross-gen-bundle.jpg"
     },
     {
      "titulo": "Mortal Kombat X",
      "imagen": "img/mortal-kombat-x.jpg"
-    },
-    {
-     "titulo": "Rabbids®: Party of Legends",
-     "imagen": "img/rabbids-party-of-legends.png"
     }
    ],
    "opciones": [
@@ -413,43 +450,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 39999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 165,
-   "titulo": "COMBO UNRAVCODMORTA",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 25000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 25000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 25000,
      "hay": true
     }
    ]
