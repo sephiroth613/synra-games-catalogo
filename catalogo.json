@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-06T17:12:45.933Z",
+ "generado": "2026-10-06T17:24:19.556Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -254,6 +254,43 @@
    ]
   },
   {
+   "id": 170,
+   "titulo": "COMBO CODMORTARABBI",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 25000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
+    },
+    {
+     "titulo": "Rabbids®: Party of Legends",
+     "imagen": "img/rabbids-party-of-legends.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 167,
    "titulo": "COMBO CODVANGUMODER2",
    "gancho": null,
@@ -335,39 +372,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 59999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 161,
-   "titulo": "COMBO CRASHCOD2",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 25000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Crash Bandicoot™ Bundle - N. Sane Trilogy + CTR Nitro-Fueled",
-     "imagen": "img/crash-bandicoot-bundle-n-sane-trilogy-ctr-nitro-fueled.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 25000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 25000,
      "hay": true
     }
    ]
