@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-07T00:30:25.000Z",
+ "generado": "2026-10-07T01:04:27.850Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -131,56 +131,11 @@
    ]
   },
   {
-   "id": 324,
-   "titulo": "COMBO BFCODWWII4",
+   "id": 325,
+   "titulo": "COMBO CODMORTAUNRAV",
    "gancho": null,
    "clase": "combo",
-   "desde": 59999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Battlefield™ Hardline",
-     "imagen": "img/battlefield-hardline.png"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Call of Duty®: WWII - Gold Edition",
-     "imagen": "img/call-of-duty-wwii-gold-edition.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Assassin's Creed Chronicles – Trilogy",
-     "imagen": "img/assassin-s-creed-chronicles-trilogy.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 59999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 59999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 293,
-   "titulo": "COMBO CODASSAS7",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 25000,
+   "desde": 35000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -188,142 +143,6 @@
      "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
      "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
     },
-    {
-     "titulo": "Assassin's Creed Chronicles – Trilogy",
-     "imagen": "img/assassin-s-creed-chronicles-trilogy.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 25000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 25000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 301,
-   "titulo": "COMBO CODASSAS8",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 25000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Assassin's Creed Chronicles – Trilogy",
-     "imagen": "img/assassin-s-creed-chronicles-trilogy.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 25000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 25000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 312,
-   "titulo": "COMBO CODWWIIBF7",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 39999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Call of Duty®: WWII - Gold Edition",
-     "imagen": "img/call-of-duty-wwii-gold-edition.jpg"
-    },
-    {
-     "titulo": "Battlefield™ Hardline",
-     "imagen": "img/battlefield-hardline.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 320,
-   "titulo": "COMBO CODWWIIBF8",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 39999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: WWII - Gold Edition",
-     "imagen": "img/call-of-duty-wwii-gold-edition.jpg"
-    },
-    {
-     "titulo": "Battlefield™ Hardline",
-     "imagen": "img/battlefield-hardline.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 305,
-   "titulo": "COMBO MORTAUNRAV4",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 25000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
     {
      "titulo": "Mortal Kombat X",
      "imagen": "img/mortal-kombat-x.jpg"
@@ -331,6 +150,211 @@
     {
      "titulo": "Unravel Two",
      "imagen": "img/unravel-two.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat XL",
+     "imagen": "img/mortal-kombat-xl.png"
+    },
+    {
+     "titulo": "Rabbids®: Party of Legends",
+     "imagen": "img/rabbids-party-of-legends.png"
+    },
+    {
+     "titulo": "Assassin's Creed Chronicles – Trilogy",
+     "imagen": "img/assassin-s-creed-chronicles-trilogy.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 35000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 35000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 333,
+   "titulo": "COMBO CODVANGUMODER6",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Call of Duty®: Vanguard - Cross-Gen Bundle",
+     "imagen": "img/call-of-duty-vanguard-cross-gen-bundle.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 344,
+   "titulo": "COMBO CODWWIIVANGU5",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 59999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Call of Duty®: WWII - Gold Edition",
+     "imagen": "img/call-of-duty-wwii-gold-edition.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Vanguard - Cross-Gen Bundle",
+     "imagen": "img/call-of-duty-vanguard-cross-gen-bundle.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 59999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 59999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 326,
+   "titulo": "COMBO CRASHMORTA",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 25000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Crash™ + Spyro™ Triple Play Bundle",
+     "imagen": "img/crash-spyro-triple-play-bundle.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 339,
+   "titulo": "COMBO DIVISCODMODER6",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "TOM CLANCY'S THE DIVISION",
+     "imagen": "img/tom-clancy-s-the-division.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Battlefield™ Hardline",
+     "imagen": "img/battlefield-hardline.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 327,
+   "titulo": "COMBO LEGOMORTA",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 25000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "LEGO® Star Wars™: The Force Awakens",
+     "imagen": "img/lego-star-wars-the-force-awakens.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
     }
    ],
    "opciones": [
