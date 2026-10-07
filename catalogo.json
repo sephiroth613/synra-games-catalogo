@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-07T23:04:30.018Z",
+ "generado": "2026-10-07T23:27:51.486Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -131,57 +131,8 @@
    ]
   },
   {
-   "id": 2553,
-   "titulo": "COMBO CODMODERBF5",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 39999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Call of Duty®: WWII - Gold Edition",
-     "imagen": "img/call-of-duty-wwii-gold-edition.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Battlefield™ Hardline",
-     "imagen": "img/battlefield-hardline.png"
-    },
-    {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
-    },
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat 11",
-     "imagen": "img/mortal-kombat-11.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 2539,
-   "titulo": "COMBO OVERCJUST3",
+   "id": 2583,
+   "titulo": "COMBO UNRAVMORTA3",
    "gancho": null,
    "clase": "combo",
    "desde": 25000,
@@ -189,12 +140,12 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Overcooked! 2",
-     "imagen": null
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.jpg"
     },
     {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
     }
    ],
    "opciones": [
