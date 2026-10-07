@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-07T15:04:29.816Z",
+ "generado": "2026-10-07T15:45:35.789Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -126,88 +126,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 59999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 1637,
-   "titulo": "COMBO CODMORTAJUST",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 35000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.jpg"
-    },
-    {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
-    },
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat 11",
-     "imagen": "img/mortal-kombat-11.png"
-    },
-    {
-     "titulo": "Rabbids®: Party of Legends",
-     "imagen": "img/rabbids-party-of-legends.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 35000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 35000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 1644,
-   "titulo": "COMBO MORTAKOMBA7",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 25000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Mortal Kombat XL",
-     "imagen": "img/mortal-kombat-xl.png"
-    },
-    {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 25000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 25000,
      "hay": true
     }
    ]
