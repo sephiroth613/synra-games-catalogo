@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-07T03:04:28.956Z",
+ "generado": "2026-10-07T03:11:57.832Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -131,29 +131,29 @@
    ]
   },
   {
-   "id": 463,
-   "titulo": "COMBO CODMODERWARFA5",
+   "id": 519,
+   "titulo": "COMBO BFCODWWII7",
    "gancho": null,
    "clase": "combo",
-   "desde": 39999,
+   "desde": 59999,
    "hay": true,
    "portada": null,
    "juegos": [
     {
-     "titulo": "Call of Duty®: Vanguard - Cross-Gen Bundle",
-     "imagen": "img/call-of-duty-vanguard-cross-gen-bundle.jpg"
+     "titulo": "Battlefield™ Hardline",
+     "imagen": "img/battlefield-hardline.png"
     },
     {
      "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
      "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
     },
     {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+     "titulo": "Call of Duty®: WWII - Gold Edition",
+     "imagen": "img/call-of-duty-wwii-gold-edition.jpg"
     },
     {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
     },
     {
      "titulo": "Assassin's Creed Chronicles – Trilogy",
@@ -164,59 +164,6 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 39999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 469,
-   "titulo": "COMBO CODMODERWARFA6",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 59999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Call of Duty®: Vanguard - Cross-Gen Bundle",
-     "imagen": "img/call-of-duty-vanguard-cross-gen-bundle.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Battlefield™ Hardline",
-     "imagen": "img/battlefield-hardline.png"
-    },
-    {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
-    },
-    {
-     "titulo": "Tom Clancy's Ghost Recon® Breakpoint",
-     "imagen": "img/tom-clancy-s-ghost-recon-breakpoint.jpg"
-    },
-    {
-     "titulo": "STAR WARS™ Battlefront™ Ultimate Edition",
-     "imagen": "img/star-wars-battlefront-ultimate-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
      "precio": 59999,
      "hay": true
     },
@@ -229,18 +176,14 @@
    ]
   },
   {
-   "id": 453,
-   "titulo": "COMBO CODMORTAUNRAV3",
+   "id": 494,
+   "titulo": "COMBO MORTAUNRAV7",
    "gancho": null,
    "clase": "combo",
-   "desde": 35000,
+   "desde": 25000,
    "hay": true,
    "portada": null,
    "juegos": [
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
     {
      "titulo": "Mortal Kombat X",
      "imagen": "img/mortal-kombat-x.jpg"
@@ -248,84 +191,6 @@
     {
      "titulo": "Unravel Two",
      "imagen": "img/unravel-two.jpg"
-    },
-    {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat 11",
-     "imagen": "img/mortal-kombat-11.png"
-    },
-    {
-     "titulo": "Rabbids®: Party of Legends",
-     "imagen": "img/rabbids-party-of-legends.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 35000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 35000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 458,
-   "titulo": "COMBO CRASHMORTA3",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 25000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Crash™ + Spyro™ Triple Play Bundle",
-     "imagen": "img/crash-spyro-triple-play-bundle.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 25000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 25000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 455,
-   "titulo": "COMBO MORTAKOMBA2",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 25000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Mortal Kombat XL",
-     "imagen": "img/mortal-kombat-xl.png"
-    },
-    {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.jpg"
     }
    ],
    "opciones": [
