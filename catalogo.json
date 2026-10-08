@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-08T04:25:42.223Z",
+ "generado": "2026-10-08T04:29:00.105Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -169,12 +169,12 @@
   },
   {
    "id": 3002,
-   "titulo": "COBO ASSDUTYCLANCY",
+   "titulo": "COMBO ASSDUTYCLANCY",
    "gancho": null,
    "clase": "combo",
    "desde": 39999,
    "hay": true,
-   "portada": null,
+   "portada": "img/combo-3002.jpg",
    "juegos": [
     {
      "titulo": "Assassin's Creed Chronicles – Trilogy",
