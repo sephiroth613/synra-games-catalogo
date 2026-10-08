@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-08T17:29:12.260Z",
+ "generado": "2026-10-08T18:02:41.407Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -306,6 +306,47 @@
      "consola": "PS5",
      "rol": "",
      "precio": 34999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 3640,
+   "titulo": "COMBO METROBURN",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Metro 2033 Redux",
+     "imagen": "img/metro-2033-redux.jpg"
+    },
+    {
+     "titulo": "Metro: Last Light Redux",
+     "imagen": "img/metro-last-light-redux.png"
+    },
+    {
+     "titulo": "Metro Exodus: Gold Edition",
+     "imagen": "img/metro-exodus-gold-edition.jpg"
+    },
+    {
+     "titulo": "Burnout™ Paradise Remastered",
+     "imagen": "img/burnout-paradise-remastered.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
      "hay": true
     }
    ]
