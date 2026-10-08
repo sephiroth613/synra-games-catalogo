@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-08T07:04:32.753Z",
+ "generado": "2026-10-08T07:46:36.322Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -131,6 +131,39 @@
    ]
   },
   {
+   "id": 3159,
+   "titulo": "COMBO BATTLMORTA5",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 25000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "STAR WARS™ Battlefront™ Ultimate Edition",
+     "imagen": "img/star-wars-battlefront-ultimate-edition.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 3057,
    "titulo": "COMBO BFCODMODER3",
    "gancho": null,
@@ -168,102 +201,8 @@
    ]
   },
   {
-   "id": 3137,
-   "titulo": "COMBO BFCODMODER7",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 39999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Battlefield™ Hardline",
-     "imagen": "img/battlefield-hardline.png"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Borderlands 3 PS4™ &  PS5™",
-     "imagen": "img/borderlands-3-ps4-ps5.jpg"
-    },
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 3145,
-   "titulo": "COMBO BFCODMODER8",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 59999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Battlefield™ Hardline",
-     "imagen": "img/battlefield-hardline.png"
-    },
-    {
-     "titulo": "Call of Duty®: WWII - Gold Edition",
-     "imagen": "img/call-of-duty-wwii-gold-edition.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Borderlands 3 PS4™ &  PS5™",
-     "imagen": "img/borderlands-3-ps4-ps5.jpg"
-    },
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 59999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 59999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 3130,
-   "titulo": "COMBO UNRAVCODMORTA9",
+   "id": 3164,
+   "titulo": "COMBO UNRAVASSAS5",
    "gancho": null,
    "clase": "combo",
    "desde": 25000,
@@ -271,16 +210,12 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
+     "titulo": "Unravel Yarny Bundle",
+     "imagen": "img/unravel-yarny-bundle.jpg"
     },
     {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Mortal Kombat 11",
-     "imagen": "img/mortal-kombat-11.png"
+     "titulo": "Assassin's Creed Chronicles – Trilogy",
+     "imagen": "img/assassin-s-creed-chronicles-trilogy.png"
     }
    ],
    "opciones": [
