@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-08T18:12:45.154Z",
+ "generado": "2026-10-08T18:16:23.280Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -429,6 +429,47 @@
      "consola": "PS5",
      "rol": "",
      "precio": 66000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 3671,
+   "titulo": "COMBO RESIDENTSUIT",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Resident Evil 4",
+     "imagen": "img/resident-evil-4.jpg"
+    },
+    {
+     "titulo": "RESIDENT EVIL 5",
+     "imagen": "img/resident-evil-5.jpg"
+    },
+    {
+     "titulo": "Resident Evil 6",
+     "imagen": "img/resident-evil-6.png"
+    },
+    {
+     "titulo": "Need for Speed™ Hot Pursuit Remastered",
+     "imagen": "img/need-for-speed-hot-pursuit-remastered.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
      "hay": true
     }
    ]
