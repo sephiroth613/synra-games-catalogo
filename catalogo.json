@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-08T18:16:23.280Z",
+ "generado": "2026-10-08T18:19:20.030Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -440,7 +440,7 @@
    "clase": "combo",
    "desde": 39999,
    "hay": true,
-   "portada": null,
+   "portada": "img/combo-3671.jpg",
    "juegos": [
     {
      "titulo": "Resident Evil 4",
