@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-08T15:29:07.831Z",
+ "generado": "2026-10-08T15:34:53.054Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -306,6 +306,51 @@
      "consola": "PS5",
      "rol": "",
      "precio": 34999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 3558,
+   "titulo": "COMBO REDMORNEEBORASS",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 66000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Mortal Injustice",
+     "imagen": "img/mortal-injustice.png"
+    },
+    {
+     "titulo": "Need for Speed Hot Pursuit",
+     "imagen": "img/need-for-speed-hot-pursuit.png"
+    },
+    {
+     "titulo": "Borderlands 3 PS4™ & PS5™",
+     "imagen": "img/borderlands-3-ps4-ps5.jpg"
+    },
+    {
+     "titulo": "Assasin's Creed Chronicles trilogy",
+     "imagen": "img/assasin-s-creed-chronicles-trilogy.png"
+    },
+    {
+     "titulo": "Red Dead Redeptiom 2",
+     "imagen": "img/red-dead-redeptiom-2.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 66000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 66000,
      "hay": true
     }
    ]
