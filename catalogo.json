@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-08T04:31:43.616Z",
+ "generado": "2026-10-08T04:34:57.756Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -279,10 +279,6 @@
    "portada": "img/combo-1726.jpg",
    "juegos": [
     {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.jpg"
-    },
-    {
      "titulo": "Batman Asylum",
      "imagen": "img/batman-asylum.png"
     },
@@ -293,6 +289,10 @@
     {
      "titulo": "Batman Knight",
      "imagen": "img/batman-knight.png"
+    },
+    {
+     "titulo": "Mortal Kombat 11",
+     "imagen": "img/mortal-kombat-11.png"
     }
    ],
    "opciones": [
