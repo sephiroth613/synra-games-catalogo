@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-08T01:04:28.838Z",
+ "generado": "2026-10-08T01:08:19.600Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -131,57 +131,8 @@
    ]
   },
   {
-   "id": 2679,
-   "titulo": "COMBO CODUNRAVMORTA",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 35000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat 11",
-     "imagen": "img/mortal-kombat-11.png"
-    },
-    {
-     "titulo": "Mortal Kombat 11 Ultimate PS4 & PS5",
-     "imagen": "img/mortal-kombat-11-ultimate-ps4-ps5.png"
-    },
-    {
-     "titulo": "Borderlands 3 Next Level Bundle PS4™ &  PS5™",
-     "imagen": "img/borderlands-3-next-level-bundle-ps4-ps5.jpg"
-    },
-    {
-     "titulo": "Assassin's Creed Chronicles – Trilogy",
-     "imagen": "img/assassin-s-creed-chronicles-trilogy.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 35000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 35000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 2689,
-   "titulo": "COMBO CRASHUNRAV",
+   "id": 2731,
+   "titulo": "COMBO UNRAVMORTA5",
    "gancho": null,
    "clase": "combo",
    "desde": 25000,
@@ -189,12 +140,12 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Crash™ + Spyro™ Triple Play Bundle",
-     "imagen": "img/crash-spyro-triple-play-bundle.jpg"
-    },
-    {
      "titulo": "Unravel Two",
      "imagen": "img/unravel-two.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
     }
    ],
    "opciones": [
@@ -208,47 +159,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 25000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 2699,
-   "titulo": "COMBO JUSTCODVANGU",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 39999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Call of Duty®: Vanguard - Cross-Gen Bundle",
-     "imagen": "img/call-of-duty-vanguard-cross-gen-bundle.jpg"
-    },
-    {
-     "titulo": "Battlefield™ Hardline",
-     "imagen": "img/battlefield-hardline.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39999,
      "hay": true
     }
    ]
