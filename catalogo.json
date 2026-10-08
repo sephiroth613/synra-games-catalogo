@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-08T18:21:46.818Z",
+ "generado": "2026-10-08T18:23:47.586Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -358,7 +358,7 @@
    "clase": "combo",
    "desde": 66000,
    "hay": true,
-   "portada": null,
+   "portada": "img/combo-3558.jpg",
    "juegos": [
     {
      "titulo": "Need for Speed Hot Pursuit",
