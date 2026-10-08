@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-08T15:41:47.033Z",
+ "generado": "2026-10-08T16:04:33.362Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -126,6 +126,88 @@
      "consola": "PS5",
      "rol": "",
      "precio": 59999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 3570,
+   "titulo": "COMBO BFCODMODER3",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Battlefield™ Hardline",
+     "imagen": "img/battlefield-hardline.png"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Borderlands 3 PS4™ & PS5™",
+     "imagen": "img/borderlands-3-ps4-ps5.jpg"
+    },
+    {
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 3571,
+   "titulo": "COMBO METROCODMODER",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Metro Redux",
+     "imagen": "img/metro-redux.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
      "hay": true
     }
    ]
