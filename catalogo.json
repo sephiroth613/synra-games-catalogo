@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-08T15:34:53.054Z",
+ "generado": "2026-10-08T15:36:35.703Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -320,10 +320,6 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Mortal Injustice",
-     "imagen": "img/mortal-injustice.png"
-    },
-    {
      "titulo": "Need for Speed Hot Pursuit",
      "imagen": "img/need-for-speed-hot-pursuit.png"
     },
@@ -338,6 +334,10 @@
     {
      "titulo": "Red Dead Redeptiom 2",
      "imagen": "img/red-dead-redeptiom-2.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat 1 0",
+     "imagen": "img/mortal-kombat-1-0.jpg"
     }
    ],
    "opciones": [
