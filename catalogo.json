@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-09T03:33:29.140Z",
+ "generado": "2026-10-09T05:04:33.964Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -126,6 +126,43 @@
      "consola": "PS5",
      "rol": "",
      "precio": 59999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 4239,
+   "titulo": "COMBO CODMODERBF7",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: WWII - Gold Edition",
+     "imagen": "img/call-of-duty-wwii-gold-edition.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Battlefield™ Hardline",
+     "imagen": "img/battlefield-hardline.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
      "hay": true
     }
    ]
