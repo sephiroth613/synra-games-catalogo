@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-09T14:27:38.315Z",
+ "generado": "2026-10-09T14:36:38.990Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -507,6 +507,39 @@
     {
      "titulo": "Sniper Ghost Warrior Contracts",
      "imagen": "img/sniper-ghost-warrior-contracts.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 34999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 34999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 4885,
+   "titulo": "COMBO GODSUIT",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 34999,
+   "hay": true,
+   "portada": "img/combo-4885.jpg",
+   "juegos": [
+    {
+     "titulo": "God of War 3",
+     "imagen": "img/god-of-war-3.jpg"
+    },
+    {
+     "titulo": "Need for Speed Hot Pursuit",
+     "imagen": "img/need-for-speed-hot-pursuit.png"
     }
    ],
    "opciones": [
