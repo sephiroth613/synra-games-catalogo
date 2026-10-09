@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-09T06:04:33.403Z",
+ "generado": "2026-10-09T06:21:59.593Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -131,8 +131,8 @@
    ]
   },
   {
-   "id": 4308,
-   "titulo": "COMBO BATTLCODMODER2",
+   "id": 4344,
+   "titulo": "COMBO BATTLCODMODER4",
    "gancho": null,
    "clase": "combo",
    "desde": 39999,
@@ -150,10 +150,6 @@
     {
      "titulo": "Call of Duty®: Modern Warfare® Remastered",
      "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Borderlands 3 PS4™ & PS5™",
-     "imagen": "img/borderlands-3-ps4-ps5.jpg"
     }
    ],
    "opciones": [
@@ -172,8 +168,45 @@
    ]
   },
   {
-   "id": 4311,
-   "titulo": "COMBO BATTLCODMODER3",
+   "id": 4340,
+   "titulo": "COMBO CODMODERBATTL2",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "STAR WARS™ Battlefront™ II",
+     "imagen": "img/star-wars-battlefront-ii.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 4346,
+   "titulo": "COMBO JUSTCODMODER2",
    "gancho": null,
    "clase": "combo",
    "desde": 59999,
@@ -181,8 +214,8 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "STAR WARS™ Battlefront™ Ultimate Edition",
-     "imagen": "img/star-wars-battlefront-ultimate-edition.jpg"
+     "titulo": "Just Cause 3: XXL Edition",
+     "imagen": "img/just-cause-3-xxl-edition.jpg"
     },
     {
      "titulo": "Call of Duty®: WWII - Gold Edition",
@@ -195,10 +228,6 @@
     {
      "titulo": "Call of Duty®: Modern Warfare® Remastered",
      "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Borderlands 3 PS4™ & PS5™",
-     "imagen": "img/borderlands-3-ps4-ps5.jpg"
     }
    ],
    "opciones": [
@@ -212,47 +241,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 59999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 4306,
-   "titulo": "COMBO JUSTCODMODER",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 39999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39999,
      "hay": true
     }
    ]
