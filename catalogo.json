@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-09T05:11:07.976Z",
+ "generado": "2026-10-09T05:21:46.417Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -113,6 +113,121 @@
     {
      "titulo": "Rabbids® Party of Legends",
      "imagen": "img/rabbids-party-of-legends.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 59999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 59999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 4295,
+   "titulo": "COMBO BATTLCODMODER",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "STAR WARS™ Battlefront™ Ultimate Edition",
+     "imagen": "img/star-wars-battlefront-ultimate-edition.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 4294,
+   "titulo": "COMBO CODMODERBATTL",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "STAR WARS™ Battlefront™ II",
+     "imagen": "img/star-wars-battlefront-ii.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 4296,
+   "titulo": "COMBO CODWWIIMODER",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 59999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Call of Duty®: WWII - Gold Edition",
+     "imagen": "img/call-of-duty-wwii-gold-edition.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "STAR WARS™ Battlefront™ II",
+     "imagen": "img/star-wars-battlefront-ii.jpg"
     }
    ],
    "opciones": [
