@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-09T12:21:44.099Z",
+ "generado": "2026-10-09T14:17:05.864Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -8,7 +8,7 @@
    "titulo": "COMBO CODFIRSTBUY",
    "gancho": null,
    "clase": "combo",
-   "desde": 38000,
+   "desde": 44999,
    "hay": true,
    "portada": "img/combo-1.jpg",
    "juegos": [
@@ -33,13 +33,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 38000,
+     "precio": 44999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 38000,
+     "precio": 44999,
      "hay": true
     }
    ]
@@ -49,7 +49,7 @@
    "titulo": "COMBO CODJUST",
    "gancho": null,
    "clase": "combo",
-   "desde": 39999,
+   "desde": 44999,
    "hay": true,
    "portada": "img/combo-141.jpg",
    "juegos": [
@@ -74,13 +74,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 39999,
+     "precio": 44999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 39999,
+     "precio": 44999,
      "hay": true
     }
    ]
@@ -131,8 +131,78 @@
    ]
   },
   {
+   "id": 4883,
+   "titulo": "COMBO BATTLCODMODER",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "STAR WARS™ Battlefront™ Ultimate Edition",
+     "imagen": "img/star-wars-battlefront-ultimate-edition.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 4881,
+   "titulo": "COMBO BATTLMORTA",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 25000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "STAR WARS™ Battlefront™ Ultimate Edition",
+     "imagen": "img/star-wars-battlefront-ultimate-edition.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4816,
-   "titulo": "COMBO CODMODERBATTL8",
+   "titulo": "COMBO CODMODERBATTL",
    "gancho": null,
    "clase": "combo",
    "desde": 39999,
@@ -163,6 +233,72 @@
      "consola": "PS5",
      "rol": "",
      "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 4882,
+   "titulo": "COMBO UNRAVASSAS",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 25000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Unravel Yarny Bundle",
+     "imagen": "img/unravel-yarny-bundle.jpg"
+    },
+    {
+     "titulo": "Assassin's Creed Chronicles – Trilogy",
+     "imagen": "img/assassin-s-creed-chronicles-trilogy.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 4880,
+   "titulo": "COMBO UNRAVMORTA",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 25000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 25000,
      "hay": true
     }
    ]
