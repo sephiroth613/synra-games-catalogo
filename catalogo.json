@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-09T14:19:35.760Z",
+ "generado": "2026-10-09T14:23:02.173Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -90,7 +90,7 @@
    "titulo": "COMBO FARMORJUST",
    "gancho": null,
    "clase": "combo",
-   "desde": 59999,
+   "desde": 49999,
    "hay": true,
    "portada": "img/combo-142.jpg",
    "juegos": [
@@ -119,13 +119,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 59999,
+     "precio": 49999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 59999,
+     "precio": 49999,
      "hay": true
     }
    ]
@@ -233,6 +233,47 @@
      "consola": "PS5",
      "rol": "",
      "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 4884,
+   "titulo": "COMBO JUSTCODMODER",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 59999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Just Cause 3: XXL Edition",
+     "imagen": "img/just-cause-3-xxl-edition.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: WWII - Gold Edition",
+     "imagen": "img/call-of-duty-wwii-gold-edition.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 59999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 59999,
      "hay": true
     }
    ]
@@ -615,7 +656,7 @@
    "titulo": "COMBO DIVCALLMAN",
    "gancho": null,
    "clase": "combo",
-   "desde": 39999,
+   "desde": 34999,
    "hay": true,
    "portada": "img/combo-139.jpg",
    "juegos": [
@@ -636,13 +677,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 39999,
+     "precio": 34999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 39999,
+     "precio": 34999,
      "hay": true
     }
    ]
