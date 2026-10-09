@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-09T14:17:05.864Z",
+ "generado": "2026-10-09T14:19:35.760Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -685,7 +685,7 @@
    "titulo": "COMBO TOMCRASHI",
    "gancho": null,
    "clase": "combo",
-   "desde": 59999,
+   "desde": 49999,
    "hay": true,
    "portada": "img/combo-138.jpg",
    "juegos": [
@@ -722,13 +722,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 59999,
+     "precio": 49999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 59999,
+     "precio": 49999,
      "hay": true
     }
    ]
