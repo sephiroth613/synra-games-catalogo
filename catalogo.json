@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-09T10:04:33.461Z",
+ "generado": "2026-10-09T10:22:33.181Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -131,18 +131,14 @@
    ]
   },
   {
-   "id": 4588,
-   "titulo": "COMBO JUSTCODMODER9",
+   "id": 4639,
+   "titulo": "COMBO CODMODERBATTL6",
    "gancho": null,
    "clase": "combo",
    "desde": 39999,
    "hay": true,
    "portada": null,
    "juegos": [
-    {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
-    },
     {
      "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
      "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
@@ -152,8 +148,8 @@
      "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
     },
     {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
+     "titulo": "STAR WARS™ Battlefront™ II",
+     "imagen": "img/star-wars-battlefront-ii.jpg"
     }
    ],
    "opciones": [
