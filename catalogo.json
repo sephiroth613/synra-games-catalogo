@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-09T19:31:20.369Z",
+ "generado": "2026-10-09T23:21:59.619Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -81,51 +81,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 44999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 142,
-   "titulo": "COMBO FARMORJUST",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 49999,
-   "hay": true,
-   "portada": "img/combo-142.jpg",
-   "juegos": [
-    {
-     "titulo": "FARCRY 3 Classic Edition",
-     "imagen": "img/farcry-3-classic-edition.jpg"
-    },
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat 11 Ultimate PS4 &amp; PS5",
-     "imagen": "img/mortal-kombat-11-ultimate-ps4-amp-ps5.jpg"
-    },
-    {
-     "titulo": "Just Cause 3 Xxl Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
-    },
-    {
-     "titulo": "Rabbids® Party of Legends",
-     "imagen": "img/rabbids-party-of-legends.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 49999,
      "hay": true
     }
    ]
@@ -377,6 +332,51 @@
      "consola": "PS5",
      "rol": "",
      "precio": 33000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 142,
+   "titulo": "COMBO FARMORJUST",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 47000,
+   "hay": true,
+   "portada": "img/combo-142.jpg",
+   "juegos": [
+    {
+     "titulo": "FARCRY 3 Classic Edition",
+     "imagen": "img/farcry-3-classic-edition.jpg"
+    },
+    {
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat 11 Ultimate PS4 &amp; PS5",
+     "imagen": "img/mortal-kombat-11-ultimate-ps4-amp-ps5.jpg"
+    },
+    {
+     "titulo": "Just Cause 3 Xxl Edition",
+     "imagen": "img/just-cause-3-xxl-edition.jpg"
+    },
+    {
+     "titulo": "Rabbids® Party of Legends",
+     "imagen": "img/rabbids-party-of-legends.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 47000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 47000,
      "hay": true
     }
    ]
