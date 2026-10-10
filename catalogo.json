@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-10T17:15:32.882Z",
+ "generado": "2026-10-10T18:05:12.447Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -2950,6 +2950,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 4980,
+   "titulo": "Street Fighter™ 6",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Street Fighter™ 6",
+     "imagen": "img/street-fighter-6.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
      "hay": true
     }
    ]
