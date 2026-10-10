@@ -12,16 +12,19 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Synra Games">
 <meta property="og:url" content="https://sephiroth613.github.io/synra-games-catalogo/">
-<meta property="og:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mv2tw41d">
-<meta property="og:image:secure_url" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mv2tw41d">
+<meta property="og:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mv2u0oy2">
+<meta property="og:image:secure_url" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mv2u0oy2">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1280">
 <meta property="og:image:height" content="497">
 <meta property="og:image:alt" content="Synra Games">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mv2tw41d">
+<meta name="twitter:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mv2u0oy2">
 <link rel="apple-touch-icon" href="https://sephiroth613.github.io/synra-games-catalogo/img/logo.png">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&display=swap">
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
 
@@ -762,6 +765,72 @@
     .rejilla{grid-template-columns:repeat(3,1fr);gap:16px}
   }
 
+  /* =========================================================
+     DISEÑO 2026-10-10: un solo color de acción (verde = pedir),
+     precio una vez y en blanco, tarjetas que se separan del fondo,
+     títulos con letra gamer y cuadrícula en computador.
+     ========================================================= */
+  .cab h3,.promesa-tit,.tab,.suelto-tit,.pl .op-precio,.suelto-precio,.intro-sig{
+    font-family:'Rajdhani',system-ui,sans-serif;letter-spacing:.01em;
+  }
+  .cab h3{font-size:1.3rem;font-weight:700;text-transform:uppercase;line-height:1.15}
+  .n-juegos{background:rgba(255,255,255,.06);color:var(--txt2)}
+
+  .combo,.suelto{
+    background:linear-gradient(180deg,#18213a 0%,#131a2e 100%);
+    border:1px solid rgba(74,158,255,.16);
+    box-shadow:0 14px 34px -18px rgba(0,0,0,.85),inset 0 1px 0 rgba(255,255,255,.04);
+    transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;
+  }
+  @media (hover:hover){
+    .combo:hover,.suelto:hover{
+      transform:translateY(-3px);border-color:rgba(74,158,255,.45);
+      box-shadow:0 20px 40px -18px rgba(0,112,209,.45),inset 0 1px 0 rgba(255,255,255,.05);
+    }
+  }
+
+  /* el precio: blanco y grande, una sola vez, junto al botón */
+  .pl .op-precio{font-size:1.65rem;font-weight:700;color:#fff;line-height:1}
+  .opciones{border-top:1px solid rgba(255,255,255,.06)}
+
+  /* oferta: etiqueta, sin repetir el precio */
+  .so-antes{font-size:.95rem}
+
+  /* sueltos: carátula, nombre y precio; el botón es pequeño y verde */
+  .suelto-cons{display:block;padding:0 3px;font-size:.62rem;font-weight:700;color:var(--txt3);letter-spacing:.04em}
+  .suelto-linea{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-top:3px}
+  .suelto-precio{font-size:1.25rem;font-weight:700;color:#fff;letter-spacing:0}
+  .suelto-wa{
+    display:inline-flex;align-items:center;gap:5px;flex:none;
+    padding:6px 10px;border-radius:999px;
+    background:#25d366;color:#04130a;font-size:.74rem;font-weight:800;text-decoration:none;
+  }
+  .suelto-wa svg{width:14px;height:14px}
+  .suelto-tit{font-size:1rem;font-weight:700;line-height:1.15}
+
+  /* garantías bajo los pasos */
+  .garantias{
+    list-style:none;display:flex;flex-wrap:wrap;justify-content:center;gap:6px 14px;
+    margin-top:12px;padding:0;color:var(--txt2);font-size:.74rem;font-weight:600;
+  }
+  .garantias li{white-space:nowrap}
+  #g-combos.activo .intro .garantias{font-size:.82rem}
+
+  /* computador: más ancho, combos en cuadrícula y más sueltos por fila */
+  @media (min-width:980px){
+    .env{max-width:1180px}
+    .con-portada img{max-width:900px;margin:0 auto 14px;width:100%;border-radius:0 0 16px 16px}
+    .tabs,.barra,.buscar-nada{max-width:760px;margin-left:auto;margin-right:auto}
+    /* mismo alto por fila: precio y botón alineados al fondo de cada tarjeta */
+    .combos{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;align-items:stretch}
+    .combo{display:flex;flex-direction:column}
+    .combo .combo-media{flex:1 1 auto}
+    .rejilla{grid-template-columns:repeat(5,1fr);gap:16px}
+  }
+  @media (min-width:1300px){
+    .combos{grid-template-columns:repeat(3,1fr)}
+  }
+
   @media (max-width:400px){
     header{padding:28px 0 20px}
     header{padding:22px 0 18px}
@@ -809,6 +878,12 @@
         <li><span>2</span>Te lo instalamos por videollamada</li>
         <li><span>3</span>Pagas cuando ya lo ves descargando</li>
       </ol>
+      <ul class="garantias">
+        <li>✔ Juegos originales</li>
+        <li>✔ Cero riesgo: pagas al verlo</li>
+        <li>✔ Soporte por WhatsApp</li>
+        <li>✔ +50 juegos entregados</li>
+      </ul>
     </div>
   </header>
 
@@ -871,6 +946,12 @@
         <li><span>2</span>Te lo instalamos por videollamada</li>
         <li><span>3</span>Pagas cuando ya lo ves descargando</li>
       </ol>
+      <ul class="garantias">
+        <li>✔ Juegos originales</li>
+        <li>✔ Cero riesgo: pagas al verlo</li>
+        <li>✔ Soporte por WhatsApp</li>
+        <li>✔ +50 juegos entregados</li>
+      </ul>
     </div>
         <p class="intro-sig">Desliza para ver los combos ↓</p>
       </article>
@@ -884,10 +965,6 @@
               
               <span class="n-juegos">4 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$44.999</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -895,7 +972,6 @@
     <div class="sello-oferta" aria-label="Oferta: $44.999">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$54.999</s>
-      <span class="so-ahora">$44.999</span>
     </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
@@ -931,10 +1007,6 @@
               
               <span class="n-juegos">4 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$44.999</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -942,7 +1014,6 @@
     <div class="sello-oferta" aria-label="Oferta: $44.999">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$54.999</s>
-      <span class="so-ahora">$44.999</span>
     </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
@@ -978,10 +1049,6 @@
               
               <span class="n-juegos">8 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$39.999</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -989,7 +1056,6 @@
     <div class="sello-oferta" aria-label="Oferta: $39.999">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$49.999</s>
-      <span class="so-ahora">$39.999</span>
     </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
@@ -1025,10 +1091,6 @@
               
               <span class="n-juegos">3 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$39.999</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -1036,7 +1098,6 @@
     <div class="sello-oferta" aria-label="Oferta: $39.999">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$49.999</s>
-      <span class="so-ahora">$39.999</span>
     </div>
           
           <!-- hasta 4 juegos en 2 columnas; con más, en 3 para que no quede eterna -->
@@ -1083,10 +1144,6 @@
               
               <span class="n-juegos">2 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$25.000</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -1094,7 +1151,6 @@
     <div class="sello-oferta" aria-label="Oferta: $25.000">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$35.000</s>
-      <span class="so-ahora">$25.000</span>
     </div>
           
           <!-- hasta 4 juegos en 2 columnas; con más, en 3 para que no quede eterna -->
@@ -1137,10 +1193,6 @@
               
               <span class="n-juegos">3 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$39.999</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -1148,7 +1200,6 @@
     <div class="sello-oferta" aria-label="Oferta: $39.999">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$49.999</s>
-      <span class="so-ahora">$39.999</span>
     </div>
           
           <!-- hasta 4 juegos en 2 columnas; con más, en 3 para que no quede eterna -->
@@ -1195,10 +1246,6 @@
               
               <span class="n-juegos">4 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$59.999</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -1206,7 +1253,6 @@
     <div class="sello-oferta" aria-label="Oferta: $59.999">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$69.999</s>
-      <span class="so-ahora">$59.999</span>
     </div>
           
           <!-- hasta 4 juegos en 2 columnas; con más, en 3 para que no quede eterna -->
@@ -1257,10 +1303,6 @@
               
               <span class="n-juegos">2 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$25.000</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -1268,7 +1310,6 @@
     <div class="sello-oferta" aria-label="Oferta: $25.000">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$35.000</s>
-      <span class="so-ahora">$25.000</span>
     </div>
           
           <!-- hasta 4 juegos en 2 columnas; con más, en 3 para que no quede eterna -->
@@ -1311,10 +1352,6 @@
               
               <span class="n-juegos">2 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$25.000</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -1322,7 +1359,6 @@
     <div class="sello-oferta" aria-label="Oferta: $25.000">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$35.000</s>
-      <span class="so-ahora">$25.000</span>
     </div>
           
           <!-- hasta 4 juegos en 2 columnas; con más, en 3 para que no quede eterna -->
@@ -1365,10 +1401,6 @@
               
               <span class="n-juegos">3 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$33.000</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -1376,7 +1408,6 @@
     <div class="sello-oferta" aria-label="Oferta: $33.000">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$43.000</s>
-      <span class="so-ahora">$33.000</span>
     </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
@@ -1412,10 +1443,6 @@
               
               <span class="n-juegos">5 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$47.000</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -1423,7 +1450,6 @@
     <div class="sello-oferta" aria-label="Oferta: $47.000">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$57.000</s>
-      <span class="so-ahora">$47.000</span>
     </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
@@ -1459,10 +1485,6 @@
               
               <span class="n-juegos">5 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$39.999</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -1470,7 +1492,6 @@
     <div class="sello-oferta" aria-label="Oferta: $39.999">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$49.999</s>
-      <span class="so-ahora">$39.999</span>
     </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
@@ -1506,10 +1527,6 @@
               
               <span class="n-juegos">4 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$29.999</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -1517,7 +1534,6 @@
     <div class="sello-oferta" aria-label="Oferta: $29.999">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$39.999</s>
-      <span class="so-ahora">$29.999</span>
     </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
@@ -1553,10 +1569,6 @@
               
               <span class="n-juegos">3 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$34.999</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -1564,7 +1576,6 @@
     <div class="sello-oferta" aria-label="Oferta: $34.999">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$44.999</s>
-      <span class="so-ahora">$34.999</span>
     </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
@@ -1600,10 +1611,6 @@
               
               <span class="n-juegos">2 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$34.999</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -1611,7 +1618,6 @@
     <div class="sello-oferta" aria-label="Oferta: $34.999">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$44.999</s>
-      <span class="so-ahora">$34.999</span>
     </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
@@ -1647,10 +1653,6 @@
               
               <span class="n-juegos">4 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$22.999</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -1658,7 +1660,6 @@
     <div class="sello-oferta" aria-label="Oferta: $22.999">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$32.999</s>
-      <span class="so-ahora">$22.999</span>
     </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
@@ -1694,10 +1695,6 @@
               
               <span class="n-juegos">5 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$66.000</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -1705,7 +1702,6 @@
     <div class="sello-oferta" aria-label="Oferta: $66.000">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$76.000</s>
-      <span class="so-ahora">$66.000</span>
     </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
@@ -1741,10 +1737,6 @@
               
               <span class="n-juegos">4 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$39.999</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -1752,7 +1744,6 @@
     <div class="sello-oferta" aria-label="Oferta: $39.999">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$49.999</s>
-      <span class="so-ahora">$39.999</span>
     </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
@@ -1788,10 +1779,6 @@
               
               <span class="n-juegos">2 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$25.000</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -1799,7 +1786,6 @@
     <div class="sello-oferta" aria-label="Oferta: $25.000">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$35.000</s>
-      <span class="so-ahora">$25.000</span>
     </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
@@ -1835,10 +1821,6 @@
               
               <span class="n-juegos">7 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$49.999</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -1846,7 +1828,6 @@
     <div class="sello-oferta" aria-label="Oferta: $49.999">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$59.999</s>
-      <span class="so-ahora">$49.999</span>
     </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
@@ -1882,10 +1863,6 @@
               
               <span class="n-juegos">2 juegos incluidos</span>
             </div>
-            <div class="desde">
-              <span class="desde-lbl">desde</span>
-              <span class="desde-val">$29.999</span>
-            </div>
           </div>
 
           <div class="combo-media">
@@ -1893,7 +1870,6 @@
     <div class="sello-oferta" aria-label="Oferta: $29.999">
       <span class="so-tit">🔥 Oferta</span>
       <s class="so-antes">$39.999</s>
-      <span class="so-ahora">$29.999</span>
     </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
@@ -1943,14 +1919,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Assassin&#39;s Creed Chronicles – Trilogy" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Assassin&#39;s Creed Chronicles – Trilogy" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -1966,14 +1942,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Assassin&#39;s Creed Valhalla" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Assassin&#39;s Creed Valhalla" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -1989,14 +1965,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Assassin&#39;s Creed® Origins - GOLD EDITION" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Assassin&#39;s Creed® Origins - GOLD EDITION" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2012,14 +1988,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="ATV Drift &amp; Tricks" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="ATV Drift &amp; Tricks" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2035,14 +2011,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Batman: Arkham Knight" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Batman: Arkham Knight" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2058,14 +2034,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$65.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Battlefield 4™" data-wa-precio="PS4 y PS5 · $65.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Battlefield 4™" data-wa-precio="PS4 y PS5 · $65.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2081,14 +2057,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="BioShock: The Collection" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="BioShock: The Collection" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2104,14 +2080,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$65.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Bloodborne™" data-wa-precio="PS4 y PS5 · $65.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Bloodborne™" data-wa-precio="PS4 y PS5 · $65.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2127,14 +2103,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Borderlands 3 Next Level Bundle PS4™ &amp; PS5™" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Borderlands 3 Next Level Bundle PS4™ &amp; PS5™" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2150,14 +2126,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Borderlands 3 PS4™ &amp; PS5™" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Borderlands 3 PS4™ &amp; PS5™" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2173,14 +2149,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Bulletstorm: Full Clip Edition" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Bulletstorm: Full Clip Edition" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2196,14 +2172,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Bully (Canis Canem Edit)" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Bully (Canis Canem Edit)" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2219,14 +2195,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Burnout™ Paradise Remastered" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Burnout™ Paradise Remastered" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2242,14 +2218,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Call of Duty®: Modern Warfare® 2 Campaign Remastered" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Call of Duty®: Modern Warfare® 2 Campaign Remastered" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2265,14 +2241,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Call of Duty®: Vanguard - Cross-Gen Bundle" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Call of Duty®: Vanguard - Cross-Gen Bundle" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2288,14 +2264,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Call of Duty®: WWII - Gold Edition" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Call of Duty®: WWII - Gold Edition" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2311,14 +2287,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$65.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Crash Bandicoot™ - Crashiversary Bundle" data-wa-precio="PS4 y PS5 · $65.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Crash Bandicoot™ - Crashiversary Bundle" data-wa-precio="PS4 y PS5 · $65.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2334,14 +2310,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Crash Bandicoot™ Paketi - N. Sane Trilogy + CTR Nitro-Fueled" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Crash Bandicoot™ Paketi - N. Sane Trilogy + CTR Nitro-Fueled" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2357,14 +2333,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Crash™ + Spyro™ Triple Play Bundle" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Crash™ + Spyro™ Triple Play Bundle" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2380,14 +2356,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Crash™ Team Racing Nitro-Fueled + Spyro™ Game Bundle" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Crash™ Team Racing Nitro-Fueled + Spyro™ Game Bundle" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2403,14 +2379,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Cuphead" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Cuphead" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2426,14 +2402,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Dead Island Definitive Edition" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Dead Island Definitive Edition" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2449,14 +2425,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Dead Space" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Dead Space" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2472,14 +2448,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Devil May Cry 4 Special Edition" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Devil May Cry 4 Special Edition" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2495,14 +2471,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Devil May Cry HD Collection" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Devil May Cry HD Collection" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2518,14 +2494,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Dying Light Definitive Edition" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Dying Light Definitive Edition" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2541,14 +2517,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$65.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Far Cry® 5 + Far Cry® New Dawn Ultimate Edition" data-wa-precio="PS4 y PS5 · $65.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Far Cry® 5 + Far Cry® New Dawn Ultimate Edition" data-wa-precio="PS4 y PS5 · $65.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2564,14 +2540,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$65.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="FARCRY 6 Game of the Year Edition" data-wa-precio="PS4 y PS5 · $65.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="FARCRY 6 Game of the Year Edition" data-wa-precio="PS4 y PS5 · $65.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2587,14 +2563,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$65.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="God of War™" data-wa-precio="PS4 y PS5 · $65.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="God of War™" data-wa-precio="PS4 y PS5 · $65.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2610,14 +2586,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="God of War™ Digital Deluxe Edition" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="God of War™ Digital Deluxe Edition" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2633,14 +2609,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$65.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="GRID Legends Deluxe Edition PS4 &amp; PS5" data-wa-precio="PS4 y PS5 · $65.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="GRID Legends Deluxe Edition PS4 &amp; PS5" data-wa-precio="PS4 y PS5 · $65.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2656,14 +2632,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Hogwarts Legacy PS4 Version" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Hogwarts Legacy PS4 Version" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2679,14 +2655,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$65.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Horizon Zero Dawn™ Complete Edition" data-wa-precio="PS4 y PS5 · $65.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Horizon Zero Dawn™ Complete Edition" data-wa-precio="PS4 y PS5 · $65.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2702,14 +2678,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Injustice™ 2 - Standard Edition" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Injustice™ 2 - Standard Edition" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2725,14 +2701,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Insurgency: Sandstorm [PS4 &amp; PS5]" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Insurgency: Sandstorm [PS4 &amp; PS5]" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2748,14 +2724,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="It Takes Two PS4™ &amp; PS5™" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="It Takes Two PS4™ &amp; PS5™" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2771,14 +2747,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Just Cause 3: XXL Edition" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Just Cause 3: XXL Edition" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2794,14 +2770,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="LEGO Star Wars II: The Original Trilogy" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="LEGO Star Wars II: The Original Trilogy" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2817,14 +2793,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="LEGO® Harry Potter™ Collection" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="LEGO® Harry Potter™ Collection" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2840,14 +2816,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Little Nightmares Complete Edition" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Little Nightmares Complete Edition" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2863,14 +2839,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Mad Max" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Mad Max" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2886,14 +2862,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Marvel’s Spider-Man: Game of the Year Edition" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Marvel’s Spider-Man: Game of the Year Edition" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2909,14 +2885,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Metro 2033 Redux" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Metro 2033 Redux" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2932,14 +2908,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$65.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Metro Last Light Redux" data-wa-precio="PS4 y PS5 · $65.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Metro Last Light Redux" data-wa-precio="PS4 y PS5 · $65.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2955,14 +2931,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Metro Redux" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Metro Redux" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -2978,14 +2954,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$65.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Metro: Last Light Redux" data-wa-precio="PS4 y PS5 · $65.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Metro: Last Light Redux" data-wa-precio="PS4 y PS5 · $65.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3001,14 +2977,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Middle-earth™: Shadow of War™" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Middle-earth™: Shadow of War™" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3024,14 +3000,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Mortal Kombat 11 Ultimate PS4 &amp; PS5" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Mortal Kombat 11 Ultimate PS4 &amp; PS5" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3047,14 +3023,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Mortal Kombat X" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Mortal Kombat X" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3070,14 +3046,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Mortal Kombat™ 1" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Mortal Kombat™ 1" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3093,14 +3069,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="MotoGP™19" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="MotoGP™19" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3116,14 +3092,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="MotoGP™25" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="MotoGP™25" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3139,14 +3115,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="NARUTO SHIPPUDEN: Ultimate Ninja STORM 4" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="NARUTO SHIPPUDEN: Ultimate Ninja STORM 4" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3162,14 +3138,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="NARUTO SHIPPUDEN: Ultimate Ninja STORM 4 Road to Boruto" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="NARUTO SHIPPUDEN: Ultimate Ninja STORM 4 Road to Boruto" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3185,14 +3161,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="NARUTO SHIPPUDEN: Ultimate Ninja STORM Trilogy" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="NARUTO SHIPPUDEN: Ultimate Ninja STORM Trilogy" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3208,14 +3184,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Need for Speed™" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Need for Speed™" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3231,14 +3207,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Need for Speed™ Hot Pursuit Remastered" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Need for Speed™ Hot Pursuit Remastered" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3254,14 +3230,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Need for Speed™ Unbound" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Need for Speed™ Unbound" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3277,14 +3253,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="ONE PIECE ODYSSEY PS4 &amp; PS5" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="ONE PIECE ODYSSEY PS4 &amp; PS5" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3300,14 +3276,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Overcooked" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Overcooked" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3323,14 +3299,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Plants vs. Zombies™ Garden Warfare 2" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Plants vs. Zombies™ Garden Warfare 2" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3346,14 +3322,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Prey" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Prey" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3369,14 +3345,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Rabbids®: Party of Legends" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Rabbids®: Party of Legends" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3392,14 +3368,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Resident Evil 0" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Resident Evil 0" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3415,14 +3391,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Resident Evil 4 Gold Edition PS4 &amp; PS5" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Resident Evil 4 Gold Edition PS4 &amp; PS5" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3438,14 +3414,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Resident Evil 6" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Resident Evil 6" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3461,14 +3437,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="RESIDENT EVIL 7 biohazard Gold Edition" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="RESIDENT EVIL 7 biohazard Gold Edition" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3484,14 +3460,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="RESIDENT EVIL REVELATIONS" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="RESIDENT EVIL REVELATIONS" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3507,14 +3483,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Resident Evil Revelations 2 Deluxe Edition" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Resident Evil Revelations 2 Deluxe Edition" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3530,14 +3506,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Resident Evil Triple Pack" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Resident Evil Triple Pack" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3553,14 +3529,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Sifu" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Sifu" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3576,14 +3552,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Sonic Colours: Ultimate - Digital Deluxe" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Sonic Colours: Ultimate - Digital Deluxe" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3599,14 +3575,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="SONIC FORCES™" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="SONIC FORCES™" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3622,14 +3598,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="SONIC X SHADOW GENERATIONS PS4 &amp; PS5" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="SONIC X SHADOW GENERATIONS PS4 &amp; PS5" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3645,14 +3621,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="STAR WARS Jedi: Survivor™" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="STAR WARS Jedi: Survivor™" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3668,14 +3644,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="STAR WARS™ Battlefront™ II" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="STAR WARS™ Battlefront™ II" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3691,14 +3667,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="STAR WARS™ Battlefront™ Ultimate Edition" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="STAR WARS™ Battlefront™ Ultimate Edition" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3714,14 +3690,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Street Fighter™ 6" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Street Fighter™ 6" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3737,14 +3713,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="The Forest" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="The Forest" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3760,14 +3736,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="The Last of Us™ Remastered" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="The Last of Us™ Remastered" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3783,14 +3759,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="The Outlast Trials" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="The Outlast Trials" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3806,14 +3782,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Titanfall™ 2: Ultimate Edition" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Titanfall™ 2: Ultimate Edition" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3829,14 +3805,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Tom Clancy&#39;s Ghost Recon Breakpoint Deluxe Edition" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Tom Clancy&#39;s Ghost Recon Breakpoint Deluxe Edition" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3852,14 +3828,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Tom Clancy&#39;s Ghost Recon® Breakpoint" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Tom Clancy&#39;s Ghost Recon® Breakpoint" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3875,14 +3851,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Tom Clancy&#39;s Ghost Recon® Breakpoint Gold Edition" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Tom Clancy&#39;s Ghost Recon® Breakpoint Gold Edition" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3898,14 +3874,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$65.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Tomb Raider: Definitive Edition" data-wa-precio="PS4 y PS5 · $65.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Tomb Raider: Definitive Edition" data-wa-precio="PS4 y PS5 · $65.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3921,14 +3897,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Tomb Raider: Definitive Survivor Trilogy" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Tomb Raider: Definitive Survivor Trilogy" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3944,14 +3920,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Truck Simulator 25: Euro Driver" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Truck Simulator 25: Euro Driver" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3967,14 +3943,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Uncharted™: The Nathan Drake Collection" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Uncharted™: The Nathan Drake Collection" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -3990,14 +3966,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Unravel" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Unravel" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4013,14 +3989,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Unravel Two" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Unravel Two" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4036,14 +4012,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Unravel Yarny Bundle" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Unravel Yarny Bundle" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4059,14 +4035,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Wolfenstein: The New Order" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Wolfenstein: The New Order" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4082,14 +4058,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$65.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="7 Days to Die - Console Edition" data-wa-precio="PS4 y PS5 · $65.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="7 Days to Die - Console Edition" data-wa-precio="PS4 y PS5 · $65.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4105,14 +4081,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="A Way Out" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="A Way Out" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4128,14 +4104,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="ARK: Survival Evolved" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="ARK: Survival Evolved" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4151,14 +4127,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Assassin&#39;s Creed Odyssey" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Assassin&#39;s Creed Odyssey" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4174,14 +4150,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Batman: Arkham Collection" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Batman: Arkham Collection" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4197,14 +4173,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$65.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Battlefield™ 1" data-wa-precio="PS4 y PS5 · $65.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Battlefield™ 1" data-wa-precio="PS4 y PS5 · $65.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4220,14 +4196,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Call of Duty®: Modern Warfare® Remastered" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Call of Duty®: Modern Warfare® Remastered" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4243,14 +4219,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Dragon Ball Xenoverse 2" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Dragon Ball Xenoverse 2" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4266,14 +4242,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$65.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Hollow Knight: Silksong" data-wa-precio="PS4 y PS5 · $65.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Hollow Knight: Silksong" data-wa-precio="PS4 y PS5 · $65.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4289,14 +4265,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$65.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="LEGO® Batman™ 3: Beyond Gotham" data-wa-precio="PS4 y PS5 · $65.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="LEGO® Batman™ 3: Beyond Gotham" data-wa-precio="PS4 y PS5 · $65.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4312,14 +4288,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Mafia: Trilogy" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Mafia: Trilogy" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4335,14 +4311,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Marvel&#39;s Spider-Man: Miles Morales PS4 &amp; PS5" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Marvel&#39;s Spider-Man: Miles Morales PS4 &amp; PS5" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4358,14 +4334,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Marvel&#39;s Spider-Man: Miles Morales Ultimate Edition" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Marvel&#39;s Spider-Man: Miles Morales Ultimate Edition" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4381,14 +4357,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="METAL SLUG 3" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="METAL SLUG 3" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4404,14 +4380,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="METAL SLUG XX" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="METAL SLUG XX" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4427,14 +4403,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$65.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Minecraft" data-wa-precio="PS4 y PS5 · $65.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Minecraft" data-wa-precio="PS4 y PS5 · $65.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4450,14 +4426,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Mortal Kombat 11" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Mortal Kombat 11" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4473,14 +4449,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Mortal Kombat XL" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Mortal Kombat XL" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4496,14 +4472,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$38.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Plants vs. Zombies™: Replanted" data-wa-precio="PS4 y PS5 · $38.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Plants vs. Zombies™: Replanted" data-wa-precio="PS4 y PS5 · $38.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4519,14 +4495,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Red Dead Redemption 2" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Red Dead Redemption 2" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4542,14 +4518,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$49.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Resident evil 5" data-wa-precio="PS4 y PS5 · $49.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Resident evil 5" data-wa-precio="PS4 y PS5 · $49.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4565,14 +4541,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="Sniper Ghost Warrior Contracts" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="Sniper Ghost Warrior Contracts" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
 
@@ -4588,14 +4564,14 @@
 
         
         <div class="suelto-ops">
+          <span class="suelto-cons">PS4 · PS5</span>
           <div class="suelto-linea">
-            <span class="suelto-cons">PS4 · PS5</span>
             <span class="suelto-precio">$22.999</span>
+            <a class="suelto-wa" href="#" rel="noopener" aria-label="Lo quiero: pedir por WhatsApp"
+               title="Lo quiero" data-wa-combo="TEKKEN 7" data-wa-precio="PS4 y PS5 · $22.999">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm5.8 14.17c-.24.68-1.42 1.31-1.96 1.35-.5.05-.99.23-3.4-.71-2.86-1.13-4.68-4.05-4.82-4.24-.14-.19-1.15-1.53-1.15-2.92s.73-2.07 1-2.35c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.64.49.24.57.81 1.97.88 2.11.07.14.12.31.02.5-.09.19-.14.31-.28.47-.14.17-.3.37-.42.5-.14.14-.29.29-.12.57.16.29.73 1.2 1.56 1.95 1.08.96 1.98 1.26 2.27 1.4.28.14.45.12.61-.07.17-.19.7-.82.89-1.1.19-.29.38-.24.64-.14.26.09 1.65.78 1.93.92.28.14.47.21.54.33.07.11.07.66-.17 1.29z"/></svg><span>Lo quiero</span>
+            </a>
           </div>
-          <a class="suelto-wa" href="#" rel="noopener"
-             data-wa-combo="TEKKEN 7" data-wa-precio="PS4 y PS5 · $22.999">
-            Lo quiero
-          </a>
         </div>
       </article>
       </div>
