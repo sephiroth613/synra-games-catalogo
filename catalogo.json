@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-10T00:00:25.974Z",
+ "generado": "2026-10-10T01:20:45.662Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -81,6 +81,63 @@
      "consola": "PS5",
      "rol": "",
      "precio": 44999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 3035,
+   "titulo": "COMBO BATMAMETROKOMRAVEL",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": "img/combo-3035.jpg",
+   "juegos": [
+    {
+     "titulo": "Metro",
+     "imagen": "img/metro.jpg"
+    },
+    {
+     "titulo": "Metro: Last Light Redux",
+     "imagen": "img/metro-last-light-redux.png"
+    },
+    {
+     "titulo": "Metro Exodus: Gold Edition",
+     "imagen": "img/metro-exodus-gold-edition.jpg"
+    },
+    {
+     "titulo": "Batman Asylum",
+     "imagen": "img/batman-asylum.png"
+    },
+    {
+     "titulo": "Batman City",
+     "imagen": "img/batman-city.png"
+    },
+    {
+     "titulo": "Batman Knight",
+     "imagen": "img/batman-knight.png"
+    },
+    {
+     "titulo": "Mortal Kombat 11",
+     "imagen": "img/mortal-kombat-11.png"
+    },
+    {
+     "titulo": "Unreavel Two",
+     "imagen": "img/unreavel-two.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
      "hay": true
     }
    ]
@@ -409,63 +466,6 @@
     {
      "titulo": "Unravel Two",
      "imagen": "img/unravel-two.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 3035,
-   "titulo": "COMBO BATMAMETROKOMRAVEL",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 39999,
-   "hay": true,
-   "portada": "img/combo-3035.jpg",
-   "juegos": [
-    {
-     "titulo": "Metro",
-     "imagen": "img/metro.jpg"
-    },
-    {
-     "titulo": "Metro: Last Light Redux",
-     "imagen": "img/metro-last-light-redux.png"
-    },
-    {
-     "titulo": "Metro Exodus: Gold Edition",
-     "imagen": "img/metro-exodus-gold-edition.jpg"
-    },
-    {
-     "titulo": "Batman Asylum",
-     "imagen": "img/batman-asylum.png"
-    },
-    {
-     "titulo": "Batman City",
-     "imagen": "img/batman-city.png"
-    },
-    {
-     "titulo": "Batman Knight",
-     "imagen": "img/batman-knight.png"
-    },
-    {
-     "titulo": "Mortal Kombat 11",
-     "imagen": "img/mortal-kombat-11.png"
-    },
-    {
-     "titulo": "Unreavel Two",
-     "imagen": "img/unreavel-two.png"
     }
    ],
    "opciones": [
