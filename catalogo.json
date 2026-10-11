@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-11T01:32:38.565Z",
+ "generado": "2026-10-11T01:35:59.085Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -138,6 +138,43 @@
      "consola": "PS5",
      "rol": "",
      "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 3003,
+   "titulo": "COMBO CODSNIPER",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 34999,
+   "hay": true,
+   "portada": "img/combo-3003.jpg",
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Sniper Ghost Warrior Contracts",
+     "imagen": "img/sniper-ghost-warrior-contracts.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 34999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 34999,
      "hay": true
     }
    ]
@@ -984,43 +1021,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 29999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 3003,
-   "titulo": "COMBO CODSNIPER",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 34999,
-   "hay": true,
-   "portada": "img/combo-3003.jpg",
-   "juegos": [
-    {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Sniper Ghost Warrior Contracts",
-     "imagen": "img/sniper-ghost-warrior-contracts.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 34999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 34999,
      "hay": true
     }
    ]
