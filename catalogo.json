@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-11T22:46:21.925Z",
+ "generado": "2026-10-11T22:53:45.084Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -1032,7 +1032,7 @@
    "clase": "combo",
    "desde": 4999,
    "hay": true,
-   "portada": null,
+   "portada": "img/combo-4981.jpg",
    "juegos": [
     {
      "titulo": "Metro 2033 Redux",
