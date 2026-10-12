@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-12T19:00:31.912Z",
+ "generado": "2026-10-12T20:52:10.454Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -3104,6 +3104,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5132,
+   "titulo": "Ghost of Tsushima: Legends",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 65999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Ghost of Tsushima: Legends",
+     "imagen": "img/ghost-of-tsushima-legends.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 65999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 65999,
      "hay": true
     }
    ]
