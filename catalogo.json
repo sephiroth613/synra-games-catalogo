@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-12T21:20:44.517Z",
+ "generado": "2026-10-12T21:51:22.249Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -5197,35 +5197,6 @@
    ]
   },
   {
-   "id": 5111,
-   "titulo": "Ready or Not: Home Invasion",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Ready or Not: Home Invasion",
-     "imagen": "img/ready-or-not-home-invasion.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 4900,
    "titulo": "Resident Evil 0",
    "gancho": null,
@@ -5701,35 +5672,6 @@
     {
      "titulo": "Saints Row PS4&PS5",
      "imagen": "img/saints-row-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5107,
-   "titulo": "Sea of Thieves: 2026 Deluxe Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Sea of Thieves: 2026 Deluxe Edition",
-     "imagen": "img/sea-of-thieves-2026-deluxe-edition.jpg"
     }
    ],
    "opciones": [
