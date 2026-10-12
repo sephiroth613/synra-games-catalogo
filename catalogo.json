@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-12T15:10:12.216Z",
+ "generado": "2026-10-12T15:18:10.333Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -382,6 +382,35 @@
     {
      "titulo": "Assassin's Creed Valhalla",
      "imagen": "img/assassin-s-creed-valhalla.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5090,
+   "titulo": "Assassin's Creed Valhalla - Complete Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Assassin's Creed Valhalla - Complete Edition",
+     "imagen": "img/assassin-s-creed-valhalla-complete-edition.jpg"
     }
    ],
    "opciones": [
@@ -2212,6 +2241,35 @@
    ]
   },
   {
+   "id": 5092,
+   "titulo": "Dying Light 2 Stay Human PS4&PS5",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Dying Light 2 Stay Human PS4&PS5",
+     "imagen": "img/dying-light-2-stay-human-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4938,
    "titulo": "Dying Light Definitive Edition",
    "gancho": null,
@@ -2879,6 +2937,35 @@
    ]
   },
   {
+   "id": 5089,
+   "titulo": "Hogwarts Legacy PS5 Version",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Hogwarts Legacy PS5 Version",
+     "imagen": "img/hogwarts-legacy-ps5-version.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4897,
    "titulo": "Horizon Zero Dawn™ Complete Edition",
    "gancho": null,
@@ -3222,6 +3309,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5093,
+   "titulo": "LEGO® Star Wars™: The Skywalker Saga PS4 & PS5",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "LEGO® Star Wars™: The Skywalker Saga PS4 & PS5",
+     "imagen": "img/lego-star-wars-the-skywalker-saga-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -4150,6 +4266,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5091,
+   "titulo": "Palworld",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Palworld",
+     "imagen": "img/palworld.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
      "hay": true
     }
    ]
