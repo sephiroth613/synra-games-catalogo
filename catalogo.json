@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-12T15:18:10.333Z",
+ "generado": "2026-10-12T15:46:16.426Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -2038,6 +2038,35 @@
    ]
   },
   {
+   "id": 5099,
+   "titulo": "Deus Ex: Mankind Divided",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Deus Ex: Mankind Divided",
+     "imagen": "img/deus-ex-mankind-divided.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4964,
    "titulo": "Devil May Cry 4 Special Edition",
    "gancho": null,
@@ -2236,6 +2265,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5101,
+   "titulo": "DRAGON BALL FighterZ PS4 & PS5",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "DRAGON BALL FighterZ PS4 & PS5",
+     "imagen": "img/dragon-ball-fighterz-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -3227,6 +3285,35 @@
    ]
   },
   {
+   "id": 5096,
+   "titulo": "KILLZONE™ SHADOW FALL",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "KILLZONE™ SHADOW FALL",
+     "imagen": "img/killzone-shadow-fall.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4923,
    "titulo": "LEGO Star Wars II: The Original Trilogy",
    "gancho": null,
@@ -3280,6 +3367,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5097,
+   "titulo": "LEGO® Marvel Collection",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "LEGO® Marvel Collection",
+     "imagen": "img/lego-marvel-collection.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -4822,6 +4938,35 @@
    ]
   },
   {
+   "id": 5095,
+   "titulo": "Returnal Digital Deluxe Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Returnal Digital Deluxe Edition",
+     "imagen": "img/returnal-digital-deluxe-edition.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5016,
    "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
    "gancho": null,
@@ -4962,6 +5107,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5098,
+   "titulo": "Sniper Ghost Warrior Contracts 2 Complete Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Sniper Ghost Warrior Contracts 2 Complete Edition",
+     "imagen": "img/sniper-ghost-warrior-contracts-2-complete-edition.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5102,
+   "titulo": "Sniper Ghost Warrior Contracts Full Arsenal Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Sniper Ghost Warrior Contracts Full Arsenal Edition",
+     "imagen": "img/sniper-ghost-warrior-contracts-full-arsenal-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -5123,6 +5326,35 @@
     {
      "titulo": "SONIC X SHADOW GENERATIONS PS4 & PS5",
      "imagen": "img/sonic-x-shadow-generations-ps4-ps5.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5100,
+   "titulo": "SOULCALIBUR Ⅵ",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "SOULCALIBUR Ⅵ",
+     "imagen": "img/soulcalibur-vi.jpg"
     }
    ],
    "opciones": [
