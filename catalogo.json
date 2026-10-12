@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-12T00:06:55.268Z",
+ "generado": "2026-10-12T01:51:14.165Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -993,6 +993,43 @@
    ]
   },
   {
+   "id": 4979,
+   "titulo": "COMBO ASSBORDUTY",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 24000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Assassin's Creed Chronicles – Trilogy",
+     "imagen": "img/assassin-s-creed-chronicles-trilogy.png"
+    },
+    {
+     "titulo": "Borderlands 3 PS4™ & PS5™",
+     "imagen": "img/borderlands-3-ps4-ps5.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 24000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 24000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 3002,
    "titulo": "COMBO ASSDUTYCLANCY",
    "gancho": null,
@@ -1279,6 +1316,47 @@
      "consola": "PS5",
      "rol": "",
      "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 4978,
+   "titulo": "COMBO UNRABORDERDUTY",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 40000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.jpg"
+    },
+    {
+     "titulo": "Borderlands 3 PS4™ & PS5™",
+     "imagen": "img/borderlands-3-ps4-ps5.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Call of Duty®: WWII - Gold Edition",
+     "imagen": "img/call-of-duty-wwii-gold-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 40000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 40000,
      "hay": true
     }
    ]
