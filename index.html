@@ -12,14 +12,14 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Synra Games">
 <meta property="og:url" content="https://sephiroth613.github.io/synra-games-catalogo/">
-<meta property="og:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mv5ij2eo">
-<meta property="og:image:secure_url" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mv5ij2eo">
+<meta property="og:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mv5immy8">
+<meta property="og:image:secure_url" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mv5immy8">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1280">
 <meta property="og:image:height" content="497">
 <meta property="og:image:alt" content="Synra Games">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mv5ij2eo">
+<meta name="twitter:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mv5immy8">
 <link rel="apple-touch-icon" href="https://sephiroth613.github.io/synra-games-catalogo/img/logo.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -119,46 +119,6 @@
   }
   .tab:hover{color:var(--txt)}
   .tab.activo{background:var(--azul);color:#fff}
-
-  /*
-   * «Promociones» llama la atención: degradado que se mueve, un brillo que
-   * cruza, el fueguito que tiembla y una etiqueta HOT que late. Si no está
-   * elegida, además palpita el borde para invitar a tocarla.
-   */
-  .tab-promo{
-    position:relative;overflow:hidden;color:#fff;white-space:nowrap;
-    background:linear-gradient(110deg,#ff3d00,#ff9100,#ff1744,#ff9100,#ff3d00);
-    background-size:300% 100%;
-    animation:promo-fondo 6s linear infinite;
-    box-shadow:0 0 0 0 rgba(255,87,34,.55);
-  }
-  .tab-promo.activo{
-    background:linear-gradient(110deg,#ff3d00,#ff9100,#ff1744,#ff9100,#ff3d00);
-    background-size:300% 100%;
-  }
-  .tab-promo:not(.activo){animation:promo-fondo 6s linear infinite,promo-pulso 1.6s ease-out infinite}
-  .tab-promo::after{
-    content:'';position:absolute;top:0;bottom:0;left:-60%;width:40%;
-    background:linear-gradient(100deg,transparent,rgba(255,255,255,.55),transparent);
-    transform:skewX(-20deg);
-    animation:promo-brillo 2.8s ease-in-out infinite;
-  }
-  .promo-fuego{display:inline-block;animation:promo-fuego 0.9s ease-in-out infinite alternate;transform-origin:50% 90%}
-  .promo-hot{
-    margin-left:6px;padding:1px 6px;border-radius:999px;
-    background:#fff;color:#ff1744;font-size:.6rem;font-weight:900;letter-spacing:.06em;
-    animation:promo-late 1.2s ease-in-out infinite;
-  }
-  .tab-promo .n{background:rgba(255,255,255,.25);color:#fff}
-  @media (max-width:400px){ .promo-hot{margin-left:4px;padding:1px 4px;font-size:.52rem} .tab-promo{padding-left:8px;padding-right:8px} }
-  @keyframes promo-fondo{to{background-position:300% 0}}
-  @keyframes promo-brillo{0%{left:-60%}60%,100%{left:130%}}
-  @keyframes promo-fuego{from{transform:rotate(-8deg) scale(1)}to{transform:rotate(8deg) scale(1.18)}}
-  @keyframes promo-late{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
-  @keyframes promo-pulso{0%{box-shadow:0 0 0 0 rgba(255,87,34,.6)}100%{box-shadow:0 0 0 12px rgba(255,87,34,0)}}
-  @media (prefers-reduced-motion:reduce){
-    .tab-promo,.tab-promo:not(.activo),.tab-promo::after,.promo-fuego,.promo-hot{animation:none}
-  }
   .tab .n{
     display:inline-block;margin-left:5px;
     font-size:.74rem;font-weight:600;opacity:.75;
@@ -838,7 +798,6 @@
 
   /* sueltos: carátula, nombre y precio; el botón es pequeño y verde */
   .suelto-cons{display:block;padding:0 3px;font-size:.62rem;font-weight:700;color:var(--txt3);letter-spacing:.04em}
-  .suelto-solo{display:inline-block;margin-left:3px;padding:1px 7px;border-radius:5px;background:rgba(147,112,248,.22);color:#c4b0ff}
   .suelto-linea{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-top:3px}
   .suelto-precio{font-size:1.25rem;font-weight:700;color:#fff;letter-spacing:0}
   .suelto-wa{
@@ -933,8 +892,8 @@
 
   
     <div class="tabs" role="tablist">
-      <button class="tab activo tab-promo" data-grupo="combos" role="tab" aria-selected="true">
-        <span class="promo-fuego" aria-hidden="true">🔥</span> Promociones<span class="promo-hot">HOT</span><span class="n">12</span>
+      <button class="tab activo" data-grupo="combos" role="tab" aria-selected="true">
+        Combos<span class="n">12</span>
       </button>
       <button class="tab" data-grupo="individuales" role="tab" aria-selected="false">
         Juegos sueltos<span class="n">277</span>
@@ -994,7 +953,7 @@
         <li>✔ +50 juegos entregados</li>
       </ul>
     </div>
-        <p class="intro-sig">Desliza para ver las promociones ↓</p>
+        <p class="intro-sig">Desliza para ver los combos ↓</p>
       </article>
 
       <article class="combo" id="c1"
@@ -8163,33 +8122,6 @@
       .toLowerCase().trim();
   }
 
-  /*
-   * Perdona una letra mal en palabras de 4 o más: «elder ring» encuentra
-   * «Elden Ring», «spiderman» encuentra «Spider-Man».
-   */
-  function unaLetra(a, b){
-    if (Math.abs(a.length - b.length) > 1) return false;
-    var i = 0, j = 0, f = 0;
-    while (i < a.length && j < b.length) {
-      if (a[i] === b[j]) { i++; j++; continue; }
-      if (++f > 1) return false;
-      if (a.length > b.length) i++; else if (a.length < b.length) j++; else { i++; j++; }
-    }
-    return f + (a.length - i) + (b.length - j) <= 1;
-  }
-  function casi(texto, q){
-    var t = String(texto).replace(/[^a-z0-9]+/g, ' ');
-    var junto = t.replace(/ /g, '');
-    var palabras = t.split(' ');
-    return q.replace(/[^a-z0-9]+/g, ' ').trim().split(' ').every(function(w){
-      if (!w) return true;
-      if (t.indexOf(w) !== -1 || junto.indexOf(w) !== -1) return true;
-      return w.length >= 4 && palabras.some(function(p){
-        return unaLetra(w, p) || (p.length > w.length && unaLetra(w, p.slice(0, w.length)));
-      });
-    });
-  }
-
   function filtrar(){
     // sin catálogo publicado no se pinta la barra y no hay nada que filtrar
     if (!campo) return;
@@ -8215,7 +8147,7 @@
 
     var quedan = 0;
     activo.querySelectorAll('[data-buscar]').forEach(function(t){
-      var pasaTexto = !q || t.dataset.buscar.indexOf(q) !== -1 || casi(t.dataset.buscar, q);
+      var pasaTexto = !q || t.dataset.buscar.indexOf(q) !== -1;
 
       // palabra entera: «PS4» no debe colar una tarjeta de «PS4 Pro»
       var suyas = (t.dataset.consolas || '').split(' ');
