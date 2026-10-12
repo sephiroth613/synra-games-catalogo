@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-12T17:51:21.167Z",
+ "generado": "2026-10-12T17:53:12.533Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -27,6 +27,47 @@
     {
      "titulo": "Call of Duty®: Vanguard - Standard Edition",
      "imagen": "img/call-of-duty-vanguard-standard-edition.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 44999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 44999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 141,
+   "titulo": "COMBO CODJUST",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 44999,
+   "hay": true,
+   "portada": "img/combo-141.jpg",
+   "juegos": [
+    {
+     "titulo": "Call of Duty® Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Call of Duty Modern Warfare 2 Remake",
+     "imagen": "img/call-of-duty-modern-warfare-2-remake.png"
+    },
+    {
+     "titulo": "Call of Duty Vanguard",
+     "imagen": "img/call-of-duty-vanguard.png"
+    },
+    {
+     "titulo": "Just Cause 3",
+     "imagen": "img/just-cause-3.jpg"
     }
    ],
    "opciones": [
@@ -175,6 +216,125 @@
      "consola": "PS5",
      "rol": "",
      "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 4816,
+   "titulo": "COMBO CODMODERBATTL",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "STAR WARS™ Battlefront™ II",
+     "imagen": "img/star-wars-battlefront-ii.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 139,
+   "titulo": "COMBO DIVCALLMAN",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 33000,
+   "hay": true,
+   "portada": "img/combo-139.jpg",
+   "juegos": [
+    {
+     "titulo": "The Division",
+     "imagen": "img/the-division.png"
+    },
+    {
+     "titulo": "Call of Duty® Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Batman™ Arkham Knight",
+     "imagen": "img/batman-arkham-knight.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 33000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 33000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 142,
+   "titulo": "COMBO FARMORJUST",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 47000,
+   "hay": true,
+   "portada": "img/combo-142.jpg",
+   "juegos": [
+    {
+     "titulo": "FARCRY 3 Classic Edition",
+     "imagen": "img/farcry-3-classic-edition.jpg"
+    },
+    {
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat 11 Ultimate PS4 &amp; PS5",
+     "imagen": "img/mortal-kombat-11-ultimate-ps4-amp-ps5.jpg"
+    },
+    {
+     "titulo": "Just Cause 3 Xxl Edition",
+     "imagen": "img/just-cause-3-xxl-edition.jpg"
+    },
+    {
+     "titulo": "Rabbids® Party of Legends",
+     "imagen": "img/rabbids-party-of-legends.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 47000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 47000,
      "hay": true
     }
    ]
