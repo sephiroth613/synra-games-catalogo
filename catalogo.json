@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-12T21:51:22.249Z",
+ "generado": "2026-10-12T22:51:23.344Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -2234,35 +2234,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5120,
-   "titulo": "Dead Cells: Return to Castlevania",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Dead Cells: Return to Castlevania",
-     "imagen": "img/dead-cells-return-to-castlevania.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
      "hay": true
     }
    ]
