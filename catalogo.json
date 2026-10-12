@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-12T16:18:43.898Z",
+ "generado": "2026-10-12T16:26:13.625Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -2828,6 +2828,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5126,
+   "titulo": "Fobia - St. Dinfna Hotel",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Fobia - St. Dinfna Hotel",
+     "imagen": "img/fobia-st-dinfna-hotel.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
      "hay": true
     }
    ]
