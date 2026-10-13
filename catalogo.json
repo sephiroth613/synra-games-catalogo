@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-13T22:03:20.733Z",
+ "generado": "2026-10-13T22:32:59.998Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -216,6 +216,39 @@
      "consola": "PS5",
      "rol": "",
      "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 4881,
+   "titulo": "COMBO BATTLMORTA",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 25000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "STAR WARS™ Battlefront™ Ultimate Edition",
+     "imagen": "img/star-wars-battlefront-ultimate-edition.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 25000,
      "hay": true
     }
    ]
@@ -727,6 +760,35 @@
    "juegos": [
     {
      "titulo": "Batman: Arkham Knight",
+     "imagen": "img/batman-arkham-knight.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5169,
+   "titulo": "Batman™: Arkham Knight",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Batman™: Arkham Knight",
      "imagen": "img/batman-arkham-knight.jpg"
     }
    ],
