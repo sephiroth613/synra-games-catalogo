@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-13T00:00:33.863Z",
+ "generado": "2026-10-13T03:51:21.156Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -451,64 +451,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 4921,
-   "titulo": "Assassin's Creed Chronicles – Trilogy",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Assassin's Creed Chronicles – Trilogy",
-     "imagen": "img/assassin-s-creed-chronicles-trilogy.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 4989,
-   "titulo": "Assassin's Creed Chronicles: China",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Assassin's Creed Chronicles: China",
-     "imagen": "img/assassin-s-creed-chronicles-china.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
      "hay": true
     }
    ]
@@ -7271,35 +7213,6 @@
     {
      "titulo": "ARK: Survival Evolved",
      "imagen": "img/ark-survival-evolved.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 14,
-   "titulo": "Assassin's Creed Odyssey",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 49999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Assassin's Creed Odyssey",
-     "imagen": "img/assassin-s-creed-odyssey.jpg"
     }
    ],
    "opciones": [
