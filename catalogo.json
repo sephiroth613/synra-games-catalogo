@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-13T16:55:22.360Z",
+ "generado": "2026-10-13T17:52:17.437Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -2888,6 +2888,35 @@
     {
      "titulo": "Farm Manager 2022",
      "imagen": "img/farm-manager-2022.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5162,
+   "titulo": "FINAL FANTASY XIV Online - Starter Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "FINAL FANTASY XIV Online - Starter Edition",
+     "imagen": "img/final-fantasy-xiv-online-starter-edition.jpg"
     }
    ],
    "opciones": [
@@ -6120,6 +6149,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5163,
+   "titulo": "The Crew Motorfest",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "The Crew Motorfest",
+     "imagen": "img/the-crew-motorfest.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
      "hay": true
     }
    ]
