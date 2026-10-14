@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-14T13:50:38.918Z",
+ "generado": "2026-10-14T14:51:24.450Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -4488,6 +4488,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5188,
+   "titulo": "MLB® The Show™ 23 PS4™",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "MLB® The Show™ 23 PS4™",
+     "imagen": "img/mlb-the-show-23-ps4.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
      "hay": true
     }
    ]
