@@ -1,49 +1,8 @@
 {
- "generado": "2026-10-14T02:34:53.438Z",
+ "generado": "2026-10-14T02:39:03.864Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
-  {
-   "id": 1,
-   "titulo": "COMBO CODFIRSTBUY",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 44999,
-   "hay": true,
-   "portada": "img/combo-1.jpg",
-   "juegos": [
-    {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Call of Duty®: WWII - Gold Edition - INGLES",
-     "imagen": "img/call-of-duty-wwii-gold-edition-ingles.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Vanguard - Standard Edition",
-     "imagen": "img/call-of-duty-vanguard-standard-edition.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 44999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 44999,
-     "hay": true
-    }
-   ]
-  },
   {
    "id": 141,
    "titulo": "COMBO CODJUST",
