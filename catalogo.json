@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-14T14:51:24.450Z",
+ "generado": "2026-10-14T15:50:39.881Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -5827,6 +5827,35 @@
    ]
   },
   {
+   "id": 5190,
+   "titulo": "SKATE CITY",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "SKATE CITY",
+     "imagen": "img/skate-city.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5123,
    "titulo": "Skul: The Hero Slayer",
    "gancho": null,
@@ -6315,6 +6344,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5191,
+   "titulo": "TEKKEN 8",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "TEKKEN 8",
+     "imagen": "img/tekken-8.jpeg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
      "hay": true
     }
    ]
