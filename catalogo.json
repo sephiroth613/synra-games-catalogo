@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-14T12:50:43.220Z",
+ "generado": "2026-10-14T13:50:38.918Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -6837,6 +6837,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5186,
+   "titulo": "Truck Driver",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Truck Driver",
+     "imagen": "img/truck-driver.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
      "hay": true
     }
    ]
