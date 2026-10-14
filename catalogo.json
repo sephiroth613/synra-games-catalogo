@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-14T02:16:01.595Z",
+ "generado": "2026-10-14T02:34:53.438Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -3891,6 +3891,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5176,
+   "titulo": "LEGO® Marvel Super Heroes 2",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "LEGO® Marvel Super Heroes 2",
+     "imagen": "img/lego-marvel-super-heroes-2.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5175,
+   "titulo": "LEGO® Marvel's Avengers",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "LEGO® Marvel's Avengers",
+     "imagen": "img/lego-marvel-s-avengers.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
      "hay": true
     }
    ]
