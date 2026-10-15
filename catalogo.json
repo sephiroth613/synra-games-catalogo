@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-15T11:51:19.846Z",
+ "generado": "2026-10-15T12:50:44.666Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -6435,6 +6435,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5216,
+   "titulo": "Terraria – PlayStation®4 Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Terraria – PlayStation®4 Edition",
+     "imagen": "img/terraria-playstation4-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
      "hay": true
     }
    ]
