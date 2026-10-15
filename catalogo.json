@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-15T17:50:44.374Z",
+ "generado": "2026-10-15T18:50:48.796Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -1842,88 +1842,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 34999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 3640,
-   "titulo": "COMBO METROBURN",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 22999,
-   "hay": true,
-   "portada": "img/combo-3640.jpg",
-   "juegos": [
-    {
-     "titulo": "Metro 2033 Redux",
-     "imagen": "img/metro-2033-redux.jpg"
-    },
-    {
-     "titulo": "Metro: Last Light Redux",
-     "imagen": "img/metro-last-light-redux.png"
-    },
-    {
-     "titulo": "Metro Exodus: Gold Edition",
-     "imagen": "img/metro-exodus-gold-edition.jpg"
-    },
-    {
-     "titulo": "Burnout™ Paradise Remastered",
-     "imagen": "img/burnout-paradise-remastered.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 3671,
-   "titulo": "COMBO RESIDENTSUIT",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 39999,
-   "hay": true,
-   "portada": "img/combo-3671.jpg",
-   "juegos": [
-    {
-     "titulo": "Resident Evil 4",
-     "imagen": "img/resident-evil-4.jpg"
-    },
-    {
-     "titulo": "RESIDENT EVIL 5",
-     "imagen": "img/resident-evil-5.jpg"
-    },
-    {
-     "titulo": "Resident Evil 6",
-     "imagen": "img/resident-evil-6.png"
-    },
-    {
-     "titulo": "Need for Speed™ Hot Pursuit Remastered",
-     "imagen": "img/need-for-speed-hot-pursuit-remastered.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39999,
      "hay": true
     }
    ]
@@ -7902,6 +7820,47 @@
    ]
   },
   {
+   "id": 3640,
+   "titulo": "COMBO METROBURN",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 22999,
+   "hay": true,
+   "portada": "img/combo-3640.jpg",
+   "juegos": [
+    {
+     "titulo": "Metro 2033 Redux",
+     "imagen": "img/metro-2033-redux.jpg"
+    },
+    {
+     "titulo": "Metro: Last Light Redux",
+     "imagen": "img/metro-last-light-redux.png"
+    },
+    {
+     "titulo": "Metro Exodus: Gold Edition",
+     "imagen": "img/metro-exodus-gold-edition.jpg"
+    },
+    {
+     "titulo": "Burnout™ Paradise Remastered",
+     "imagen": "img/burnout-paradise-remastered.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 3558,
    "titulo": "COMBO REDMORNEEBORASS",
    "gancho": null,
@@ -7942,6 +7901,47 @@
      "consola": "PS5",
      "rol": "",
      "precio": 66000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 3671,
+   "titulo": "COMBO RESIDENTSUIT",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": "img/combo-3671.jpg",
+   "juegos": [
+    {
+     "titulo": "Resident Evil 4",
+     "imagen": "img/resident-evil-4.jpg"
+    },
+    {
+     "titulo": "RESIDENT EVIL 5",
+     "imagen": "img/resident-evil-5.jpg"
+    },
+    {
+     "titulo": "Resident Evil 6",
+     "imagen": "img/resident-evil-6.png"
+    },
+    {
+     "titulo": "Need for Speed™ Hot Pursuit Remastered",
+     "imagen": "img/need-for-speed-hot-pursuit-remastered.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
      "hay": true
     }
    ]
