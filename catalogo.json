@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-14T20:52:03.748Z",
+ "generado": "2026-10-15T00:00:51.336Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -7410,39 +7410,6 @@
    ]
   },
   {
-   "id": 9,
-   "titulo": "COMBO MKMOTO",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 25000,
-   "hay": true,
-   "portada": "img/combo-9.jpg",
-   "juegos": [
-    {
-     "titulo": "Mortal Kombat 11 Ultimate PS4 & PS5",
-     "imagen": "img/mortal-kombat-11-ultimate-ps4-ps5.png"
-    },
-    {
-     "titulo": "MotoGP™22 PS4 & PS5",
-     "imagen": "img/motogp22-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 25000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 25000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 10,
    "titulo": "7 Days to Die - Console Edition",
    "gancho": null,
@@ -8875,6 +8842,39 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "titulo": "COMBO MKMOTO",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 25000,
+   "hay": true,
+   "portada": "img/combo-9.jpg",
+   "juegos": [
+    {
+     "titulo": "Mortal Kombat 11 Ultimate PS4 & PS5",
+     "imagen": "img/mortal-kombat-11-ultimate-ps4-ps5.png"
+    },
+    {
+     "titulo": "MotoGP™22 PS4 & PS5",
+     "imagen": "img/motogp22-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 25000,
      "hay": true
     }
    ]
