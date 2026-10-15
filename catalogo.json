@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-15T14:50:45.235Z",
+ "generado": "2026-10-15T15:50:41.079Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -1883,51 +1883,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 3558,
-   "titulo": "COMBO REDMORNEEBORASS",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 66000,
-   "hay": true,
-   "portada": "img/combo-3558.jpg",
-   "juegos": [
-    {
-     "titulo": "Need for Speed Hot Pursuit",
-     "imagen": "img/need-for-speed-hot-pursuit.png"
-    },
-    {
-     "titulo": "Borderlands 3 PS4™ & PS5™",
-     "imagen": "img/borderlands-3-ps4-ps5.jpg"
-    },
-    {
-     "titulo": "Assasin's Creed Chronicles trilogy",
-     "imagen": "img/assasin-s-creed-chronicles-trilogy.png"
-    },
-    {
-     "titulo": "Red Dead Redeptiom 2",
-     "imagen": "img/red-dead-redeptiom-2.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat 1",
-     "imagen": "img/mortal-kombat-1.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 66000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 66000,
      "hay": true
     }
    ]
@@ -7942,6 +7897,51 @@
      "consola": "PS5",
      "rol": "",
      "precio": 29999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 3558,
+   "titulo": "COMBO REDMORNEEBORASS",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 66000,
+   "hay": true,
+   "portada": "img/combo-3558.jpg",
+   "juegos": [
+    {
+     "titulo": "Need for Speed Hot Pursuit",
+     "imagen": "img/need-for-speed-hot-pursuit.png"
+    },
+    {
+     "titulo": "Borderlands 3 PS4™ & PS5™",
+     "imagen": "img/borderlands-3-ps4-ps5.jpg"
+    },
+    {
+     "titulo": "Assasin's Creed Chronicles trilogy",
+     "imagen": "img/assasin-s-creed-chronicles-trilogy.png"
+    },
+    {
+     "titulo": "Red Dead Redeptiom 2",
+     "imagen": "img/red-dead-redeptiom-2.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat 1",
+     "imagen": "img/mortal-kombat-1.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 66000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 66000,
      "hay": true
     }
    ]
