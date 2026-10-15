@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-15T05:50:39.288Z",
+ "generado": "2026-10-15T06:50:39.713Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -195,6 +195,39 @@
     {
      "titulo": "Mortal Kombat X",
      "imagen": "img/mortal-kombat-x.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5208,
+   "titulo": "COMBO CHILDCOD",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 25000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Child of Light",
+     "imagen": "img/child-of-light.png"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
     }
    ],
    "opciones": [
