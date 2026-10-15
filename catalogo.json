@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-15T01:28:36.440Z",
+ "generado": "2026-10-15T01:39:56.821Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -1735,6 +1735,47 @@
      "consola": "PS5",
      "rol": "",
      "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5141,
+   "titulo": "COMBO CALLPLANFOBIACHILD",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 38725,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty: Modern Warfare Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Plants vs. Zombies Garden Warfare 2",
+     "imagen": "img/plants-vs-zombies-garden-warfare-2.jpg"
+    },
+    {
+     "titulo": "Fobia - St. Dinfna Hotel",
+     "imagen": "img/fobia-st-dinfna-hotel.jpg"
+    },
+    {
+     "titulo": "Child of Light",
+     "imagen": "img/child-of-light.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38725,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38725,
      "hay": true
     }
    ]
