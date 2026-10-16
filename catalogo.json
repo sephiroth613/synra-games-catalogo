@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-16T17:49:03.989Z",
+ "generado": "2026-10-16T18:59:19.654Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -217,7 +217,7 @@
    "titulo": "COMBO DIVCALLMAN",
    "gancho": null,
    "clase": "combo",
-   "desde": 33000,
+   "desde": 31000,
    "hay": true,
    "portada": "img/combo-139.jpg",
    "juegos": [
@@ -238,13 +238,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 33000,
+     "precio": 31000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 33000,
+     "precio": 31000,
      "hay": true
     }
    ]
@@ -654,6 +654,64 @@
     {
      "titulo": "Assassin’s Creed® The Ezio Collection",
      "imagen": "img/assassin-s-creed-the-ezio-collection.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5251,
+   "titulo": "ASTRO BOT",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "ASTRO BOT",
+     "imagen": "img/astro-bot.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5252,
+   "titulo": "ASTRO BOT Rescue Mission™",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "ASTRO BOT Rescue Mission™",
+     "imagen": "img/astro-bot-rescue-mission.jpg"
     }
    ],
    "opciones": [
