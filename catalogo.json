@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-16T00:55:50.819Z",
+ "generado": "2026-10-16T01:55:48.263Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -8145,6 +8145,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 79,
+   "titulo": "HITMAN World of Assassination Part One",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "HITMAN World of Assassination",
+     "imagen": "img/hitman-world-of-assassination.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
      "hay": true
     }
    ]
