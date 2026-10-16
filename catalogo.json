@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-16T07:48:54.354Z",
+ "generado": "2026-10-16T08:49:41.662Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -4423,6 +4423,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5240,
+   "titulo": "Minecraft Dungeons II Deluxe Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Minecraft Dungeons II Deluxe Edition",
+     "imagen": "img/minecraft-dungeons-ii-deluxe-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
      "hay": true
     }
    ]
