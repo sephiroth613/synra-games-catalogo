@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-16T13:49:15.475Z",
+ "generado": "2026-10-16T14:49:11.011Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -175,39 +175,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 34999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 4881,
-   "titulo": "COMBO BATTLMORTA",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 25000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "STAR WARS™ Battlefront™ Ultimate Edition",
-     "imagen": "img/star-wars-battlefront-ultimate-edition.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 25000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 25000,
      "hay": true
     }
    ]
@@ -1759,39 +1726,6 @@
     {
      "titulo": "Mortal Kombat 11",
      "imagen": "img/mortal-kombat-11.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 34999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 34999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 4885,
-   "titulo": "COMBO GODSUIT",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 34999,
-   "hay": true,
-   "portada": "img/combo-4885.jpg",
-   "juegos": [
-    {
-     "titulo": "God of War 3",
-     "imagen": "img/god-of-war-3.jpg"
-    },
-    {
-     "titulo": "Need for Speed Hot Pursuit",
-     "imagen": "img/need-for-speed-hot-pursuit.png"
     }
    ],
    "opciones": [
@@ -7378,6 +7312,39 @@
    ]
   },
   {
+   "id": 4881,
+   "titulo": "COMBO BATTLMORTA",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 25000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "STAR WARS™ Battlefront™ Ultimate Edition",
+     "imagen": "img/star-wars-battlefront-ultimate-edition.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4816,
    "titulo": "COMBO CODMODERBATTL",
    "gancho": null,
@@ -7844,6 +7811,39 @@
      "consola": "PS5",
      "rol": "",
      "precio": 29999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 4885,
+   "titulo": "COMBO GODSUIT",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 34999,
+   "hay": true,
+   "portada": "img/combo-4885.jpg",
+   "juegos": [
+    {
+     "titulo": "God of War 3",
+     "imagen": "img/god-of-war-3.jpg"
+    },
+    {
+     "titulo": "Need for Speed Hot Pursuit",
+     "imagen": "img/need-for-speed-hot-pursuit.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 34999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 34999,
      "hay": true
     }
    ]
