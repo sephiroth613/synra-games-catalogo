@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-17T14:37:21.379Z",
+ "generado": "2026-10-17T15:07:33.364Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -162,6 +162,51 @@
     {
      "titulo": "Sniper Ghost Warrior Contracts",
      "imagen": "img/sniper-ghost-warrior-contracts.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 34999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 34999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5203,
+   "titulo": "COMBO GHOSTUNCAHTTED",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 34999,
+   "hay": true,
+   "portada": "img/combo-5203.jpg",
+   "juegos": [
+    {
+     "titulo": "UNCHARTED 4: A Thief’s End & UNCHARTED: The Lost Legacy Digital Bundle",
+     "imagen": "img/uncharted-4-a-thief-s-end-uncharted-the-lost-legacy-digital-.jpg"
+    },
+    {
+     "titulo": "Uncharted the Lost Legacy Retro",
+     "imagen": "img/uncharted-the-lost-legacy-retro.jpg"
+    },
+    {
+     "titulo": "Tom Clancys Ghost Recon Breakpoint Deluxe Edition",
+     "imagen": null
+    },
+    {
+     "titulo": "Call of Duty Modern Warfare 2 Remake",
+     "imagen": "img/call-of-duty-modern-warfare-2-remake.png"
+    },
+    {
+     "titulo": "Mortal Kombat 11",
+     "imagen": "img/mortal-kombat-11.png"
     }
    ],
    "opciones": [
@@ -1317,51 +1362,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38725,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5203,
-   "titulo": "COMBO GHOSTUNCAHTTED",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 34999,
-   "hay": true,
-   "portada": "img/combo-5203.jpg",
-   "juegos": [
-    {
-     "titulo": "UNCHARTED 4: A Thief’s End & UNCHARTED: The Lost Legacy Digital Bundle",
-     "imagen": "img/uncharted-4-a-thief-s-end-uncharted-the-lost-legacy-digital-.jpg"
-    },
-    {
-     "titulo": "Uncharted the Lost Legacy Retro",
-     "imagen": "img/uncharted-the-lost-legacy-retro.jpg"
-    },
-    {
-     "titulo": "Tom Clancys Ghost Recon Breakpoint Deluxe Edition",
-     "imagen": null
-    },
-    {
-     "titulo": "Call of Duty Modern Warfare 2 Remake",
-     "imagen": "img/call-of-duty-modern-warfare-2-remake.png"
-    },
-    {
-     "titulo": "Mortal Kombat 11",
-     "imagen": "img/mortal-kombat-11.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 34999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 34999,
      "hay": true
     }
    ]
