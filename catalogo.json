@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-17T15:07:33.364Z",
+ "generado": "2026-10-17T15:38:10.173Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -8564,7 +8564,7 @@
    "titulo": "Street Fighter V: Champion Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 49999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8577,13 +8577,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 49999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 49999,
      "hay": true
     }
    ]
