@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-17T21:58:38.546Z",
+ "generado": "2026-10-17T22:09:31.648Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -4731,6 +4731,51 @@
    ]
   },
   {
+   "id": 3002,
+   "titulo": "COMBO ASSDUTYCLANCY",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": "img/combo-3002.jpg",
+   "juegos": [
+    {
+     "titulo": "Assassin's Creed Chronicles – Trilogy",
+     "imagen": "img/assassin-s-creed-chronicles-trilogy.png"
+    },
+    {
+     "titulo": "Tom Clancy's Ghost Recon Breakpoint Deluxe Edition",
+     "imagen": "img/tom-clancy-s-ghost-recon-breakpoint-deluxe-edition.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4885,
    "titulo": "COMBO GODSUIT",
    "gancho": null,
@@ -5612,51 +5657,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 3002,
-   "titulo": "COMBO ASSDUTYCLANCY",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 39999,
-   "hay": true,
-   "portada": "img/combo-3002.jpg",
-   "juegos": [
-    {
-     "titulo": "Assassin's Creed Chronicles – Trilogy",
-     "imagen": "img/assassin-s-creed-chronicles-trilogy.png"
-    },
-    {
-     "titulo": "Tom Clancy's Ghost Recon Breakpoint Deluxe Edition",
-     "imagen": "img/tom-clancy-s-ghost-recon-breakpoint-deluxe-edition.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39999,
      "hay": true
     }
    ]
