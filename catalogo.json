@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-17T17:37:32.733Z",
+ "generado": "2026-10-17T18:37:22.501Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -4030,35 +4030,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 4980,
-   "titulo": "Street Fighter™ 6",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 49999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Street Fighter™ 6",
-     "imagen": "img/street-fighter-6.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 49999,
      "hay": true
     }
    ]
@@ -8571,6 +8542,35 @@
     {
      "titulo": "Street Champion",
      "imagen": "img/street-champion.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 4980,
+   "titulo": "Street Fighter™ 6",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Street Fighter™ 6",
+     "imagen": "img/street-fighter-6.png"
     }
    ],
    "opciones": [
