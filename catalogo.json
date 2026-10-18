@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-17T23:04:42.884Z",
+ "generado": "2026-10-18T00:05:06.192Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -1321,47 +1321,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5141,
-   "titulo": "COMBO CALLPLANFOBIACHILD",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 38725,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Call of Duty: Modern Warfare Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Plants vs. Zombies Garden Warfare 2",
-     "imagen": "img/plants-vs-zombies-garden-warfare-2.jpg"
-    },
-    {
-     "titulo": "Fobia - St. Dinfna Hotel",
-     "imagen": "img/fobia-st-dinfna-hotel.jpg"
-    },
-    {
-     "titulo": "Child of Light",
-     "imagen": "img/child-of-light.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38725,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38725,
      "hay": true
     }
    ]
@@ -4879,6 +4838,39 @@
    ]
   },
   {
+   "id": 4880,
+   "titulo": "COMBO UNRAVMORTA",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 25000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 10,
    "titulo": "7 Days to Die - Console Edition",
    "gancho": null,
@@ -5657,174 +5649,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 1726,
-   "titulo": "COMBO CABALLEROX",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 29999,
-   "hay": true,
-   "portada": "img/combo-1726.jpg",
-   "juegos": [
-    {
-     "titulo": "Batman Asylum",
-     "imagen": "img/batman-asylum.png"
-    },
-    {
-     "titulo": "Batman City",
-     "imagen": "img/batman-city.png"
-    },
-    {
-     "titulo": "Batman Knight",
-     "imagen": "img/batman-knight.png"
-    },
-    {
-     "titulo": "Mortal Kombat 11",
-     "imagen": "img/mortal-kombat-11.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 29999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 29999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 3640,
-   "titulo": "COMBO METROBURN",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 22999,
-   "hay": true,
-   "portada": "img/combo-3640.jpg",
-   "juegos": [
-    {
-     "titulo": "Metro 2033 Redux",
-     "imagen": "img/metro-2033-redux.jpg"
-    },
-    {
-     "titulo": "Metro: Last Light Redux",
-     "imagen": "img/metro-last-light-redux.png"
-    },
-    {
-     "titulo": "Metro Exodus: Gold Edition",
-     "imagen": "img/metro-exodus-gold-edition.jpg"
-    },
-    {
-     "titulo": "Burnout™ Paradise Remastered",
-     "imagen": "img/burnout-paradise-remastered.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 3558,
-   "titulo": "COMBO REDMORNEEBORASS",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 66000,
-   "hay": true,
-   "portada": "img/combo-3558.jpg",
-   "juegos": [
-    {
-     "titulo": "Need for Speed Hot Pursuit",
-     "imagen": "img/need-for-speed-hot-pursuit.png"
-    },
-    {
-     "titulo": "Borderlands 3 PS4™ & PS5™",
-     "imagen": "img/borderlands-3-ps4-ps5.jpg"
-    },
-    {
-     "titulo": "Assasin's Creed Chronicles trilogy",
-     "imagen": "img/assasin-s-creed-chronicles-trilogy.png"
-    },
-    {
-     "titulo": "Red Dead Redeptiom 2",
-     "imagen": "img/red-dead-redeptiom-2.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat 1",
-     "imagen": "img/mortal-kombat-1.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 66000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 66000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 3671,
-   "titulo": "COMBO RESIDENTSUIT",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 39999,
-   "hay": true,
-   "portada": "img/combo-3671.jpg",
-   "juegos": [
-    {
-     "titulo": "Resident Evil 4",
-     "imagen": "img/resident-evil-4.jpg"
-    },
-    {
-     "titulo": "RESIDENT EVIL 5",
-     "imagen": "img/resident-evil-5.jpg"
-    },
-    {
-     "titulo": "Resident Evil 6",
-     "imagen": "img/resident-evil-6.png"
-    },
-    {
-     "titulo": "Need for Speed™ Hot Pursuit Remastered",
-     "imagen": "img/need-for-speed-hot-pursuit-remastered.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39999,
      "hay": true
     }
    ]
