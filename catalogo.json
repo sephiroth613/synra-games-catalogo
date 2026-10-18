@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-18T03:04:53.974Z",
+ "generado": "2026-10-18T04:09:23.115Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -4768,39 +4768,6 @@
    ]
   },
   {
-   "id": 4881,
-   "titulo": "COMBO BATTLMORTA",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 25000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "STAR WARS™ Battlefront™ Ultimate Edition",
-     "imagen": "img/star-wars-battlefront-ultimate-edition.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 25000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 25000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 4816,
    "titulo": "COMBO CODMODERBATTL",
    "gancho": null,
@@ -4833,39 +4800,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 39999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 4880,
-   "titulo": "COMBO UNRAVMORTA",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 25000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 25000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 25000,
      "hay": true
     }
    ]
