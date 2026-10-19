@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-19T18:08:09.170Z",
+ "generado": "2026-10-19T19:21:52.215Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -525,6 +525,35 @@
     {
      "titulo": "FINAL FANTASY XIV Online - Starter Edition",
      "imagen": "img/final-fantasy-xiv-online-starter-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5325,
+   "titulo": "Ghost of Tsushima DIRECTOR’S CUT",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Ghost of Tsushima DIRECTOR’S CUT",
+     "imagen": "img/ghost-of-tsushima-director-s-cut.jpg"
     }
    ],
    "opciones": [
