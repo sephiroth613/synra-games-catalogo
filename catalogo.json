@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-19T16:18:46.653Z",
+ "generado": "2026-10-19T16:44:12.987Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -17,12 +17,12 @@
      "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
     },
     {
-     "titulo": "Call of Duty Modern Warfare 2 Remake",
-     "imagen": "img/call-of-duty-modern-warfare-2-remake.png"
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
     },
     {
-     "titulo": "Call of Duty Vanguard",
-     "imagen": "img/call-of-duty-vanguard.png"
+     "titulo": "Call of Duty®: Vanguard - Cross-Gen Bundle",
+     "imagen": "img/call-of-duty-vanguard-cross-gen-bundle.jpg"
     },
     {
      "titulo": "Just Cause 3",
@@ -58,16 +58,16 @@
      "imagen": "img/uncharted-4-a-thief-s-end-uncharted-the-lost-legacy-digital-.jpg"
     },
     {
-     "titulo": "Uncharted the Lost Legacy Retro",
-     "imagen": "img/uncharted-the-lost-legacy-retro.jpg"
+     "titulo": "UNCHARTED 4: A Thief’s End & UNCHARTED: The Lost Legacy Digital Bundle",
+     "imagen": "img/uncharted-4-a-thief-s-end-uncharted-the-lost-legacy-digital-.jpg"
     },
     {
      "titulo": "Tom Clancys Ghost Recon Breakpoint Deluxe Edition",
      "imagen": null
     },
     {
-     "titulo": "Call of Duty Modern Warfare 2 Remake",
-     "imagen": "img/call-of-duty-modern-warfare-2-remake.png"
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
     },
     {
      "titulo": "Mortal Kombat 11",
@@ -111,16 +111,16 @@
      "imagen": "img/metro-exodus-gold-edition.jpg"
     },
     {
-     "titulo": "Batman Asylum",
-     "imagen": "img/batman-asylum.png"
+     "titulo": "Batman: Return to Arkham - Arkham Asylum",
+     "imagen": "img/batman-return-to-arkham-arkham-asylum.png"
     },
     {
-     "titulo": "Batman City",
-     "imagen": "img/batman-city.png"
+     "titulo": "Batman: Return to Arkham - Arkham City",
+     "imagen": "img/batman-return-to-arkham-arkham-city.jpg"
     },
     {
-     "titulo": "Batman Knight",
-     "imagen": "img/batman-knight.png"
+     "titulo": "Batman: Arkham Knight",
+     "imagen": "img/batman-arkham-knight.jpg"
     },
     {
      "titulo": "Mortal Kombat 11",
@@ -538,35 +538,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 49999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5126,
-   "titulo": "Fobia - St. Dinfna Hotel",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Fobia - St. Dinfna Hotel",
-     "imagen": "img/fobia-st-dinfna-hotel.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
      "hay": true
     }
    ]
@@ -3877,6 +3848,35 @@
    ]
   },
   {
+   "id": 5126,
+   "titulo": "Fobia - St. Dinfna Hotel",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Fobia - St. Dinfna Hotel",
+     "imagen": "img/fobia-st-dinfna-hotel.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5085,
    "titulo": "FOR HONOR",
    "gancho": null,
@@ -5543,7 +5543,7 @@
      "imagen": "img/middle-earth-shadow-of-war.jpg"
     },
     {
-     "titulo": "Middle-earth™ Shadow of Mordor™ - Game of the Year Edition",
+     "titulo": "Middle-earth™: Shadow of Mordor™-Game of the Year Edition",
      "imagen": "img/middle-earth-shadow-of-mordor-game-of-the-year-edition.png"
     }
    ],
