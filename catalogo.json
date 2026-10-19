@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-19T15:01:10.765Z",
+ "generado": "2026-10-19T16:02:09.429Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -369,238 +369,6 @@
    ]
   },
   {
-   "id": 5040,
-   "titulo": "A Plague Tale: Requiem",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "A Plague Tale: Requiem",
-     "imagen": "img/a-plague-tale-requiem.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5033,
-   "titulo": "Age of Empires II: Definitive Edition Premium Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Age of Empires II: Definitive Edition Premium Edition",
-     "imagen": "img/age-of-empires-ii-definitive-edition-premium-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5053,
-   "titulo": "Alan Wake 2 Deluxe Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Alan Wake 2 Deluxe Edition",
-     "imagen": "img/alan-wake-2-deluxe-edition.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5065,
-   "titulo": "Aliens: Fireteam Elite - Into The Hive Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Aliens: Fireteam Elite - Into The Hive Edition",
-     "imagen": "img/aliens-fireteam-elite-into-the-hive-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5032,
-   "titulo": "Assassin's Creed Triple Pack: Black Flag, Unity, Syndicate",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Assassin's Creed Triple Pack: Black Flag, Unity, Syndicate",
-     "imagen": "img/assassin-s-creed-triple-pack-black-flag-unity-syndicate.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5090,
-   "titulo": "Assassin's Creed Valhalla - Complete Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Assassin's Creed Valhalla - Complete Edition",
-     "imagen": "img/assassin-s-creed-valhalla-complete-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5017,
-   "titulo": "Assassin's Creed® Rogue Remastered",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Assassin's Creed® Rogue Remastered",
-     "imagen": "img/assassin-s-creed-rogue-remastered.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5056,
-   "titulo": "Assassin’s Creed® The Ezio Collection",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Assassin’s Creed® The Ezio Collection",
-     "imagen": "img/assassin-s-creed-the-ezio-collection.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5251,
    "titulo": "ASTRO BOT",
    "gancho": null,
@@ -746,354 +514,6 @@
    ]
   },
   {
-   "id": 5018,
-   "titulo": "BEYOND: Two Souls™",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "BEYOND: Two Souls™",
-     "imagen": "img/beyond-two-souls.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5019,
-   "titulo": "Bluey: The Videogame",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Bluey: The Videogame",
-     "imagen": "img/bluey-the-videogame.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5061,
-   "titulo": "Call of Duty®: Advanced Warfare Gold Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Call of Duty®: Advanced Warfare Gold Edition",
-     "imagen": "img/call-of-duty-advanced-warfare-gold-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5067,
-   "titulo": "Call of Duty®: Black Ops 6 - Cross-Gen Bundle",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Call of Duty®: Black Ops 6 - Cross-Gen Bundle",
-     "imagen": "img/call-of-duty-black-ops-6-cross-gen-bundle.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5057,
-   "titulo": "Call of Duty®: Black Ops Cold War - Cross-Gen Bundle PS4™ & PS5®",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Call of Duty®: Black Ops Cold War - Cross-Gen Bundle PS4™ & PS5®",
-     "imagen": "img/call-of-duty-black-ops-cold-war-cross-gen-bundle-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5049,
-   "titulo": "Call of Duty®: Black Ops Cold War - Standard Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Call of Duty®: Black Ops Cold War - Standard Edition",
-     "imagen": "img/call-of-duty-black-ops-cold-war-standard-edition.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5048,
-   "titulo": "Call of Duty®: Ghosts Gold Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Call of Duty®: Ghosts Gold Edition",
-     "imagen": "img/call-of-duty-ghosts-gold-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5071,
-   "titulo": "Call of Duty®: Modern Warfare®",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Call of Duty®: Modern Warfare®",
-     "imagen": "img/call-of-duty-modern-warfare.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5030,
-   "titulo": "Call of Duty®: Modern Warfare® II - Cross-Gen Bundle",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Call of Duty®: Modern Warfare® II - Cross-Gen Bundle",
-     "imagen": "img/call-of-duty-modern-warfare-ii-cross-gen-bundle.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5078,
-   "titulo": "Call of Duty®: Modern Warfare® III - Cross-Gen Bundle",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Call of Duty®: Modern Warfare® III - Cross-Gen Bundle",
-     "imagen": "img/call-of-duty-modern-warfare-iii-cross-gen-bundle.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5020,
-   "titulo": "Captain Tsubasa: Rise of New Champions – Deluxe Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Captain Tsubasa: Rise of New Champions – Deluxe Edition",
-     "imagen": "img/captain-tsubasa-rise-of-new-champions-deluxe-edition.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5070,
-   "titulo": "Castlevania: Belmont's Curse",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Castlevania: Belmont's Curse",
-     "imagen": "img/castlevania-belmont-s-curse.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5116,
    "titulo": "Cat Quest III",
    "gancho": null,
@@ -1118,35 +538,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5044,
-   "titulo": "Cat Quest: The Fur-tastic Trilogy",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Cat Quest: The Fur-tastic Trilogy",
-     "imagen": "img/cat-quest-the-fur-tastic-trilogy.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
      "hay": true
     }
    ]
@@ -1210,209 +601,6 @@
    ]
   },
   {
-   "id": 5021,
-   "titulo": "CONTROL Ultimate Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "CONTROL Ultimate Edition",
-     "imagen": "img/control-ultimate-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5014,
-   "titulo": "Crash Bandicoot™ 4: It’s About Time",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Crash Bandicoot™ 4: It’s About Time",
-     "imagen": "img/crash-bandicoot-4-it-s-about-time.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5013,
-   "titulo": "Crash Bandicoot™ N. Sane Trilogy",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Crash Bandicoot™ N. Sane Trilogy",
-     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5069,
-   "titulo": "Crash™ Team Racing Nitro-Fueled",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Crash™ Team Racing Nitro-Fueled",
-     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5015,
-   "titulo": "Crash™ Team Racing Nitro-Fueled - Nitros Oxide Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Crash™ Team Racing Nitro-Fueled - Nitros Oxide Edition",
-     "imagen": "img/crash-team-racing-nitro-fueled-nitros-oxide-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5043,
-   "titulo": "Crysis Remastered Trilogy",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Crysis Remastered Trilogy",
-     "imagen": "img/crysis-remastered-trilogy.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5036,
-   "titulo": "Cyberpunk 2077: Ultimate Edition (PS5)",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Cyberpunk 2077: Ultimate Edition (PS5)",
-     "imagen": "img/cyberpunk-2077-ultimate-edition-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5112,
    "titulo": "Degrees of Separation",
    "gancho": null,
@@ -1442,267 +630,6 @@
    ]
   },
   {
-   "id": 5099,
-   "titulo": "Deus Ex: Mankind Divided",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Deus Ex: Mankind Divided",
-     "imagen": "img/deus-ex-mankind-divided.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5022,
-   "titulo": "Devil May Cry 5 Special Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Devil May Cry 5 Special Edition",
-     "imagen": "img/devil-may-cry-5-special-edition.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5086,
-   "titulo": "Diablo® IV - Standard Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Diablo® IV - Standard Edition",
-     "imagen": "img/diablo-iv-standard-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5035,
-   "titulo": "DOOM: The Dark Ages Premium Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "DOOM: The Dark Ages Premium Edition",
-     "imagen": "img/doom-the-dark-ages-premium-edition.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5101,
-   "titulo": "DRAGON BALL FighterZ PS4 & PS5",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "DRAGON BALL FighterZ PS4 & PS5",
-     "imagen": "img/dragon-ball-fighterz-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5092,
-   "titulo": "Dying Light 2 Stay Human PS4&PS5",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Dying Light 2 Stay Human PS4&PS5",
-     "imagen": "img/dying-light-2-stay-human-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5028,
-   "titulo": "EA SPORTS FC™ 26 Standard Edition PS4 & PS5",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "EA SPORTS FC™ 26 Standard Edition PS4 & PS5",
-     "imagen": "img/ea-sports-fc-26-standard-edition-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5084,
-   "titulo": "ELDEN RING PS4 & PS5",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "ELDEN RING PS4 & PS5",
-     "imagen": "img/elden-ring-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5076,
-   "titulo": "F1® 25",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "F1® 25",
-     "imagen": "img/f1-25.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5109,
    "titulo": "Fallout 76 PS4 & PS5",
    "gancho": null,
@@ -1727,64 +654,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5062,
-   "titulo": "Far Cry 5",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Far Cry 5",
-     "imagen": "img/far-cry-5.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5023,
-   "titulo": "FARCRY 3 Classic Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "FARCRY 3 Classic Edition",
-     "imagen": "img/farcry-3-classic-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
      "hay": true
     }
    ]
@@ -1848,64 +717,6 @@
    ]
   },
   {
-   "id": 5085,
-   "titulo": "FOR HONOR",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "FOR HONOR",
-     "imagen": "img/for-honor.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5052,
-   "titulo": "Gears of War: Reloaded",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Gears of War: Reloaded",
-     "imagen": "img/gears-of-war-reloaded.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5132,
    "titulo": "Ghost of Tsushima: Legends",
    "gancho": null,
@@ -1930,180 +741,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5068,
-   "titulo": "God of War Ragnarök",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "God of War Ragnarök",
-     "imagen": "img/god-of-war-ragnarok.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5051,
-   "titulo": "Gran Turismo™ 7",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Gran Turismo™ 7",
-     "imagen": "img/gran-turismo-7.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5024,
-   "titulo": "Grand Theft Auto V (PS4™ & PS5™)",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Grand Theft Auto V (PS4™ & PS5™)",
-     "imagen": "img/grand-theft-auto-v-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5050,
-   "titulo": "Halo: Campaign Evolved",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Halo: Campaign Evolved",
-     "imagen": "img/halo-campaign-evolved.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5089,
-   "titulo": "Hogwarts Legacy PS5 Version",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Hogwarts Legacy PS5 Version",
-     "imagen": "img/hogwarts-legacy-ps5-version.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5034,
-   "titulo": "HOT WHEELS UNLEASHED™",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "HOT WHEELS UNLEASHED™",
-     "imagen": "img/hot-wheels-unleashed.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
      "hay": true
     }
    ]
@@ -2149,64 +786,6 @@
     {
      "titulo": "Jumanji: The Video Game",
      "imagen": "img/jumanji-the-video-game.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5096,
-   "titulo": "KILLZONE™ SHADOW FALL",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "KILLZONE™ SHADOW FALL",
-     "imagen": "img/killzone-shadow-fall.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5097,
-   "titulo": "LEGO® Marvel Collection",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "LEGO® Marvel Collection",
-     "imagen": "img/lego-marvel-collection.png"
     }
    ],
    "opciones": [
@@ -2283,122 +862,6 @@
    ]
   },
   {
-   "id": 5079,
-   "titulo": "LEGO® Marvel™ Super Heroes",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "LEGO® Marvel™ Super Heroes",
-     "imagen": "img/lego-marvel-super-heroes.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5093,
-   "titulo": "LEGO® Star Wars™: The Skywalker Saga PS4 & PS5",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "LEGO® Star Wars™: The Skywalker Saga PS4 & PS5",
-     "imagen": "img/lego-star-wars-the-skywalker-saga-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5060,
-   "titulo": "Little Nightmares I & II Bundle PS4 & PS5",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Little Nightmares I & II Bundle PS4 & PS5",
-     "imagen": "img/little-nightmares-i-ii-bundle-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5041,
-   "titulo": "Mafia II: Definitive Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Mafia II: Definitive Edition",
-     "imagen": "img/mafia-ii-definitive-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5256,
    "titulo": "MARVEL Tōkon: Fighting Souls",
    "gancho": null,
@@ -2410,35 +873,6 @@
     {
      "titulo": "MARVEL Tōkon: Fighting Souls",
      "imagen": "img/marvel-tokon-fighting-souls.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5081,
-   "titulo": "Marvel’s Spider-Man 2",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Marvel’s Spider-Man 2",
-     "imagen": "img/marvel-s-spider-man-2.jpg"
     }
    ],
    "opciones": [
@@ -2481,35 +915,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5083,
-   "titulo": "Metro Exodus: Gold Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Metro Exodus: Gold Edition",
-     "imagen": "img/metro-exodus-gold-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
      "hay": true
     }
    ]
@@ -2631,64 +1036,6 @@
    ]
   },
   {
-   "id": 5027,
-   "titulo": "NBA 2K26 for PS5®",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "NBA 2K26 for PS5®",
-     "imagen": "img/nba-2k26-for-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5064,
-   "titulo": "Nickelodeon All-Star Brawl 2 - Deluxe Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Nickelodeon All-Star Brawl 2 - Deluxe Edition",
-     "imagen": "img/nickelodeon-all-star-brawl-2-deluxe-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5121,
    "titulo": "One Piece Burning Blood",
    "gancho": null,
@@ -2718,64 +1065,6 @@
    ]
   },
   {
-   "id": 5091,
-   "titulo": "Palworld",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 49999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Palworld",
-     "imagen": "img/palworld.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5039,
-   "titulo": "Persona 5 Royal",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Persona 5 Royal",
-     "imagen": "img/persona-5-royal.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5113,
    "titulo": "Prince of Persia The Lost Crown",
    "gancho": null,
@@ -2800,209 +1089,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5038,
-   "titulo": "RESIDENT EVIL 2",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "RESIDENT EVIL 2",
-     "imagen": "img/resident-evil-2.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5042,
-   "titulo": "Resident Evil Remake Trilogy",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Resident Evil Remake Trilogy",
-     "imagen": "img/resident-evil-remake-trilogy.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5082,
-   "titulo": "Resident Evil Requiem Deluxe Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Resident Evil Requiem Deluxe Edition",
-     "imagen": "img/resident-evil-requiem-deluxe-edition.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5037,
-   "titulo": "Resident Evil Village PS4 & PS5",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Resident Evil Village PS4 & PS5",
-     "imagen": "img/resident-evil-village-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5095,
-   "titulo": "Returnal Digital Deluxe Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Returnal Digital Deluxe Edition",
-     "imagen": "img/returnal-digital-deluxe-edition.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5016,
-   "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
-     "imagen": "img/rise-of-the-tomb-raider-20-year-celebration.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5046,
-   "titulo": "S.T.A.L.K.E.R.: Legends of the Zone Trilogy PS4 & PS5",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "S.T.A.L.K.E.R.: Legends of the Zone Trilogy PS4 & PS5",
-     "imagen": "img/s-t-a-l-k-e-r-legends-of-the-zone-trilogy-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
      "hay": true
     }
    ]
@@ -3061,238 +1147,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5025,
-   "titulo": "Sniper Ghost Warrior 3 Season Pass Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Sniper Ghost Warrior 3 Season Pass Edition",
-     "imagen": "img/sniper-ghost-warrior-3-season-pass-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5098,
-   "titulo": "Sniper Ghost Warrior Contracts 2 Complete Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Sniper Ghost Warrior Contracts 2 Complete Edition",
-     "imagen": "img/sniper-ghost-warrior-contracts-2-complete-edition.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5102,
-   "titulo": "Sniper Ghost Warrior Contracts Full Arsenal Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Sniper Ghost Warrior Contracts Full Arsenal Edition",
-     "imagen": "img/sniper-ghost-warrior-contracts-full-arsenal-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5073,
-   "titulo": "Sonic Racing: CrossWorlds PS4 & PS5",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Sonic Racing: CrossWorlds PS4 & PS5",
-     "imagen": "img/sonic-racing-crossworlds-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5059,
-   "titulo": "SONIC SUPERSTARS",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "SONIC SUPERSTARS",
-     "imagen": "img/sonic-superstars.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5072,
-   "titulo": "SONIC X SHADOW GENERATIONS Digital Deluxe Edition PS4 & PS5",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "SONIC X SHADOW GENERATIONS Digital Deluxe Edition PS4 & PS5",
-     "imagen": "img/sonic-x-shadow-generations-digital-deluxe-edition-ps4-ps5.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5100,
-   "titulo": "SOULCALIBUR Ⅵ",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "SOULCALIBUR Ⅵ",
-     "imagen": "img/soulcalibur-vi.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5031,
-   "titulo": "Spyro™ Reignited Trilogy",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Spyro™ Reignited Trilogy",
-     "imagen": "img/spyro-reignited-trilogy.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
      "hay": true
     }
    ]
@@ -3414,238 +1268,6 @@
    ]
   },
   {
-   "id": 5054,
-   "titulo": "The Elder Scrolls V: Skyrim Special Edition - PS5 & PS4",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "The Elder Scrolls V: Skyrim Special Edition - PS5 & PS4",
-     "imagen": "img/the-elder-scrolls-v-skyrim-special-edition-ps5-ps4.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5045,
-   "titulo": "The Incredible Adventures of Van Helsing: Complete Trilogy",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "The Incredible Adventures of Van Helsing: Complete Trilogy",
-     "imagen": "img/the-incredible-adventures-of-van-helsing-complete-trilogy.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5026,
-   "titulo": "The Last of Us Part II",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "The Last of Us Part II",
-     "imagen": "img/the-last-of-us-part-ii.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5075,
-   "titulo": "The Last of Us™ Part II Remastered",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "The Last of Us™ Part II Remastered",
-     "imagen": "img/the-last-of-us-part-ii-remastered.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5055,
-   "titulo": "The Smurfs - Dreams PS4 & PS5",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "The Smurfs - Dreams PS4 & PS5",
-     "imagen": "img/the-smurfs-dreams-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5074,
-   "titulo": "The Ultimate Sonic Bundle",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "The Ultimate Sonic Bundle",
-     "imagen": "img/the-ultimate-sonic-bundle.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5063,
-   "titulo": "TOM CLANCY'S THE DIVISION",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "TOM CLANCY'S THE DIVISION",
-     "imagen": "img/tom-clancy-s-the-division.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5047,
-   "titulo": "Tomb Raider I-VI Remastered",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Tomb Raider I-VI Remastered",
-     "imagen": "img/tomb-raider-i-vi-remastered.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5186,
    "titulo": "Truck Driver",
    "gancho": null,
@@ -3670,35 +1292,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5077,
-   "titulo": "Truck Driver: The American Dream",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Truck Driver: The American Dream",
-     "imagen": "img/truck-driver-the-american-dream.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
      "hay": true
     }
    ]
@@ -3757,93 +1350,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5080,
-   "titulo": "Watch Dogs® 2 - Deluxe Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Watch Dogs® 2 - Deluxe Edition",
-     "imagen": "img/watch-dogs-2-deluxe-edition.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5058,
-   "titulo": "Watch Dogs®2",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Watch Dogs®2",
-     "imagen": "img/watch-dogs2.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5029,
-   "titulo": "WWE 2K25 Standard Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "WWE 2K25 Standard Edition",
-     "imagen": "img/wwe-2k25-standard-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
      "hay": true
     }
    ]
@@ -3993,6 +1499,35 @@
    ]
   },
   {
+   "id": 5040,
+   "titulo": "A Plague Tale: Requiem",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "A Plague Tale: Requiem",
+     "imagen": "img/a-plague-tale-requiem.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 11,
    "titulo": "A Way Out",
    "gancho": null,
@@ -4017,6 +1552,93 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5033,
+   "titulo": "Age of Empires II: Definitive Edition Premium Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Age of Empires II: Definitive Edition Premium Edition",
+     "imagen": "img/age-of-empires-ii-definitive-edition-premium-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5053,
+   "titulo": "Alan Wake 2 Deluxe Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Alan Wake 2 Deluxe Edition",
+     "imagen": "img/alan-wake-2-deluxe-edition.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5065,
+   "titulo": "Aliens: Fireteam Elite - Into The Hive Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Aliens: Fireteam Elite - Into The Hive Edition",
+     "imagen": "img/aliens-fireteam-elite-into-the-hive-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -4080,6 +1702,35 @@
    ]
   },
   {
+   "id": 5032,
+   "titulo": "Assassin's Creed Triple Pack: Black Flag, Unity, Syndicate",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Assassin's Creed Triple Pack: Black Flag, Unity, Syndicate",
+     "imagen": "img/assassin-s-creed-triple-pack-black-flag-unity-syndicate.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4941,
    "titulo": "Assassin's Creed Valhalla",
    "gancho": null,
@@ -4091,6 +1742,35 @@
     {
      "titulo": "Assassin's Creed Valhalla",
      "imagen": "img/assassin-s-creed-valhalla.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5090,
+   "titulo": "Assassin's Creed Valhalla - Complete Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Assassin's Creed Valhalla - Complete Edition",
+     "imagen": "img/assassin-s-creed-valhalla-complete-edition.jpg"
     }
    ],
    "opciones": [
@@ -4191,6 +1871,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5017,
+   "titulo": "Assassin's Creed® Rogue Remastered",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Assassin's Creed® Rogue Remastered",
+     "imagen": "img/assassin-s-creed-rogue-remastered.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5056,
+   "titulo": "Assassin’s Creed® The Ezio Collection",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Assassin’s Creed® The Ezio Collection",
+     "imagen": "img/assassin-s-creed-the-ezio-collection.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
      "hay": true
     }
    ]
@@ -4399,6 +2137,35 @@
    ]
   },
   {
+   "id": 5018,
+   "titulo": "BEYOND: Two Souls™",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "BEYOND: Two Souls™",
+     "imagen": "img/beyond-two-souls.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4954,
    "titulo": "BioShock: The Collection",
    "gancho": null,
@@ -4481,6 +2248,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5019,
+   "titulo": "Bluey: The Videogame",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Bluey: The Videogame",
+     "imagen": "img/bluey-the-videogame.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -4660,6 +2456,35 @@
    ]
   },
   {
+   "id": 5061,
+   "titulo": "Call of Duty®: Advanced Warfare Gold Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Advanced Warfare Gold Edition",
+     "imagen": "img/call-of-duty-advanced-warfare-gold-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 21,
    "titulo": "Call of Duty®: Black Ops",
    "gancho": null,
@@ -4684,6 +2509,93 @@
      "consola": "PS5",
      "rol": "",
      "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5067,
+   "titulo": "Call of Duty®: Black Ops 6 - Cross-Gen Bundle",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Black Ops 6 - Cross-Gen Bundle",
+     "imagen": "img/call-of-duty-black-ops-6-cross-gen-bundle.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5057,
+   "titulo": "Call of Duty®: Black Ops Cold War - Cross-Gen Bundle PS4™ & PS5®",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Black Ops Cold War - Cross-Gen Bundle PS4™ & PS5®",
+     "imagen": "img/call-of-duty-black-ops-cold-war-cross-gen-bundle-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5049,
+   "titulo": "Call of Duty®: Black Ops Cold War - Standard Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Black Ops Cold War - Standard Edition",
+     "imagen": "img/call-of-duty-black-ops-cold-war-standard-edition.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
      "hay": true
     }
    ]
@@ -4747,6 +2659,64 @@
    ]
   },
   {
+   "id": 5048,
+   "titulo": "Call of Duty®: Ghosts Gold Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Ghosts Gold Edition",
+     "imagen": "img/call-of-duty-ghosts-gold-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5071,
+   "titulo": "Call of Duty®: Modern Warfare®",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Modern Warfare®",
+     "imagen": "img/call-of-duty-modern-warfare.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4905,
    "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
    "gancho": null,
@@ -4771,6 +2741,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5030,
+   "titulo": "Call of Duty®: Modern Warfare® II - Cross-Gen Bundle",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Modern Warfare® II - Cross-Gen Bundle",
+     "imagen": "img/call-of-duty-modern-warfare-ii-cross-gen-bundle.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5078,
+   "titulo": "Call of Duty®: Modern Warfare® III - Cross-Gen Bundle",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Modern Warfare® III - Cross-Gen Bundle",
+     "imagen": "img/call-of-duty-modern-warfare-iii-cross-gen-bundle.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
      "hay": true
     }
    ]
@@ -4863,6 +2891,122 @@
    ]
   },
   {
+   "id": 5020,
+   "titulo": "Captain Tsubasa: Rise of New Champions – Deluxe Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Captain Tsubasa: Rise of New Champions – Deluxe Edition",
+     "imagen": "img/captain-tsubasa-rise-of-new-champions-deluxe-edition.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5070,
+   "titulo": "Castlevania: Belmont's Curse",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Castlevania: Belmont's Curse",
+     "imagen": "img/castlevania-belmont-s-curse.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5044,
+   "titulo": "Cat Quest: The Fur-tastic Trilogy",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Cat Quest: The Fur-tastic Trilogy",
+     "imagen": "img/cat-quest-the-fur-tastic-trilogy.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5021,
+   "titulo": "CONTROL Ultimate Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "CONTROL Ultimate Edition",
+     "imagen": "img/control-ultimate-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4893,
    "titulo": "Crash Bandicoot™ - Crashiversary Bundle",
    "gancho": null,
@@ -4887,6 +3031,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5014,
+   "titulo": "Crash Bandicoot™ 4: It’s About Time",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Crash Bandicoot™ 4: It’s About Time",
+     "imagen": "img/crash-bandicoot-4-it-s-about-time.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5013,
+   "titulo": "Crash Bandicoot™ N. Sane Trilogy",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Crash Bandicoot™ N. Sane Trilogy",
+     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
      "hay": true
     }
    ]
@@ -4950,6 +3152,64 @@
    ]
   },
   {
+   "id": 5069,
+   "titulo": "Crash™ Team Racing Nitro-Fueled",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Crash™ Team Racing Nitro-Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5015,
+   "titulo": "Crash™ Team Racing Nitro-Fueled - Nitros Oxide Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Crash™ Team Racing Nitro-Fueled - Nitros Oxide Edition",
+     "imagen": "img/crash-team-racing-nitro-fueled-nitros-oxide-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4916,
    "titulo": "Crash™ Team Racing Nitro-Fueled + Spyro™ Game Bundle",
    "gancho": null,
@@ -4979,6 +3239,35 @@
    ]
   },
   {
+   "id": 5043,
+   "titulo": "Crysis Remastered Trilogy",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Crysis Remastered Trilogy",
+     "imagen": "img/crysis-remastered-trilogy.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4943,
    "titulo": "Cuphead",
    "gancho": null,
@@ -5003,6 +3292,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5036,
+   "titulo": "Cyberpunk 2077: Ultimate Edition (PS5)",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Cyberpunk 2077: Ultimate Edition (PS5)",
+     "imagen": "img/cyberpunk-2077-ultimate-edition-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -5211,6 +3529,35 @@
    ]
   },
   {
+   "id": 5099,
+   "titulo": "Deus Ex: Mankind Divided",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Deus Ex: Mankind Divided",
+     "imagen": "img/deus-ex-mankind-divided.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4964,
    "titulo": "Devil May Cry 4 Special Edition",
    "gancho": null,
@@ -5269,6 +3616,35 @@
    ]
   },
   {
+   "id": 5022,
+   "titulo": "Devil May Cry 5 Special Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Devil May Cry 5 Special Edition",
+     "imagen": "img/devil-may-cry-5-special-edition.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4971,
    "titulo": "Devil May Cry HD Collection",
    "gancho": null,
@@ -5298,6 +3674,35 @@
    ]
   },
   {
+   "id": 5086,
+   "titulo": "Diablo® IV - Standard Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Diablo® IV - Standard Edition",
+     "imagen": "img/diablo-iv-standard-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5002,
    "titulo": "Disney•Pixar Up",
    "gancho": null,
@@ -5322,6 +3727,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5035,
+   "titulo": "DOOM: The Dark Ages Premium Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "DOOM: The Dark Ages Premium Edition",
+     "imagen": "img/doom-the-dark-ages-premium-edition.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5101,
+   "titulo": "DRAGON BALL FighterZ PS4 & PS5",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "DRAGON BALL FighterZ PS4 & PS5",
+     "imagen": "img/dragon-ball-fighterz-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -5385,6 +3848,35 @@
    ]
   },
   {
+   "id": 5092,
+   "titulo": "Dying Light 2 Stay Human PS4&PS5",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Dying Light 2 Stay Human PS4&PS5",
+     "imagen": "img/dying-light-2-stay-human-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4938,
    "titulo": "Dying Light Definitive Edition",
    "gancho": null,
@@ -5409,6 +3901,93 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5028,
+   "titulo": "EA SPORTS FC™ 26 Standard Edition PS4 & PS5",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "EA SPORTS FC™ 26 Standard Edition PS4 & PS5",
+     "imagen": "img/ea-sports-fc-26-standard-edition-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5084,
+   "titulo": "ELDEN RING PS4 & PS5",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "ELDEN RING PS4 & PS5",
+     "imagen": "img/elden-ring-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5076,
+   "titulo": "F1® 25",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "F1® 25",
+     "imagen": "img/f1-25.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
      "hay": true
     }
    ]
@@ -5443,6 +4022,35 @@
    ]
   },
   {
+   "id": 5062,
+   "titulo": "Far Cry 5",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Far Cry 5",
+     "imagen": "img/far-cry-5.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4919,
    "titulo": "Far Cry® 5 + Far Cry® New Dawn Ultimate Edition",
    "gancho": null,
@@ -5467,6 +4075,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5023,
+   "titulo": "FARCRY 3 Classic Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "FARCRY 3 Classic Edition",
+     "imagen": "img/farcry-3-classic-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -5530,6 +4167,35 @@
    ]
   },
   {
+   "id": 5085,
+   "titulo": "FOR HONOR",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "FOR HONOR",
+     "imagen": "img/for-honor.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4983,
    "titulo": "Gang Beasts",
    "gancho": null,
@@ -5554,6 +4220,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5052,
+   "titulo": "Gears of War: Reloaded",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Gears of War: Reloaded",
+     "imagen": "img/gears-of-war-reloaded.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5068,
+   "titulo": "God of War Ragnarök",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "God of War Ragnarök",
+     "imagen": "img/god-of-war-ragnarok.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
      "hay": true
     }
    ]
@@ -5675,6 +4399,64 @@
    ]
   },
   {
+   "id": 5051,
+   "titulo": "Gran Turismo™ 7",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Gran Turismo™ 7",
+     "imagen": "img/gran-turismo-7.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5024,
+   "titulo": "Grand Theft Auto V (PS4™ & PS5™)",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Grand Theft Auto V (PS4™ & PS5™)",
+     "imagen": "img/grand-theft-auto-v-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4908,
    "titulo": "GRID Legends Deluxe Edition PS4 & PS5",
    "gancho": null,
@@ -5699,6 +4481,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5050,
+   "titulo": "Halo: Campaign Evolved",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Halo: Campaign Evolved",
+     "imagen": "img/halo-campaign-evolved.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
      "hay": true
     }
    ]
@@ -5791,6 +4602,35 @@
    ]
   },
   {
+   "id": 5089,
+   "titulo": "Hogwarts Legacy PS5 Version",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Hogwarts Legacy PS5 Version",
+     "imagen": "img/hogwarts-legacy-ps5-version.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 30,
    "titulo": "Hollow Knight: Silksong",
    "gancho": null,
@@ -5844,6 +4684,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5034,
+   "titulo": "HOT WHEELS UNLEASHED™",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "HOT WHEELS UNLEASHED™",
+     "imagen": "img/hot-wheels-unleashed.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -6052,6 +4921,35 @@
    ]
   },
   {
+   "id": 5096,
+   "titulo": "KILLZONE™ SHADOW FALL",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "KILLZONE™ SHADOW FALL",
+     "imagen": "img/killzone-shadow-fall.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4923,
    "titulo": "LEGO Star Wars II: The Original Trilogy",
    "gancho": null,
@@ -6139,6 +5037,64 @@
    ]
   },
   {
+   "id": 5097,
+   "titulo": "LEGO® Marvel Collection",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "LEGO® Marvel Collection",
+     "imagen": "img/lego-marvel-collection.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5079,
+   "titulo": "LEGO® Marvel™ Super Heroes",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "LEGO® Marvel™ Super Heroes",
+     "imagen": "img/lego-marvel-super-heroes.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 84,
    "titulo": "LEGO® Star Wars™: The Force Awakens",
    "gancho": null,
@@ -6163,6 +5119,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5093,
+   "titulo": "LEGO® Star Wars™: The Skywalker Saga PS4 & PS5",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "LEGO® Star Wars™: The Skywalker Saga PS4 & PS5",
+     "imagen": "img/lego-star-wars-the-skywalker-saga-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -6197,6 +5182,35 @@
    ]
   },
   {
+   "id": 5060,
+   "titulo": "Little Nightmares I & II Bundle PS4 & PS5",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Little Nightmares I & II Bundle PS4 & PS5",
+     "imagen": "img/little-nightmares-i-ii-bundle-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4925,
    "titulo": "Mad Max",
    "gancho": null,
@@ -6221,6 +5235,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5041,
+   "titulo": "Mafia II: Definitive Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Mafia II: Definitive Edition",
+     "imagen": "img/mafia-ii-definitive-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -6279,6 +5322,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5081,
+   "titulo": "Marvel’s Spider-Man 2",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Marvel’s Spider-Man 2",
+     "imagen": "img/marvel-s-spider-man-2.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
      "hay": true
     }
    ]
@@ -6453,6 +5525,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5083,
+   "titulo": "Metro Exodus: Gold Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Metro Exodus: Gold Edition",
+     "imagen": "img/metro-exodus-gold-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -7071,6 +6172,35 @@
    ]
   },
   {
+   "id": 5027,
+   "titulo": "NBA 2K26 for PS5®",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "NBA 2K26 for PS5®",
+     "imagen": "img/nba-2k26-for-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4937,
    "titulo": "Need for Speed™",
    "gancho": null,
@@ -7153,6 +6283,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5064,
+   "titulo": "Nickelodeon All-Star Brawl 2 - Deluxe Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Nickelodeon All-Star Brawl 2 - Deluxe Edition",
+     "imagen": "img/nickelodeon-all-star-brawl-2-deluxe-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
      "hay": true
     }
    ]
@@ -7269,6 +6428,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5091,
+   "titulo": "Palworld",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Palworld",
+     "imagen": "img/palworld.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5039,
+   "titulo": "Persona 5 Royal",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Persona 5 Royal",
+     "imagen": "img/persona-5-royal.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
      "hay": true
     }
    ]
@@ -7506,6 +6723,35 @@
    ]
   },
   {
+   "id": 5038,
+   "titulo": "RESIDENT EVIL 2",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "RESIDENT EVIL 2",
+     "imagen": "img/resident-evil-2.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 108,
    "titulo": "RESIDENT EVIL 3",
    "gancho": null,
@@ -7680,6 +6926,64 @@
    ]
   },
   {
+   "id": 5042,
+   "titulo": "Resident Evil Remake Trilogy",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Resident Evil Remake Trilogy",
+     "imagen": "img/resident-evil-remake-trilogy.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5082,
+   "titulo": "Resident Evil Requiem Deluxe Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Resident Evil Requiem Deluxe Edition",
+     "imagen": "img/resident-evil-requiem-deluxe-edition.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4976,
    "titulo": "RESIDENT EVIL REVELATIONS",
    "gancho": null,
@@ -7825,6 +7129,122 @@
    ]
   },
   {
+   "id": 5037,
+   "titulo": "Resident Evil Village PS4 & PS5",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Resident Evil Village PS4 & PS5",
+     "imagen": "img/resident-evil-village-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5095,
+   "titulo": "Returnal Digital Deluxe Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Returnal Digital Deluxe Edition",
+     "imagen": "img/returnal-digital-deluxe-edition.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5016,
+   "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
+     "imagen": "img/rise-of-the-tomb-raider-20-year-celebration.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5046,
+   "titulo": "S.T.A.L.K.E.R.: Legends of the Zone Trilogy PS4 & PS5",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "S.T.A.L.K.E.R.: Legends of the Zone Trilogy PS4 & PS5",
+     "imagen": "img/s-t-a-l-k-e-r-legends-of-the-zone-trilogy-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5006,
    "titulo": "Saints Row PS4&PS5",
    "gancho": null,
@@ -7912,6 +7332,35 @@
    ]
   },
   {
+   "id": 5025,
+   "titulo": "Sniper Ghost Warrior 3 Season Pass Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Sniper Ghost Warrior 3 Season Pass Edition",
+     "imagen": "img/sniper-ghost-warrior-3-season-pass-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 41,
    "titulo": "Sniper Ghost Warrior Contracts",
    "gancho": null,
@@ -7965,6 +7414,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5098,
+   "titulo": "Sniper Ghost Warrior Contracts 2 Complete Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Sniper Ghost Warrior Contracts 2 Complete Edition",
+     "imagen": "img/sniper-ghost-warrior-contracts-2-complete-edition.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5102,
+   "titulo": "Sniper Ghost Warrior Contracts Full Arsenal Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Sniper Ghost Warrior Contracts Full Arsenal Edition",
+     "imagen": "img/sniper-ghost-warrior-contracts-full-arsenal-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -8028,6 +7535,93 @@
    ]
   },
   {
+   "id": 5073,
+   "titulo": "Sonic Racing: CrossWorlds PS4 & PS5",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Sonic Racing: CrossWorlds PS4 & PS5",
+     "imagen": "img/sonic-racing-crossworlds-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5059,
+   "titulo": "SONIC SUPERSTARS",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "SONIC SUPERSTARS",
+     "imagen": "img/sonic-superstars.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5072,
+   "titulo": "SONIC X SHADOW GENERATIONS Digital Deluxe Edition PS4 & PS5",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "SONIC X SHADOW GENERATIONS Digital Deluxe Edition PS4 & PS5",
+     "imagen": "img/sonic-x-shadow-generations-digital-deluxe-edition-ps4-ps5.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4975,
    "titulo": "SONIC X SHADOW GENERATIONS PS4 & PS5",
    "gancho": null,
@@ -8052,6 +7646,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5100,
+   "titulo": "SOULCALIBUR Ⅵ",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "SOULCALIBUR Ⅵ",
+     "imagen": "img/soulcalibur-vi.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5031,
+   "titulo": "Spyro™ Reignited Trilogy",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Spyro™ Reignited Trilogy",
+     "imagen": "img/spyro-reignited-trilogy.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
      "hay": true
     }
    ]
@@ -8260,6 +7912,35 @@
    ]
   },
   {
+   "id": 5054,
+   "titulo": "The Elder Scrolls V: Skyrim Special Edition - PS5 & PS4",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "The Elder Scrolls V: Skyrim Special Edition - PS5 & PS4",
+     "imagen": "img/the-elder-scrolls-v-skyrim-special-edition-ps5-ps4.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4929,
    "titulo": "The Forest",
    "gancho": null,
@@ -8284,6 +7965,93 @@
      "consola": "PS5",
      "rol": "",
      "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5045,
+   "titulo": "The Incredible Adventures of Van Helsing: Complete Trilogy",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "The Incredible Adventures of Van Helsing: Complete Trilogy",
+     "imagen": "img/the-incredible-adventures-of-van-helsing-complete-trilogy.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5026,
+   "titulo": "The Last of Us Part II",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "The Last of Us Part II",
+     "imagen": "img/the-last-of-us-part-ii.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5075,
+   "titulo": "The Last of Us™ Part II Remastered",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "The Last of Us™ Part II Remastered",
+     "imagen": "img/the-last-of-us-part-ii-remastered.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
      "hay": true
     }
    ]
@@ -8371,6 +8139,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5055,
+   "titulo": "The Smurfs - Dreams PS4 & PS5",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "The Smurfs - Dreams PS4 & PS5",
+     "imagen": "img/the-smurfs-dreams-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5074,
+   "titulo": "The Ultimate Sonic Bundle",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "The Ultimate Sonic Bundle",
+     "imagen": "img/the-ultimate-sonic-bundle.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
      "hay": true
     }
    ]
@@ -8550,6 +8376,64 @@
    ]
   },
   {
+   "id": 5063,
+   "titulo": "TOM CLANCY'S THE DIVISION",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "TOM CLANCY'S THE DIVISION",
+     "imagen": "img/tom-clancy-s-the-division.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5047,
+   "titulo": "Tomb Raider I-VI Remastered",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Tomb Raider I-VI Remastered",
+     "imagen": "img/tomb-raider-i-vi-remastered.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4886,
    "titulo": "Tomb Raider: Definitive Edition",
    "gancho": null,
@@ -8603,6 +8487,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5077,
+   "titulo": "Truck Driver: The American Dream",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Truck Driver: The American Dream",
+     "imagen": "img/truck-driver-the-american-dream.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
      "hay": true
     }
    ]
@@ -8840,6 +8753,64 @@
    ]
   },
   {
+   "id": 5080,
+   "titulo": "Watch Dogs® 2 - Deluxe Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Watch Dogs® 2 - Deluxe Edition",
+     "imagen": "img/watch-dogs-2-deluxe-edition.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5058,
+   "titulo": "Watch Dogs®2",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Watch Dogs®2",
+     "imagen": "img/watch-dogs2.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4960,
    "titulo": "Wolfenstein: The New Order",
    "gancho": null,
@@ -8922,6 +8893,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5029,
+   "titulo": "WWE 2K25 Standard Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "WWE 2K25 Standard Edition",
+     "imagen": "img/wwe-2k25-standard-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
      "hay": true
     }
    ]
