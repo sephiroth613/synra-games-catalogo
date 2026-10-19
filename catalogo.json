@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-19T16:02:09.429Z",
+ "generado": "2026-10-19T16:18:46.653Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -147,47 +147,6 @@
    ]
   },
   {
-   "id": 5105,
-   "titulo": "COMBO BATTLCODMODER2",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 39999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "STAR WARS™ Battlefront™ Ultimate Edition",
-     "imagen": "img/star-wars-battlefront-ultimate-edition.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Child of Light",
-     "imagen": "img/child-of-light.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 3003,
    "titulo": "COMBO CODSNIPER",
    "gancho": null,
@@ -253,6 +212,47 @@
      "consola": "PS5",
      "rol": "",
      "precio": 25000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5105,
+   "titulo": "COMBO BATTLCODMODER2",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "STAR WARS™ Battlefront™ Ultimate Edition",
+     "imagen": "img/star-wars-battlefront-ultimate-edition.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Child of Light",
+     "imagen": "img/child-of-light.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
      "hay": true
     }
    ]
@@ -514,151 +514,6 @@
    ]
   },
   {
-   "id": 5116,
-   "titulo": "Cat Quest III",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Cat Quest III",
-     "imagen": "img/cat-quest-iii.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5118,
-   "titulo": "Chernobylite Complete Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Chernobylite Complete Edition",
-     "imagen": "img/chernobylite-complete-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5117,
-   "titulo": "Child of Light",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Child of Light",
-     "imagen": "img/child-of-light.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5112,
-   "titulo": "Degrees of Separation",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Degrees of Separation",
-     "imagen": "img/degrees-of-separation.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5109,
-   "titulo": "Fallout 76 PS4 & PS5",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Fallout 76 PS4 & PS5",
-     "imagen": "img/fallout-76-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5162,
    "titulo": "FINAL FANTASY XIV Online - Starter Edition",
    "gancho": null,
@@ -741,64 +596,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5108,
-   "titulo": "Human: Fall Flat PS4 & PS5",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Human: Fall Flat PS4 & PS5",
-     "imagen": "img/human-fall-flat-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5115,
-   "titulo": "Jumanji: The Video Game",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Jumanji: The Video Game",
-     "imagen": "img/jumanji-the-video-game.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
      "hay": true
     }
    ]
@@ -891,35 +688,6 @@
    ]
   },
   {
-   "id": 5110,
-   "titulo": "Mass Effect™: Andromeda – Standard Recruit Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Mass Effect™: Andromeda – Standard Recruit Edition",
-     "imagen": "img/mass-effect-andromeda-standard-recruit-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5240,
    "titulo": "Minecraft Dungeons II Deluxe Edition",
    "gancho": null,
@@ -978,122 +746,6 @@
    ]
   },
   {
-   "id": 5114,
-   "titulo": "Monster Hunter Rise + Sunbreak Deluxe",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Monster Hunter Rise + Sunbreak Deluxe",
-     "imagen": "img/monster-hunter-rise-sunbreak-deluxe.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5122,
-   "titulo": "MXGP 2021 - The Official Motocross Videogame",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "MXGP 2021 - The Official Motocross Videogame",
-     "imagen": "img/mxgp-2021-the-official-motocross-videogame.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5121,
-   "titulo": "One Piece Burning Blood",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "One Piece Burning Blood",
-     "imagen": "img/one-piece-burning-blood.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5113,
-   "titulo": "Prince of Persia The Lost Crown",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Prince of Persia The Lost Crown",
-     "imagen": "img/prince-of-persia-the-lost-crown.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5190,
    "titulo": "SKATE CITY",
    "gancho": null,
@@ -1118,35 +770,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 49999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5123,
-   "titulo": "Skul: The Hero Slayer",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Skul: The Hero Slayer",
-     "imagen": "img/skul-the-hero-slayer.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
      "hay": true
     }
    ]
@@ -1292,64 +915,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5119,
-   "titulo": "TT Isle Of Man 3 - Racing Fan Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "TT Isle Of Man 3 - Racing Fan Edition",
-     "imagen": "img/tt-isle-of-man-3-racing-fan-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5124,
-   "titulo": "TT Isle of Man: Ride on the Edge",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "TT Isle of Man: Ride on the Edge",
-     "imagen": "img/tt-isle-of-man-ride-on-the-edge.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
      "hay": true
     }
    ]
@@ -2949,6 +2514,35 @@
    ]
   },
   {
+   "id": 5116,
+   "titulo": "Cat Quest III",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Cat Quest III",
+     "imagen": "img/cat-quest-iii.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5044,
    "titulo": "Cat Quest: The Fur-tastic Trilogy",
    "gancho": null,
@@ -2973,6 +2567,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5118,
+   "titulo": "Chernobylite Complete Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Chernobylite Complete Edition",
+     "imagen": "img/chernobylite-complete-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5117,
+   "titulo": "Child of Light",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Child of Light",
+     "imagen": "img/child-of-light.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -3500,6 +3152,35 @@
    ]
   },
   {
+   "id": 5112,
+   "titulo": "Degrees of Separation",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Degrees of Separation",
+     "imagen": "img/degrees-of-separation.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5001,
    "titulo": "Demon's Souls",
    "gancho": null,
@@ -4004,6 +3685,35 @@
     {
      "titulo": "Fallout 4",
      "imagen": "img/fallout-4.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5109,
+   "titulo": "Fallout 76 PS4 & PS5",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Fallout 76 PS4 & PS5",
+     "imagen": "img/fallout-76-ps4-ps5.jpg"
     }
    ],
    "opciones": [
@@ -4747,6 +4457,35 @@
    ]
   },
   {
+   "id": 5108,
+   "titulo": "Human: Fall Flat PS4 & PS5",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Human: Fall Flat PS4 & PS5",
+     "imagen": "img/human-fall-flat-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4995,
    "titulo": "Ice Age: Scrat's Nutty Adventure",
    "gancho": null,
@@ -4874,6 +4613,35 @@
     {
      "titulo": "It Takes Two PS4™ & PS5™",
      "imagen": "img/it-takes-two-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5115,
+   "titulo": "Jumanji: The Video Game",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Jumanji: The Video Game",
+     "imagen": "img/jumanji-the-video-game.jpg"
     }
    ],
    "opciones": [
@@ -5443,6 +5211,35 @@
    ]
   },
   {
+   "id": 5110,
+   "titulo": "Mass Effect™: Andromeda – Standard Recruit Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Mass Effect™: Andromeda – Standard Recruit Edition",
+     "imagen": "img/mass-effect-andromeda-standard-recruit-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 88,
    "titulo": "METAL SLUG 3",
    "gancho": null,
@@ -5853,6 +5650,35 @@
    ]
   },
   {
+   "id": 5114,
+   "titulo": "Monster Hunter Rise + Sunbreak Deluxe",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Monster Hunter Rise + Sunbreak Deluxe",
+     "imagen": "img/monster-hunter-rise-sunbreak-deluxe.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 36,
    "titulo": "Mortal Kombat 11",
    "gancho": null,
@@ -6080,6 +5906,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5122,
+   "titulo": "MXGP 2021 - The Official Motocross Videogame",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "MXGP 2021 - The Official Motocross Videogame",
+     "imagen": "img/mxgp-2021-the-official-motocross-videogame.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -6346,6 +6201,35 @@
    ]
   },
   {
+   "id": 5121,
+   "titulo": "One Piece Burning Blood",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "One Piece Burning Blood",
+     "imagen": "img/one-piece-burning-blood.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4955,
    "titulo": "ONE PIECE ODYSSEY PS4 & PS5",
    "gancho": null,
@@ -6602,6 +6486,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5113,
+   "titulo": "Prince of Persia The Lost Crown",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Prince of Persia The Lost Crown",
+     "imagen": "img/prince-of-persia-the-lost-crown.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -7314,6 +7227,35 @@
     {
      "titulo": "Sifu",
      "imagen": "img/sifu.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5123,
+   "titulo": "Skul: The Hero Slayer",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Skul: The Hero Slayer",
+     "imagen": "img/skul-the-hero-slayer.jpg"
     }
    ],
    "opciones": [
@@ -8574,6 +8516,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5119,
+   "titulo": "TT Isle Of Man 3 - Racing Fan Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "TT Isle Of Man 3 - Racing Fan Edition",
+     "imagen": "img/tt-isle-of-man-3-racing-fan-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5124,
+   "titulo": "TT Isle of Man: Ride on the Edge",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "TT Isle of Man: Ride on the Edge",
+     "imagen": "img/tt-isle-of-man-ride-on-the-edge.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
      "hay": true
     }
    ]
