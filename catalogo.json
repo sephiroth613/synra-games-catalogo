@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-20T20:01:57.828Z",
+ "generado": "2026-10-20T20:08:39.484Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -166,6 +166,39 @@
     {
      "titulo": "Sniper Ghost Warrior Contracts",
      "imagen": "img/sniper-ghost-warrior-contracts.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 34999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 34999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 4885,
+   "titulo": "COMBO GODSUIT",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 34999,
+   "hay": true,
+   "portada": "img/combo-4885.jpg",
+   "juegos": [
+    {
+     "titulo": "God of War® III Remastered",
+     "imagen": "img/god-of-war-iii-remastered.jpg"
+    },
+    {
+     "titulo": "Need for Speed™ Hot Pursuit Remastered",
+     "imagen": "img/need-for-speed-hot-pursuit-remastered.jpg"
     }
    ],
    "opciones": [
@@ -927,39 +960,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 39999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 4885,
-   "titulo": "COMBO GODSUIT",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 34999,
-   "hay": true,
-   "portada": "img/combo-4885.jpg",
-   "juegos": [
-    {
-     "titulo": "God of War® III Remastered",
-     "imagen": "img/god-of-war-iii-remastered.jpg"
-    },
-    {
-     "titulo": "Need for Speed™ Hot Pursuit Remastered",
-     "imagen": "img/need-for-speed-hot-pursuit-remastered.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 34999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 34999,
      "hay": true
     }
    ]
