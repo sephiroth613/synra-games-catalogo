@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-20T22:01:13.676Z",
+ "generado": "2026-10-20T23:01:58.516Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -480,35 +480,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5169,
-   "titulo": "Batman™: Arkham Knight",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 49999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Batman™: Arkham Knight",
-     "imagen": "img/batman-arkham-knight.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 49999,
      "hay": true
     }
    ]
@@ -1534,6 +1505,35 @@
    "juegos": [
     {
      "titulo": "Batman: Arkham Knight",
+     "imagen": "img/batman-arkham-knight.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5169,
+   "titulo": "Batman™: Arkham Knight",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Batman™: Arkham Knight",
      "imagen": "img/batman-arkham-knight.jpg"
     }
    ],
