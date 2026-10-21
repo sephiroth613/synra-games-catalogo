@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-21T13:47:39.491Z",
+ "generado": "2026-10-21T13:59:14.443Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -786,35 +786,6 @@
     {
      "titulo": "Terraria – PlayStation®4 Edition",
      "imagen": "img/terraria-playstation4-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5186,
-   "titulo": "Truck Driver",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 49999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Truck Driver",
-     "imagen": "img/truck-driver.png"
     }
    ],
    "opciones": [
@@ -8541,6 +8512,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5186,
+   "titulo": "Truck Driver",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Truck Driver",
+     "imagen": "img/truck-driver.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
      "hay": true
     }
    ]
