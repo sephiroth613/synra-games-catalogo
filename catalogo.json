@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-21T15:57:03.472Z",
+ "generado": "2026-10-21T16:57:40.290Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -427,6 +427,35 @@
    ]
   },
   {
+   "id": 5376,
+   "titulo": "Dying Light - Essentials Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Dying Light - Essentials Edition",
+     "imagen": "img/dying-light-essentials-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5325,
    "titulo": "Ghost of Tsushima DIRECTOR’S CUT",
    "gancho": null,
@@ -538,6 +567,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5378,
+   "titulo": "MARVEL vs. CAPCOM Fighting Collection: Arcade Classics",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "MARVEL vs. CAPCOM Fighting Collection: Arcade Classics",
+     "imagen": "img/marvel-vs-capcom-fighting-collection-arcade-classics.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
      "hay": true
     }
    ]
@@ -712,6 +770,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5377,
+   "titulo": "The Texas Chain Saw Massacre",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "The Texas Chain Saw Massacre",
+     "imagen": "img/the-texas-chain-saw-massacre.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5379,
+   "titulo": "ULTIMATE MARVEL VS. CAPCOM 3",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "ULTIMATE MARVEL VS. CAPCOM 3",
+     "imagen": "img/ultimate-marvel-vs-capcom-3.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
      "hay": true
     }
    ]
