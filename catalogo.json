@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-21T17:55:51.408Z",
+ "generado": "2026-10-21T18:55:17.443Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -335,35 +335,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 45000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5195,
-   "titulo": "007 First Light",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "007 First Light",
-     "imagen": "img/007-first-light.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
      "hay": true
     }
    ]
@@ -939,6 +910,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5195,
+   "titulo": "007 First Light",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "007 First Light",
+     "imagen": "img/007-first-light.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
      "hay": true
     }
    ]
