@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-21T08:59:25.126Z",
+ "generado": "2026-10-21T09:59:03.497Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -3007,7 +3007,7 @@
    "titulo": "Days Gone™",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 100000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -3020,13 +3020,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 100000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -8463,7 +8463,7 @@
    "titulo": "Tomb Raider I-VI Remastered",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8476,13 +8476,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     }
    ]
