@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-21T03:00:03.061Z",
+ "generado": "2026-10-21T03:59:54.573Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -422,64 +422,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5178,
-   "titulo": "Batman: Return to Arkham - Arkham Asylum",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Batman: Return to Arkham - Arkham Asylum",
-     "imagen": "img/batman-return-to-arkham-arkham-asylum.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5179,
-   "titulo": "Batman: Return to Arkham - Arkham City",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Batman: Return to Arkham - Arkham City",
-     "imagen": "img/batman-return-to-arkham-arkham-city.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
      "hay": true
     }
    ]
@@ -1548,6 +1490,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5178,
+   "titulo": "Batman: Return to Arkham - Arkham Asylum",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Batman: Return to Arkham - Arkham Asylum",
+     "imagen": "img/batman-return-to-arkham-arkham-asylum.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5179,
+   "titulo": "Batman: Return to Arkham - Arkham City",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Batman: Return to Arkham - Arkham City",
+     "imagen": "img/batman-return-to-arkham-arkham-city.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
      "hay": true
     }
    ]
