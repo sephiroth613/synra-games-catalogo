@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-21T00:02:37.095Z",
+ "generado": "2026-10-21T01:02:15.209Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -717,6 +717,64 @@
    ]
   },
   {
+   "id": 5357,
+   "titulo": "Mortal Kombat 11 Ultimate + Injustice 2 Leg. Edition Bundle",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Mortal Kombat 11 Ultimate + Injustice 2 Leg. Edition Bundle",
+     "imagen": "img/mortal-kombat-11-ultimate-injustice-2-leg-edition-bundle.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5355,
+   "titulo": "Need for Speed™ Heat",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Need for Speed™ Heat",
+     "imagen": "img/need-for-speed-heat.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5190,
    "titulo": "SKATE CITY",
    "gancho": null,
@@ -1006,7 +1064,7 @@
    "titulo": "A Plague Tale: Requiem",
    "gancho": null,
    "clase": "individual",
-   "desde": 195000,
+   "desde": 65999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -1019,13 +1077,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 195000,
+     "precio": 65999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 195000,
+     "precio": 65999,
      "hay": true
     }
    ]
@@ -1731,7 +1789,7 @@
    "titulo": "Blasphemous",
    "gancho": null,
    "clase": "individual",
-   "desde": 65999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -1744,13 +1802,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -1760,7 +1818,7 @@
    "titulo": "Bloodborne™",
    "gancho": null,
    "clase": "individual",
-   "desde": 65999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -1773,13 +1831,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -2659,7 +2717,7 @@
    "titulo": "Crash Bandicoot™ 4: It’s About Time",
    "gancho": null,
    "clase": "individual",
-   "desde": 162000,
+   "desde": 65999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -2672,13 +2730,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 162000,
+     "precio": 65999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 162000,
+     "precio": 65999,
      "hay": true
     }
    ]
@@ -2775,7 +2833,7 @@
    "titulo": "Crash™ Team Racing Nitro-Fueled",
    "gancho": null,
    "clase": "individual",
-   "desde": 162000,
+   "desde": 65999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -2788,13 +2846,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 162000,
+     "precio": 65999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 162000,
+     "precio": 65999,
      "hay": true
     }
    ]
@@ -3906,7 +3964,7 @@
    "titulo": "FOR HONOR",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -3919,13 +3977,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -4167,7 +4225,7 @@
    "titulo": "Grand Theft Auto V (PS4™ & PS5™)",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 49999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -4180,13 +4238,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 49999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 49999,
      "hay": true
     }
    ]
@@ -5327,7 +5385,7 @@
    "titulo": "Metro Exodus: Gold Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -5340,13 +5398,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -5621,7 +5679,7 @@
    "titulo": "MLB® The Show™ 26",
    "gancho": null,
    "clase": "individual",
-   "desde": 162000,
+   "desde": 100000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -5634,13 +5692,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 162000,
+     "precio": 100000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 162000,
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -5708,7 +5766,7 @@
    "titulo": "Mortal Kombat 11 Ultimate PS4 & PS5",
    "gancho": null,
    "clase": "individual",
-   "desde": 38999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -5721,13 +5779,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 38999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 38999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -6172,7 +6230,7 @@
    "titulo": "No Man's Sky PS4 & PS5",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6185,13 +6243,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -6346,7 +6404,7 @@
    "titulo": "Persona 5 Royal",
    "gancho": null,
    "clase": "individual",
-   "desde": 195000,
+   "desde": 65999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6359,13 +6417,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 195000,
+     "precio": 65999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 195000,
+     "precio": 65999,
      "hay": true
     }
    ]
@@ -6723,7 +6781,7 @@
    "titulo": "resident evil 4 HD",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6736,13 +6794,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -6752,7 +6810,7 @@
    "titulo": "Resident evil 5",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6765,13 +6823,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -6781,7 +6839,7 @@
    "titulo": "Resident Evil 6",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6794,13 +6852,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -6859,6 +6917,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "titulo": "Resident Evil Requiem",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Resident Evil Requiem",
+     "imagen": "img/resident-evil-requiem.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
      "hay": true
     }
    ]
@@ -7071,7 +7158,7 @@
    "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -7084,13 +7171,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -7158,7 +7245,7 @@
    "titulo": "Shadow of the Tomb Raider Definitive Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -7171,13 +7258,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -7941,7 +8028,7 @@
    "titulo": "The Last of Us Part II",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 65999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -7954,13 +8041,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 65999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 65999,
      "hay": true
     }
    ]
@@ -8376,7 +8463,7 @@
    "titulo": "Tomb Raider: Definitive Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 65999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8389,13 +8476,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -8405,7 +8492,7 @@
    "titulo": "Tomb Raider: Definitive Survivor Trilogy",
    "gancho": null,
    "clase": "individual",
-   "desde": 38999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8418,13 +8505,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 38999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 38999,
+     "precio": 22999,
      "hay": true
     }
    ]
