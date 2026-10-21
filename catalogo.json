@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-21T09:59:03.497Z",
+ "generado": "2026-10-21T10:59:14.135Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -2543,7 +2543,7 @@
    "titulo": "Cat Quest: The Fur-tastic Trilogy",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 49999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -2556,13 +2556,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 49999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 49999,
      "hay": true
     }
    ]
