@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-21T01:02:15.209Z",
+ "generado": "2026-10-21T02:00:40.490Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -547,7 +547,7 @@
    "titulo": "LEGO® Marvel Super Heroes 2",
    "gancho": null,
    "clase": "individual",
-   "desde": 162000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -560,13 +560,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 162000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 162000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -2688,7 +2688,7 @@
    "titulo": "Crash Bandicoot™ - Crashiversary Bundle",
    "gancho": null,
    "clase": "individual",
-   "desde": 65999,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -2701,13 +2701,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 65999,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 65999,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -2746,7 +2746,7 @@
    "titulo": "Crash Bandicoot™ N. Sane Trilogy",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 49999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -2759,13 +2759,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 49999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 49999,
      "hay": true
     }
    ]
@@ -2862,7 +2862,7 @@
    "titulo": "Crash™ Team Racing Nitro-Fueled - Nitros Oxide Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 195000,
+   "desde": 65999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -2875,13 +2875,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 195000,
+     "precio": 65999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 195000,
+     "precio": 65999,
      "hay": true
     }
    ]
@@ -4892,7 +4892,7 @@
    "titulo": "LEGO® Marvel™ Super Heroes",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -4905,13 +4905,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -6665,7 +6665,7 @@
    "titulo": "Resident Evil 0",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6678,13 +6678,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -7100,7 +7100,7 @@
    "titulo": "Resident Evil Village PS4 & PS5",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -7113,13 +7113,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -7593,7 +7593,7 @@
    "titulo": "SONIC X SHADOW GENERATIONS Digital Deluxe Edition PS4 & PS5",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 49999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -7606,13 +7606,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 49999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 49999,
      "hay": true
     }
    ]
