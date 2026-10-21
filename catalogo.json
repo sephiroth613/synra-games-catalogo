@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-21T19:56:02.997Z",
+ "generado": "2026-10-21T19:59:41.389Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -393,6 +393,39 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5383,
+   "titulo": "COMBO GTAIDER",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 49999,
+   "hay": true,
+   "portada": "img/combo-5383.jpg",
+   "juegos": [
+    {
+     "titulo": "Tomb Raider: Definitive Survivor Trilogy",
+     "imagen": "img/tomb-raider-definitive-survivor-trilogy.png"
+    },
+    {
+     "titulo": "Grand Theft Auto V (PS4™ & PS5™)",
+     "imagen": "img/grand-theft-auto-v-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
      "hay": true
     }
    ]
