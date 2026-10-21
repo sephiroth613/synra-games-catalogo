@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-21T15:00:17.523Z",
+ "generado": "2026-10-21T15:57:03.472Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -630,35 +630,6 @@
    ]
   },
   {
-   "id": 5190,
-   "titulo": "SKATE CITY",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 49999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "SKATE CITY",
-     "imagen": "img/skate-city.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5359,
    "titulo": "Sniper Elite 5 Deluxe Edition PS4™ & PS5™",
    "gancho": null,
@@ -712,35 +683,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5191,
-   "titulo": "TEKKEN 8",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "TEKKEN 8",
-     "imagen": "img/tekken-8.jpeg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
      "hay": true
     }
    ]
@@ -7299,6 +7241,35 @@
    ]
   },
   {
+   "id": 5190,
+   "titulo": "SKATE CITY",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "SKATE CITY",
+     "imagen": "img/skate-city.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5123,
    "titulo": "Skul: The Hero Slayer",
    "gancho": null,
@@ -7903,6 +7874,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5191,
+   "titulo": "TEKKEN 8",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "TEKKEN 8",
+     "imagen": "img/tekken-8.jpeg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
      "hay": true
     }
    ]
