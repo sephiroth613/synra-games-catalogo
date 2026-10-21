@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-21T02:00:40.490Z",
+ "generado": "2026-10-21T03:00:03.061Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -402,7 +402,7 @@
    "titulo": "ASTRO BOT Rescue Mission™",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 65999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -415,13 +415,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 65999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 65999,
      "hay": true
     }
    ]
@@ -525,64 +525,6 @@
     {
      "titulo": "Kingdom Come: Deliverance",
      "imagen": "img/kingdom-come-deliverance.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5176,
-   "titulo": "LEGO® Marvel Super Heroes 2",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "LEGO® Marvel Super Heroes 2",
-     "imagen": "img/lego-marvel-super-heroes-2.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5175,
-   "titulo": "LEGO® Marvel's Avengers",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "LEGO® Marvel's Avengers",
-     "imagen": "img/lego-marvel-s-avengers.jpg"
     }
    ],
    "opciones": [
@@ -804,6 +746,35 @@
    ]
   },
   {
+   "id": 5359,
+   "titulo": "Sniper Elite 5 Deluxe Edition PS4™ & PS5™",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 65999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Sniper Elite 5 Deluxe Edition PS4™ & PS5™",
+     "imagen": "img/sniper-elite-5-deluxe-edition-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 65999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5305,
    "titulo": "STAR WARS: Galactic Racer™",
    "gancho": null,
@@ -895,7 +866,7 @@
    "titulo": "Truck Driver",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 49999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -908,13 +879,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 49999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 49999,
      "hay": true
     }
    ]
@@ -1673,7 +1644,7 @@
    "titulo": "Battlefield™ 1 Revolution",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -1686,13 +1657,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -1876,7 +1847,7 @@
    "titulo": "Borderlands 3 Next Level Bundle PS4™ & PS5™",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -1889,13 +1860,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -3326,7 +3297,7 @@
    "titulo": "Devil May Cry 5 Special Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -3339,13 +3310,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -3790,7 +3761,7 @@
    "titulo": "Far Cry® 5 + Far Cry® New Dawn Ultimate Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 65999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -3803,13 +3774,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -4254,7 +4225,7 @@
    "titulo": "GRID Legends Deluxe Edition PS4 & PS5",
    "gancho": null,
    "clase": "individual",
-   "desde": 65999,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -4267,13 +4238,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 65999,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 65999,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -4573,7 +4544,7 @@
    "titulo": "inFAMOUS Second Son™",
    "gancho": null,
    "clase": "individual",
-   "desde": 65999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -4586,13 +4557,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -4888,6 +4859,64 @@
    ]
   },
   {
+   "id": 5176,
+   "titulo": "LEGO® Marvel Super Heroes 2",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "LEGO® Marvel Super Heroes 2",
+     "imagen": "img/lego-marvel-super-heroes-2.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5175,
+   "titulo": "LEGO® Marvel's Avengers",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "LEGO® Marvel's Avengers",
+     "imagen": "img/lego-marvel-s-avengers.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5079,
    "titulo": "LEGO® Marvel™ Super Heroes",
    "gancho": null,
@@ -5066,7 +5095,7 @@
    "titulo": "Mafia II: Definitive Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -5079,13 +5108,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -6694,7 +6723,7 @@
    "titulo": "RESIDENT EVIL 2",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6707,13 +6736,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -6723,7 +6752,7 @@
    "titulo": "RESIDENT EVIL 3",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6736,13 +6765,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -6897,7 +6926,7 @@
    "titulo": "Resident Evil Remake Trilogy",
    "gancho": null,
    "clase": "individual",
-   "desde": 195000,
+   "desde": 100000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6910,13 +6939,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 195000,
+     "precio": 100000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 195000,
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -6955,7 +6984,7 @@
    "titulo": "RESIDENT EVIL REVELATIONS",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6968,13 +6997,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -7013,7 +7042,7 @@
    "titulo": "Resident Evil Revelations 2 Deluxe Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -7026,13 +7055,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -8521,7 +8550,7 @@
    "titulo": "Truck Driver: The American Dream",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 65999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8534,13 +8563,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 65999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 65999,
      "hay": true
     }
    ]
@@ -8550,7 +8579,7 @@
    "titulo": "Truck Simulator 25: Euro Driver",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8563,13 +8592,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     }
    ]
