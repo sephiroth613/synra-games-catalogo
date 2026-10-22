@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-22T16:11:32.418Z",
+ "generado": "2026-10-22T16:14:10.027Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -430,6 +430,55 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5405,
+   "titulo": "COMBO CRASHUNRAVELKOMBAT",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 33000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Crash Bandicoot™ N. Sane Trilogy",
+     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
+    },
+    {
+     "titulo": "Crash Bandicoot™ 4: It’s About Time",
+     "imagen": "img/crash-bandicoot-4-it-s-about-time.jpg"
+    },
+    {
+     "titulo": "Crash™ Team Racing Nitro-Fueled - Nitros Oxide Edition",
+     "imagen": "img/crash-team-racing-nitro-fueled-nitros-oxide-edition.jpg"
+    },
+    {
+     "titulo": "Unravel",
+     "imagen": "img/unravel.jpg"
+    },
+    {
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat 11",
+     "imagen": "img/mortal-kombat-11.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 33000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 33000,
      "hay": true
     }
    ]
