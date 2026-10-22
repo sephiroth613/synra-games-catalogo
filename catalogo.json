@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-22T14:52:29.642Z",
+ "generado": "2026-10-22T15:43:18.495Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -393,6 +393,43 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5402,
+   "titulo": "COMBO ENDERRAIDER",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 32000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "ENDER LILIES: Quietus of the Knights",
+     "imagen": null
+    },
+    {
+     "titulo": "STAR WARS Battlefront II",
+     "imagen": "img/star-wars-battlefront-ii.jpg"
+    },
+    {
+     "titulo": "Tomb Raider: Definitive Survivor Trilogy",
+     "imagen": "img/tomb-raider-definitive-survivor-trilogy.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 32000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 32000,
      "hay": true
     }
    ]
@@ -7013,35 +7050,6 @@
    ]
   },
   {
-   "id": 52,
-   "titulo": "Street Fighter V: Champion Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 49999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Street Champion",
-     "imagen": "img/street-champion.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 4980,
    "titulo": "Street Fighter™ 6",
    "gancho": null,
@@ -9100,6 +9108,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "titulo": "Street Fighter V: Champion Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Street Champion",
+     "imagen": "img/street-champion.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
      "hay": true
     }
    ]
