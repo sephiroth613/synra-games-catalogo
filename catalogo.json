@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-22T04:52:27.889Z",
+ "generado": "2026-10-22T14:52:29.642Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -745,35 +745,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5216,
-   "titulo": "Terraria – PlayStation®4 Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 49999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Terraria – PlayStation®4 Edition",
-     "imagen": "img/terraria-playstation4-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 49999,
      "hay": true
     }
    ]
@@ -7158,6 +7129,35 @@
    ]
   },
   {
+   "id": 5216,
+   "titulo": "Terraria – PlayStation®4 Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Terraria – PlayStation®4 Edition",
+     "imagen": "img/terraria-playstation4-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5163,
    "titulo": "The Crew Motorfest",
    "gancho": null,
@@ -8710,35 +8710,6 @@
     {
      "titulo": "DRAGON BALL: Sparking! ZERO",
      "imagen": "img/dragon-ball-sparking-zero.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 29,
-   "titulo": "Hazelight Bundle",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Hazelight Bundle",
-     "imagen": "img/hazelight-bundle.png"
     }
    ],
    "opciones": [
