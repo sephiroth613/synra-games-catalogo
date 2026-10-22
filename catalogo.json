@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-22T16:14:10.027Z",
+ "generado": "2026-10-22T16:52:43.182Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -831,6 +831,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5406,
+   "titulo": "Sonic Colors: Ultimate - Digital Deluxe",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Sonic Colors: Ultimate - Digital Deluxe",
+     "imagen": "img/sonic-colors-ultimate-digital-deluxe.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -6804,35 +6833,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 4914,
-   "titulo": "Sonic Colours: Ultimate - Digital Deluxe",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Sonic Colours: Ultimate - Digital Deluxe",
-     "imagen": "img/sonic-colours-ultimate-digital-deluxe.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
      "hay": true
     }
    ]
