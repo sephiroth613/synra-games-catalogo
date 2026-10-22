@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-22T15:43:18.495Z",
+ "generado": "2026-10-22T15:47:52.385Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -179,6 +179,43 @@
      "consola": "PS5",
      "rol": "",
      "precio": 34999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5402,
+   "titulo": "COMBO ENDERRAIDER",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 32000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "ENDER LILIES: Quietus of the Knights",
+     "imagen": null
+    },
+    {
+     "titulo": "STAR WARS Battlefront II",
+     "imagen": "img/star-wars-battlefront-ii.jpg"
+    },
+    {
+     "titulo": "Tomb Raider: Definitive Survivor Trilogy",
+     "imagen": "img/tomb-raider-definitive-survivor-trilogy.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 32000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 32000,
      "hay": true
     }
    ]
@@ -393,43 +430,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5402,
-   "titulo": "COMBO ENDERRAIDER",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 32000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "ENDER LILIES: Quietus of the Knights",
-     "imagen": null
-    },
-    {
-     "titulo": "STAR WARS Battlefront II",
-     "imagen": "img/star-wars-battlefront-ii.jpg"
-    },
-    {
-     "titulo": "Tomb Raider: Definitive Survivor Trilogy",
-     "imagen": "img/tomb-raider-definitive-survivor-trilogy.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 32000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 32000,
      "hay": true
     }
    ]
