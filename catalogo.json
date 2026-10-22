@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-22T21:47:03.022Z",
+ "generado": "2026-10-22T21:50:17.436Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -453,7 +453,7 @@
    "clase": "combo",
    "desde": 33000,
    "hay": true,
-   "portada": null,
+   "portada": "img/combo-5405.jpg",
    "juegos": [
     {
      "titulo": "Crash Bandicoot™ N. Sane Trilogy",
