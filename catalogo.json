@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-22T17:40:55.020Z",
+ "generado": "2026-10-22T17:42:43.188Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -179,6 +179,55 @@
      "consola": "PS5",
      "rol": "",
      "precio": 34999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5408,
+   "titulo": "COMBO CODUNRAIDERWARS",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 35000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty: Modern Warfare 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Call of Duty: Modern Warfare Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "STAR WARS Battlefront II",
+     "imagen": "img/star-wars-battlefront-ii.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat 11 Ultimate PS4 & PS5",
+     "imagen": "img/mortal-kombat-11-ultimate-ps4-ps5.jpg"
+    },
+    {
+     "titulo": "Unravel Yarny Bundle",
+     "imagen": "img/unravel-yarny-bundle.jpg"
+    },
+    {
+     "titulo": "Tomb Raider: Definitive Survivor Trilogy",
+     "imagen": "img/tomb-raider-definitive-survivor-trilogy.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 35000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 35000,
      "hay": true
     }
    ]
@@ -430,55 +479,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5408,
-   "titulo": "COMBO CODUNRAIDERWARS",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 35000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Call of Duty: Modern Warfare 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Call of Duty: Modern Warfare Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "STAR WARS Battlefront II",
-     "imagen": "img/star-wars-battlefront-ii.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat 11 Ultimate PS4 & PS5",
-     "imagen": "img/mortal-kombat-11-ultimate-ps4-ps5.jpg"
-    },
-    {
-     "titulo": "Unravel Yarny Bundle",
-     "imagen": "img/unravel-yarny-bundle.jpg"
-    },
-    {
-     "titulo": "Tomb Raider: Definitive Survivor Trilogy",
-     "imagen": "img/tomb-raider-definitive-survivor-trilogy.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 35000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 35000,
      "hay": true
     }
    ]
