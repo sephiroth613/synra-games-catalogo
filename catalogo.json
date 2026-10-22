@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-22T15:47:52.385Z",
+ "generado": "2026-10-22T15:52:41.892Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -194,7 +194,7 @@
    "juegos": [
     {
      "titulo": "ENDER LILIES: Quietus of the Knights",
-     "imagen": null
+     "imagen": "img/ender-lilies-quietus-of-the-knights.jpg"
     },
     {
      "titulo": "STAR WARS Battlefront II",
@@ -492,6 +492,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5404,
+   "titulo": "ENDER LILIES: Quietus of the Knights",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "ENDER LILIES: Quietus of the Knights",
+     "imagen": "img/ender-lilies-quietus-of-the-knights.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
      "hay": true
     }
    ]
