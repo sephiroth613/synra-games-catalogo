@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-23T17:44:00.606Z",
+ "generado": "2026-10-23T18:16:22.296Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -992,6 +992,39 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5208,
+   "titulo": "COMBO CHILDCOD",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 25000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Child of Light",
+     "imagen": "img/child-of-light.png"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 25000,
      "hay": true
     }
    ]
