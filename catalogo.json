@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-23T19:17:18.364Z",
+ "generado": "2026-10-23T20:28:48.217Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -673,35 +673,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5256,
-   "titulo": "MARVEL Tōkon: Fighting Souls",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "MARVEL Tōkon: Fighting Souls",
-     "imagen": "img/marvel-tokon-fighting-souls.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
      "hay": true
     }
    ]
@@ -4563,6 +4534,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5256,
+   "titulo": "MARVEL Tōkon: Fighting Souls",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "MARVEL Tōkon: Fighting Souls",
+     "imagen": "img/marvel-tokon-fighting-souls.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
      "hay": true
     }
    ]
