@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-23T18:16:22.296Z",
+ "generado": "2026-10-23T19:17:18.364Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -356,7 +356,7 @@
    "titulo": "COMBO DIVCALLMAN",
    "gancho": null,
    "clase": "combo",
-   "desde": 31000,
+   "desde": 30000,
    "hay": true,
    "portada": "img/combo-139.jpg",
    "juegos": [
@@ -377,13 +377,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 31000,
+     "precio": 30000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 31000,
+     "precio": 30000,
      "hay": true
     }
    ]
@@ -429,64 +429,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 45000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5251,
-   "titulo": "ASTRO BOT",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "ASTRO BOT",
-     "imagen": "img/astro-bot.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5252,
-   "titulo": "ASTRO BOT Rescue Mission™",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 65999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "ASTRO BOT Rescue Mission™",
-     "imagen": "img/astro-bot-rescue-mission.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 65999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 65999,
      "hay": true
     }
    ]
@@ -1402,6 +1344,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5251,
+   "titulo": "ASTRO BOT",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "ASTRO BOT",
+     "imagen": "img/astro-bot.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5252,
+   "titulo": "ASTRO BOT Rescue Mission™",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 65999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "ASTRO BOT Rescue Mission™",
+     "imagen": "img/astro-bot-rescue-mission.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 65999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 65999,
      "hay": true
     }
    ]
