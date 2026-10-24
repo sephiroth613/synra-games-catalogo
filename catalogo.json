@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-24T00:30:48.901Z",
+ "generado": "2026-10-24T01:21:37.879Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -417,7 +417,7 @@
    "titulo": "COMBO FARMORJUST",
    "gancho": null,
    "clase": "combo",
-   "desde": 45000,
+   "desde": 42000,
    "hay": true,
    "portada": "img/combo-142.jpg",
    "juegos": [
@@ -446,13 +446,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 45000,
+     "precio": 42000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 45000,
+     "precio": 42000,
      "hay": true
     }
    ]
