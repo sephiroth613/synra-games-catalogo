@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-23T23:46:11.767Z",
+ "generado": "2026-10-24T00:16:51.167Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -53,10 +53,6 @@
    "hay": true,
    "portada": "img/combo-5203.jpg",
    "juegos": [
-    {
-     "titulo": "UNCHARTED 4: A Thief’s End & UNCHARTED: The Lost Legacy Digital Bundle",
-     "imagen": "img/uncharted-4-a-thief-s-end-uncharted-the-lost-legacy-digital-.jpg"
-    },
     {
      "titulo": "UNCHARTED 4: A Thief’s End & UNCHARTED: The Lost Legacy Digital Bundle",
      "imagen": "img/uncharted-4-a-thief-s-end-uncharted-the-lost-legacy-digital-.jpg"
@@ -242,8 +238,16 @@
    "portada": "img/combo-3002.jpg",
    "juegos": [
     {
-     "titulo": "Assassin's Creed Chronicles – Trilogy",
-     "imagen": "img/assassin-s-creed-chronicles-trilogy.png"
+     "titulo": "Assassin's Creed Chronicles: China",
+     "imagen": "img/assassin-s-creed-chronicles-china.jpg"
+    },
+    {
+     "titulo": "Assassin's Creed Chronicles: India",
+     "imagen": "img/assassin-s-creed-chronicles-india.jpg"
+    },
+    {
+     "titulo": "Assassin's Creed Chronicles: Russia",
+     "imagen": "img/assassin-s-creed-chronicles-russia.jpg"
     },
     {
      "titulo": "Tom Clancy's Ghost Recon Breakpoint Deluxe Edition",
@@ -2634,8 +2638,16 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Crysis Remastered Trilogy",
-     "imagen": "img/crysis-remastered-trilogy.jpg"
+     "titulo": "Crysis Remastered",
+     "imagen": "img/crysis-remastered.png"
+    },
+    {
+     "titulo": "Crysis 2 Remastered",
+     "imagen": "img/crysis-2-remastered.png"
+    },
+    {
+     "titulo": "Crysis 3 Remastered",
+     "imagen": "img/crysis-3-remastered.png"
     }
    ],
    "opciones": [
@@ -8558,8 +8570,16 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Mafia: Trilogy",
-     "imagen": "img/mafia-trilogy.jpg"
+     "titulo": "Mafia: Definitive Edition",
+     "imagen": "img/mafia-definitive-edition.jpg"
+    },
+    {
+     "titulo": "Mafia II: Definitive Edition",
+     "imagen": "img/mafia-ii-definitive-edition.jpg"
+    },
+    {
+     "titulo": "Mafia III: Definitive Edition",
+     "imagen": "img/mafia-iii-definitive-edition.jpg"
     }
    ],
    "opciones": [
