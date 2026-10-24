@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-24T00:16:51.167Z",
+ "generado": "2026-10-24T00:24:13.186Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -447,8 +447,16 @@
    "portada": "img/combo-5405.jpg",
    "juegos": [
     {
-     "titulo": "Crash Bandicoot™ - Crashiversary Bundle",
-     "imagen": "img/crash-bandicoot-crashiversary-bundle.jpg"
+     "titulo": "Crash Bandicoot N. Sane Trilogy",
+     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
+    },
+    {
+     "titulo": "Crash Bandicoot 4: It's About Time",
+     "imagen": "img/crash-bandicoot-4-it-s-about-time.jpg"
+    },
+    {
+     "titulo": "Crash Team Racing Nitro-Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
     },
     {
      "titulo": "Unravel Yarny Bundle",
@@ -720,8 +728,12 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Mortal Kombat 11 Ultimate + Injustice 2 Leg. Edition Bundle",
-     "imagen": "img/mortal-kombat-11-ultimate-injustice-2-leg-edition-bundle.jpg"
+     "titulo": "Mortal Kombat 11 Ultimate",
+     "imagen": "img/mortal-kombat-11-ultimate.jpg"
+    },
+    {
+     "titulo": "Injustice 2 Legendary Edition",
+     "imagen": "img/injustice-2-legendary-edition.jpg"
     }
    ],
    "opciones": [
@@ -1130,8 +1142,16 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Assassin's Creed Triple Pack: Black Flag, Unity, Syndicate",
-     "imagen": "img/assassin-s-creed-triple-pack-black-flag-unity-syndicate.jpg"
+     "titulo": "Assassin's Creed IV Black Flag",
+     "imagen": "img/assassin-s-creed-iv-black-flag.jpg"
+    },
+    {
+     "titulo": "Assassin's Creed Unity",
+     "imagen": "img/assassin-s-creed-unity.jpg"
+    },
+    {
+     "titulo": "Assassin's Creed Syndicate",
+     "imagen": "img/assassin-s-creed-syndicate.jpg"
     }
    ],
    "opciones": [
@@ -1594,8 +1614,16 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "BioShock: The Collection",
-     "imagen": "img/bioshock-the-collection.jpg"
+     "titulo": "BioShock Remastered",
+     "imagen": "img/bioshock-remastered.jpg"
+    },
+    {
+     "titulo": "BioShock 2 Remastered",
+     "imagen": "img/bioshock-2-remastered.png"
+    },
+    {
+     "titulo": "BioShock Infinite: The Complete Edition",
+     "imagen": "img/bioshock-infinite-the-complete-edition.png"
     }
    ],
    "opciones": [
@@ -2290,8 +2318,16 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Cat Quest: The Fur-tastic Trilogy",
-     "imagen": "img/cat-quest-the-fur-tastic-trilogy.jpg"
+     "titulo": "Cat Quest",
+     "imagen": "img/cat-quest.jpg"
+    },
+    {
+     "titulo": "Cat Quest II",
+     "imagen": "img/cat-quest-ii.jpg"
+    },
+    {
+     "titulo": "Cat Quest III",
+     "imagen": "img/cat-quest-iii.jpg"
     }
    ],
    "opciones": [
@@ -2406,8 +2442,16 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Crash Bandicoot™ - Crashiversary Bundle",
-     "imagen": "img/crash-bandicoot-crashiversary-bundle.jpg"
+     "titulo": "Crash Bandicoot N. Sane Trilogy",
+     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
+    },
+    {
+     "titulo": "Crash Bandicoot 4: It's About Time",
+     "imagen": "img/crash-bandicoot-4-it-s-about-time.jpg"
+    },
+    {
+     "titulo": "Crash Team Racing Nitro-Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
     }
    ],
    "opciones": [
@@ -2493,8 +2537,12 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Crash Bandicoot™ Paketi - N. Sane Trilogy + CTR Nitro-Fueled",
-     "imagen": "img/crash-bandicoot-paketi-n-sane-trilogy-ctr-nitro-fueled.jpg"
+     "titulo": "Crash Bandicoot N. Sane Trilogy",
+     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
+    },
+    {
+     "titulo": "Crash Team Racing Nitro-Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
     }
    ],
    "opciones": [
@@ -2522,8 +2570,16 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Crash™ + Spyro™ Triple Play Bundle",
-     "imagen": "img/crash-spyro-triple-play-bundle.jpg"
+     "titulo": "Crash Bandicoot N. Sane Trilogy",
+     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
+    },
+    {
+     "titulo": "Spyro Reignited Trilogy",
+     "imagen": "img/spyro-reignited-trilogy.jpg"
+    },
+    {
+     "titulo": "Crash Team Racing Nitro-Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
     }
    ],
    "opciones": [
@@ -2609,8 +2665,12 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Crash™ Team Racing Nitro-Fueled + Spyro™ Game Bundle",
-     "imagen": "img/crash-team-racing-nitro-fueled-spyro-game-bundle.jpg"
+     "titulo": "Crash Team Racing Nitro-Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
+    },
+    {
+     "titulo": "Spyro Reignited Trilogy",
+     "imagen": "img/spyro-reignited-trilogy.jpg"
     }
    ],
    "opciones": [
@@ -3342,8 +3402,12 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Far Cry® 5 + Far Cry® New Dawn Ultimate Edition",
-     "imagen": "img/far-cry-5-far-cry-new-dawn-ultimate-edition.jpg"
+     "titulo": "Far Cry 5",
+     "imagen": "img/far-cry-5.png"
+    },
+    {
+     "titulo": "Far Cry New Dawn",
+     "imagen": "img/far-cry-new-dawn.jpg"
     }
    ],
    "opciones": [
@@ -4270,8 +4334,12 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "LEGO® Harry Potter™ Collection",
-     "imagen": "img/lego-harry-potter-collection.jpg"
+     "titulo": "LEGO Harry Potter: Years 1-4",
+     "imagen": "img/lego-harry-potter-years-1-4.jpg"
+    },
+    {
+     "titulo": "LEGO Harry Potter: Years 5-7",
+     "imagen": "img/lego-harry-potter-years-5-7.jpg"
     }
    ],
    "opciones": [
@@ -4299,8 +4367,16 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "LEGO® Marvel Collection",
-     "imagen": "img/lego-marvel-collection.png"
+     "titulo": "LEGO Marvel Super Heroes",
+     "imagen": "img/lego-marvel-super-heroes.png"
+    },
+    {
+     "titulo": "LEGO Marvel's Avengers",
+     "imagen": "img/lego-marvel-s-avengers.jpg"
+    },
+    {
+     "titulo": "LEGO Marvel Super Heroes 2",
+     "imagen": "img/lego-marvel-super-heroes-2.png"
     }
    ],
    "opciones": [
@@ -4473,8 +4549,12 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Little Nightmares I & II Bundle PS4 & PS5",
-     "imagen": "img/little-nightmares-i-ii-bundle-ps4-ps5.jpg"
+     "titulo": "Little Nightmares",
+     "imagen": "img/little-nightmares.jpg"
+    },
+    {
+     "titulo": "Little Nightmares II",
+     "imagen": "img/little-nightmares-ii.jpg"
     }
    ],
    "opciones": [
@@ -4821,8 +4901,16 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Metro Saga Bundle",
-     "imagen": "img/metro-saga-bundle.jpg"
+     "titulo": "Metro 2033 Redux",
+     "imagen": "img/metro-2033-redux.jpg"
+    },
+    {
+     "titulo": "Metro: Last Light Redux",
+     "imagen": "img/metro-last-light-redux.png"
+    },
+    {
+     "titulo": "Metro Exodus Gold Edition",
+     "imagen": "img/metro-exodus-gold-edition.jpg"
     }
    ],
    "opciones": [
@@ -5057,8 +5145,12 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Monster Hunter Rise + Sunbreak Deluxe",
-     "imagen": "img/monster-hunter-rise-sunbreak-deluxe.jpg"
+     "titulo": "Monster Hunter Rise",
+     "imagen": "img/monster-hunter-rise.jpeg"
+    },
+    {
+     "titulo": "Monster Hunter Rise: Sunbreak",
+     "imagen": "img/monster-hunter-rise-sunbreak.jpg"
     }
    ],
    "opciones": [
@@ -5956,8 +6048,16 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Resident Evil Remake Trilogy",
-     "imagen": "img/resident-evil-remake-trilogy.jpg"
+     "titulo": "Resident Evil 2",
+     "imagen": "img/resident-evil-2.jpg"
+    },
+    {
+     "titulo": "Resident Evil 3",
+     "imagen": "img/resident-evil-3.jpg"
+    },
+    {
+     "titulo": "Resident Evil 4",
+     "imagen": "img/resident-evil-4.jpg"
     }
    ],
    "opciones": [
@@ -6014,8 +6114,12 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Resident Evil Revelations 1 & 2 Bundle",
-     "imagen": "img/resident-evil-revelations-1-2-bundle.jpg"
+     "titulo": "Resident Evil Revelations",
+     "imagen": "img/resident-evil-revelations.jpg"
+    },
+    {
+     "titulo": "Resident Evil Revelations 2",
+     "imagen": "img/resident-evil-revelations-2.jpg"
     }
    ],
    "opciones": [
@@ -6072,8 +6176,16 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Resident Evil Triple Pack",
-     "imagen": "img/resident-evil-triple-pack.png"
+     "titulo": "Resident Evil 4",
+     "imagen": "img/resident-evil-4.jpg"
+    },
+    {
+     "titulo": "Resident Evil 5",
+     "imagen": "img/resident-evil-5.jpg"
+    },
+    {
+     "titulo": "Resident Evil 6",
+     "imagen": "img/resident-evil-6.png"
     }
    ],
    "opciones": [
