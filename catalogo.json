@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-24T02:32:58.407Z",
+ "generado": "2026-10-24T02:36:53.544Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -574,7 +574,7 @@
    "clase": "combo",
    "desde": 39999,
    "hay": true,
-   "portada": null,
+   "portada": "img/combo-5447.jpg",
    "juegos": [
     {
      "titulo": "Call of Duty: Modern Warfare Remastered",
