@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-24T02:07:29.009Z",
+ "generado": "2026-10-24T02:15:38.077Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -54,8 +54,12 @@
    "portada": "img/combo-5203.jpg",
    "juegos": [
     {
-     "titulo": "UNCHARTED 4: A Thief’s End & UNCHARTED: The Lost Legacy Digital Bundle",
-     "imagen": "img/uncharted-4-a-thief-s-end-uncharted-the-lost-legacy-digital-.jpg"
+     "titulo": "UNCHARTED 4: A Thief's End",
+     "imagen": "img/uncharted-4-a-thief-s-end.jpg"
+    },
+    {
+     "titulo": "UNCHARTED: The Lost Legacy",
+     "imagen": "img/uncharted-the-lost-legacy.jpg"
     },
     {
      "titulo": "Tom Clancys Ghost Recon Breakpoint Deluxe Edition",
@@ -7756,8 +7760,12 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "UNCHARTED 4: A Thief’s End & UNCHARTED: The Lost Legacy Digital Bundle",
-     "imagen": "img/uncharted-4-a-thief-s-end-uncharted-the-lost-legacy-digital-.jpg"
+     "titulo": "UNCHARTED 4: A Thief's End",
+     "imagen": "img/uncharted-4-a-thief-s-end.jpg"
+    },
+    {
+     "titulo": "UNCHARTED: The Lost Legacy",
+     "imagen": "img/uncharted-the-lost-legacy.jpg"
     }
    ],
    "opciones": [
@@ -8195,8 +8203,16 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Batman: Arkham Collection",
-     "imagen": "img/batman-arkham-collection.jpg"
+     "titulo": "Batman: Arkham Knight",
+     "imagen": "img/batman-arkham-knight.jpg"
+    },
+    {
+     "titulo": "Batman: Arkham Asylum",
+     "imagen": "img/batman-arkham-asylum.png"
+    },
+    {
+     "titulo": "Batman: Arkham City",
+     "imagen": "img/batman-arkham-city.png"
     }
    ],
    "opciones": [
