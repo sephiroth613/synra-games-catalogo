@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-24T20:49:43.271Z",
+ "generado": "2026-10-26T00:18:29.702Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -8,7 +8,7 @@
    "titulo": "COMBO CODJUST",
    "gancho": null,
    "clase": "combo",
-   "desde": 44999,
+   "desde": 43000,
    "hay": true,
    "portada": "img/combo-141.jpg",
    "juegos": [
@@ -33,13 +33,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 44999,
+     "precio": 43000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 44999,
+     "precio": 43000,
      "hay": true
     }
    ]
@@ -972,35 +972,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5305,
-   "titulo": "STAR WARS: Galactic Racer™",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "STAR WARS: Galactic Racer™",
-     "imagen": "img/star-wars-galactic-racer.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
      "hay": true
     }
    ]
@@ -6884,6 +6855,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5305,
+   "titulo": "STAR WARS: Galactic Racer™",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "STAR WARS: Galactic Racer™",
+     "imagen": "img/star-wars-galactic-racer.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
      "hay": true
     }
    ]
