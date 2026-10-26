@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-26T18:06:28.683Z",
+ "generado": "2026-10-26T19:28:28.516Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -707,35 +707,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5325,
-   "titulo": "Ghost of Tsushima DIRECTOR’S CUT",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 49999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Ghost of Tsushima DIRECTOR’S CUT",
-     "imagen": "img/ghost-of-tsushima-director-s-cut.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 49999,
      "hay": true
     }
    ]
@@ -3642,6 +3613,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5325,
+   "titulo": "Ghost of Tsushima DIRECTOR’S CUT",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Ghost of Tsushima DIRECTOR’S CUT",
+     "imagen": "img/ghost-of-tsushima-director-s-cut.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
      "hay": true
     }
    ]
