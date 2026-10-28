@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-27T21:43:22.884Z",
+ "generado": "2026-10-28T17:09:52.995Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -654,35 +654,6 @@
    ]
   },
   {
-   "id": 5376,
-   "titulo": "Dying Light - Essentials Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Dying Light - Essentials Edition",
-     "imagen": "img/dying-light-essentials-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5404,
    "titulo": "ENDER LILIES: Quietus of the Knights",
    "gancho": null,
@@ -741,126 +712,6 @@
    ]
   },
   {
-   "id": 5378,
-   "titulo": "MARVEL vs. CAPCOM Fighting Collection: Arcade Classics",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 49999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "MARVEL vs. CAPCOM Fighting Collection: Arcade Classics",
-     "imagen": "img/marvel-vs-capcom-fighting-collection-arcade-classics.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5357,
-   "titulo": "Mortal Kombat 11 Ultimate + Injustice 2 Leg. Edition Bundle",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Mortal Kombat 11 Ultimate",
-     "imagen": "img/mortal-kombat-11-ultimate.jpg"
-    },
-    {
-     "titulo": "Injustice 2 Legendary Edition",
-     "imagen": "img/injustice-2-legendary-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5355,
-   "titulo": "Need for Speed™ Heat",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Need for Speed™ Heat",
-     "imagen": "img/need-for-speed-heat.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5359,
-   "titulo": "Sniper Elite 5 Deluxe Edition PS4™ & PS5™",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 65999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Sniper Elite 5 Deluxe Edition PS4™ & PS5™",
-     "imagen": "img/sniper-elite-5-deluxe-edition-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 65999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 65999,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5406,
    "titulo": "Sonic Colors: Ultimate - Digital Deluxe",
    "gancho": null,
@@ -885,35 +736,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5379,
-   "titulo": "ULTIMATE MARVEL VS. CAPCOM 3",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "ULTIMATE MARVEL VS. CAPCOM 3",
-     "imagen": "img/ultimate-marvel-vs-capcom-3.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
      "hay": true
     }
    ]
@@ -3121,6 +2943,35 @@
    ]
   },
   {
+   "id": 5376,
+   "titulo": "Dying Light - Essentials Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Dying Light - Essentials Edition",
+     "imagen": "img/dying-light-essentials-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5092,
    "titulo": "Dying Light 2 Stay Human PS4&PS5",
    "gancho": null,
@@ -4707,6 +4558,35 @@
    ]
   },
   {
+   "id": 5378,
+   "titulo": "MARVEL vs. CAPCOM Fighting Collection: Arcade Classics",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "MARVEL vs. CAPCOM Fighting Collection: Arcade Classics",
+     "imagen": "img/marvel-vs-capcom-fighting-collection-arcade-classics.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5009,
    "titulo": "Marvel's Guardians of the Galaxy PS4 & PS5",
    "gancho": null,
@@ -5063,39 +4943,6 @@
    ]
   },
   {
-   "id": 137,
-   "titulo": "Middle-earth™: The Shadow Bundle",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 29999,
-   "hay": true,
-   "portada": "img/combo-137.jpg",
-   "juegos": [
-    {
-     "titulo": "Middle-earth™ Shadow of War™",
-     "imagen": "img/middle-earth-shadow-of-war.jpg"
-    },
-    {
-     "titulo": "Middle-earth™: Shadow of Mordor™",
-     "imagen": "img/middle-earth-shadow-of-mordor.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 29999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 29999,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5240,
    "titulo": "Minecraft Dungeons II Deluxe Edition",
    "gancho": null,
@@ -5211,6 +5058,39 @@
      "consola": "PS5",
      "rol": "",
      "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5357,
+   "titulo": "Mortal Kombat 11 Ultimate + Injustice 2 Leg. Edition Bundle",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Mortal Kombat 11 Ultimate",
+     "imagen": "img/mortal-kombat-11-ultimate.jpg"
+    },
+    {
+     "titulo": "Injustice 2 Legendary Edition",
+     "imagen": "img/injustice-2-legendary-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -5530,6 +5410,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5355,
+   "titulo": "Need for Speed™ Heat",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Need for Speed™ Heat",
+     "imagen": "img/need-for-speed-heat.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -6507,6 +6416,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5359,
+   "titulo": "Sniper Elite 5 Deluxe Edition PS4™ & PS5™",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 65999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Sniper Elite 5 Deluxe Edition PS4™ & PS5™",
+     "imagen": "img/sniper-elite-5-deluxe-edition-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 65999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 65999,
      "hay": true
     }
    ]
@@ -7791,6 +7729,35 @@
    ]
   },
   {
+   "id": 5379,
+   "titulo": "ULTIMATE MARVEL VS. CAPCOM 3",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "ULTIMATE MARVEL VS. CAPCOM 3",
+     "imagen": "img/ultimate-marvel-vs-capcom-3.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5000,
    "titulo": "UNCHARTED 4: A Thief’s End & UNCHARTED: The Lost Legacy Digital Bundle",
    "gancho": null,
@@ -8974,6 +8941,39 @@
      "consola": "PS5",
      "rol": "",
      "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 137,
+   "titulo": "Middle-earth™: The Shadow Bundle",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 29999,
+   "hay": true,
+   "portada": "img/combo-137.jpg",
+   "juegos": [
+    {
+     "titulo": "Middle-earth™ Shadow of War™",
+     "imagen": "img/middle-earth-shadow-of-war.jpg"
+    },
+    {
+     "titulo": "Middle-earth™: Shadow of Mordor™",
+     "imagen": "img/middle-earth-shadow-of-mordor.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 29999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 29999,
      "hay": true
     }
    ]
