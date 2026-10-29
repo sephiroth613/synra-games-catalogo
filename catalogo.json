@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-29T12:12:01.252Z",
+ "generado": "2026-10-29T16:04:52.104Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -153,7 +153,7 @@
    "clase": "combo",
    "desde": 35000,
    "hay": true,
-   "portada": null,
+   "portada": "img/combo-5408.jpg",
    "juegos": [
     {
      "titulo": "Call of Duty: Modern Warfare 2 Campaign Remastered",
@@ -203,51 +203,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 35000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5402,
-   "titulo": "COMBO ENDERRAIDER",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 32000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "ENDER LILIES: Quietus of the Knights",
-     "imagen": "img/ender-lilies-quietus-of-the-knights.jpg"
-    },
-    {
-     "titulo": "STAR WARS Battlefront II",
-     "imagen": "img/star-wars-battlefront-ii.jpg"
-    },
-    {
-     "titulo": "Tomb Raider: Definitive Edition",
-     "imagen": "img/tomb-raider-definitive-edition.jpg"
-    },
-    {
-     "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
-     "imagen": "img/rise-of-the-tomb-raider-20-year-celebration.jpg"
-    },
-    {
-     "titulo": "Shadow of the Tomb Raider: Definitive Edition",
-     "imagen": "img/shadow-of-the-tomb-raider-definitive-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 32000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 32000,
      "hay": true
     }
    ]
@@ -658,35 +613,6 @@
    ]
   },
   {
-   "id": 5404,
-   "titulo": "ENDER LILIES: Quietus of the Knights",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "ENDER LILIES: Quietus of the Knights",
-     "imagen": "img/ender-lilies-quietus-of-the-knights.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5414,
    "titulo": "Halloween Pinball",
    "gancho": null,
@@ -740,6 +666,51 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5402,
+   "titulo": "COMBO ENDERRAIDER",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 32000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "ENDER LILIES: Quietus of the Knights",
+     "imagen": "img/ender-lilies-quietus-of-the-knights.jpg"
+    },
+    {
+     "titulo": "STAR WARS Battlefront II",
+     "imagen": "img/star-wars-battlefront-ii.jpg"
+    },
+    {
+     "titulo": "Tomb Raider: Definitive Edition",
+     "imagen": "img/tomb-raider-definitive-edition.jpg"
+    },
+    {
+     "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
+     "imagen": "img/rise-of-the-tomb-raider-20-year-celebration.jpg"
+    },
+    {
+     "titulo": "Shadow of the Tomb Raider: Definitive Edition",
+     "imagen": "img/shadow-of-the-tomb-raider-definitive-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 32000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 32000,
      "hay": true
     }
    ]
@@ -3128,6 +3099,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5404,
+   "titulo": "ENDER LILIES: Quietus of the Knights",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "ENDER LILIES: Quietus of the Knights",
+     "imagen": "img/ender-lilies-quietus-of-the-knights.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
      "hay": true
     }
    ]
