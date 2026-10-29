@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-28T22:47:32.234Z",
+ "generado": "2026-10-29T03:04:22.149Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -380,7 +380,7 @@
    "titulo": "COMBO BATTLCODMODER2",
    "gancho": null,
    "clase": "combo",
-   "desde": 38000,
+   "desde": 36000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -405,13 +405,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 38000,
+     "precio": 36000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 38000,
+     "precio": 36000,
      "hay": true
     }
    ]
