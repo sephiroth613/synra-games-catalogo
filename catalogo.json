@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-29T16:04:52.104Z",
+ "generado": "2026-10-29T16:11:22.814Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -372,6 +372,51 @@
    ]
   },
   {
+   "id": 5402,
+   "titulo": "COMBO ENDERRAIDER",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 30000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "ENDER LILIES: Quietus of the Knights",
+     "imagen": "img/ender-lilies-quietus-of-the-knights.jpg"
+    },
+    {
+     "titulo": "STAR WARS Battlefront II",
+     "imagen": "img/star-wars-battlefront-ii.jpg"
+    },
+    {
+     "titulo": "Tomb Raider: Definitive Edition",
+     "imagen": "img/tomb-raider-definitive-edition.jpg"
+    },
+    {
+     "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
+     "imagen": "img/rise-of-the-tomb-raider-20-year-celebration.jpg"
+    },
+    {
+     "titulo": "Shadow of the Tomb Raider: Definitive Edition",
+     "imagen": "img/shadow-of-the-tomb-raider-definitive-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 30000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 30000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 142,
    "titulo": "COMBO FARMORJUST",
    "gancho": null,
@@ -469,55 +514,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 39999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5405,
-   "titulo": "COMBO CRASHUNRAVELKOMBAT",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 33000,
-   "hay": true,
-   "portada": "img/combo-5405.jpg",
-   "juegos": [
-    {
-     "titulo": "Crash Bandicoot N. Sane Trilogy",
-     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
-    },
-    {
-     "titulo": "Crash Bandicoot 4: It's About Time",
-     "imagen": "img/crash-bandicoot-4-it-s-about-time.jpg"
-    },
-    {
-     "titulo": "Crash Team Racing Nitro-Fueled",
-     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
-    },
-    {
-     "titulo": "Unravel",
-     "imagen": "img/unravel.jpg"
-    },
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat 11 Ultimate PS4 & PS5",
-     "imagen": "img/mortal-kombat-11-ultimate-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 33000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 33000,
      "hay": true
     }
    ]
@@ -666,51 +662,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5402,
-   "titulo": "COMBO ENDERRAIDER",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 32000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "ENDER LILIES: Quietus of the Knights",
-     "imagen": "img/ender-lilies-quietus-of-the-knights.jpg"
-    },
-    {
-     "titulo": "STAR WARS Battlefront II",
-     "imagen": "img/star-wars-battlefront-ii.jpg"
-    },
-    {
-     "titulo": "Tomb Raider: Definitive Edition",
-     "imagen": "img/tomb-raider-definitive-edition.jpg"
-    },
-    {
-     "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
-     "imagen": "img/rise-of-the-tomb-raider-20-year-celebration.jpg"
-    },
-    {
-     "titulo": "Shadow of the Tomb Raider: Definitive Edition",
-     "imagen": "img/shadow-of-the-tomb-raider-definitive-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 32000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 32000,
      "hay": true
     }
    ]
@@ -2156,6 +2107,55 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5405,
+   "titulo": "COMBO CRASHUNRAVELKOMBAT",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 33000,
+   "hay": true,
+   "portada": "img/combo-5405.jpg",
+   "juegos": [
+    {
+     "titulo": "Crash Bandicoot N. Sane Trilogy",
+     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
+    },
+    {
+     "titulo": "Crash Bandicoot 4: It's About Time",
+     "imagen": "img/crash-bandicoot-4-it-s-about-time.jpg"
+    },
+    {
+     "titulo": "Crash Team Racing Nitro-Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
+    },
+    {
+     "titulo": "Unravel",
+     "imagen": "img/unravel.jpg"
+    },
+    {
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat 11 Ultimate PS4 & PS5",
+     "imagen": "img/mortal-kombat-11-ultimate-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 33000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 33000,
      "hay": true
     }
    ]
