@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-29T18:11:28.313Z",
+ "generado": "2026-10-30T12:54:05.214Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -604,35 +604,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 36000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5414,
-   "titulo": "Halloween Pinball",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Halloween Pinball",
-     "imagen": "img/halloween-pinball.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
      "hay": true
     }
    ]
@@ -3741,6 +3712,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5414,
+   "titulo": "Halloween Pinball",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Halloween Pinball",
+     "imagen": "img/halloween-pinball.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
      "hay": true
     }
    ]
