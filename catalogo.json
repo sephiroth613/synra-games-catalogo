@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-01T17:42:51.082Z",
+ "generado": "2026-11-01T19:42:00.777Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -465,6 +465,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 36000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5578,
+   "titulo": "Disney/Pixar Toy Story 3 Complete Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Disney/Pixar Toy Story 3 Complete Edition",
+     "imagen": "img/disney-pixar-toy-story-3-complete-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
      "hay": true
     }
    ]
