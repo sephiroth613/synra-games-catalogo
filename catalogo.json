@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T16:22:14.440Z",
+ "generado": "2026-11-02T18:50:13.716Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -335,6 +335,43 @@
    ]
   },
   {
+   "id": 139,
+   "titulo": "COMBO DIVCALLMAN",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 33000,
+   "hay": true,
+   "portada": "img/combo-139.jpg",
+   "juegos": [
+    {
+     "titulo": "TOM CLANCY'S THE DIVISION",
+     "imagen": "img/tom-clancy-s-the-division.jpg"
+    },
+    {
+     "titulo": "Call of Duty® Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Batman™ Arkham Knight",
+     "imagen": "img/batman-arkham-knight.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 33000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 33000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5402,
    "titulo": "COMBO ENDERRAIDER",
    "gancho": null,
@@ -478,43 +515,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 139,
-   "titulo": "COMBO DIVCALLMAN",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 34999,
-   "hay": true,
-   "portada": "img/combo-139.jpg",
-   "juegos": [
-    {
-     "titulo": "TOM CLANCY'S THE DIVISION",
-     "imagen": "img/tom-clancy-s-the-division.jpg"
-    },
-    {
-     "titulo": "Call of Duty® Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Batman™ Arkham Knight",
-     "imagen": "img/batman-arkham-knight.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 34999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 34999,
      "hay": true
     }
    ]
