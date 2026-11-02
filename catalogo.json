@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-01T19:42:00.777Z",
+ "generado": "2026-11-02T00:42:10.729Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -8,7 +8,7 @@
    "titulo": "COMBO CODJUST",
    "gancho": null,
    "clase": "combo",
-   "desde": 43000,
+   "desde": 40000,
    "hay": true,
    "portada": "img/combo-141.jpg",
    "juegos": [
@@ -33,13 +33,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 43000,
+     "precio": 40000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 43000,
+     "precio": 40000,
      "hay": true
     }
    ]
@@ -375,51 +375,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 30000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 142,
-   "titulo": "COMBO FARMORJUST",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 40000,
-   "hay": true,
-   "portada": "img/combo-142.jpg",
-   "juegos": [
-    {
-     "titulo": "FARCRY 3 Classic Edition",
-     "imagen": "img/farcry-3-classic-edition.jpg"
-    },
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat 11 Ultimate PS4 &amp; PS5",
-     "imagen": "img/mortal-kombat-11-ultimate-ps4-amp-ps5.jpg"
-    },
-    {
-     "titulo": "Just Cause 3 Xxl Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
-    },
-    {
-     "titulo": "Rabbids® Party of Legends",
-     "imagen": "img/rabbids-party-of-legends.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 40000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 40000,
      "hay": true
     }
    ]
@@ -8212,6 +8167,51 @@
      "consola": "PS5",
      "rol": "",
      "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 142,
+   "titulo": "COMBO FARMORJUST",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 40000,
+   "hay": true,
+   "portada": "img/combo-142.jpg",
+   "juegos": [
+    {
+     "titulo": "FARCRY 3 Classic Edition",
+     "imagen": "img/farcry-3-classic-edition.jpg"
+    },
+    {
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat 11 Ultimate PS4 &amp; PS5",
+     "imagen": "img/mortal-kombat-11-ultimate-ps4-amp-ps5.jpg"
+    },
+    {
+     "titulo": "Just Cause 3 Xxl Edition",
+     "imagen": "img/just-cause-3-xxl-edition.jpg"
+    },
+    {
+     "titulo": "Rabbids® Party of Legends",
+     "imagen": "img/rabbids-party-of-legends.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 40000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 40000,
      "hay": true
     }
    ]
