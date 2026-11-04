@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-04T17:44:34.127Z",
+ "generado": "2026-11-04T17:46:22.290Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -626,6 +626,47 @@
      "consola": "PS5",
      "rol": "",
      "precio": 33000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5383,
+   "titulo": "COMBO GTAIDER",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 49999,
+   "hay": true,
+   "portada": "img/combo-5383.jpg",
+   "juegos": [
+    {
+     "titulo": "Tomb Raider: Definitive Edition",
+     "imagen": "img/tomb-raider-definitive-edition.jpg"
+    },
+    {
+     "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
+     "imagen": "img/rise-of-the-tomb-raider-20-year-celebration.jpg"
+    },
+    {
+     "titulo": "Shadow of the Tomb Raider: Definitive Edition",
+     "imagen": "img/shadow-of-the-tomb-raider-definitive-edition.jpg"
+    },
+    {
+     "titulo": "Grand Theft Auto V (PS4™ & PS5™)",
+     "imagen": "img/grand-theft-auto-v-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
      "hay": true
     }
    ]
@@ -2173,47 +2214,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 39999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5383,
-   "titulo": "COMBO GTAIDER",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 49999,
-   "hay": true,
-   "portada": "img/combo-5383.jpg",
-   "juegos": [
-    {
-     "titulo": "Tomb Raider: Definitive Edition",
-     "imagen": "img/tomb-raider-definitive-edition.jpg"
-    },
-    {
-     "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
-     "imagen": "img/rise-of-the-tomb-raider-20-year-celebration.jpg"
-    },
-    {
-     "titulo": "Shadow of the Tomb Raider: Definitive Edition",
-     "imagen": "img/shadow-of-the-tomb-raider-definitive-edition.jpg"
-    },
-    {
-     "titulo": "Grand Theft Auto V (PS4™ & PS5™)",
-     "imagen": "img/grand-theft-auto-v-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 49999,
      "hay": true
     }
    ]
