@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-04T17:42:22.260Z",
+ "generado": "2026-11-04T17:44:34.127Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -142,6 +142,39 @@
      "consola": "PS5",
      "rol": "",
      "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5614,
+   "titulo": "COMBO CODCHILD",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 25000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Child of Light",
+     "imagen": "img/child-of-light.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 25000,
      "hay": true
     }
    ]
@@ -335,55 +368,6 @@
    ]
   },
   {
-   "id": 5405,
-   "titulo": "COMBO CRASHUNRAVELKOMBAT",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 31000,
-   "hay": true,
-   "portada": "img/combo-5405.jpg",
-   "juegos": [
-    {
-     "titulo": "Crash Bandicoot N. Sane Trilogy",
-     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
-    },
-    {
-     "titulo": "Crash Bandicoot 4: It's About Time",
-     "imagen": "img/crash-bandicoot-4-it-s-about-time.jpg"
-    },
-    {
-     "titulo": "Crash Team Racing Nitro-Fueled",
-     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
-    },
-    {
-     "titulo": "Unravel",
-     "imagen": "img/unravel.jpg"
-    },
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat 11 Ultimate PS4 & PS5",
-     "imagen": "img/mortal-kombat-11-ultimate-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 31000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 31000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 139,
    "titulo": "COMBO DIVCALLMAN",
    "gancho": null,
@@ -461,6 +445,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 30000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5615,
+   "titulo": "Assassin's Creed Shadows Digital Deluxe Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Assassin's Creed Shadows Digital Deluxe Edition",
+     "imagen": "img/assassin-s-creed-shadows-digital-deluxe-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -564,6 +577,55 @@
      "consola": "PS5",
      "rol": "",
      "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5405,
+   "titulo": "COMBO CRASHUNRAVELKOMBAT",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 33000,
+   "hay": true,
+   "portada": "img/combo-5405.jpg",
+   "juegos": [
+    {
+     "titulo": "Crash Bandicoot N. Sane Trilogy",
+     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
+    },
+    {
+     "titulo": "Crash Bandicoot 4: It's About Time",
+     "imagen": "img/crash-bandicoot-4-it-s-about-time.jpg"
+    },
+    {
+     "titulo": "Crash Team Racing Nitro-Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
+    },
+    {
+     "titulo": "Unravel",
+     "imagen": "img/unravel.jpg"
+    },
+    {
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat 11 Ultimate PS4 & PS5",
+     "imagen": "img/mortal-kombat-11-ultimate-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 33000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 33000,
      "hay": true
     }
    ]
@@ -929,7 +991,7 @@
    "titulo": "Assassin’s Creed® The Ezio Collection",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 49999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -942,13 +1004,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 49999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 49999,
      "hay": true
     }
    ]
@@ -1132,7 +1194,7 @@
    "titulo": "Batman™: Arkham Knight",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -1145,13 +1207,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -6682,7 +6744,7 @@
    "titulo": "Spyro™ Reignited Trilogy",
    "gancho": null,
    "clase": "individual",
-   "desde": 162000,
+   "desde": 65999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6695,13 +6757,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 162000,
+     "precio": 65999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 162000,
+     "precio": 65999,
      "hay": true
     }
    ]
@@ -7125,7 +7187,7 @@
    "titulo": "The Last of Us™ Remastered",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -7138,13 +7200,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -8875,7 +8937,7 @@
    "titulo": "Marvel's Spider-Man: Miles Morales Ultimate Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8888,13 +8950,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -9401,7 +9463,7 @@
    "titulo": "Sniper Ghost Warrior Contracts 2",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -9414,13 +9476,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     }
    ]
