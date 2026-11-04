@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-04T02:05:49.700Z",
+ "generado": "2026-11-04T16:48:42.117Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -6972,7 +6972,7 @@
    "titulo": "The Elder Scrolls V: Skyrim Special Edition - PS5 & PS4",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6985,13 +6985,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -7001,7 +7001,7 @@
    "titulo": "The Forest",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -7014,13 +7014,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     }
    ]
