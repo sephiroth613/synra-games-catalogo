@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-03T17:56:52.211Z",
+ "generado": "2026-11-04T00:56:57.616Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -1430,7 +1430,7 @@
    "titulo": "Bully (Canis Canem Edit)",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -1443,13 +1443,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 38999,
      "hay": true
     }
    ]
