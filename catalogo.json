@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-04T18:32:12.172Z",
+ "generado": "2026-11-04T19:31:03.115Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -669,6 +669,35 @@
    ]
   },
   {
+   "id": 5621,
+   "titulo": "TEKKEN 7 - Originals Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "TEKKEN 7 - Originals Edition",
+     "imagen": "img/tekken-7-originals-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5405,
    "titulo": "COMBO CRASHUNRAVELKOMBAT",
    "gancho": null,
@@ -1148,7 +1177,7 @@
    "titulo": "ASTRO BOT",
    "gancho": null,
    "clase": "individual",
-   "desde": 195000,
+   "desde": 162000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -1161,13 +1190,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 195000,
+     "precio": 162000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 195000,
+     "precio": 162000,
      "hay": true
     }
    ]
@@ -1678,7 +1707,7 @@
    "titulo": "Bus Driving Simulator : EVO",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -1691,13 +1720,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -2690,7 +2719,7 @@
    "titulo": "Dead Island Definitive Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -2703,13 +2732,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -3328,7 +3357,7 @@
    "titulo": "Far Cry 5",
    "gancho": null,
    "clase": "individual",
-   "desde": 162000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -3341,13 +3370,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 162000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 162000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -3448,7 +3477,7 @@
    "titulo": "Farm Manager 2022",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -3461,13 +3490,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -3999,7 +4028,7 @@
    "titulo": "HOT WHEELS UNLEASHED™",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -4012,13 +4041,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -4591,7 +4620,7 @@
    "titulo": "Little Nightmares I & II Bundle PS4 & PS5",
    "gancho": null,
    "clase": "individual",
-   "desde": 162000,
+   "desde": 49999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -4608,13 +4637,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 162000,
+     "precio": 49999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 162000,
+     "precio": 49999,
      "hay": true
     }
    ]
@@ -4624,7 +4653,7 @@
    "titulo": "Mad Max",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -4637,13 +4666,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -6715,7 +6744,7 @@
    "titulo": "SONIC SUPERSTARS",
    "gancho": null,
    "clase": "individual",
-   "desde": 195000,
+   "desde": 65999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6728,13 +6757,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 195000,
+     "precio": 65999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 195000,
+     "precio": 65999,
      "hay": true
     }
    ]
@@ -7369,7 +7398,7 @@
    "titulo": "The Smurfs - Dreams PS4 & PS5",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -7382,13 +7411,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -8842,7 +8871,7 @@
    "titulo": "HITMAN World of Assassination Part One",
    "gancho": null,
    "clase": "individual",
-   "desde": 195000,
+   "desde": 100000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8855,13 +8884,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 195000,
+     "precio": 100000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 195000,
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -8900,7 +8929,7 @@
    "titulo": "LEGO® Batman™ 3: Beyond Gotham",
    "gancho": null,
    "clase": "individual",
-   "desde": 65999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8913,13 +8942,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -9666,7 +9695,7 @@
    "titulo": "TT Isle of Man: Ride on the Edge 2",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -9679,13 +9708,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
