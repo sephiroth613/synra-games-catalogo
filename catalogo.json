@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-05T01:31:59.751Z",
+ "generado": "2026-11-05T01:32:43.218Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -270,7 +270,7 @@
    "titulo": "COMBO CRASHUNRAVELKOMBAT",
    "gancho": null,
    "clase": "combo",
-   "desde": 33000,
+   "desde": 35000,
    "hay": true,
    "portada": "img/combo-5405.jpg",
    "juegos": [
@@ -303,13 +303,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 33000,
+     "precio": 35000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 33000,
+     "precio": 35000,
      "hay": true
     }
    ]
