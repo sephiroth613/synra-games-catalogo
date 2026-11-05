@@ -1,49 +1,8 @@
 {
- "generado": "2026-11-04T19:31:03.115Z",
+ "generado": "2026-11-05T00:31:04.554Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
-  {
-   "id": 141,
-   "titulo": "COMBO CODJUST",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 40000,
-   "hay": true,
-   "portada": "img/combo-141.jpg",
-   "juegos": [
-    {
-     "titulo": "Call of Duty® Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Call of Duty®: Vanguard - Cross-Gen Bundle",
-     "imagen": "img/call-of-duty-vanguard-cross-gen-bundle.jpg"
-    },
-    {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 40000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 40000,
-     "hay": true
-    }
-   ]
-  },
   {
    "id": 5203,
    "titulo": "COMBO GHOSTUNCAHTTED",
@@ -85,6 +44,47 @@
      "consola": "PS5",
      "rol": "",
      "precio": 34999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 141,
+   "titulo": "COMBO CODJUST",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 40000,
+   "hay": true,
+   "portada": "img/combo-141.jpg",
+   "juegos": [
+    {
+     "titulo": "Call of Duty® Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Call of Duty®: Vanguard - Cross-Gen Bundle",
+     "imagen": "img/call-of-duty-vanguard-cross-gen-bundle.jpg"
+    },
+    {
+     "titulo": "Just Cause 3: XXL Edition",
+     "imagen": "img/just-cause-3-xxl-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 40000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 40000,
      "hay": true
     }
    ]
@@ -2228,108 +2228,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5449,
-   "titulo": "COMBO ACCIÓN VARIADO",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 39999,
-   "hay": true,
-   "portada": "img/combo-5449.jpg",
-   "juegos": [
-    {
-     "titulo": "Call of Duty: Modern Warfare Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Call of Duty: Modern Warfare 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Mortal Kombat 11 Ultimate PS4 & PS5",
-     "imagen": "img/mortal-kombat-11-ultimate-ps4-ps5.jpg"
-    },
-    {
-     "titulo": "Tomb Raider: Definitive Edition",
-     "imagen": "img/tomb-raider-definitive-edition.jpg"
-    },
-    {
-     "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
-     "imagen": "img/rise-of-the-tomb-raider-20-year-celebration.jpg"
-    },
-    {
-     "titulo": "Shadow of the Tomb Raider: Definitive Edition",
-     "imagen": "img/shadow-of-the-tomb-raider-definitive-edition.jpg"
-    },
-    {
-     "titulo": "Borderlands 3 Next Level Bundle PS4 & PS5",
-     "imagen": "img/borderlands-3-next-level-bundle-ps4-ps5.jpg"
-    },
-    {
-     "titulo": "STAR WARS Battlefront Ultimate Edition",
-     "imagen": "img/star-wars-battlefront-ultimate-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5447,
-   "titulo": "COMBO ESPECIALES ELITE",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 39999,
-   "hay": true,
-   "portada": "img/combo-5447.jpg",
-   "juegos": [
-    {
-     "titulo": "Call of Duty: Modern Warfare Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Call of Duty: Modern Warfare 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Dying Light - Essentials Edition",
-     "imagen": "img/dying-light-essentials-edition.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat 11 Ultimate PS4 & PS5",
-     "imagen": "img/mortal-kombat-11-ultimate-ps4-ps5.jpg"
-    },
-    {
-     "titulo": "STAR WARS Battlefront II",
-     "imagen": "img/star-wars-battlefront-ii.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39999,
      "hay": true
     }
    ]
