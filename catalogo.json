@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-05T01:31:04.386Z",
+ "generado": "2026-11-05T01:31:59.751Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -261,6 +261,55 @@
      "consola": "PS5",
      "rol": "",
      "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5405,
+   "titulo": "COMBO CRASHUNRAVELKOMBAT",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 33000,
+   "hay": true,
+   "portada": "img/combo-5405.jpg",
+   "juegos": [
+    {
+     "titulo": "Crash Bandicoot N. Sane Trilogy",
+     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
+    },
+    {
+     "titulo": "Crash Bandicoot 4: It's About Time",
+     "imagen": "img/crash-bandicoot-4-it-s-about-time.jpg"
+    },
+    {
+     "titulo": "Crash Team Racing Nitro-Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
+    },
+    {
+     "titulo": "Unravel",
+     "imagen": "img/unravel.jpg"
+    },
+    {
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat 11 Ultimate PS4 & PS5",
+     "imagen": "img/mortal-kombat-11-ultimate-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 33000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 33000,
      "hay": true
     }
    ]
@@ -726,55 +775,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 49999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5405,
-   "titulo": "COMBO CRASHUNRAVELKOMBAT",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 33000,
-   "hay": true,
-   "portada": "img/combo-5405.jpg",
-   "juegos": [
-    {
-     "titulo": "Crash Bandicoot N. Sane Trilogy",
-     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
-    },
-    {
-     "titulo": "Crash Bandicoot 4: It's About Time",
-     "imagen": "img/crash-bandicoot-4-it-s-about-time.jpg"
-    },
-    {
-     "titulo": "Crash Team Racing Nitro-Fueled",
-     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
-    },
-    {
-     "titulo": "Unravel",
-     "imagen": "img/unravel.jpg"
-    },
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat 11 Ultimate PS4 & PS5",
-     "imagen": "img/mortal-kombat-11-ultimate-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 33000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 33000,
      "hay": true
     }
    ]
