@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-05T16:43:44.316Z",
+ "generado": "2026-11-05T18:26:35.303Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -393,7 +393,7 @@
    "titulo": "COMBO CODUNRAIDERWARS",
    "gancho": null,
    "clase": "combo",
-   "desde": 33000,
+   "desde": 32000,
    "hay": true,
    "portada": "img/combo-5408.jpg",
    "juegos": [
@@ -438,13 +438,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 33000,
+     "precio": 32000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 33000,
+     "precio": 32000,
      "hay": true
     }
    ]
