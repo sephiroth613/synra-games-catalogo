@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-05T01:36:01.454Z",
+ "generado": "2026-11-05T13:41:08.965Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -352,7 +352,7 @@
    "titulo": "COMBO BATTLCODMODER2",
    "gancho": null,
    "clase": "combo",
-   "desde": 36000,
+   "desde": 34000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -377,13 +377,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 36000,
+     "precio": 34000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 36000,
+     "precio": 34000,
      "hay": true
     }
    ]
@@ -4796,35 +4796,6 @@
    ]
   },
   {
-   "id": 4950,
-   "titulo": "Metro 2033 Redux",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 49999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Metro 2033 Redux",
-     "imagen": "img/metro-2033-redux.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5083,
    "titulo": "Metro Exodus: Gold Edition",
    "gancho": null,
@@ -4836,64 +4807,6 @@
     {
      "titulo": "Metro Exodus: Gold Edition",
      "imagen": "img/metro-exodus-gold-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 4952,
-   "titulo": "Metro Last Light Redux",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 65999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Metro Last Light Redux",
-     "imagen": "img/metro-last-light-redux.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 65999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 65999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 4949,
-   "titulo": "Metro Redux",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Metro Redux",
-     "imagen": "img/metro-redux.jpg"
     }
    ],
    "opciones": [
@@ -4944,35 +4857,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 4951,
-   "titulo": "Metro: Last Light Redux",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 65999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Metro: Last Light Redux",
-     "imagen": "img/metro-last-light-redux.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 65999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 65999,
      "hay": true
     }
    ]
@@ -9485,6 +9369,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 123,
+   "titulo": "Street Fighter 30th Anniversary Collection",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Street Fighter 30th Anniversary Collection",
+     "imagen": "img/street-fighter-30th-anniversary-collection.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
      "hay": true
     }
    ]
