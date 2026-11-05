@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-05T01:32:43.218Z",
+ "generado": "2026-11-05T01:36:01.454Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -585,51 +585,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5531,
-   "titulo": "COMBO RESIDDYINGTOMB",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 36000,
-   "hay": true,
-   "portada": "img/combo-5531.jpg",
-   "juegos": [
-    {
-     "titulo": "Resident Evil 4",
-     "imagen": "img/resident-evil-4.jpg"
-    },
-    {
-     "titulo": "Dying Light - Essentials Edition",
-     "imagen": "img/dying-light-essentials-edition.jpg"
-    },
-    {
-     "titulo": "Tomb Raider: Definitive Edition",
-     "imagen": "img/tomb-raider-definitive-edition.jpg"
-    },
-    {
-     "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
-     "imagen": "img/rise-of-the-tomb-raider-20-year-celebration.jpg"
-    },
-    {
-     "titulo": "Shadow of the Tomb Raider: Definitive Edition",
-     "imagen": "img/shadow-of-the-tomb-raider-definitive-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 36000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 36000,
      "hay": true
     }
    ]
