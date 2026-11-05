@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-05T16:08:22.285Z",
+ "generado": "2026-11-05T16:11:53.142Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -599,16 +599,16 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Crash™ Team Racing Nitro-Fueled",
-     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
-    },
-    {
-     "titulo": "Crash Bandicoot Nsane Trilogy",
-     "imagen": "img/crash-bandicoot-nsane-trilogy.jpg"
-    },
-    {
      "titulo": "Mortal Kombat X",
      "imagen": "img/mortal-kombat-x.jpg"
+    },
+    {
+     "titulo": "Crash Bandicoot N. Sane Trilogy",
+     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
+    },
+    {
+     "titulo": "Crash Team Racing Nitro-Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
     }
    ],
    "opciones": [
