@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-05T14:40:01.712Z",
+ "generado": "2026-11-05T16:08:22.285Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -585,6 +585,43 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5635,
+   "titulo": "COMBO CRASHKOMBAT",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 33000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Crash™ Team Racing Nitro-Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
+    },
+    {
+     "titulo": "Crash Bandicoot Nsane Trilogy",
+     "imagen": "img/crash-bandicoot-nsane-trilogy.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 33000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 33000,
      "hay": true
     }
    ]
