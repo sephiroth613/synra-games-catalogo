@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-05T16:25:06.514Z",
+ "generado": "2026-11-05T16:26:39.516Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -491,7 +491,7 @@
    "titulo": "COMBO ENDERRAIDER",
    "gancho": null,
    "clase": "combo",
-   "desde": 30000,
+   "desde": 29000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -520,13 +520,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 30000,
+     "precio": 29000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 30000,
+     "precio": 29000,
      "hay": true
     }
    ]
@@ -746,6 +746,39 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5637,
+   "titulo": "Sniper Ghost Warrior Contracts 1 & 2 Double Pack",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Sniper Ghost Warrior Contracts",
+     "imagen": "img/sniper-ghost-warrior-contracts.jpg"
+    },
+    {
+     "titulo": "Sniper Ghost Warrior Contracts 2",
+     "imagen": "img/sniper-ghost-warrior-contracts-2.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
      "hay": true
     }
    ]
