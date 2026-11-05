@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-05T16:11:53.142Z",
+ "generado": "2026-11-05T16:14:13.306Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -596,7 +596,7 @@
    "clase": "combo",
    "desde": 33000,
    "hay": true,
-   "portada": null,
+   "portada": "img/combo-5635.jpg",
    "juegos": [
     {
      "titulo": "Mortal Kombat X",
