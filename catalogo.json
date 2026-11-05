@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-05T16:14:13.306Z",
+ "generado": "2026-11-05T16:25:06.514Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -723,8 +723,16 @@
    "portada": null,
    "juegos": [
     {
-     "titulo": "Need for Speed™ Ultimate Bundle",
-     "imagen": "img/need-for-speed-ultimate-bundle.png"
+     "titulo": "Need for Speed Rivals",
+     "imagen": "img/need-for-speed-rivals.jpg"
+    },
+    {
+     "titulo": "Need for Speed",
+     "imagen": "img/need-for-speed.jpg"
+    },
+    {
+     "titulo": "Need for Speed Payback",
+     "imagen": "img/need-for-speed-payback.jpg"
     }
    ],
    "opciones": [
