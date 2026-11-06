@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-06T12:58:13.488Z",
+ "generado": "2026-11-06T13:57:51.066Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -2683,7 +2683,7 @@
    "titulo": "Cyberpunk 2077: Ultimate Edition (PS5)",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 49999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -2696,13 +2696,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 49999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 49999,
      "hay": true
     }
    ]
