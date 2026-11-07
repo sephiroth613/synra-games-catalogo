@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-07T16:22:46.707Z",
+ "generado": "2026-11-07T16:40:07.110Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -734,6 +734,35 @@
    ]
   },
   {
+   "id": 5666,
+   "titulo": "DUCATI - 90th Anniversary",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "DUCATI - 90th Anniversary",
+     "imagen": "img/ducati-90th-anniversary.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5575,
    "titulo": "Horizon Forbidden West™",
    "gancho": null,
@@ -758,6 +787,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5665,
+   "titulo": "MXGP - The Official Motocross Videogame",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "MXGP - The Official Motocross Videogame",
+     "imagen": "img/mxgp-the-official-motocross-videogame.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
      "hay": true
     }
    ]
