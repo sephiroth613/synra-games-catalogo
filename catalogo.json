@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-07T16:15:39.845Z",
+ "generado": "2026-11-07T16:22:46.707Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -585,6 +585,55 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5661,
+   "titulo": "COMBO CODMODERMORTA",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 36000,
+   "hay": true,
+   "portada": "img/combo-5661.jpg",
+   "juegos": [
+    {
+     "titulo": "Call of Duty: Modern Warfare Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Call of Duty: Modern Warfare 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
+    },
+    {
+     "titulo": "Just Cause 3: XXL Edition",
+     "imagen": "img/just-cause-3-xxl-edition.jpg"
+    },
+    {
+     "titulo": "MXGP - The Official Motocross Videogame",
+     "imagen": "img/mxgp-the-official-motocross-videogame.png"
+    },
+    {
+     "titulo": "DUCATI - 90th Anniversary",
+     "imagen": "img/ducati-90th-anniversary.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 36000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 36000,
      "hay": true
     }
    ]
