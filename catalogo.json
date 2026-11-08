@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-08T04:37:24.330Z",
+ "generado": "2026-11-08T23:12:38.247Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -200,47 +200,6 @@
    ]
   },
   {
-   "id": 141,
-   "titulo": "COMBO CODJUST",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 40000,
-   "hay": true,
-   "portada": "img/combo-141.jpg",
-   "juegos": [
-    {
-     "titulo": "Call of Duty® Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Call of Duty®: Vanguard - Cross-Gen Bundle",
-     "imagen": "img/call-of-duty-vanguard-cross-gen-bundle.jpg"
-    },
-    {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 40000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 40000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5614,
    "titulo": "COMBO CODCHILD",
    "gancho": null,
@@ -409,6 +368,47 @@
    ]
   },
   {
+   "id": 5383,
+   "titulo": "COMBO GTAIDER",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 49999,
+   "hay": true,
+   "portada": "img/combo-5383.jpg",
+   "juegos": [
+    {
+     "titulo": "Tomb Raider: Definitive Edition",
+     "imagen": "img/tomb-raider-definitive-edition.jpg"
+    },
+    {
+     "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
+     "imagen": "img/rise-of-the-tomb-raider-20-year-celebration.jpg"
+    },
+    {
+     "titulo": "Shadow of the Tomb Raider: Definitive Edition",
+     "imagen": "img/shadow-of-the-tomb-raider-definitive-edition.jpg"
+    },
+    {
+     "titulo": "Grand Theft Auto V (PS4™ & PS5™)",
+     "imagen": "img/grand-theft-auto-v-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5105,
    "titulo": "COMBO BATTLCODMODER2",
    "gancho": null,
@@ -445,6 +445,47 @@
      "consola": "PS5",
      "rol": "",
      "precio": 34000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 141,
+   "titulo": "COMBO CODJUST",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 40000,
+   "hay": true,
+   "portada": "img/combo-141.jpg",
+   "juegos": [
+    {
+     "titulo": "Call of Duty® Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Call of Duty®: Vanguard - Cross-Gen Bundle",
+     "imagen": "img/call-of-duty-vanguard-cross-gen-bundle.jpg"
+    },
+    {
+     "titulo": "Just Cause 3: XXL Edition",
+     "imagen": "img/just-cause-3-xxl-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 40000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 40000,
      "hay": true
     }
    ]
@@ -705,35 +746,6 @@
    ]
   },
   {
-   "id": 5578,
-   "titulo": "Disney/Pixar Toy Story 3 Complete Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Disney/Pixar Toy Story 3 Complete Edition",
-     "imagen": "img/disney-pixar-toy-story-3-complete-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5666,
    "titulo": "DUCATI - 90th Anniversary",
    "gancho": null,
@@ -758,35 +770,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5575,
-   "titulo": "Horizon Forbidden West™",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Horizon Forbidden West™",
-     "imagen": "img/horizon-forbidden-west.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
      "hay": true
     }
    ]
@@ -944,47 +927,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5383,
-   "titulo": "COMBO GTAIDER",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 49999,
-   "hay": true,
-   "portada": "img/combo-5383.jpg",
-   "juegos": [
-    {
-     "titulo": "Tomb Raider: Definitive Edition",
-     "imagen": "img/tomb-raider-definitive-edition.jpg"
-    },
-    {
-     "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
-     "imagen": "img/rise-of-the-tomb-raider-20-year-celebration.jpg"
-    },
-    {
-     "titulo": "Shadow of the Tomb Raider: Definitive Edition",
-     "imagen": "img/shadow-of-the-tomb-raider-definitive-edition.jpg"
-    },
-    {
-     "titulo": "Grand Theft Auto V (PS4™ & PS5™)",
-     "imagen": "img/grand-theft-auto-v-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 49999,
      "hay": true
     }
    ]
@@ -3105,6 +3047,35 @@
    ]
   },
   {
+   "id": 5578,
+   "titulo": "Disney/Pixar Toy Story 3 Complete Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Disney/Pixar Toy Story 3 Complete Edition",
+     "imagen": "img/disney-pixar-toy-story-3-complete-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5002,
    "titulo": "Disney•Pixar Up",
    "gancho": null,
@@ -4090,6 +4061,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5575,
+   "titulo": "Horizon Forbidden West™",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Horizon Forbidden West™",
+     "imagen": "img/horizon-forbidden-west.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
      "hay": true
     }
    ]
