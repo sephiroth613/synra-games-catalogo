@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-09T14:35:07.707Z",
+ "generado": "2026-11-09T19:33:49.906Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -495,7 +495,7 @@
    "titulo": "COMBO DIVCALLMAN",
    "gancho": null,
    "clase": "combo",
-   "desde": 33000,
+   "desde": 31000,
    "hay": true,
    "portada": "img/combo-139.jpg",
    "juegos": [
@@ -516,13 +516,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 33000,
+     "precio": 31000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 33000,
+     "precio": 31000,
      "hay": true
     }
    ]
@@ -4907,35 +4907,6 @@
    ]
   },
   {
-   "id": 4980,
-   "titulo": "Street Fighter™ 6",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Street Fighter™ 6",
-     "imagen": "img/street-fighter-6.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5004,
    "titulo": "Suicide Squad: Kill the Justice League",
    "gancho": null,
@@ -9194,6 +9165,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 4980,
+   "titulo": "Street Fighter™ 6",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Street Fighter™ 6",
+     "imagen": "img/street-fighter-6.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
      "hay": true
     }
    ]
