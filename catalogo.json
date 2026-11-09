@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-09T21:56:23.245Z",
+ "generado": "2026-11-09T21:59:46.081Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -195,6 +195,43 @@
      "consola": "PS5",
      "rol": "",
      "precio": 34999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5635,
+   "titulo": "COMBO CRASHKOMBAT",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 33000,
+   "hay": true,
+   "portada": "img/combo-5635.jpg",
+   "juegos": [
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
+    },
+    {
+     "titulo": "Crash Bandicoot N. Sane Trilogy",
+     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
+    },
+    {
+     "titulo": "Crash Team Racing Nitro-Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 33000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 33000,
      "hay": true
     }
    ]
@@ -655,43 +692,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 36000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5635,
-   "titulo": "COMBO CRASHKOMBAT",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 33000,
-   "hay": true,
-   "portada": "img/combo-5635.jpg",
-   "juegos": [
-    {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.jpg"
-    },
-    {
-     "titulo": "Crash Bandicoot N. Sane Trilogy",
-     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
-    },
-    {
-     "titulo": "Crash Team Racing Nitro-Fueled",
-     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 33000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 33000,
      "hay": true
     }
    ]
