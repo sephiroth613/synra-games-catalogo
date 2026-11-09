@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-09T00:37:34.670Z",
+ "generado": "2026-11-09T01:37:13.400Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -454,7 +454,7 @@
    "titulo": "COMBO CODJUST",
    "gancho": null,
    "clase": "combo",
-   "desde": 40000,
+   "desde": 38000,
    "hay": true,
    "portada": "img/combo-141.jpg",
    "juegos": [
@@ -479,13 +479,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 40000,
+     "precio": 38000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 40000,
+     "precio": 38000,
      "hay": true
     }
    ]
