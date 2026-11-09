@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-08T23:12:38.247Z",
+ "generado": "2026-11-09T00:37:34.670Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -626,6 +626,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5701,
+   "titulo": "BeamNG.drive",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 65999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "BeamNG.drive",
+     "imagen": "img/beamng-drive.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 65999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 65999,
      "hay": true
     }
    ]
