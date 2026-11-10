@@ -12,14 +12,14 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Synra Games">
 <meta property="og:url" content="https://sephiroth613.github.io/synra-games-catalogo/">
-<meta property="og:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mwa0jwt3">
-<meta property="og:image:secure_url" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mwa0jwt3">
+<meta property="og:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mwa1r8yu">
+<meta property="og:image:secure_url" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mwa1r8yu">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1280">
 <meta property="og:image:height" content="497">
 <meta property="og:image:alt" content="Synra Games">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mwa0jwt3">
+<meta name="twitter:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mwa1r8yu">
 <link rel="apple-touch-icon" href="https://sephiroth613.github.io/synra-games-catalogo/img/logo.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,7 +37,7 @@
     --azul-claro:#4a9eff;
     --txt:#eef2f9;
     --txt2:#94a3b8;
-    --txt3:#64748b;
+    --txt3:#8391a7;
     --verde:#22c55e;
     --wa:#25d366;
   }
@@ -833,8 +833,52 @@
   .pl .op-precio{font-size:1.65rem;font-weight:700;color:#fff;line-height:1}
   .opciones{border-top:1px solid rgba(255,255,255,.06)}
 
-  /* oferta: etiqueta, sin repetir el precio */
-  .so-antes{font-size:.95rem}
+  /* oferta: etiqueta en la cabecera, tachado y % junto al precio */
+  .cab-tags{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:6px}
+  .cab-tags .n-juegos{margin-top:0}
+  .tag-oferta{
+    display:inline-block;padding:3px 9px;border-radius:6px;
+    background:linear-gradient(135deg,#ff3b30,#ff7a00);color:#fff;
+    font-size:.72rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;
+    box-shadow:0 4px 12px -4px rgba(255,90,40,.7);
+  }
+  .pl-val{display:flex;flex-direction:column;align-items:flex-end;gap:3px}
+  .pl-antes{display:flex;align-items:center;gap:6px;font-size:.85rem;font-weight:600;color:#a3b1c6;line-height:1}
+  .pl-antes s{text-decoration-thickness:2px;text-decoration-color:rgba(255,90,60,.85)}
+  .pl-ahorro{
+    padding:2px 6px;border-radius:5px;background:#ff3b30;color:#fff;
+    font-size:.74rem;font-weight:900;letter-spacing:.02em;
+  }
+
+  /* combos sin portada propia: carátulas sobre su propio fondo difuminado,
+     centradas, para que la tarjeta no quede con un hueco vacío */
+  .combo-media.con-fondo{
+    position:relative;overflow:hidden;isolation:isolate;
+    display:flex;flex-direction:column;justify-content:center;
+    margin:0 16px 14px;padding:12px 0;border-radius:12px;background:#0b1120;
+  }
+  .media-fondo{
+    position:absolute;inset:-30px;z-index:-1;
+    background-size:cover;background-position:center;
+    filter:blur(24px) brightness(.42) saturate(1.25);
+  }
+  .con-fondo .portadas{padding:0 12px}
+  .portadas-2 .port img,.portadas-2 .sin-port{aspect-ratio:3/4}
+  #g-combos.activo .combo-media.con-fondo{margin:0 12px 10px}
+
+  /* contraste: los textos chicos se leían poco sobre el fondo oscuro */
+  .n-juegos{font-size:.78rem;color:#cbd5e1;background:rgba(255,255,255,.09)}
+  .pl-con{font-size:.88rem;color:#cbd5e1}
+  .suelto-cons{font-size:.7rem;color:#a3b1c6}
+
+  /* celular: la primera pantalla sin hueco arriba y con el primer combo
+     asomando abajo, para que se note que hay más al deslizar */
+  @media (max-width:619px){
+    #g-combos.activo .intro{
+      flex:0 0 auto;height:auto;justify-content:flex-start;gap:14px;
+      padding:calc(54px + env(safe-area-inset-top)) 18px 18px;
+    }
+  }
 
   /* sueltos: carátula, nombre y precio; el botón es pequeño y verde */
   .suelto-cons{display:block;padding:0 3px;font-size:.62rem;font-weight:700;color:var(--txt3);letter-spacing:.04em}
@@ -865,7 +909,7 @@
     /* mismo alto por fila: precio y botón alineados al fondo de cada tarjeta */
     .combos{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;align-items:stretch}
     .combo{display:flex;flex-direction:column}
-    .combo .combo-media{flex:1 1 auto}
+    .combo .combo-media{flex:1 1 auto;display:flex;flex-direction:column;justify-content:center}
     .rejilla{grid-template-columns:repeat(5,1fr);gap:16px}
   }
   @media (min-width:1300px){
@@ -934,7 +978,7 @@
   
     <div class="tabs" role="tablist">
       <button class="tab activo tab-promo" data-grupo="combos" role="tab" aria-selected="true">
-        <span class="promo-fuego" aria-hidden="true">🔥</span> Promociones<span class="promo-hot">HOT</span><span class="n">16</span>
+        <span class="promo-fuego" aria-hidden="true">🔥</span> Promociones<span class="promo-hot">HOT</span><span class="n">15</span>
       </button>
       <button class="tab" data-grupo="individuales" role="tab" aria-selected="false">
         Juegos sueltos<span class="n">304</span>
@@ -999,21 +1043,20 @@
 
       <article class="combo" id="c5203"
                data-buscar="combo ghostuncahtted uncharted 4: a thief&#39;s end uncharted: the lost legacy tom clancys ghost recon breakpoint deluxe edition call of duty: modern warfare 2 campaign remastered mortal kombat 11"
-               data-consolas="PS4 PS5">
+               data-consolas="PS5">
           <div class="cab">
             <div class="cab-txt">
               <h3>COMBO GHOSTUNCAHTTED</h3>
               
-              <span class="n-juegos">5 juegos incluidos</span>
+              <div class="cab-tags">
+                <span class="n-juegos">5 juegos incluidos</span>
+                <span class="tag-oferta">🔥 Oferta</span>
+              </div>
             </div>
           </div>
 
           <div class="combo-media">
           
-    <div class="sello-oferta" aria-label="Oferta: $34.999">
-      <span class="so-tit">🔥 Oferta</span>
-      <s class="so-antes">$44.999</s>
-    </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
                  juegos, así que ni carátulas sueltas ni lista de nombres.
@@ -1025,14 +1068,14 @@
         <!-- un solo precio a la vista y un solo botón: antes eran «Añadir» por
              consola + carrito + «Pedir», tres decisiones para un pedido -->
         <div class="opciones opciones-1">
-          <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps4">PS4</span><span class="op-con op-ps5">PS5</span></span>
-      <span class="op-precio">$34.999</span></div>
+          <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps5">PS5</span></span>
+      <span class="pl-val"><span class="pl-antes"><s>$44.999</s><b class="pl-ahorro">-22%</b></span><span class="op-precio">$34.999</span></span></div>
         </div>
 
         <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
              deslizable del celular; en la cuadrícula queda igual de bien) -->
         
-        <a class="combo-wa" data-wa-combo="COMBO GHOSTUNCAHTTED" data-wa-precio="PS4 y PS5 · $34.999"
+        <a class="combo-wa" data-wa-combo="COMBO GHOSTUNCAHTTED" data-wa-precio="PS5 · $34.999"
            href="#" rel="noopener">
           <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
           Lo quiero · pedir por WhatsApp
@@ -1041,21 +1084,20 @@
 
       <article class="combo" id="c3035"
                data-buscar="combo batmametrokomravel metro redux metro: last light redux metro exodus: gold edition batman: return to arkham - arkham asylum batman: return to arkham - arkham city batman: arkham knight mortal kombat 11 unravel two"
-               data-consolas="PS4 PS5">
+               data-consolas="PS5">
           <div class="cab">
             <div class="cab-txt">
               <h3>COMBO BATMAMETROKOMRAVEL</h3>
               
-              <span class="n-juegos">8 juegos incluidos</span>
+              <div class="cab-tags">
+                <span class="n-juegos">8 juegos incluidos</span>
+                <span class="tag-oferta">🔥 Oferta</span>
+              </div>
             </div>
           </div>
 
           <div class="combo-media">
           
-    <div class="sello-oferta" aria-label="Oferta: $39.999">
-      <span class="so-tit">🔥 Oferta</span>
-      <s class="so-antes">$49.999</s>
-    </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
                  juegos, así que ni carátulas sueltas ni lista de nombres.
@@ -1067,14 +1109,14 @@
         <!-- un solo precio a la vista y un solo botón: antes eran «Añadir» por
              consola + carrito + «Pedir», tres decisiones para un pedido -->
         <div class="opciones opciones-1">
-          <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps4">PS4</span><span class="op-con op-ps5">PS5</span></span>
-      <span class="op-precio">$39.999</span></div>
+          <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps5">PS5</span></span>
+      <span class="pl-val"><span class="pl-antes"><s>$49.999</s><b class="pl-ahorro">-20%</b></span><span class="op-precio">$39.999</span></span></div>
         </div>
 
         <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
              deslizable del celular; en la cuadrícula queda igual de bien) -->
         
-        <a class="combo-wa" data-wa-combo="COMBO BATMAMETROKOMRAVEL" data-wa-precio="PS4 y PS5 · $39.999"
+        <a class="combo-wa" data-wa-combo="COMBO BATMAMETROKOMRAVEL" data-wa-precio="PS5 · $39.999"
            href="#" rel="noopener">
           <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
           Lo quiero · pedir por WhatsApp
@@ -1083,21 +1125,20 @@
 
       <article class="combo" id="c5635"
                data-buscar="combo crashkombat mortal kombat x crash bandicoot n. sane trilogy crash team racing nitro-fueled"
-               data-consolas="PS4 PS5">
+               data-consolas="PS5">
           <div class="cab">
             <div class="cab-txt">
               <h3>COMBO CRASHKOMBAT</h3>
               
-              <span class="n-juegos">3 juegos incluidos</span>
+              <div class="cab-tags">
+                <span class="n-juegos">3 juegos incluidos</span>
+                <span class="tag-oferta">🔥 Oferta</span>
+              </div>
             </div>
           </div>
 
           <div class="combo-media">
           
-    <div class="sello-oferta" aria-label="Oferta: $33.000">
-      <span class="so-tit">🔥 Oferta</span>
-      <s class="so-antes">$43.000</s>
-    </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
                  juegos, así que ni carátulas sueltas ni lista de nombres.
@@ -1109,56 +1150,14 @@
         <!-- un solo precio a la vista y un solo botón: antes eran «Añadir» por
              consola + carrito + «Pedir», tres decisiones para un pedido -->
         <div class="opciones opciones-1">
-          <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps4">PS4</span><span class="op-con op-ps5">PS5</span></span>
-      <span class="op-precio">$33.000</span></div>
+          <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps5">PS5</span></span>
+      <span class="pl-val"><span class="pl-antes"><s>$43.000</s><b class="pl-ahorro">-23%</b></span><span class="op-precio">$33.000</span></span></div>
         </div>
 
         <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
              deslizable del celular; en la cuadrícula queda igual de bien) -->
         
-        <a class="combo-wa" data-wa-combo="COMBO CRASHKOMBAT" data-wa-precio="PS4 y PS5 · $33.000"
-           href="#" rel="noopener">
-          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
-          Lo quiero · pedir por WhatsApp
-        </a>
-      </article>
-
-      <article class="combo" id="c4885"
-               data-buscar="combo godsuit god of war iii remastered need for speed hot pursuit remastered"
-               data-consolas="PS4 PS5">
-          <div class="cab">
-            <div class="cab-txt">
-              <h3>COMBO GODSUIT</h3>
-              
-              <span class="n-juegos">2 juegos incluidos</span>
-            </div>
-          </div>
-
-          <div class="combo-media">
-          
-    <div class="sello-oferta" aria-label="Oferta: $34.999">
-      <span class="so-tit">🔥 Oferta</span>
-      <s class="so-antes">$44.999</s>
-    </div>
-          
-            <!-- con portada propia, esa es la imagen del combo: ya muestra los
-                 juegos, así que ni carátulas sueltas ni lista de nombres.
-                 El buscador los sigue encontrando por data-buscar. -->
-            <img class="combo-banner" src="img/combo-4885.jpg"
-                 alt="COMBO GODSUIT: God of War® III Remastered, Need for Speed™ Hot Pursuit Remastered" loading="lazy">
-          </div>
-
-        <!-- un solo precio a la vista y un solo botón: antes eran «Añadir» por
-             consola + carrito + «Pedir», tres decisiones para un pedido -->
-        <div class="opciones opciones-1">
-          <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps4">PS4</span><span class="op-con op-ps5">PS5</span></span>
-      <span class="op-precio">$34.999</span></div>
-        </div>
-
-        <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
-             deslizable del celular; en la cuadrícula queda igual de bien) -->
-        
-        <a class="combo-wa" data-wa-combo="COMBO GODSUIT" data-wa-precio="PS4 y PS5 · $34.999"
+        <a class="combo-wa" data-wa-combo="COMBO CRASHKOMBAT" data-wa-precio="PS5 · $33.000"
            href="#" rel="noopener">
           <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
           Lo quiero · pedir por WhatsApp
@@ -1172,19 +1171,21 @@
             <div class="cab-txt">
               <h3>COMBO CODCHILD</h3>
               
-              <span class="n-juegos">2 juegos incluidos</span>
+              <div class="cab-tags">
+                <span class="n-juegos">2 juegos incluidos</span>
+                <span class="tag-oferta">🔥 Oferta</span>
+              </div>
             </div>
           </div>
 
-          <div class="combo-media">
+          <div class="combo-media con-fondo">
           
-    <div class="sello-oferta" aria-label="Oferta: $25.000">
-      <span class="so-tit">🔥 Oferta</span>
-      <s class="so-antes">$35.000</s>
-    </div>
+            <!-- fondo difuminado con la primera carátula: llena el hueco de los
+                 combos de pocos juegos para que la fila no quede dispareja -->
+            <div class="media-fondo" aria-hidden="true" style="background-image:url(&quot;img/call-of-duty-modern-warfare-2-campaign-remastered.png&quot;)"></div>
           
           <!-- hasta 4 juegos en 2 columnas; con más, en 3 para que no quede eterna -->
-          <div class="portadas">
+          <div class="portadas portadas-2">
             
               <figure class="port" title="Call of Duty®: Modern Warfare® 2 Campaign Remastered">
                 <img src="img/call-of-duty-modern-warfare-2-campaign-remastered.png" alt="Call of Duty®: Modern Warfare® 2 Campaign Remastered" loading="lazy">
@@ -1201,7 +1202,7 @@
              consola + carrito + «Pedir», tres decisiones para un pedido -->
         <div class="opciones opciones-1">
           <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps4">PS4</span><span class="op-con op-ps5">PS5</span></span>
-      <span class="op-precio">$25.000</span></div>
+      <span class="pl-val"><span class="pl-antes"><s>$35.000</s><b class="pl-ahorro">-29%</b></span><span class="op-precio">$25.000</span></span></div>
         </div>
 
         <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
@@ -1221,19 +1222,21 @@
             <div class="cab-txt">
               <h3>COMBO CODCHILD2</h3>
               
-              <span class="n-juegos">2 juegos incluidos</span>
+              <div class="cab-tags">
+                <span class="n-juegos">2 juegos incluidos</span>
+                <span class="tag-oferta">🔥 Oferta</span>
+              </div>
             </div>
           </div>
 
-          <div class="combo-media">
+          <div class="combo-media con-fondo">
           
-    <div class="sello-oferta" aria-label="Oferta: $25.000">
-      <span class="so-tit">🔥 Oferta</span>
-      <s class="so-antes">$35.000</s>
-    </div>
+            <!-- fondo difuminado con la primera carátula: llena el hueco de los
+                 combos de pocos juegos para que la fila no quede dispareja -->
+            <div class="media-fondo" aria-hidden="true" style="background-image:url(&quot;img/call-of-duty-modern-warfare-remastered.jpg&quot;)"></div>
           
           <!-- hasta 4 juegos en 2 columnas; con más, en 3 para que no quede eterna -->
-          <div class="portadas">
+          <div class="portadas portadas-2">
             
               <figure class="port" title="Call of Duty®: Modern Warfare® Remastered">
                 <img src="img/call-of-duty-modern-warfare-remastered.jpg" alt="Call of Duty®: Modern Warfare® Remastered" loading="lazy">
@@ -1250,7 +1253,7 @@
              consola + carrito + «Pedir», tres decisiones para un pedido -->
         <div class="opciones opciones-1">
           <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps4">PS4</span><span class="op-con op-ps5">PS5</span></span>
-      <span class="op-precio">$25.000</span></div>
+      <span class="pl-val"><span class="pl-antes"><s>$35.000</s><b class="pl-ahorro">-29%</b></span><span class="op-precio">$25.000</span></span></div>
         </div>
 
         <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
@@ -1265,21 +1268,20 @@
 
       <article class="combo" id="c3002"
                data-buscar="combo assdutyclancy assassin&#39;s creed chronicles: china assassin&#39;s creed chronicles: india assassin&#39;s creed chronicles: russia tom clancy&#39;s ghost recon breakpoint deluxe edition call of duty: modern warfare remastered call of duty: modern warfare 2 campaign remastered unravel two"
-               data-consolas="PS4 PS5">
+               data-consolas="PS5">
           <div class="cab">
             <div class="cab-txt">
               <h3>COMBO ASSDUTYCLANCY</h3>
               
-              <span class="n-juegos">7 juegos incluidos</span>
+              <div class="cab-tags">
+                <span class="n-juegos">7 juegos incluidos</span>
+                <span class="tag-oferta">🔥 Oferta</span>
+              </div>
             </div>
           </div>
 
           <div class="combo-media">
           
-    <div class="sello-oferta" aria-label="Oferta: $39.999">
-      <span class="so-tit">🔥 Oferta</span>
-      <s class="so-antes">$49.999</s>
-    </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
                  juegos, así que ni carátulas sueltas ni lista de nombres.
@@ -1291,14 +1293,14 @@
         <!-- un solo precio a la vista y un solo botón: antes eran «Añadir» por
              consola + carrito + «Pedir», tres decisiones para un pedido -->
         <div class="opciones opciones-1">
-          <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps4">PS4</span><span class="op-con op-ps5">PS5</span></span>
-      <span class="op-precio">$39.999</span></div>
+          <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps5">PS5</span></span>
+      <span class="pl-val"><span class="pl-antes"><s>$49.999</s><b class="pl-ahorro">-20%</b></span><span class="op-precio">$39.999</span></span></div>
         </div>
 
         <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
              deslizable del celular; en la cuadrícula queda igual de bien) -->
         
-        <a class="combo-wa" data-wa-combo="COMBO ASSDUTYCLANCY" data-wa-precio="PS4 y PS5 · $39.999"
+        <a class="combo-wa" data-wa-combo="COMBO ASSDUTYCLANCY" data-wa-precio="PS5 · $39.999"
            href="#" rel="noopener">
           <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
           Lo quiero · pedir por WhatsApp
@@ -1307,21 +1309,20 @@
 
       <article class="combo" id="c5383"
                data-buscar="combo gtaider tomb raider: definitive edition rise of the tomb raider: 20 year celebration shadow of the tomb raider: definitive edition grand theft auto v (ps4 &amp; ps5)"
-               data-consolas="PS4 PS5">
+               data-consolas="PS4">
           <div class="cab">
             <div class="cab-txt">
               <h3>COMBO GTAIDER</h3>
               
-              <span class="n-juegos">4 juegos incluidos</span>
+              <div class="cab-tags">
+                <span class="n-juegos">4 juegos incluidos</span>
+                <span class="tag-oferta">🔥 Oferta</span>
+              </div>
             </div>
           </div>
 
           <div class="combo-media">
           
-    <div class="sello-oferta" aria-label="Oferta: $49.999">
-      <span class="so-tit">🔥 Oferta</span>
-      <s class="so-antes">$59.999</s>
-    </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
                  juegos, así que ni carátulas sueltas ni lista de nombres.
@@ -1333,14 +1334,14 @@
         <!-- un solo precio a la vista y un solo botón: antes eran «Añadir» por
              consola + carrito + «Pedir», tres decisiones para un pedido -->
         <div class="opciones opciones-1">
-          <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps4">PS4</span><span class="op-con op-ps5">PS5</span></span>
-      <span class="op-precio">$49.999</span></div>
+          <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps4">PS4</span></span>
+      <span class="pl-val"><span class="pl-antes"><s>$59.999</s><b class="pl-ahorro">-17%</b></span><span class="op-precio">$49.999</span></span></div>
         </div>
 
         <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
              deslizable del celular; en la cuadrícula queda igual de bien) -->
         
-        <a class="combo-wa" data-wa-combo="COMBO GTAIDER" data-wa-precio="PS4 y PS5 · $49.999"
+        <a class="combo-wa" data-wa-combo="COMBO GTAIDER" data-wa-precio="PS4 · $49.999"
            href="#" rel="noopener">
           <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
           Lo quiero · pedir por WhatsApp
@@ -1354,16 +1355,18 @@
             <div class="cab-txt">
               <h3>COMBO BATTLCODMODER2</h3>
               
-              <span class="n-juegos">4 juegos incluidos</span>
+              <div class="cab-tags">
+                <span class="n-juegos">4 juegos incluidos</span>
+                <span class="tag-oferta">🔥 Oferta</span>
+              </div>
             </div>
           </div>
 
-          <div class="combo-media">
+          <div class="combo-media con-fondo">
           
-    <div class="sello-oferta" aria-label="Oferta: $34.000">
-      <span class="so-tit">🔥 Oferta</span>
-      <s class="so-antes">$44.000</s>
-    </div>
+            <!-- fondo difuminado con la primera carátula: llena el hueco de los
+                 combos de pocos juegos para que la fila no quede dispareja -->
+            <div class="media-fondo" aria-hidden="true" style="background-image:url(&quot;img/star-wars-battlefront-ultimate-edition.jpg&quot;)"></div>
           
           <!-- hasta 4 juegos en 2 columnas; con más, en 3 para que no quede eterna -->
           <div class="portadas">
@@ -1391,7 +1394,7 @@
              consola + carrito + «Pedir», tres decisiones para un pedido -->
         <div class="opciones opciones-1">
           <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps4">PS4</span><span class="op-con op-ps5">PS5</span></span>
-      <span class="op-precio">$34.000</span></div>
+      <span class="pl-val"><span class="pl-antes"><s>$44.000</s><b class="pl-ahorro">-23%</b></span><span class="op-precio">$34.000</span></span></div>
         </div>
 
         <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
@@ -1406,21 +1409,20 @@
 
       <article class="combo" id="c141"
                data-buscar="combo codjust call of duty modern warfare remastered call of duty: modern warfare 2 campaign remastered call of duty: vanguard - cross-gen bundle just cause 3: xxl edition"
-               data-consolas="PS4 PS5">
+               data-consolas="PS5">
           <div class="cab">
             <div class="cab-txt">
               <h3>COMBO CODJUST</h3>
               
-              <span class="n-juegos">4 juegos incluidos</span>
+              <div class="cab-tags">
+                <span class="n-juegos">4 juegos incluidos</span>
+                <span class="tag-oferta">🔥 Oferta</span>
+              </div>
             </div>
           </div>
 
           <div class="combo-media">
           
-    <div class="sello-oferta" aria-label="Oferta: $38.000">
-      <span class="so-tit">🔥 Oferta</span>
-      <s class="so-antes">$48.000</s>
-    </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
                  juegos, así que ni carátulas sueltas ni lista de nombres.
@@ -1432,14 +1434,14 @@
         <!-- un solo precio a la vista y un solo botón: antes eran «Añadir» por
              consola + carrito + «Pedir», tres decisiones para un pedido -->
         <div class="opciones opciones-1">
-          <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps4">PS4</span><span class="op-con op-ps5">PS5</span></span>
-      <span class="op-precio">$38.000</span></div>
+          <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps5">PS5</span></span>
+      <span class="pl-val"><span class="pl-antes"><s>$48.000</s><b class="pl-ahorro">-21%</b></span><span class="op-precio">$38.000</span></span></div>
         </div>
 
         <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
              deslizable del celular; en la cuadrícula queda igual de bien) -->
         
-        <a class="combo-wa" data-wa-combo="COMBO CODJUST" data-wa-precio="PS4 y PS5 · $38.000"
+        <a class="combo-wa" data-wa-combo="COMBO CODJUST" data-wa-precio="PS5 · $38.000"
            href="#" rel="noopener">
           <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
           Lo quiero · pedir por WhatsApp
@@ -1448,21 +1450,20 @@
 
       <article class="combo" id="c139"
                data-buscar="combo divcallman tom clancy&#39;s the division call of duty modern warfare remastered batman arkham knight"
-               data-consolas="PS4 PS5">
+               data-consolas="PS5">
           <div class="cab">
             <div class="cab-txt">
               <h3>COMBO DIVCALLMAN</h3>
               
-              <span class="n-juegos">3 juegos incluidos</span>
+              <div class="cab-tags">
+                <span class="n-juegos">3 juegos incluidos</span>
+                <span class="tag-oferta">🔥 Oferta</span>
+              </div>
             </div>
           </div>
 
           <div class="combo-media">
           
-    <div class="sello-oferta" aria-label="Oferta: $31.000">
-      <span class="so-tit">🔥 Oferta</span>
-      <s class="so-antes">$41.000</s>
-    </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
                  juegos, así que ni carátulas sueltas ni lista de nombres.
@@ -1474,14 +1475,14 @@
         <!-- un solo precio a la vista y un solo botón: antes eran «Añadir» por
              consola + carrito + «Pedir», tres decisiones para un pedido -->
         <div class="opciones opciones-1">
-          <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps4">PS4</span><span class="op-con op-ps5">PS5</span></span>
-      <span class="op-precio">$31.000</span></div>
+          <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps5">PS5</span></span>
+      <span class="pl-val"><span class="pl-antes"><s>$41.000</s><b class="pl-ahorro">-24%</b></span><span class="op-precio">$31.000</span></span></div>
         </div>
 
         <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
              deslizable del celular; en la cuadrícula queda igual de bien) -->
         
-        <a class="combo-wa" data-wa-combo="COMBO DIVCALLMAN" data-wa-precio="PS4 y PS5 · $31.000"
+        <a class="combo-wa" data-wa-combo="COMBO DIVCALLMAN" data-wa-precio="PS5 · $31.000"
            href="#" rel="noopener">
           <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
           Lo quiero · pedir por WhatsApp
@@ -1495,16 +1496,18 @@
             <div class="cab-txt">
               <h3>COMBO ENDERRAIDER</h3>
               
-              <span class="n-juegos">5 juegos incluidos</span>
+              <div class="cab-tags">
+                <span class="n-juegos">5 juegos incluidos</span>
+                <span class="tag-oferta">🔥 Oferta</span>
+              </div>
             </div>
           </div>
 
-          <div class="combo-media">
+          <div class="combo-media con-fondo">
           
-    <div class="sello-oferta" aria-label="Oferta: $29.000">
-      <span class="so-tit">🔥 Oferta</span>
-      <s class="so-antes">$39.000</s>
-    </div>
+            <!-- fondo difuminado con la primera carátula: llena el hueco de los
+                 combos de pocos juegos para que la fila no quede dispareja -->
+            <div class="media-fondo" aria-hidden="true" style="background-image:url(&quot;img/ender-lilies-quietus-of-the-knights.jpg&quot;)"></div>
           
           <!-- hasta 4 juegos en 2 columnas; con más, en 3 para que no quede eterna -->
           <div class="portadas portadas-3">
@@ -1536,7 +1539,7 @@
              consola + carrito + «Pedir», tres decisiones para un pedido -->
         <div class="opciones opciones-1">
           <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps4">PS4</span><span class="op-con op-ps5">PS5</span></span>
-      <span class="op-precio">$29.000</span></div>
+      <span class="pl-val"><span class="pl-antes"><s>$39.000</s><b class="pl-ahorro">-26%</b></span><span class="op-precio">$29.000</span></span></div>
         </div>
 
         <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
@@ -1556,16 +1559,15 @@
             <div class="cab-txt">
               <h3>COMBO CODMODERMORTA</h3>
               
-              <span class="n-juegos">6 juegos incluidos</span>
+              <div class="cab-tags">
+                <span class="n-juegos">6 juegos incluidos</span>
+                <span class="tag-oferta">🔥 Oferta</span>
+              </div>
             </div>
           </div>
 
           <div class="combo-media">
           
-    <div class="sello-oferta" aria-label="Oferta: $36.000">
-      <span class="so-tit">🔥 Oferta</span>
-      <s class="so-antes">$46.000</s>
-    </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
                  juegos, así que ni carátulas sueltas ni lista de nombres.
@@ -1578,7 +1580,7 @@
              consola + carrito + «Pedir», tres decisiones para un pedido -->
         <div class="opciones opciones-1">
           <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps4">PS4</span><span class="op-con op-ps5">PS5</span></span>
-      <span class="op-precio">$36.000</span></div>
+      <span class="pl-val"><span class="pl-antes"><s>$46.000</s><b class="pl-ahorro">-22%</b></span><span class="op-precio">$36.000</span></span></div>
         </div>
 
         <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
@@ -1598,16 +1600,15 @@
             <div class="cab-txt">
               <h3>COMBO FARMORJUST</h3>
               
-              <span class="n-juegos">5 juegos incluidos</span>
+              <div class="cab-tags">
+                <span class="n-juegos">5 juegos incluidos</span>
+                <span class="tag-oferta">🔥 Oferta</span>
+              </div>
             </div>
           </div>
 
           <div class="combo-media">
           
-    <div class="sello-oferta" aria-label="Oferta: $37.000">
-      <span class="so-tit">🔥 Oferta</span>
-      <s class="so-antes">$47.000</s>
-    </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
                  juegos, así que ni carátulas sueltas ni lista de nombres.
@@ -1620,7 +1621,7 @@
              consola + carrito + «Pedir», tres decisiones para un pedido -->
         <div class="opciones opciones-1">
           <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps4">PS4</span><span class="op-con op-ps5">PS5</span></span>
-      <span class="op-precio">$37.000</span></div>
+      <span class="pl-val"><span class="pl-antes"><s>$47.000</s><b class="pl-ahorro">-21%</b></span><span class="op-precio">$37.000</span></span></div>
         </div>
 
         <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
@@ -1635,21 +1636,20 @@
 
       <article class="combo" id="c9"
                data-buscar="combo mkmoto mortal kombat 11 ultimate ps4 &amp; ps5 motogp22 ps4 &amp; ps5"
-               data-consolas="PS4 PS5">
+               data-consolas="PS5">
           <div class="cab">
             <div class="cab-txt">
               <h3>COMBO MKMOTO</h3>
               
-              <span class="n-juegos">2 juegos incluidos</span>
+              <div class="cab-tags">
+                <span class="n-juegos">2 juegos incluidos</span>
+                <span class="tag-oferta">🔥 Oferta</span>
+              </div>
             </div>
           </div>
 
           <div class="combo-media">
           
-    <div class="sello-oferta" aria-label="Oferta: $25.000">
-      <span class="so-tit">🔥 Oferta</span>
-      <s class="so-antes">$35.000</s>
-    </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
                  juegos, así que ni carátulas sueltas ni lista de nombres.
@@ -1661,14 +1661,14 @@
         <!-- un solo precio a la vista y un solo botón: antes eran «Añadir» por
              consola + carrito + «Pedir», tres decisiones para un pedido -->
         <div class="opciones opciones-1">
-          <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps4">PS4</span><span class="op-con op-ps5">PS5</span></span>
-      <span class="op-precio">$25.000</span></div>
+          <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps5">PS5</span></span>
+      <span class="pl-val"><span class="pl-antes"><s>$35.000</s><b class="pl-ahorro">-29%</b></span><span class="op-precio">$25.000</span></span></div>
         </div>
 
         <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
              deslizable del celular; en la cuadrícula queda igual de bien) -->
         
-        <a class="combo-wa" data-wa-combo="COMBO MKMOTO" data-wa-precio="PS4 y PS5 · $25.000"
+        <a class="combo-wa" data-wa-combo="COMBO MKMOTO" data-wa-precio="PS5 · $25.000"
            href="#" rel="noopener">
           <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.38a9.9 9.9 0 0 0 4.73 1.2h.01c5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2m0 18.15c-1.5 0-2.97-.4-4.25-1.16l-.3-.18-3.15.82.84-3.07-.2-.32a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.23 8.24-8.23 4.53 0 8.23 3.69 8.23 8.23 0 4.54-3.7 8.24-8.24 8.24m4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.24.25-.41.08-.16.04-.3-.02-.43-.06-.12-.56-1.35-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.24-.86.84-.86 2.05 0 1.2.88 2.37 1 2.53.12.16 1.72 2.63 4.17 3.69.58.25 1.04.4 1.39.52.58.18 1.12.16 1.54.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29"/></svg>
           Lo quiero · pedir por WhatsApp
@@ -1682,16 +1682,15 @@
             <div class="cab-txt">
               <h3>Middle-earth™: The Shadow Bundle</h3>
               
-              <span class="n-juegos">2 juegos incluidos</span>
+              <div class="cab-tags">
+                <span class="n-juegos">2 juegos incluidos</span>
+                <span class="tag-oferta">🔥 Oferta</span>
+              </div>
             </div>
           </div>
 
           <div class="combo-media">
           
-    <div class="sello-oferta" aria-label="Oferta: $29.999">
-      <span class="so-tit">🔥 Oferta</span>
-      <s class="so-antes">$39.999</s>
-    </div>
           
             <!-- con portada propia, esa es la imagen del combo: ya muestra los
                  juegos, así que ni carátulas sueltas ni lista de nombres.
@@ -1704,7 +1703,7 @@
              consola + carrito + «Pedir», tres decisiones para un pedido -->
         <div class="opciones opciones-1">
           <div class="pl"><span class="pl-con">Sirve en <span class="op-con op-ps4">PS4</span><span class="op-con op-ps5">PS5</span></span>
-      <span class="op-precio">$29.999</span></div>
+      <span class="pl-val"><span class="pl-antes"><s>$39.999</s><b class="pl-ahorro">-25%</b></span><span class="op-precio">$29.999</span></span></div>
         </div>
 
         <!-- pedir el combo directo por WhatsApp (se ve sobre todo en el modo
