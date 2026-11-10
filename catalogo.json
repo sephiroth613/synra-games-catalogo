@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-10T12:43:44.548Z",
+ "generado": "2026-11-10T16:55:44.200Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -94,103 +94,6 @@
    ]
   },
   {
-   "id": 5635,
-   "titulo": "COMBO CRASHKOMBAT",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 33000,
-   "hay": true,
-   "portada": "img/combo-5635.jpg",
-   "juegos": [
-    {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.jpg"
-    },
-    {
-     "titulo": "Crash Bandicoot N. Sane Trilogy",
-     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
-    },
-    {
-     "titulo": "Crash Team Racing Nitro-Fueled",
-     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 33000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5614,
-   "titulo": "COMBO CODCHILD",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 25000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Child of Light",
-     "imagen": "img/child-of-light.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 25000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 25000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5629,
-   "titulo": "COMBO CODCHILD2",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 25000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Child of Light",
-     "imagen": "img/child-of-light.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 25000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 25000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 3002,
    "titulo": "COMBO ASSDUTYCLANCY",
    "gancho": null,
@@ -233,193 +136,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 39999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5383,
-   "titulo": "COMBO GTAIDER",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 49999,
-   "hay": true,
-   "portada": "img/combo-5383.jpg",
-   "juegos": [
-    {
-     "titulo": "Tomb Raider: Definitive Edition",
-     "imagen": "img/tomb-raider-definitive-edition.jpg"
-    },
-    {
-     "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
-     "imagen": "img/rise-of-the-tomb-raider-20-year-celebration.jpg"
-    },
-    {
-     "titulo": "Shadow of the Tomb Raider: Definitive Edition",
-     "imagen": "img/shadow-of-the-tomb-raider-definitive-edition.jpg"
-    },
-    {
-     "titulo": "Grand Theft Auto V (PS4™ & PS5™)",
-     "imagen": "img/grand-theft-auto-v-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5105,
-   "titulo": "COMBO BATTLCODMODER2",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 34000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "STAR WARS™ Battlefront™ Ultimate Edition",
-     "imagen": "img/star-wars-battlefront-ultimate-edition.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Child of Light",
-     "imagen": "img/child-of-light.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 34000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 34000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 141,
-   "titulo": "COMBO CODJUST",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 38000,
-   "hay": true,
-   "portada": "img/combo-141.jpg",
-   "juegos": [
-    {
-     "titulo": "Call of Duty® Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Call of Duty®: Vanguard - Cross-Gen Bundle",
-     "imagen": "img/call-of-duty-vanguard-cross-gen-bundle.jpg"
-    },
-    {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 139,
-   "titulo": "COMBO DIVCALLMAN",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 31000,
-   "hay": true,
-   "portada": "img/combo-139.jpg",
-   "juegos": [
-    {
-     "titulo": "TOM CLANCY'S THE DIVISION",
-     "imagen": "img/tom-clancy-s-the-division.jpg"
-    },
-    {
-     "titulo": "Call of Duty® Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Batman™ Arkham Knight",
-     "imagen": "img/batman-arkham-knight.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 31000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5402,
-   "titulo": "COMBO ENDERRAIDER",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 29000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "ENDER LILIES: Quietus of the Knights",
-     "imagen": "img/ender-lilies-quietus-of-the-knights.jpg"
-    },
-    {
-     "titulo": "STAR WARS Battlefront II",
-     "imagen": "img/star-wars-battlefront-ii.jpg"
-    },
-    {
-     "titulo": "Tomb Raider: Definitive Edition",
-     "imagen": "img/tomb-raider-definitive-edition.jpg"
-    },
-    {
-     "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
-     "imagen": "img/rise-of-the-tomb-raider-20-year-celebration.jpg"
-    },
-    {
-     "titulo": "Shadow of the Tomb Raider: Definitive Edition",
-     "imagen": "img/shadow-of-the-tomb-raider-definitive-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 29000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 29000,
      "hay": true
     }
    ]
@@ -507,55 +223,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5661,
-   "titulo": "COMBO CODMODERMORTA",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 36000,
-   "hay": true,
-   "portada": "img/combo-5661.jpg",
-   "juegos": [
-    {
-     "titulo": "Call of Duty: Modern Warfare Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Call of Duty: Modern Warfare 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.jpg"
-    },
-    {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
-    },
-    {
-     "titulo": "MXGP - The Official Motocross Videogame",
-     "imagen": "img/mxgp-the-official-motocross-videogame.png"
-    },
-    {
-     "titulo": "DUCATI - 90th Anniversary",
-     "imagen": "img/ducati-90th-anniversary.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 36000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 36000,
      "hay": true
     }
    ]
@@ -771,6 +438,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 122,
+   "titulo": "Spiderman Game of The Year",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 32000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Marvel’s Spider-Man: Game of the Year Edition",
+     "imagen": "img/marvel-s-spider-man-game-of-the-year-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 32000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 32000,
      "hay": true
     }
    ]
@@ -5499,51 +5195,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 142,
-   "titulo": "COMBO FARMORJUST",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 37000,
-   "hay": true,
-   "portada": "img/combo-142.jpg",
-   "juegos": [
-    {
-     "titulo": "FARCRY 3 Classic Edition",
-     "imagen": "img/farcry-3-classic-edition.jpg"
-    },
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat 11 Ultimate PS4 &amp; PS5",
-     "imagen": "img/mortal-kombat-11-ultimate-ps4-amp-ps5.jpg"
-    },
-    {
-     "titulo": "Just Cause 3 Xxl Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
-    },
-    {
-     "titulo": "Rabbids® Party of Legends",
-     "imagen": "img/rabbids-party-of-legends.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 37000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 37000,
      "hay": true
     }
    ]
