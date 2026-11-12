@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-12T13:42:23.160Z",
+ "generado": "2026-11-12T16:42:12.043Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -94,37 +94,6 @@
    ]
   },
   {
-   "id": 5635,
-   "titulo": "COMBO CRASHKOMBAT",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 33000,
-   "hay": true,
-   "portada": "img/combo-5635.jpg",
-   "juegos": [
-    {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.jpg"
-    },
-    {
-     "titulo": "Crash Bandicoot N. Sane Trilogy",
-     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
-    },
-    {
-     "titulo": "Crash Team Racing Nitro-Fueled",
-     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 33000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 3002,
    "titulo": "COMBO ASSDUTYCLANCY",
    "gancho": null,
@@ -167,6 +136,37 @@
      "consola": "PS5",
      "rol": "",
      "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5635,
+   "titulo": "COMBO CRASHKOMBAT",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 33000,
+   "hay": true,
+   "portada": "img/combo-5635.jpg",
+   "juegos": [
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
+    },
+    {
+     "titulo": "Crash Bandicoot N. Sane Trilogy",
+     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
+    },
+    {
+     "titulo": "Crash Team Racing Nitro-Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 33000,
      "hay": true
     }
    ]
@@ -318,7 +318,7 @@
    "titulo": "COMBO ENDERRAIDER",
    "gancho": null,
    "clase": "combo",
-   "desde": 29000,
+   "desde": 27000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -347,13 +347,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 29000,
+     "precio": 27000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 29000,
+     "precio": 27000,
      "hay": true
     }
    ]
@@ -490,68 +490,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5637,
-   "titulo": "Sniper Ghost Warrior Contracts 1 & 2 Double Pack",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Sniper Ghost Warrior Contracts",
-     "imagen": "img/sniper-ghost-warrior-contracts.jpg"
-    },
-    {
-     "titulo": "Sniper Ghost Warrior Contracts 2",
-     "imagen": "img/sniper-ghost-warrior-contracts-2.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5633,
-   "titulo": "Ultra Street Fighter™ IV",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Ultra Street Fighter™ IV",
-     "imagen": "img/ultra-street-fighter-iv.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
      "hay": true
     }
    ]
@@ -1414,6 +1352,39 @@
    ]
   },
   {
+   "id": 5637,
+   "titulo": "Sniper Ghost Warrior Contracts 1 & 2 Double Pack",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Sniper Ghost Warrior Contracts",
+     "imagen": "img/sniper-ghost-warrior-contracts.jpg"
+    },
+    {
+     "titulo": "Sniper Ghost Warrior Contracts 2",
+     "imagen": "img/sniper-ghost-warrior-contracts-2.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5406,
    "titulo": "Sonic Colors: Ultimate - Digital Deluxe",
    "gancho": null,
@@ -1641,6 +1612,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5633,
+   "titulo": "Ultra Street Fighter™ IV",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Ultra Street Fighter™ IV",
+     "imagen": "img/ultra-street-fighter-iv.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
      "hay": true
     }
    ]
