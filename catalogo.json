@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-12T23:02:03.884Z",
+ "generado": "2026-11-13T12:43:31.622Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -43,6 +43,53 @@
    ]
   },
   {
+   "id": 3002,
+   "titulo": "COMBO ASSDUTYCLANCY",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": "img/combo-3002.jpg",
+   "juegos": [
+    {
+     "titulo": "Assassin's Creed Chronicles: China",
+     "imagen": "img/assassin-s-creed-chronicles-china.jpg"
+    },
+    {
+     "titulo": "Assassin's Creed Chronicles: India",
+     "imagen": "img/assassin-s-creed-chronicles-india.jpg"
+    },
+    {
+     "titulo": "Assassin's Creed Chronicles: Russia",
+     "imagen": "img/assassin-s-creed-chronicles-russia.jpg"
+    },
+    {
+     "titulo": "Tom Clancy's Ghost Recon Breakpoint Deluxe Edition",
+     "imagen": "img/tom-clancy-s-ghost-recon-breakpoint-deluxe-edition.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 3035,
    "titulo": "COMBO BATMAMETROKOMRAVEL",
    "gancho": null,
@@ -78,53 +125,6 @@
     {
      "titulo": "Mortal Kombat 11",
      "imagen": "img/mortal-kombat-11.jpg"
-    },
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 3002,
-   "titulo": "COMBO ASSDUTYCLANCY",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 39999,
-   "hay": true,
-   "portada": "img/combo-3002.jpg",
-   "juegos": [
-    {
-     "titulo": "Assassin's Creed Chronicles: China",
-     "imagen": "img/assassin-s-creed-chronicles-china.jpg"
-    },
-    {
-     "titulo": "Assassin's Creed Chronicles: India",
-     "imagen": "img/assassin-s-creed-chronicles-india.jpg"
-    },
-    {
-     "titulo": "Assassin's Creed Chronicles: Russia",
-     "imagen": "img/assassin-s-creed-chronicles-russia.jpg"
-    },
-    {
-     "titulo": "Tom Clancy's Ghost Recon Breakpoint Deluxe Edition",
-     "imagen": "img/tom-clancy-s-ghost-recon-breakpoint-deluxe-edition.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
     },
     {
      "titulo": "Unravel Two",
@@ -706,64 +706,6 @@
    ]
   },
   {
-   "id": 5178,
-   "titulo": "Batman: Return to Arkham - Arkham Asylum",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Batman: Return to Arkham - Arkham Asylum",
-     "imagen": "img/batman-return-to-arkham-arkham-asylum.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5179,
-   "titulo": "Batman: Return to Arkham - Arkham City",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Batman: Return to Arkham - Arkham City",
-     "imagen": "img/batman-return-to-arkham-arkham-city.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5619,
    "titulo": "Bayonetta",
    "gancho": null,
@@ -1007,64 +949,6 @@
     {
      "titulo": "Kingdom Come: Deliverance",
      "imagen": "img/kingdom-come-deliverance.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5176,
-   "titulo": "LEGO® Marvel Super Heroes 2",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "LEGO® Marvel Super Heroes 2",
-     "imagen": "img/lego-marvel-super-heroes-2.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5175,
-   "titulo": "LEGO® Marvel's Avengers",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "LEGO® Marvel's Avengers",
-     "imagen": "img/lego-marvel-s-avengers.jpg"
     }
    ],
    "opciones": [
@@ -2195,6 +2079,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5178,
+   "titulo": "Batman: Return to Arkham - Arkham Asylum",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Batman: Return to Arkham - Arkham Asylum",
+     "imagen": "img/batman-return-to-arkham-arkham-asylum.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5179,
+   "titulo": "Batman: Return to Arkham - Arkham City",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Batman: Return to Arkham - Arkham City",
+     "imagen": "img/batman-return-to-arkham-arkham-city.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
      "hay": true
     }
    ]
@@ -5563,6 +5505,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5176,
+   "titulo": "LEGO® Marvel Super Heroes 2",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "LEGO® Marvel Super Heroes 2",
+     "imagen": "img/lego-marvel-super-heroes-2.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5175,
+   "titulo": "LEGO® Marvel's Avengers",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "LEGO® Marvel's Avengers",
+     "imagen": "img/lego-marvel-s-avengers.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
      "hay": true
     }
    ]
