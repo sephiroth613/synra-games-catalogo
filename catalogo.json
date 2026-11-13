@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-13T13:43:07.284Z",
+ "generado": "2026-11-13T15:42:44.455Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -1106,35 +1106,6 @@
    ]
   },
   {
-   "id": 5188,
-   "titulo": "MLB® The Show™ 23 PS4™",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "MLB® The Show™ 23 PS4™",
-     "imagen": "img/mlb-the-show-23-ps4.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5618,
    "titulo": "Need for Speed™ Ultimate Bundle",
    "gancho": null,
@@ -1374,35 +1345,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 49999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5186,
-   "titulo": "Truck Driver",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Truck Driver",
-     "imagen": "img/truck-driver.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
      "hay": true
     }
    ]
@@ -3839,7 +3781,7 @@
    "titulo": "Degrees of Separation",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 65999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -3852,13 +3794,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 65999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 65999,
      "hay": true
     }
    ]
@@ -6248,6 +6190,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5188,
+   "titulo": "MLB® The Show™ 23 PS4™",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "MLB® The Show™ 23 PS4™",
+     "imagen": "img/mlb-the-show-23-ps4.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -9146,6 +9117,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5186,
+   "titulo": "Truck Driver",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Truck Driver",
+     "imagen": "img/truck-driver.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
      "hay": true
     }
    ]
