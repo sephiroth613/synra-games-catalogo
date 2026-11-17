@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T18:59:07.137Z",
+ "generado": "2026-11-17T19:49:19.632Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -109,6 +109,72 @@
    ]
   },
   {
+   "id": 5797,
+   "titulo": "COMBO CODCHILD",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 25000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Child of Light",
+     "imagen": "img/child-of-light.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5799,
+   "titulo": "COMBO CODCHILD2",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 25000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Child of Light",
+     "imagen": "img/child-of-light.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5105,
    "titulo": "COMBO BATTLCODMODER2",
    "gancho": null,
@@ -139,41 +205,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 39999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 141,
-   "titulo": "COMBO CODJUST",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 36000,
-   "hay": true,
-   "portada": "img/combo-141.jpg",
-   "juegos": [
-    {
-     "titulo": "Call of Duty® Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Call of Duty®: Vanguard - Cross-Gen Bundle",
-     "imagen": "img/call-of-duty-vanguard-cross-gen-bundle.jpg"
-    },
-    {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 36000,
      "hay": true
     }
    ]
@@ -1311,6 +1342,41 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 141,
+   "titulo": "COMBO CODJUST",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 36000,
+   "hay": true,
+   "portada": "img/combo-141.jpg",
+   "juegos": [
+    {
+     "titulo": "Call of Duty® Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Call of Duty®: Vanguard - Cross-Gen Bundle",
+     "imagen": "img/call-of-duty-vanguard-cross-gen-bundle.jpg"
+    },
+    {
+     "titulo": "Just Cause 3: XXL Edition",
+     "imagen": "img/just-cause-3-xxl-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 36000,
      "hay": true
     }
    ]
