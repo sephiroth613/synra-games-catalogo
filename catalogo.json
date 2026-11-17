@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-13T15:42:44.455Z",
+ "generado": "2026-11-17T12:35:05.091Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -43,83 +43,67 @@
    ]
   },
   {
-   "id": 5105,
-   "titulo": "COMBO BATTLCODMODER2",
+   "id": 5635,
+   "titulo": "COMBO CRASHKOMBAT",
    "gancho": null,
    "clase": "combo",
-   "desde": 39999,
+   "desde": 31000,
    "hay": true,
-   "portada": null,
+   "portada": "img/combo-5635.jpg",
    "juegos": [
     {
-     "titulo": "STAR WARS™ Battlefront™ Ultimate Edition",
-     "imagen": "img/star-wars-battlefront-ultimate-edition.jpg"
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
     },
     {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+     "titulo": "Crash Bandicoot N. Sane Trilogy",
+     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
     },
     {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Child of Light",
-     "imagen": "img/child-of-light.png"
+     "titulo": "Crash Team Racing Nitro-Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
     }
    ],
    "opciones": [
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 39999,
+     "precio": 31000,
      "hay": true
     }
    ]
   },
   {
-   "id": 3002,
-   "titulo": "COMBO ASSDUTYCLANCY",
+   "id": 5383,
+   "titulo": "COMBO GTAIDER",
    "gancho": null,
    "clase": "combo",
-   "desde": 39999,
+   "desde": 47000,
    "hay": true,
-   "portada": "img/combo-3002.jpg",
+   "portada": "img/combo-5383.jpg",
    "juegos": [
     {
-     "titulo": "Assassin's Creed Chronicles: China",
-     "imagen": "img/assassin-s-creed-chronicles-china.jpg"
+     "titulo": "Tomb Raider: Definitive Edition",
+     "imagen": "img/tomb-raider-definitive-edition.jpg"
     },
     {
-     "titulo": "Assassin's Creed Chronicles: India",
-     "imagen": "img/assassin-s-creed-chronicles-india.jpg"
+     "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
+     "imagen": "img/rise-of-the-tomb-raider-20-year-celebration.jpg"
     },
     {
-     "titulo": "Assassin's Creed Chronicles: Russia",
-     "imagen": "img/assassin-s-creed-chronicles-russia.jpg"
+     "titulo": "Shadow of the Tomb Raider: Definitive Edition",
+     "imagen": "img/shadow-of-the-tomb-raider-definitive-edition.jpg"
     },
     {
-     "titulo": "Tom Clancy's Ghost Recon Breakpoint Deluxe Edition",
-     "imagen": "img/tom-clancy-s-ghost-recon-breakpoint-deluxe-edition.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
+     "titulo": "Grand Theft Auto V (PS4™ & PS5™)",
+     "imagen": "img/grand-theft-auto-v-ps4-ps5.jpg"
     }
    ],
    "opciones": [
     {
-     "consola": "PS5",
+     "consola": "PS4",
      "rol": "",
-     "precio": 39999,
+     "precio": 47000,
      "hay": true
     }
    ]
@@ -176,67 +160,36 @@
    ]
   },
   {
-   "id": 5635,
-   "titulo": "COMBO CRASHKOMBAT",
+   "id": 5105,
+   "titulo": "COMBO BATTLCODMODER2",
    "gancho": null,
    "clase": "combo",
-   "desde": 33000,
+   "desde": 39999,
    "hay": true,
-   "portada": "img/combo-5635.jpg",
+   "portada": null,
    "juegos": [
     {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.jpg"
+     "titulo": "STAR WARS™ Battlefront™ Ultimate Edition",
+     "imagen": "img/star-wars-battlefront-ultimate-edition.jpg"
     },
     {
-     "titulo": "Crash Bandicoot N. Sane Trilogy",
-     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
     },
     {
-     "titulo": "Crash Team Racing Nitro-Fueled",
-     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Child of Light",
+     "imagen": "img/child-of-light.png"
     }
    ],
    "opciones": [
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 33000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5383,
-   "titulo": "COMBO GTAIDER",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 49999,
-   "hay": true,
-   "portada": "img/combo-5383.jpg",
-   "juegos": [
-    {
-     "titulo": "Tomb Raider: Definitive Edition",
-     "imagen": "img/tomb-raider-definitive-edition.jpg"
-    },
-    {
-     "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
-     "imagen": "img/rise-of-the-tomb-raider-20-year-celebration.jpg"
-    },
-    {
-     "titulo": "Shadow of the Tomb Raider: Definitive Edition",
-     "imagen": "img/shadow-of-the-tomb-raider-definitive-edition.jpg"
-    },
-    {
-     "titulo": "Grand Theft Auto V (PS4™ & PS5™)",
-     "imagen": "img/grand-theft-auto-v-ps4-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 49999,
+     "precio": 39999,
      "hay": true
     }
    ]
@@ -246,7 +199,7 @@
    "titulo": "COMBO CODJUST",
    "gancho": null,
    "clase": "combo",
-   "desde": 38000,
+   "desde": 36000,
    "hay": true,
    "portada": "img/combo-141.jpg",
    "juegos": [
@@ -271,7 +224,7 @@
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 38000,
+     "precio": 36000,
      "hay": true
     }
    ]
@@ -281,7 +234,7 @@
    "titulo": "COMBO DIVCALLMAN",
    "gancho": null,
    "clase": "combo",
-   "desde": 31000,
+   "desde": 30000,
    "hay": true,
    "portada": "img/combo-139.jpg",
    "juegos": [
@@ -302,7 +255,7 @@
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 31000,
+     "precio": 30000,
      "hay": true
     }
    ]
@@ -353,113 +306,6 @@
    ]
   },
   {
-   "id": 5701,
-   "titulo": "BeamNG.drive",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 65999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "BeamNG.drive",
-     "imagen": "img/beamng-drive.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 65999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 65999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5661,
-   "titulo": "COMBO CODMODERMORTA",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 36000,
-   "hay": true,
-   "portada": "img/combo-5661.jpg",
-   "juegos": [
-    {
-     "titulo": "Call of Duty: Modern Warfare Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
-    },
-    {
-     "titulo": "Call of Duty: Modern Warfare 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.jpg"
-    },
-    {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
-    },
-    {
-     "titulo": "MXGP - The Official Motocross Videogame",
-     "imagen": "img/mxgp-the-official-motocross-videogame.png"
-    },
-    {
-     "titulo": "DUCATI - 90th Anniversary",
-     "imagen": "img/ducati-90th-anniversary.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 36000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 36000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5666,
-   "titulo": "DUCATI - 90th Anniversary",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "DUCATI - 90th Anniversary",
-     "imagen": "img/ducati-90th-anniversary.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5761,
    "titulo": "EA SPORTS FC™ 27 Standard Edition PS4 & PS5",
    "gancho": null,
@@ -489,30 +335,48 @@
    ]
   },
   {
-   "id": 5665,
-   "titulo": "MXGP - The Official Motocross Videogame",
+   "id": 3002,
+   "titulo": "COMBO ASSDUTYCLANCY",
    "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
+   "clase": "combo",
+   "desde": 39999,
    "hay": true,
-   "portada": null,
+   "portada": "img/combo-3002.jpg",
    "juegos": [
     {
-     "titulo": "MXGP - The Official Motocross Videogame",
-     "imagen": "img/mxgp-the-official-motocross-videogame.png"
+     "titulo": "Assassin's Creed Chronicles: China",
+     "imagen": "img/assassin-s-creed-chronicles-china.jpg"
+    },
+    {
+     "titulo": "Assassin's Creed Chronicles: India",
+     "imagen": "img/assassin-s-creed-chronicles-india.jpg"
+    },
+    {
+     "titulo": "Assassin's Creed Chronicles: Russia",
+     "imagen": "img/assassin-s-creed-chronicles-russia.jpg"
+    },
+    {
+     "titulo": "Tom Clancy's Ghost Recon Breakpoint Deluxe Edition",
+     "imagen": "img/tom-clancy-s-ghost-recon-breakpoint-deluxe-edition.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.jpg"
     }
    ],
    "opciones": [
     {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
      "consola": "PS5",
      "rol": "",
-     "precio": 22999,
+     "precio": 39999,
      "hay": true
     }
    ]
@@ -613,35 +477,6 @@
    ]
   },
   {
-   "id": 5195,
-   "titulo": "007 First Light",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "007 First Light",
-     "imagen": "img/007-first-light.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5615,
    "titulo": "Assassin's Creed Shadows Digital Deluxe Edition",
    "gancho": null,
@@ -671,64 +506,6 @@
    ]
   },
   {
-   "id": 5251,
-   "titulo": "ASTRO BOT",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 162000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "ASTRO BOT",
-     "imagen": "img/astro-bot.png"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 162000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5252,
-   "titulo": "ASTRO BOT Rescue Mission™",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "ASTRO BOT Rescue Mission™",
-     "imagen": "img/astro-bot-rescue-mission.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5619,
    "titulo": "Bayonetta",
    "gancho": null,
@@ -753,6 +530,84 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5701,
+   "titulo": "BeamNG.drive",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 65999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "BeamNG.drive",
+     "imagen": "img/beamng-drive.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 65999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5661,
+   "titulo": "COMBO CODMODERMORTA",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 36000,
+   "hay": true,
+   "portada": "img/combo-5661.jpg",
+   "juegos": [
+    {
+     "titulo": "Call of Duty: Modern Warfare Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.jpg"
+    },
+    {
+     "titulo": "Call of Duty: Modern Warfare 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
+    },
+    {
+     "titulo": "Just Cause 3: XXL Edition",
+     "imagen": "img/just-cause-3-xxl-edition.jpg"
+    },
+    {
+     "titulo": "MXGP - The Official Motocross Videogame",
+     "imagen": "img/mxgp-the-official-motocross-videogame.png"
+    },
+    {
+     "titulo": "DUCATI - 90th Anniversary",
+     "imagen": "img/ducati-90th-anniversary.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 36000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 36000,
      "hay": true
     }
    ]
@@ -811,6 +666,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5666,
+   "titulo": "DUCATI - 90th Anniversary",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "DUCATI - 90th Anniversary",
+     "imagen": "img/ducati-90th-anniversary.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -1019,35 +903,6 @@
    ]
   },
   {
-   "id": 5256,
-   "titulo": "MARVEL Tōkon: Fighting Souls",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "MARVEL Tōkon: Fighting Souls",
-     "imagen": "img/marvel-tokon-fighting-souls.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5378,
    "titulo": "MARVEL vs. CAPCOM Fighting Collection: Arcade Classics",
    "gancho": null,
@@ -1077,30 +932,30 @@
    ]
   },
   {
-   "id": 5240,
-   "titulo": "Minecraft Dungeons II Deluxe Edition",
+   "id": 5665,
+   "titulo": "MXGP - The Official Motocross Videogame",
    "gancho": null,
    "clase": "individual",
-   "desde": 162000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
     {
-     "titulo": "Minecraft Dungeons II Deluxe Edition",
-     "imagen": "img/minecraft-dungeons-ii-deluxe-edition.jpg"
+     "titulo": "MXGP - The Official Motocross Videogame",
+     "imagen": "img/mxgp-the-official-motocross-videogame.png"
     }
    ],
    "opciones": [
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 162000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 162000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -1138,35 +993,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5190,
-   "titulo": "SKATE CITY",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 49999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "SKATE CITY",
-     "imagen": "img/skate-city.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 49999,
      "hay": true
     }
    ]
@@ -1274,64 +1100,6 @@
     {
      "titulo": "TEKKEN 7 - Originals Edition",
      "imagen": "img/tekken-7-originals-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5191,
-   "titulo": "TEKKEN 8",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "TEKKEN 8",
-     "imagen": "img/tekken-8.jpeg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5216,
-   "titulo": "Terraria – PlayStation®4 Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 49999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Terraria – PlayStation®4 Edition",
-     "imagen": "img/terraria-playstation4-edition.jpg"
     }
    ],
    "opciones": [
@@ -1477,6 +1245,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 37000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5195,
+   "titulo": "007 First Light",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "007 First Light",
+     "imagen": "img/007-first-light.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -1949,6 +1746,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5251,
+   "titulo": "ASTRO BOT",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "ASTRO BOT",
+     "imagen": "img/astro-bot.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5252,
+   "titulo": "ASTRO BOT Rescue Mission™",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "ASTRO BOT Rescue Mission™",
+     "imagen": "img/astro-bot-rescue-mission.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
      "hay": true
     }
    ]
@@ -5777,6 +5632,35 @@
    ]
   },
   {
+   "id": 5256,
+   "titulo": "MARVEL Tōkon: Fighting Souls",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "MARVEL Tōkon: Fighting Souls",
+     "imagen": "img/marvel-tokon-fighting-souls.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5009,
    "titulo": "Marvel's Guardians of the Galaxy PS4 & PS5",
    "gancho": null,
@@ -6190,6 +6074,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5240,
+   "titulo": "Minecraft Dungeons II Deluxe Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 162000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Minecraft Dungeons II Deluxe Edition",
+     "imagen": "img/minecraft-dungeons-ii-deluxe-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 162000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 162000,
      "hay": true
     }
    ]
@@ -7901,6 +7814,35 @@
    ]
   },
   {
+   "id": 5190,
+   "titulo": "SKATE CITY",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "SKATE CITY",
+     "imagen": "img/skate-city.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5123,
    "titulo": "Skul: The Hero Slayer",
    "gancho": null,
@@ -8476,6 +8418,64 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5191,
+   "titulo": "TEKKEN 8",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "TEKKEN 8",
+     "imagen": "img/tekken-8.jpeg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5216,
+   "titulo": "Terraria – PlayStation®4 Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Terraria – PlayStation®4 Edition",
+     "imagen": "img/terraria-playstation4-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
      "hay": true
     }
    ]
