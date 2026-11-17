@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T17:33:44.218Z",
+ "generado": "2026-11-17T17:35:15.820Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -301,6 +301,43 @@
      "consola": "PS5",
      "rol": "",
      "precio": 27000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5757,
+   "titulo": "COMBO TACTICAL ACTION PACK",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Tom Clancy's Ghost Recon Wildlands",
+     "imagen": "img/tom-clancy-s-ghost-recon-wildlands.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
+    },
+    {
+     "titulo": "Just Cause 3: XXL Edition",
+     "imagen": "img/just-cause-3-xxl-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
      "hay": true
     }
    ]
