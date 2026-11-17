@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T17:47:30.954Z",
+ "generado": "2026-11-17T17:48:17.750Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -104,6 +104,39 @@
      "consola": "PS4",
      "rol": "",
      "precio": 47000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5786,
+   "titulo": "COMBO CODCHILD",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 25000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
+    },
+    {
+     "titulo": "Child of Light",
+     "imagen": "img/child-of-light.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 25000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 25000,
      "hay": true
     }
    ]
@@ -342,43 +375,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 36000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5757,
-   "titulo": "COMBO TACTICAL ACTION PACK",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 39999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Tom Clancy's Ghost Recon Wildlands",
-     "imagen": "img/tom-clancy-s-ghost-recon-wildlands.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.jpg"
-    },
-    {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39999,
      "hay": true
     }
    ]
