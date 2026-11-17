@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T13:46:46.010Z",
+ "generado": "2026-11-17T14:34:09.648Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -359,6 +359,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 95000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5777,
+   "titulo": "Marvel’s Wolverine",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Marvel’s Wolverine",
+     "imagen": "img/marvel-s-wolverine.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
      "hay": true
     }
    ]
@@ -1544,7 +1573,7 @@
    "titulo": "Assassin's Creed Triple Pack: Black Flag, Unity, Syndicate",
    "gancho": null,
    "clase": "individual",
-   "desde": 195000,
+   "desde": 49999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -1565,13 +1594,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 195000,
+     "precio": 49999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 195000,
+     "precio": 49999,
      "hay": true
     }
    ]
@@ -2024,7 +2053,7 @@
    "titulo": "Battlefield 4™",
    "gancho": null,
    "clase": "individual",
-   "desde": 65999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -2037,13 +2066,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -2496,7 +2525,7 @@
    "titulo": "Call of Duty®: Black Ops",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 65999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -2509,13 +2538,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 65999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 65999,
      "hay": true
     }
    ]
@@ -2525,7 +2554,7 @@
    "titulo": "Call of Duty®: Black Ops 6 - Cross-Gen Bundle",
    "gancho": null,
    "clase": "individual",
-   "desde": 195000,
+   "desde": 100000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -2538,13 +2567,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 195000,
+     "precio": 100000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 195000,
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -2641,7 +2670,7 @@
    "titulo": "Call of Duty®: Black Ops III - Zombies Chronicles Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 162000,
+   "desde": 49999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -2654,13 +2683,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 162000,
+     "precio": 49999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 162000,
+     "precio": 49999,
      "hay": true
     }
    ]
@@ -3235,7 +3264,7 @@
    "titulo": "Crash Bandicoot™ Paketi - N. Sane Trilogy + CTR Nitro-Fueled",
    "gancho": null,
    "clase": "individual",
-   "desde": 38999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -3252,13 +3281,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 38999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 38999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -3363,7 +3392,7 @@
    "titulo": "Crash™ Team Racing Nitro-Fueled + Spyro™ Game Bundle",
    "gancho": null,
    "clase": "individual",
-   "desde": 38999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -3380,13 +3409,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 38999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 38999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -4042,7 +4071,7 @@
    "titulo": "Dying Light 2 Stay Human PS4&PS5",
    "gancho": null,
    "clase": "individual",
-   "desde": 162000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -4055,13 +4084,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 162000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 162000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -4336,7 +4365,7 @@
    "titulo": "FARCRY 6 Game of the Year Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 65999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -4349,13 +4378,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -4829,7 +4858,7 @@
    "titulo": "Hogwarts Legacy PS4 Version",
    "gancho": null,
    "clase": "individual",
-   "desde": 195000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -4842,13 +4871,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 195000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 195000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -5752,7 +5781,7 @@
    "titulo": "Marvel’s Spider-Man 2",
    "gancho": null,
    "clase": "individual",
-   "desde": 195000,
+   "desde": 100000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -5765,13 +5794,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 195000,
+     "precio": 100000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 195000,
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -6021,7 +6050,7 @@
    "titulo": "Middle-earth™: Shadow of Mordor™",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6034,13 +6063,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -6050,7 +6079,7 @@
    "titulo": "Middle-earth™: Shadow of War™",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6063,13 +6092,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -8696,7 +8725,7 @@
    "titulo": "The Last of Us™ Part II Remastered",
    "gancho": null,
    "clase": "individual",
-   "desde": 162000,
+   "desde": 100000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8709,13 +8738,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 162000,
+     "precio": 100000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 162000,
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -8754,7 +8783,7 @@
    "titulo": "The Outlast Trials",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8767,13 +8796,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -9449,7 +9478,7 @@
    "titulo": "Unravel",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -9462,13 +9491,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
