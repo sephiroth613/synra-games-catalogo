@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T14:34:09.648Z",
+ "generado": "2026-11-17T15:33:55.326Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -301,6 +301,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 27000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5779,
+   "titulo": "DRAGON BALL FighterZ - FighterZ Edition PS4 & PS5",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "DRAGON BALL FighterZ - FighterZ Edition PS4 & PS5",
+     "imagen": "img/dragon-ball-fighterz-fighterz-edition-ps4-ps5.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
      "hay": true
     }
    ]
@@ -1457,7 +1486,7 @@
    "titulo": "Alan Wake 2 Deluxe Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -1470,13 +1499,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -1871,7 +1900,7 @@
    "titulo": "ATV Drift & Tricks",
    "gancho": null,
    "clase": "individual",
-   "desde": 38999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -1884,13 +1913,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 38999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 38999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -2082,7 +2111,7 @@
    "titulo": "Battlefield™ 1",
    "gancho": null,
    "clase": "individual",
-   "desde": 65999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -2095,13 +2124,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -2140,7 +2169,7 @@
    "titulo": "Battlefield™ V",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -2153,13 +2182,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -2351,7 +2380,7 @@
    "titulo": "Borderlands 3 PS4™ & PS5™",
    "gancho": null,
    "clase": "individual",
-   "desde": 38999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -2364,13 +2393,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 38999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 38999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -2380,7 +2409,7 @@
    "titulo": "Bulletstorm: Full Clip Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -2393,13 +2422,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -2931,7 +2960,7 @@
    "titulo": "Captain Tsubasa: Rise of New Champions – Deluxe Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 195000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -2944,13 +2973,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 195000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 195000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -2989,7 +3018,7 @@
    "titulo": "Cat Quest III",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -3002,13 +3031,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -3055,7 +3084,7 @@
    "titulo": "Chernobylite Complete Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -3068,13 +3097,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -3425,7 +3454,7 @@
    "titulo": "Crysis Remastered Trilogy",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -3446,13 +3475,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -3665,7 +3694,7 @@
    "titulo": "Dead Space",
    "gancho": null,
    "clase": "individual",
-   "desde": 195000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -3678,13 +3707,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 195000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 195000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -3752,7 +3781,7 @@
    "titulo": "Deus Ex: Mankind Divided",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -3765,13 +3794,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -3955,7 +3984,7 @@
    "titulo": "DOOM: The Dark Ages Premium Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 162000,
+   "desde": 100000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -3968,13 +3997,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 162000,
+     "precio": 100000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 162000,
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -4042,7 +4071,7 @@
    "titulo": "DRAGON BALL: Sparking! ZERO",
    "gancho": null,
    "clase": "individual",
-   "desde": 162000,
+   "desde": 100000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -4055,13 +4084,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 162000,
+     "precio": 100000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 162000,
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -4539,7 +4568,7 @@
    "titulo": "Gears of War: Reloaded",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -4552,13 +4581,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -4704,6 +4733,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5011,
+   "titulo": "Gotham Knights",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Gotham Knights",
+     "imagen": "img/gotham-knights.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -5003,7 +5061,7 @@
    "titulo": "https://store.playstation.com/en-tr/product/EP0001-PPSA01874_00-FC6EDGOTY0000000",
    "gancho": null,
    "clase": "individual",
-   "desde": 65999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -5016,13 +5074,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 65999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -5148,7 +5206,7 @@
    "titulo": "Insurgency: Sandstorm [PS4 & PS5]",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -5161,13 +5219,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -5351,7 +5409,7 @@
    "titulo": "LEGO® Harry Potter™ Collection",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -5368,13 +5426,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -5384,7 +5442,7 @@
    "titulo": "LEGO® Marvel Collection",
    "gancho": null,
    "clase": "individual",
-   "desde": 162000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -5405,13 +5463,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 162000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 162000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -5450,7 +5508,7 @@
    "titulo": "LEGO® Marvel's Avengers",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -5463,13 +5521,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -5566,7 +5624,7 @@
    "titulo": "Little Nightmares Complete Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -5579,13 +5637,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -5752,7 +5810,7 @@
    "titulo": "Marvel's Guardians of the Galaxy PS4 & PS5",
    "gancho": null,
    "clase": "individual",
-   "desde": 162000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -5765,13 +5823,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 162000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 162000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -6286,7 +6344,7 @@
    "titulo": "Monster Hunter Rise + Sunbreak Deluxe",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6303,13 +6361,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -6551,7 +6609,7 @@
    "titulo": "MXGP 2021 - The Official Motocross Videogame",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6564,13 +6622,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -6609,7 +6667,7 @@
    "titulo": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4 Road to Boruto",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 49999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6622,13 +6680,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 49999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 49999,
      "hay": true
     }
    ]
@@ -6638,7 +6696,7 @@
    "titulo": "NARUTO SHIPPUDEN: Ultimate Ninja STORM Trilogy",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6651,13 +6709,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -6841,7 +6899,7 @@
    "titulo": "One Piece Burning Blood",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6854,13 +6912,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -6870,7 +6928,7 @@
    "titulo": "ONE PIECE ODYSSEY PS4 & PS5",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -6883,13 +6941,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -7015,7 +7073,7 @@
    "titulo": "Plants vs. Zombies™ Garden Warfare 2",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -7028,13 +7086,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -7044,7 +7102,7 @@
    "titulo": "Plants vs. Zombies™: Replanted",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -7057,13 +7115,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -7102,7 +7160,7 @@
    "titulo": "Prey",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -7115,13 +7173,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -7450,7 +7508,7 @@
    "titulo": "RESIDENT EVIL 7 biohazard Gold Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -7463,13 +7521,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -7574,7 +7632,7 @@
    "titulo": "Resident Evil Revelations 1 & 2 Bundle",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -7591,13 +7649,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -7636,7 +7694,7 @@
    "titulo": "Resident Evil Triple Pack",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -7657,13 +7715,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -7673,7 +7731,7 @@
    "titulo": "Resident Evil Üçlü Paket",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -7686,13 +7744,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -7789,7 +7847,7 @@
    "titulo": "S.T.A.L.K.E.R.: Legends of the Zone Trilogy PS4 & PS5",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 100000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -7802,13 +7860,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 100000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -7818,7 +7876,7 @@
    "titulo": "Saints Row PS4&PS5",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -7831,13 +7889,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -7876,7 +7934,7 @@
    "titulo": "Sifu",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -7889,13 +7947,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -8108,7 +8166,7 @@
    "titulo": "SONIC FORCES™",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8121,13 +8179,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -8137,7 +8195,7 @@
    "titulo": "Sonic Racing: CrossWorlds PS4 & PS5",
    "gancho": null,
    "clase": "individual",
-   "desde": 162000,
+   "desde": 100000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8150,13 +8208,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 162000,
+     "precio": 100000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 162000,
+     "precio": 100000,
      "hay": true
     }
    ]
@@ -8224,7 +8282,7 @@
    "titulo": "SONIC X SHADOW GENERATIONS PS4 & PS5",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8237,13 +8295,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -8253,7 +8311,7 @@
    "titulo": "SOULCALIBUR Ⅵ",
    "gancho": null,
    "clase": "individual",
-   "desde": 162000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8266,13 +8324,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 162000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 162000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -8456,7 +8514,7 @@
    "titulo": "Suicide Squad: Kill the Justice League",
    "gancho": null,
    "clase": "individual",
-   "desde": 162000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8469,13 +8527,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 162000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 162000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -8485,7 +8543,7 @@
    "titulo": "TEKKEN 7",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8498,13 +8556,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -8543,7 +8601,7 @@
    "titulo": "Terraria – PlayStation®4 Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8556,13 +8614,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -8812,7 +8870,7 @@
    "titulo": "The Persona Collection",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 49999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8833,13 +8891,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 49999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 49999,
      "hay": true
     }
    ]
@@ -8944,7 +9002,7 @@
    "titulo": "Titanfall™ 2: Ultimate Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -8957,13 +9015,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -9300,7 +9358,7 @@
    "titulo": "TRUCK SIMULATOR US DRIVER",
    "gancho": null,
    "clase": "individual",
-   "desde": 65999,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -9313,13 +9371,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 65999,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 65999,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -9329,7 +9387,7 @@
    "titulo": "TT Isle Of Man 3 - Racing Fan Edition",
    "gancho": null,
    "clase": "individual",
-   "desde": 162000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -9342,13 +9400,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 162000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 162000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -9358,7 +9416,7 @@
    "titulo": "TT Isle of Man: Ride on the Edge",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -9371,13 +9429,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -9598,7 +9656,7 @@
    "titulo": "Watch Dogs®2",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -9611,13 +9669,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -9627,7 +9685,7 @@
    "titulo": "Wolfenstein: The New Order",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -9640,13 +9698,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -9656,7 +9714,7 @@
    "titulo": "Worms™ Battlegrounds",
    "gancho": null,
    "clase": "individual",
-   "desde": 100000,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -9669,13 +9727,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 100000,
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -9685,7 +9743,7 @@
    "titulo": "WRC 7 FIA World Rally Championship",
    "gancho": null,
    "clase": "individual",
-   "desde": 49999,
+   "desde": 22999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -9698,13 +9756,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 49999,
+     "precio": 22999,
      "hay": true
     }
    ]
