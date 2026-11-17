@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T17:29:41.975Z",
+ "generado": "2026-11-17T17:33:44.218Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -346,6 +346,39 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5785,
+   "titulo": "Crash Bandicoot™ Bundle - N. Sane Trilogy + CTR Nitro-Fueled",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Crash Bandicoot N. Sane Trilogy",
+     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
+    },
+    {
+     "titulo": "Crash Team Racing Nitro-Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
      "hay": true
     }
    ]
@@ -3300,39 +3333,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 4939,
-   "titulo": "Crash Bandicoot™ Paketi - N. Sane Trilogy + CTR Nitro-Fueled",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Crash Bandicoot N. Sane Trilogy",
-     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
-    },
-    {
-     "titulo": "Crash Team Racing Nitro-Fueled",
-     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
      "hay": true
     }
    ]
