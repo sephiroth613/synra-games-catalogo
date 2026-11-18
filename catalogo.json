@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T19:49:19.632Z",
+ "generado": "2026-11-18T01:10:58.306Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -552,57 +552,6 @@
     {
      "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
      "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.png"
-    },
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 3035,
-   "titulo": "COMBO BATMAMETROKOMRAVEL",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 39999,
-   "hay": true,
-   "portada": "img/combo-3035.jpg",
-   "juegos": [
-    {
-     "titulo": "Metro Redux",
-     "imagen": "img/metro-redux.jpg"
-    },
-    {
-     "titulo": "Metro: Last Light Redux",
-     "imagen": "img/metro-last-light-redux.png"
-    },
-    {
-     "titulo": "Metro Exodus: Gold Edition",
-     "imagen": "img/metro-exodus-gold-edition.jpg"
-    },
-    {
-     "titulo": "Batman: Return to Arkham - Arkham Asylum",
-     "imagen": "img/batman-return-to-arkham-arkham-asylum.png"
-    },
-    {
-     "titulo": "Batman: Return to Arkham - Arkham City",
-     "imagen": "img/batman-return-to-arkham-arkham-city.jpg"
-    },
-    {
-     "titulo": "Batman: Arkham Knight",
-     "imagen": "img/batman-arkham-knight.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat 11",
-     "imagen": "img/mortal-kombat-11.jpg"
     },
     {
      "titulo": "Unravel Two",
@@ -3223,6 +3172,57 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 3035,
+   "titulo": "COMBO BATMAMETROKOMRAVEL",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": "img/combo-3035.jpg",
+   "juegos": [
+    {
+     "titulo": "Metro Redux",
+     "imagen": "img/metro-redux.jpg"
+    },
+    {
+     "titulo": "Metro: Last Light Redux",
+     "imagen": "img/metro-last-light-redux.png"
+    },
+    {
+     "titulo": "Metro Exodus: Gold Edition",
+     "imagen": "img/metro-exodus-gold-edition.jpg"
+    },
+    {
+     "titulo": "Batman: Return to Arkham - Arkham Asylum",
+     "imagen": "img/batman-return-to-arkham-arkham-asylum.png"
+    },
+    {
+     "titulo": "Batman: Return to Arkham - Arkham City",
+     "imagen": "img/batman-return-to-arkham-arkham-city.jpg"
+    },
+    {
+     "titulo": "Batman: Arkham Knight",
+     "imagen": "img/batman-arkham-knight.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat 11",
+     "imagen": "img/mortal-kombat-11.jpg"
+    },
+    {
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
      "hay": true
     }
    ]
