@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-18T17:39:20.740Z",
+ "generado": "2026-11-18T17:41:27.341Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -557,6 +557,63 @@
      "consola": "PS5",
      "rol": "",
      "precio": 49999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5816,
+   "titulo": "METRO & CRASH + TERROR & LUCHA",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": "img/combo-5816.jpg",
+   "juegos": [
+    {
+     "titulo": "Metro 2033 Redux",
+     "imagen": "img/metro-2033-redux.jpg"
+    },
+    {
+     "titulo": "Metro: Last Light Redux",
+     "imagen": "img/metro-last-light-redux.png"
+    },
+    {
+     "titulo": "Metro Exodus Gold Edition",
+     "imagen": "img/metro-exodus-gold-edition.jpg"
+    },
+    {
+     "titulo": "Crash Bandicoot N. Sane Trilogy",
+     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
+    },
+    {
+     "titulo": "Crash Team Racing Nitro-Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
+    },
+    {
+     "titulo": "The Outlast Trials",
+     "imagen": "img/the-outlast-trials.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat 11",
+     "imagen": "img/mortal-kombat-11.jpg"
+    },
+    {
+     "titulo": "Just Cause 3: XXL Edition",
+     "imagen": "img/just-cause-3-xxl-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
      "hay": true
     }
    ]
