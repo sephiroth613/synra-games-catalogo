@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-18T16:21:04.564Z",
+ "generado": "2026-11-18T16:21:37.472Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -545,6 +545,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5811,
+   "titulo": "Metal Gear Solid V: The Definitive Experience",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Metal Gear Solid V: The Definitive Experience",
+     "imagen": "img/metal-gear-solid-v-the-definitive-experience.png"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
      "hay": true
     }
    ]
