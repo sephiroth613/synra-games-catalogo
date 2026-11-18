@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-18T17:14:08.977Z",
+ "generado": "2026-11-18T17:28:11.853Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -1035,64 +1035,6 @@
    ]
   },
   {
-   "id": 5319,
-   "titulo": "Kingdom Come: Deliverance",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Kingdom Come: Deliverance",
-     "imagen": "img/kingdom-come-deliverance.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5318,
-   "titulo": "Mafia III: Definitive Edition for PS5®",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Mafia III: Definitive Edition for PS5®",
-     "imagen": "img/mafia-iii-definitive-edition-for-ps5.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5378,
    "titulo": "MARVEL vs. CAPCOM Fighting Collection: Arcade Classics",
    "gancho": null,
@@ -1319,35 +1261,6 @@
     {
      "titulo": "Ultra Street Fighter™ IV",
      "imagen": "img/ultra-street-fighter-iv.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5320,
-   "titulo": "Wobbly Life",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Wobbly Life",
-     "imagen": "img/wobbly-life.jpg"
     }
    ],
    "opciones": [
@@ -5474,6 +5387,35 @@
    ]
   },
   {
+   "id": 5319,
+   "titulo": "Kingdom Come: Deliverance",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Kingdom Come: Deliverance",
+     "imagen": "img/kingdom-come-deliverance.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 4923,
    "titulo": "LEGO Star Wars II: The Original Trilogy",
    "gancho": null,
@@ -5849,6 +5791,35 @@
     {
      "titulo": "Mafia II: Definitive Edition",
      "imagen": "img/mafia-ii-definitive-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5318,
+   "titulo": "Mafia III: Definitive Edition for PS5®",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Mafia III: Definitive Edition for PS5®",
+     "imagen": "img/mafia-iii-definitive-edition-for-ps5.jpg"
     }
    ],
    "opciones": [
@@ -9832,6 +9803,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5320,
+   "titulo": "Wobbly Life",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Wobbly Life",
+     "imagen": "img/wobbly-life.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
      "hay": true
     }
    ]
