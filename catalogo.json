@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-18T15:17:09.189Z",
+ "generado": "2026-11-18T16:21:04.564Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -104,6 +104,51 @@
      "consola": "PS4",
      "rol": "",
      "precio": 47000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5783,
+   "titulo": "CRASH & KOMBAT PACK",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 22000,
+   "hay": true,
+   "portada": "img/combo-5783.jpg",
+   "juegos": [
+    {
+     "titulo": "Crash Bandicoot N. Sane Trilogy",
+     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
+    },
+    {
+     "titulo": "Crash Team Racing Nitro-Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat 11",
+     "imagen": "img/mortal-kombat-11.jpg"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.jpg"
+    },
+    {
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22000,
      "hay": true
     }
    ]
@@ -351,51 +396,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 36000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5783,
-   "titulo": "CRASH & KOMBAT PACK",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 22000,
-   "hay": true,
-   "portada": "img/combo-5783.jpg",
-   "juegos": [
-    {
-     "titulo": "Crash Bandicoot N. Sane Trilogy",
-     "imagen": "img/crash-bandicoot-n-sane-trilogy.jpg"
-    },
-    {
-     "titulo": "Crash Team Racing Nitro-Fueled",
-     "imagen": "img/crash-team-racing-nitro-fueled.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat 11",
-     "imagen": "img/mortal-kombat-11.jpg"
-    },
-    {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.jpg"
-    },
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22000,
      "hay": true
     }
    ]
