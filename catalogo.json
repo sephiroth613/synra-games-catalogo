@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-18T14:17:55.383Z",
+ "generado": "2026-11-18T15:17:09.189Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -286,6 +286,35 @@
    ]
   },
   {
+   "id": 5808,
+   "titulo": "Black Desert : Standard Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Black Desert : Standard Edition",
+     "imagen": "img/black-desert-standard-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5782,
    "titulo": "COMBO CRASHCODMODER",
    "gancho": null,
@@ -516,6 +545,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 195000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5809,
+   "titulo": "The Binding of Isaac: Rebirth",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "The Binding of Isaac: Rebirth",
+     "imagen": "img/the-binding-of-isaac-rebirth.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
      "hay": true
     }
    ]
