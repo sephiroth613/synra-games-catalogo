@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-19T17:06:10.886Z",
+ "generado": "2026-11-19T17:15:24.491Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -2153,7 +2153,7 @@
    "titulo": "BioShock: The Collection",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 38999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -2174,13 +2174,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 38999,
      "hay": true
     }
    ]
