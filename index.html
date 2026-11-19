@@ -12,14 +12,14 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Synra Games">
 <meta property="og:url" content="https://sephiroth613.github.io/synra-games-catalogo/">
-<meta property="og:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mwnrhw9e">
-<meta property="og:image:secure_url" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mwnrhw9e">
+<meta property="og:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mwnrn80x">
+<meta property="og:image:secure_url" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mwnrn80x">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1280">
 <meta property="og:image:height" content="497">
 <meta property="og:image:alt" content="Synra Games">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mwnrhw9e">
+<meta name="twitter:image" content="https://sephiroth613.github.io/synra-games-catalogo/img/portada.jpg?v=mwnrn80x">
 <link rel="apple-touch-icon" href="https://sephiroth613.github.io/synra-games-catalogo/img/logo.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -993,6 +993,34 @@
   .suelto-port img{border-radius:12px 12px 0 0}
   .suelto-wa,.combo-wa{box-shadow:0 0 16px rgba(37,211,102,.45)}
   @media (prefers-reduced-motion:reduce){#ambiente .capa{transition:none}}
+
+  /* versión 2 (2026-11-19, la que aprobó el dueño): la 1 era tan sutil que
+     no se notaba. Fondo azul eléctrico → morado con luces que se mueven,
+     símbolos PlayStation flotando, borde neón siempre visible, y sin las
+     cajas negras de la intro y los combos en el celular */
+  body{background:#0b1240!important}
+  #ambiente{background:linear-gradient(160deg,#0a1f6e 0%,#14105a 45%,#3a0d6b 100%)}
+  #ambiente .capa.ver{opacity:.55!important}
+  #ambiente .capa{filter:blur(40px) saturate(1.8) brightness(.9)!important}
+  #ambiente::before{content:'';position:absolute;inset:0;z-index:2;
+    background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22220%22%20height%3D%22220%22%20viewBox%3D%220%200%20220%20220%22%20fill%3D%22none%22%20stroke%3D%22white%22%20stroke-width%3D%223%22%20opacity%3D%22.09%22%3E%3Cpath%20d%3D%22M40%2020%20L60%2055%20L20%2055%20Z%22%2F%3E%3Ccircle%20cx%3D%22160%22%20cy%3D%2245%22%20r%3D%2220%22%2F%3E%3Cpath%20d%3D%22M30%20140%20L70%20180%20M70%20140%20L30%20180%22%2F%3E%3Crect%20x%3D%22140%22%20y%3D%22140%22%20width%3D%2238%22%20height%3D%2238%22%2F%3E%3C%2Fsvg%3E");
+    background-size:220px;animation:flotar 60s linear infinite}
+  #ambiente::after{z-index:1;background:
+    radial-gradient(circle at 20% 15%,rgba(0,170,255,.55),transparent 40%),
+    radial-gradient(circle at 85% 40%,rgba(190,60,255,.45),transparent 40%),
+    radial-gradient(circle at 30% 85%,rgba(0,220,255,.35),transparent 45%)!important;
+    animation:luces 14s ease-in-out infinite alternate}
+  @keyframes luces{from{transform:translate(0,0) scale(1)}to{transform:translate(-4%,3%) scale(1.12)}}
+  @keyframes flotar{from{background-position:0 0}to{background-position:440px -440px}}
+  .suelto,.combo{background:linear-gradient(160deg,rgba(25,45,120,.85),rgba(15,18,60,.92))!important;
+    border:1.5px solid rgba(90,170,255,.6)!important;
+    box-shadow:0 0 18px rgba(0,140,255,.35),0 10px 30px rgba(0,0,0,.45)!important}
+  .viva::before{opacity:.8!important}
+  .suelto-tit{color:#fff!important}
+  .combos{background:transparent!important}
+  .intro{background:linear-gradient(180deg,rgba(10,30,110,.35),rgba(40,10,90,.25))!important}
+  .tabs{background:rgba(10,20,70,.7)!important;border-color:rgba(90,170,255,.5)!important}
+  @media (prefers-reduced-motion:reduce){#ambiente::before,#ambiente::after{animation:none}}
 </style>
 </head>
 <body class="en-combos">
