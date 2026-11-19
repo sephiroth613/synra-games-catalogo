@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-19T14:41:52.577Z",
+ "generado": "2026-11-19T16:19:41.898Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -690,35 +690,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 39999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 122,
-   "titulo": "Spiderman Game of The Year",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 32000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Marvel’s Spider-Man: Game of the Year Edition",
-     "imagen": "img/marvel-s-spider-man-game-of-the-year-edition.jpg"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 32000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 32000,
      "hay": true
     }
    ]
@@ -8391,6 +8362,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 122,
+   "titulo": "Spiderman Game of The Year",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 32000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Marvel’s Spider-Man: Game of the Year Edition",
+     "imagen": "img/marvel-s-spider-man-game-of-the-year-edition.jpg"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 32000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 32000,
      "hay": true
     }
    ]
