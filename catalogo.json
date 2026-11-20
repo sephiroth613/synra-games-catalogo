@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-20T13:41:59.863Z",
+ "generado": "2026-11-20T20:21:29.456Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -44,45 +44,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5203,
-   "titulo": "COMBO GHOSTUNCAHTTED",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 34999,
-   "hay": true,
-   "portada": "img/combo-5203.jpg",
-   "juegos": [
-    {
-     "titulo": "UNCHARTED 4: A Thief's End",
-     "imagen": "img/uncharted-4-a-thief-s-end.webp"
-    },
-    {
-     "titulo": "UNCHARTED: The Lost Legacy",
-     "imagen": "img/uncharted-the-lost-legacy.webp"
-    },
-    {
-     "titulo": "Tom Clancys Ghost Recon Breakpoint Deluxe Edition",
-     "imagen": "img/tom-clancys-ghost-recon-breakpoint-deluxe-edition.webp"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.webp"
-    },
-    {
-     "titulo": "Mortal Kombat 11",
-     "imagen": "img/mortal-kombat-11.webp"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 34999,
      "hay": true
     }
    ]
@@ -149,6 +110,45 @@
      "consola": "PS4",
      "rol": "",
      "precio": 47000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5203,
+   "titulo": "COMBO GHOSTUNCAHTTED",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 34999,
+   "hay": true,
+   "portada": "img/combo-5203.jpg",
+   "juegos": [
+    {
+     "titulo": "UNCHARTED 4: A Thief's End",
+     "imagen": "img/uncharted-4-a-thief-s-end.webp"
+    },
+    {
+     "titulo": "UNCHARTED: The Lost Legacy",
+     "imagen": "img/uncharted-the-lost-legacy.webp"
+    },
+    {
+     "titulo": "Tom Clancys Ghost Recon Breakpoint Deluxe Edition",
+     "imagen": "img/tom-clancys-ghost-recon-breakpoint-deluxe-edition.webp"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.webp"
+    },
+    {
+     "titulo": "Mortal Kombat 11",
+     "imagen": "img/mortal-kombat-11.webp"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 34999,
      "hay": true
     }
    ]
@@ -441,35 +441,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 49999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5761,
-   "titulo": "EA SPORTS FC™ 27 Standard Edition PS4 & PS5",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "EA SPORTS FC™ 27 Standard Edition PS4 & PS5",
-     "imagen": "img/ea-sports-fc-27-standard-edition-ps4-ps5.webp"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
      "hay": true
     }
    ]
@@ -889,30 +860,30 @@
    ]
   },
   {
-   "id": 5376,
-   "titulo": "Dying Light - Essentials Edition",
+   "id": 5761,
+   "titulo": "EA SPORTS FC™ 27 Standard Edition PS4 & PS5",
    "gancho": null,
    "clase": "individual",
-   "desde": 65999,
+   "desde": 130000,
    "hay": true,
    "portada": null,
    "juegos": [
     {
-     "titulo": "Dying Light - Essentials Edition",
-     "imagen": "img/dying-light-essentials-edition.webp"
+     "titulo": "EA SPORTS FC™ 27 Standard Edition PS4 & PS5",
+     "imagen": "img/ea-sports-fc-27-standard-edition-ps4-ps5.webp"
     }
    ],
    "opciones": [
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 65999,
+     "precio": 130000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 65999,
+     "precio": 130000,
      "hay": true
     }
    ]
@@ -1005,35 +976,6 @@
    ]
   },
   {
-   "id": 5378,
-   "titulo": "MARVEL vs. CAPCOM Fighting Collection: Arcade Classics",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 130000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "MARVEL vs. CAPCOM Fighting Collection: Arcade Classics",
-     "imagen": "img/marvel-vs-capcom-fighting-collection-arcade-classics.webp"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5665,
    "titulo": "MXGP - The Official Motocross Videogame",
    "gancho": null,
@@ -1120,35 +1062,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5379,
-   "titulo": "ULTIMATE MARVEL VS. CAPCOM 3",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 65999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "ULTIMATE MARVEL VS. CAPCOM 3",
-     "imagen": "img/ultimate-marvel-vs-capcom-3.webp"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 65999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 65999,
      "hay": true
     }
    ]
@@ -4040,6 +3953,35 @@
    ]
   },
   {
+   "id": 5376,
+   "titulo": "Dying Light - Essentials Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 65999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Dying Light - Essentials Edition",
+     "imagen": "img/dying-light-essentials-edition.webp"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 65999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5092,
    "titulo": "Dying Light 2 Stay Human PS4&PS5",
    "gancho": null,
@@ -5832,6 +5774,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5378,
+   "titulo": "MARVEL vs. CAPCOM Fighting Collection: Arcade Classics",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 130000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "MARVEL vs. CAPCOM Fighting Collection: Arcade Classics",
+     "imagen": "img/marvel-vs-capcom-fighting-collection-arcade-classics.webp"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 130000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 130000,
      "hay": true
     }
    ]
@@ -9554,6 +9525,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5379,
+   "titulo": "ULTIMATE MARVEL VS. CAPCOM 3",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 65999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "ULTIMATE MARVEL VS. CAPCOM 3",
+     "imagen": "img/ultimate-marvel-vs-capcom-3.webp"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 65999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 65999,
      "hay": true
     }
    ]
