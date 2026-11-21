@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-21T18:45:09.145Z",
+ "generado": "2026-11-21T19:25:24.127Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -36,6 +36,12 @@
    "opciones": [
     {
      "consola": "PS4",
+     "rol": "",
+     "precio": 22000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
      "rol": "",
      "precio": 22000,
      "hay": true
