@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-21T13:23:56.194Z",
+ "generado": "2026-11-21T18:45:09.145Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -36,12 +36,6 @@
    "opciones": [
     {
      "consola": "PS4",
-     "rol": "",
-     "precio": 22000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
      "rol": "",
      "precio": 22000,
      "hay": true
@@ -215,51 +209,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 30000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5402,
-   "titulo": "COMBO ENDERRAIDER",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 26000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "ENDER LILIES: Quietus of the Knights",
-     "imagen": "img/ender-lilies-quietus-of-the-knights.webp"
-    },
-    {
-     "titulo": "STAR WARS Battlefront II",
-     "imagen": "img/star-wars-battlefront-ii.webp"
-    },
-    {
-     "titulo": "Tomb Raider: Definitive Edition",
-     "imagen": "img/tomb-raider-definitive-edition.webp"
-    },
-    {
-     "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
-     "imagen": "img/rise-of-the-tomb-raider-20-year-celebration.webp"
-    },
-    {
-     "titulo": "Shadow of the Tomb Raider: Definitive Edition",
-     "imagen": "img/shadow-of-the-tomb-raider-definitive-edition.webp"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 26000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 26000,
      "hay": true
     }
    ]
@@ -889,35 +838,6 @@
    ]
   },
   {
-   "id": 5404,
-   "titulo": "ENDER LILIES: Quietus of the Knights",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 100000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "ENDER LILIES: Quietus of the Knights",
-     "imagen": "img/ender-lilies-quietus-of-the-knights.webp"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 100000,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5414,
    "titulo": "Halloween Pinball",
    "gancho": null,
@@ -1038,35 +958,6 @@
    ]
   },
   {
-   "id": 5406,
-   "titulo": "Sonic Colors: Ultimate - Digital Deluxe",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Sonic Colors: Ultimate - Digital Deluxe",
-     "imagen": "img/sonic-colors-ultimate-digital-deluxe.webp"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5633,
    "titulo": "Ultra Street Fighter™ IV",
    "gancho": null,
@@ -1126,6 +1017,51 @@
      "consola": "PS5",
      "rol": "",
      "precio": 36000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5402,
+   "titulo": "COMBO ENDERRAIDER",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 26000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "ENDER LILIES: Quietus of the Knights",
+     "imagen": "img/ender-lilies-quietus-of-the-knights.webp"
+    },
+    {
+     "titulo": "STAR WARS Battlefront II",
+     "imagen": "img/star-wars-battlefront-ii.webp"
+    },
+    {
+     "titulo": "Tomb Raider: Definitive Edition",
+     "imagen": "img/tomb-raider-definitive-edition.webp"
+    },
+    {
+     "titulo": "Rise of the Tomb Raider: 20 Year Celebration",
+     "imagen": "img/rise-of-the-tomb-raider-20-year-celebration.webp"
+    },
+    {
+     "titulo": "Shadow of the Tomb Raider: Definitive Edition",
+     "imagen": "img/shadow-of-the-tomb-raider-definitive-edition.webp"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 26000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 26000,
      "hay": true
     }
    ]
@@ -4080,6 +4016,35 @@
     {
      "titulo": "ELDEN RING PS4 & PS5",
      "imagen": "img/elden-ring-ps4-ps5.webp"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 100000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5404,
+   "titulo": "ENDER LILIES: Quietus of the Knights",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 100000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "ENDER LILIES: Quietus of the Knights",
+     "imagen": "img/ender-lilies-quietus-of-the-knights.webp"
     }
    ],
    "opciones": [
@@ -8159,6 +8124,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 130000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5406,
+   "titulo": "Sonic Colors: Ultimate - Digital Deluxe",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Sonic Colors: Ultimate - Digital Deluxe",
+     "imagen": "img/sonic-colors-ultimate-digital-deluxe.webp"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
      "hay": true
     }
    ]
