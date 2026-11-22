@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-21T19:28:17.870Z",
+ "generado": "2026-11-22T15:25:13.108Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -106,45 +106,6 @@
      "consola": "PS4",
      "rol": "",
      "precio": 47000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5203,
-   "titulo": "COMBO GHOSTUNCAHTTED",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 34999,
-   "hay": true,
-   "portada": "img/combo-5203.jpg",
-   "juegos": [
-    {
-     "titulo": "UNCHARTED 4: A Thief's End",
-     "imagen": "img/uncharted-4-a-thief-s-end.webp"
-    },
-    {
-     "titulo": "UNCHARTED: The Lost Legacy",
-     "imagen": "img/uncharted-the-lost-legacy.webp"
-    },
-    {
-     "titulo": "Tom Clancys Ghost Recon Breakpoint Deluxe Edition",
-     "imagen": "img/tom-clancys-ghost-recon-breakpoint-deluxe-edition.webp"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.webp"
-    },
-    {
-     "titulo": "Mortal Kombat 11",
-     "imagen": "img/mortal-kombat-11.webp"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 34999,
      "hay": true
     }
    ]
@@ -570,48 +531,40 @@
    ]
   },
   {
-   "id": 3002,
-   "titulo": "COMBO ASSDUTYCLANCY",
+   "id": 5203,
+   "titulo": "COMBO GHOSTUNCAHTTED",
    "gancho": null,
    "clase": "combo",
-   "desde": 39999,
+   "desde": 34999,
    "hay": true,
-   "portada": "img/combo-3002.jpg",
+   "portada": "img/combo-5203.jpg",
    "juegos": [
     {
-     "titulo": "Assassin's Creed Chronicles: China",
-     "imagen": "img/assassin-s-creed-chronicles-china.webp"
+     "titulo": "UNCHARTED 4: A Thief's End",
+     "imagen": "img/uncharted-4-a-thief-s-end.webp"
     },
     {
-     "titulo": "Assassin's Creed Chronicles: India",
-     "imagen": "img/assassin-s-creed-chronicles-india.webp"
+     "titulo": "UNCHARTED: The Lost Legacy",
+     "imagen": "img/uncharted-the-lost-legacy.webp"
     },
     {
-     "titulo": "Assassin's Creed Chronicles: Russia",
-     "imagen": "img/assassin-s-creed-chronicles-russia.webp"
-    },
-    {
-     "titulo": "Tom Clancy's Ghost Recon Breakpoint Deluxe Edition",
-     "imagen": "img/tom-clancy-s-ghost-recon-breakpoint-deluxe-edition.webp"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.webp"
+     "titulo": "Tom Clancys Ghost Recon Breakpoint Deluxe Edition",
+     "imagen": "img/tom-clancys-ghost-recon-breakpoint-deluxe-edition.webp"
     },
     {
      "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
      "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.webp"
     },
     {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.webp"
+     "titulo": "Mortal Kombat 11",
+     "imagen": "img/mortal-kombat-11.webp"
     }
    ],
    "opciones": [
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 39999,
+     "precio": 34999,
      "hay": true
     }
    ]
@@ -835,35 +788,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 130000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5414,
-   "titulo": "Halloween Pinball",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 22999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Halloween Pinball",
-     "imagen": "img/halloween-pinball.webp"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 22999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 22999,
      "hay": true
     }
    ]
@@ -2915,6 +2839,53 @@
    ]
   },
   {
+   "id": 3002,
+   "titulo": "COMBO ASSDUTYCLANCY",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 39999,
+   "hay": true,
+   "portada": "img/combo-3002.jpg",
+   "juegos": [
+    {
+     "titulo": "Assassin's Creed Chronicles: China",
+     "imagen": "img/assassin-s-creed-chronicles-china.webp"
+    },
+    {
+     "titulo": "Assassin's Creed Chronicles: India",
+     "imagen": "img/assassin-s-creed-chronicles-india.webp"
+    },
+    {
+     "titulo": "Assassin's Creed Chronicles: Russia",
+     "imagen": "img/assassin-s-creed-chronicles-russia.webp"
+    },
+    {
+     "titulo": "Tom Clancy's Ghost Recon Breakpoint Deluxe Edition",
+     "imagen": "img/tom-clancy-s-ghost-recon-breakpoint-deluxe-edition.webp"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.webp"
+    },
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.webp"
+    },
+    {
+     "titulo": "Unravel Two",
+     "imagen": "img/unravel-two.webp"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 39999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 3035,
    "titulo": "COMBO BATMAMETROKOMRAVEL",
    "gancho": null,
@@ -4731,6 +4702,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5414,
+   "titulo": "Halloween Pinball",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 22999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Halloween Pinball",
+     "imagen": "img/halloween-pinball.webp"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 22999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 22999,
      "hay": true
     }
    ]
