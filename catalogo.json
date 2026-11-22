@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T22:46:01.273Z",
+ "generado": "2026-11-22T23:00:56.800Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -531,6 +531,55 @@
    ]
   },
   {
+   "id": 5661,
+   "titulo": "COMBO CODMODERMORTA",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 36000,
+   "hay": true,
+   "portada": "img/combo-5661.jpg",
+   "juegos": [
+    {
+     "titulo": "Call of Duty: Modern Warfare Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.webp"
+    },
+    {
+     "titulo": "Call of Duty: Modern Warfare 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.webp"
+    },
+    {
+     "titulo": "Mortal Kombat X",
+     "imagen": "img/mortal-kombat-x.webp"
+    },
+    {
+     "titulo": "Just Cause 3: XXL Edition",
+     "imagen": "img/just-cause-3-xxl-edition.webp"
+    },
+    {
+     "titulo": "MXGP - The Official Motocross Videogame",
+     "imagen": "img/mxgp-the-official-motocross-videogame.webp"
+    },
+    {
+     "titulo": "DUCATI - 90th Anniversary",
+     "imagen": "img/ducati-90th-anniversary.webp"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 36000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 36000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5203,
    "titulo": "COMBO GHOSTUNCAHTTED",
    "gancho": null,
@@ -623,55 +672,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5661,
-   "titulo": "COMBO CODMODERMORTA",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 36000,
-   "hay": true,
-   "portada": "img/combo-5661.jpg",
-   "juegos": [
-    {
-     "titulo": "Call of Duty: Modern Warfare Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.webp"
-    },
-    {
-     "titulo": "Call of Duty: Modern Warfare 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.webp"
-    },
-    {
-     "titulo": "Mortal Kombat X",
-     "imagen": "img/mortal-kombat-x.webp"
-    },
-    {
-     "titulo": "Just Cause 3: XXL Edition",
-     "imagen": "img/just-cause-3-xxl-edition.webp"
-    },
-    {
-     "titulo": "MXGP - The Official Motocross Videogame",
-     "imagen": "img/mxgp-the-official-motocross-videogame.webp"
-    },
-    {
-     "titulo": "DUCATI - 90th Anniversary",
-     "imagen": "img/ducati-90th-anniversary.webp"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 36000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 36000,
      "hay": true
     }
    ]
