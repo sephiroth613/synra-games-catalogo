@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-22T23:27:01.405Z",
+ "generado": "2026-11-23T00:37:38.126Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -2785,53 +2785,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 22999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 3002,
-   "titulo": "COMBO ASSDUTYCLANCY",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 39999,
-   "hay": true,
-   "portada": "img/combo-3002.jpg",
-   "juegos": [
-    {
-     "titulo": "Assassin's Creed Chronicles: China",
-     "imagen": "img/assassin-s-creed-chronicles-china.webp"
-    },
-    {
-     "titulo": "Assassin's Creed Chronicles: India",
-     "imagen": "img/assassin-s-creed-chronicles-india.webp"
-    },
-    {
-     "titulo": "Assassin's Creed Chronicles: Russia",
-     "imagen": "img/assassin-s-creed-chronicles-russia.webp"
-    },
-    {
-     "titulo": "Tom Clancy's Ghost Recon Breakpoint Deluxe Edition",
-     "imagen": "img/tom-clancy-s-ghost-recon-breakpoint-deluxe-edition.webp"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.webp"
-    },
-    {
-     "titulo": "Call of Duty®: Modern Warfare® 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.webp"
-    },
-    {
-     "titulo": "Unravel Two",
-     "imagen": "img/unravel-two.webp"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 39999,
      "hay": true
     }
    ]
