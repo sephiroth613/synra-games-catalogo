@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-23T13:09:10.559Z",
+ "generado": "2026-11-23T14:36:15.476Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -201,6 +201,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5875,
+   "titulo": "Call of Duty®: Modern Warfare® 4",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Call of Duty®: Modern Warfare® 4",
+     "imagen": "img/call-of-duty-modern-warfare-4.webp"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
      "hay": true
     }
    ]
