@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-24T13:44:38.268Z",
+ "generado": "2026-11-24T14:44:33.317Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -333,64 +333,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 49999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5776,
-   "titulo": "FC 27",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 95000,
-   "hay": true,
-   "portada": "img/combo-5776.jpg",
-   "juegos": [
-    {
-     "titulo": "EA SPORTS FC™ 27 Standard Edition PS4 &amp; PS5",
-     "imagen": "img/ea-sports-fc-27-standard-edition-ps4-amp-ps5.webp"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 95000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 95000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5777,
-   "titulo": "Marvel’s Wolverine",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 195000,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Marvel’s Wolverine",
-     "imagen": "img/marvel-s-wolverine.webp"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 195000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 195000,
      "hay": true
     }
    ]
@@ -773,6 +715,35 @@
    ]
   },
   {
+   "id": 5776,
+   "titulo": "FC 27",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 95000,
+   "hay": true,
+   "portada": "img/combo-5776.jpg",
+   "juegos": [
+    {
+     "titulo": "EA SPORTS FC™ 27 Standard Edition PS4 &amp; PS5",
+     "imagen": "img/ea-sports-fc-27-standard-edition-ps4-amp-ps5.webp"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 95000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 95000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5575,
    "titulo": "Horizon Forbidden West™",
    "gancho": null,
@@ -797,6 +768,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5777,
+   "titulo": "Marvel’s Wolverine",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 195000,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Marvel’s Wolverine",
+     "imagen": "img/marvel-s-wolverine.webp"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 195000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 195000,
      "hay": true
     }
    ]
@@ -4557,7 +4557,7 @@
    "titulo": "Gran Turismo™ 7",
    "gancho": null,
    "clase": "individual",
-   "desde": 130000,
+   "desde": 65999,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -4570,13 +4570,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 130000,
+     "precio": 65999,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 130000,
+     "precio": 65999,
      "hay": true
     }
    ]
