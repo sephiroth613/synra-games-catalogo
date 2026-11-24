@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-23T14:36:15.476Z",
+ "generado": "2026-11-24T13:44:38.268Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -49,7 +49,7 @@
    "titulo": "COMBO CRASHKOMBAT",
    "gancho": null,
    "clase": "combo",
-   "desde": 31000,
+   "desde": 30000,
    "hay": true,
    "portada": "img/combo-5635.jpg",
    "juegos": [
@@ -70,7 +70,7 @@
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 31000,
+     "precio": 30000,
      "hay": true
     }
    ]
@@ -80,7 +80,7 @@
    "titulo": "COMBO GTAIDER",
    "gancho": null,
    "clase": "combo",
-   "desde": 47000,
+   "desde": 45000,
    "hay": true,
    "portada": "img/combo-5383.jpg",
    "juegos": [
@@ -105,7 +105,7 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 47000,
+     "precio": 45000,
      "hay": true
     }
    ]
@@ -150,7 +150,7 @@
    "titulo": "COMBO DIVCALLMAN",
    "gancho": null,
    "clase": "combo",
-   "desde": 30000,
+   "desde": 28000,
    "hay": true,
    "portada": "img/combo-139.jpg",
    "juegos": [
@@ -171,7 +171,7 @@
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 30000,
+     "precio": 28000,
      "hay": true
     }
    ]
@@ -897,7 +897,7 @@
    "titulo": "COMBO CODJUST",
    "gancho": null,
    "clase": "combo",
-   "desde": 36000,
+   "desde": 34000,
    "hay": true,
    "portada": "img/combo-141.jpg",
    "juegos": [
@@ -922,7 +922,7 @@
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 36000,
+     "precio": 34000,
      "hay": true
     }
    ]
