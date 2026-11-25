@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-25T17:30:10.898Z",
+ "generado": "2026-11-25T17:41:58.864Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -255,6 +255,47 @@
    ]
   },
   {
+   "id": 5782,
+   "titulo": "COMBO CRASHCODMODER",
+   "gancho": null,
+   "clase": "combo",
+   "desde": 36000,
+   "hay": true,
+   "portada": "img/combo-5782.jpg",
+   "juegos": [
+    {
+     "titulo": "Crash Bandicoot N. Sane Trilogy",
+     "imagen": "img/crash-bandicoot-n-sane-trilogy.webp"
+    },
+    {
+     "titulo": "Crash Team Racing Nitro-Fueled",
+     "imagen": "img/crash-team-racing-nitro-fueled.webp"
+    },
+    {
+     "titulo": "Call of Duty: Modern Warfare Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-remastered.webp"
+    },
+    {
+     "titulo": "Call of Duty: Modern Warfare 2 Campaign Remastered",
+     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.webp"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 36000,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 36000,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5203,
    "titulo": "COMBO GHOSTUNCAHTTED",
    "gancho": null,
@@ -376,47 +417,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5782,
-   "titulo": "COMBO CRASHCODMODER",
-   "gancho": null,
-   "clase": "combo",
-   "desde": 36000,
-   "hay": true,
-   "portada": "img/combo-5782.jpg",
-   "juegos": [
-    {
-     "titulo": "Crash Bandicoot N. Sane Trilogy",
-     "imagen": "img/crash-bandicoot-n-sane-trilogy.webp"
-    },
-    {
-     "titulo": "Crash Team Racing Nitro-Fueled",
-     "imagen": "img/crash-team-racing-nitro-fueled.webp"
-    },
-    {
-     "titulo": "Call of Duty: Modern Warfare Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-remastered.webp"
-    },
-    {
-     "titulo": "Call of Duty: Modern Warfare 2 Campaign Remastered",
-     "imagen": "img/call-of-duty-modern-warfare-2-campaign-remastered.webp"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 36000,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 36000,
      "hay": true
     }
    ]
