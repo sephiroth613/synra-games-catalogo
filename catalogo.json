@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-25T14:47:01.131Z",
+ "generado": "2026-11-25T17:20:18.056Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -177,35 +177,6 @@
    ]
   },
   {
-   "id": 5808,
-   "titulo": "Black Desert : Standard Edition",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 38999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Black Desert : Standard Edition",
-     "imagen": "img/black-desert-standard-edition.webp"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 38999,
-     "hay": true
-    }
-   ]
-  },
-  {
    "id": 5875,
    "titulo": "Call of Duty®: Modern Warfare® 4",
    "gancho": null,
@@ -230,64 +201,6 @@
      "consola": "PS5",
      "rol": "",
      "precio": 195000,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5811,
-   "titulo": "Metal Gear Solid V: The Definitive Experience",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 65999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "Metal Gear Solid V: The Definitive Experience",
-     "imagen": "img/metal-gear-solid-v-the-definitive-experience.webp"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 65999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 65999,
-     "hay": true
-    }
-   ]
-  },
-  {
-   "id": 5809,
-   "titulo": "The Binding of Isaac: Rebirth",
-   "gancho": null,
-   "clase": "individual",
-   "desde": 49999,
-   "hay": true,
-   "portada": null,
-   "juegos": [
-    {
-     "titulo": "The Binding of Isaac: Rebirth",
-     "imagen": "img/the-binding-of-isaac-rebirth.webp"
-    }
-   ],
-   "opciones": [
-    {
-     "consola": "PS4",
-     "rol": "",
-     "precio": 49999,
-     "hay": true
-    },
-    {
-     "consola": "PS5",
-     "rol": "",
-     "precio": 49999,
      "hay": true
     }
    ]
@@ -434,6 +347,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5808,
+   "titulo": "Black Desert : Standard Edition",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 38999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Black Desert : Standard Edition",
+     "imagen": "img/black-desert-standard-edition.webp"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 38999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 38999,
      "hay": true
     }
    ]
@@ -745,6 +687,35 @@
    ]
   },
   {
+   "id": 5811,
+   "titulo": "Metal Gear Solid V: The Definitive Experience",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 65999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "Metal Gear Solid V: The Definitive Experience",
+     "imagen": "img/metal-gear-solid-v-the-definitive-experience.webp"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 65999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 65999,
+     "hay": true
+    }
+   ]
+  },
+  {
    "id": 5665,
    "titulo": "MXGP - The Official Motocross Videogame",
    "gancho": null,
@@ -802,6 +773,35 @@
      "consola": "PS5",
      "rol": "",
      "precio": 162000,
+     "hay": true
+    }
+   ]
+  },
+  {
+   "id": 5809,
+   "titulo": "The Binding of Isaac: Rebirth",
+   "gancho": null,
+   "clase": "individual",
+   "desde": 49999,
+   "hay": true,
+   "portada": null,
+   "juegos": [
+    {
+     "titulo": "The Binding of Isaac: Rebirth",
+     "imagen": "img/the-binding-of-isaac-rebirth.webp"
+    }
+   ],
+   "opciones": [
+    {
+     "consola": "PS4",
+     "rol": "",
+     "precio": 49999,
+     "hay": true
+    },
+    {
+     "consola": "PS5",
+     "rol": "",
+     "precio": 49999,
      "hay": true
     }
    ]
