@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-26T12:38:23.294Z",
+ "generado": "2026-11-26T17:38:18.734Z",
  "marca": "Synra Games",
  "whatsapp": "573205540422",
  "combos": [
@@ -869,7 +869,7 @@
    "titulo": "COMBO ENDERRAIDER",
    "gancho": null,
    "clase": "combo",
-   "desde": 26000,
+   "desde": 24000,
    "hay": true,
    "portada": null,
    "juegos": [
@@ -898,13 +898,13 @@
     {
      "consola": "PS4",
      "rol": "",
-     "precio": 26000,
+     "precio": 24000,
      "hay": true
     },
     {
      "consola": "PS5",
      "rol": "",
-     "precio": 26000,
+     "precio": 24000,
      "hay": true
     }
    ]
